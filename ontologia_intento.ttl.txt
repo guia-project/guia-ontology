@@ -18,9 +18,9 @@
 :University rdf:type owl:Class .
 :Faculty rdf:type owl:Class .
 :DegreeProgram rdf:type owl:Class .
-:Course rdf:type owl:Class .
+:Subject rdf:type owl:Class .
 
-:CourseType rdf:type owl:Class .
+:SubjectType rdf:type owl:Class .
 :TeachingPeriod rdf:type owl:Class .
 
 :LearningOutcome rdf:type owl:Class .
@@ -57,22 +57,22 @@ foaf:Person rdf:type owl:Class .
     rdfs:range :Faculty .
 
 :isPartOfDegree rdf:type owl:ObjectProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range :DegreeProgram .
 
-:hasCourseType rdf:type owl:ObjectProperty ;
-    rdfs:domain :Course ;
-    rdfs:range :CourseType .
+:hasSubjectType rdf:type owl:ObjectProperty ;
+    rdfs:domain :Subject ;
+    rdfs:range :SubjectType .
 
 :hasTeachingPeriod rdf:type owl:ObjectProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range :TeachingPeriod .
 
 ### Profesorado
 
 :teaches rdf:type owl:ObjectProperty ;
     rdfs:domain foaf:Person ;
-    rdfs:range :Course .
+    rdfs:range :Subject .
 
 :memberOf rdf:type owl:ObjectProperty ;
     rdfs:domain foaf:Person ;
@@ -81,7 +81,7 @@ foaf:Person rdf:type owl:Class .
 ### Competencias y resultados
 
 :hasLearningOutcome rdf:type owl:ObjectProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range :LearningOutcome .
 
 :contributesTo rdf:type owl:ObjectProperty ;
@@ -99,13 +99,13 @@ foaf:Person rdf:type owl:Class .
 ### Temario
 
 :hasTopic rdf:type owl:ObjectProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range :SyllabusTopic .
 
 ### Planificación
 
 :hasScheduleWeek rdf:type owl:ObjectProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range :ScheduleWeek .
 
 :includesActivity rdf:type owl:ObjectProperty ;
@@ -123,7 +123,7 @@ foaf:Person rdf:type owl:Class .
 ### Evaluación
 
 :hasEvaluationSystem rdf:type owl:ObjectProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range :EvaluationSystem .
 
 :includesEvaluationActivity rdf:type owl:ObjectProperty ;
@@ -141,57 +141,57 @@ foaf:Person rdf:type owl:Class .
 ### Recursos y requisitos
 
 :hasResource rdf:type owl:ObjectProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range :LearningResource .
 
 :hasPrerequisite rdf:type owl:ObjectProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range :Prerequisite .
 
 #################################################################
 # PROPIEDADES DE DATOS
 #################################################################
 
-### Course (MUST)
+### Subject (MUST)
 
-:courseName rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Course ;
+:subjectName rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Subject ;
     rdfs:range xsd:string .
 
-:courseCode rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Course ;
+:subjectCode rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Subject ;
     rdfs:range xsd:string .
 
 :academicYear rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range xsd:string .
 
 :yearOfStudy rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range xsd:integer .
 
 :numberOfCredits rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range xsd:decimal .
 
 :semester rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range xsd:string .
 
 :language rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range xsd:string .
 
-:courseDescription rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Course ;
+:SubjectDescription rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Subject ;
     rdfs:range xsd:string .
 
 :totalHours rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range xsd:decimal .
 
 :contactHours rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Course ;
+    rdfs:domain :Subject ;
     rdfs:range xsd:decimal .
 
 ### Topic
@@ -267,7 +267,7 @@ foaf:mbox rdf:type owl:DatatypeProperty .
     rdfs:domain foaf:Person ;
     rdfs:range xsd:string .
 ##RESTRICCIONES
-:Course rdfs:subClassOf
+:Subject rdfs:subClassOf
     [ rdf:type owl:Restriction ;
       owl:onProperty :hasEvaluationSystem ;
       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
@@ -291,3 +291,4 @@ foaf:mbox rdf:type owl:DatatypeProperty .
     [ rdf:type owl:Restriction ;
       owl:onProperty :minimumGrade ;
       owl:minCardinality "1"^^xsd:nonNegativeInteger ] .
+
