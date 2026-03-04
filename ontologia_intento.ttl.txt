@@ -4,56 +4,69 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix org: <http://www.w3.org/ns/org#> .
 
 #################################################################
-# Ontología
+# ONTOLOGÍA
 #################################################################
 
-:OntologySyllabus rdf:type owl:Ontology .
+:SyllabusOntology rdf:type owl:Ontology .
 
 #################################################################
-# Clases
+# CLASES PRINCIPALES
 #################################################################
 
 :University rdf:type owl:Class .
 :Faculty rdf:type owl:Class .
-:Department rdf:type owl:Class .
 :DegreeProgram rdf:type owl:Class .
 :Course rdf:type owl:Class .
-:TeachingRole rdf:type owl:Class .
-:Competence rdf:type owl:Class .
+
+:CourseType rdf:type owl:Class .
+:TeachingPeriod rdf:type owl:Class .
+
 :LearningOutcome rdf:type owl:Class .
+:Competence rdf:type owl:Class .
+
+:SyllabusTopic rdf:type owl:Class .
+
 :ScheduleWeek rdf:type owl:Class .
 :LearningActivity rdf:type owl:Class .
+:ActivityType rdf:type owl:Class .
+:Modality rdf:type owl:Class .
+
 :EvaluationSystem rdf:type owl:Class .
 :EvaluationActivity rdf:type owl:Class .
+:EvaluationType rdf:type owl:Class .
+
 :LearningResource rdf:type owl:Class .
 :Prerequisite rdf:type owl:Class .
 
 foaf:Person rdf:type owl:Class .
 
 #################################################################
-# Propiedades de objeto
+# PROPIEDADES DE OBJETO
 #################################################################
 
-### Estructura institucional
-
-:isPartOfUniversity rdf:type owl:ObjectProperty ;
-    rdfs:domain :Faculty ;
-    rdfs:range :University .
-
-:managedBy rdf:type owl:ObjectProperty ;
-    rdfs:domain :DegreeProgram ;
-    rdfs:range :Faculty .
+### Estructura académica
 
 :offersDegree rdf:type owl:ObjectProperty ;
     rdfs:domain :University ;
     rdfs:range :DegreeProgram .
 
+:managedBy rdf:type owl:ObjectProperty ;
+    rdfs:domain :DegreeProgram ;
+    rdfs:range :Faculty .
+
 :isPartOfDegree rdf:type owl:ObjectProperty ;
     rdfs:domain :Course ;
     rdfs:range :DegreeProgram .
+
+:hasCourseType rdf:type owl:ObjectProperty ;
+    rdfs:domain :Course ;
+    rdfs:range :CourseType .
+
+:hasTeachingPeriod rdf:type owl:ObjectProperty ;
+    rdfs:domain :Course ;
+    rdfs:range :TeachingPeriod .
 
 ### Profesorado
 
@@ -61,13 +74,9 @@ foaf:Person rdf:type owl:Class .
     rdfs:domain foaf:Person ;
     rdfs:range :Course .
 
-:hasRole rdf:type owl:ObjectProperty ;
-    rdfs:domain foaf:Person ;
-    rdfs:range :TeachingRole .
-
 :memberOf rdf:type owl:ObjectProperty ;
     rdfs:domain foaf:Person ;
-    rdfs:range :Department .
+    rdfs:range :Faculty .
 
 ### Competencias y resultados
 
@@ -79,13 +88,19 @@ foaf:Person rdf:type owl:Class .
     rdfs:domain :LearningOutcome ;
     rdfs:range :Competence .
 
-:assesses rdf:type owl:ObjectProperty ;
+:assessesLearningOutcome rdf:type owl:ObjectProperty ;
     rdfs:domain :EvaluationActivity ;
     rdfs:range :LearningOutcome .
 
 :assessesCompetence rdf:type owl:ObjectProperty ;
     rdfs:domain :EvaluationActivity ;
     rdfs:range :Competence .
+
+### Temario
+
+:hasTopic rdf:type owl:ObjectProperty ;
+    rdfs:domain :Course ;
+    rdfs:range :SyllabusTopic .
 
 ### Planificación
 
@@ -97,6 +112,14 @@ foaf:Person rdf:type owl:Class .
     rdfs:domain :ScheduleWeek ;
     rdfs:range :LearningActivity .
 
+:hasActivityType rdf:type owl:ObjectProperty ;
+    rdfs:domain :LearningActivity ;
+    rdfs:range :ActivityType .
+
+:hasModality rdf:type owl:ObjectProperty ;
+    rdfs:domain :LearningActivity ;
+    rdfs:range :Modality .
+
 ### Evaluación
 
 :hasEvaluationSystem rdf:type owl:ObjectProperty ;
@@ -106,6 +129,10 @@ foaf:Person rdf:type owl:Class .
 :includesEvaluationActivity rdf:type owl:ObjectProperty ;
     rdfs:domain :EvaluationSystem ;
     rdfs:range :EvaluationActivity .
+
+:hasEvaluationType rdf:type owl:ObjectProperty ;
+    rdfs:domain :EvaluationActivity ;
+    rdfs:range :EvaluationType .
 
 :scheduledIn rdf:type owl:ObjectProperty ;
     rdfs:domain :EvaluationActivity ;
@@ -122,28 +149,10 @@ foaf:Person rdf:type owl:Class .
     rdfs:range :Prerequisite .
 
 #################################################################
-# Propiedades de datos
+# PROPIEDADES DE DATOS
 #################################################################
 
-### University / Faculty / Degree
-
-:universityName rdf:type owl:DatatypeProperty ;
-    rdfs:domain :University ;
-    rdfs:range xsd:string .
-
-:facultyName rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Faculty ;
-    rdfs:range xsd:string .
-
-:degreeName rdf:type owl:DatatypeProperty ;
-    rdfs:domain :DegreeProgram ;
-    rdfs:range xsd:string .
-
-:degreeCode rdf:type owl:DatatypeProperty ;
-    rdfs:domain :DegreeProgram ;
-    rdfs:range xsd:string .
-
-### Course
+### Course (MUST)
 
 :courseName rdf:type owl:DatatypeProperty ;
     rdfs:domain :Course ;
@@ -153,61 +162,57 @@ foaf:Person rdf:type owl:Class .
     rdfs:domain :Course ;
     rdfs:range xsd:string .
 
-:courseType rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Course ;
-    rdfs:range xsd:string .
-
-:semester rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Course ;
-    rdfs:range xsd:string .
-
 :academicYear rdf:type owl:DatatypeProperty ;
     rdfs:domain :Course ;
     rdfs:range xsd:string .
+
+:yearOfStudy rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Course ;
+    rdfs:range xsd:integer .
 
 :numberOfCredits rdf:type owl:DatatypeProperty ;
     rdfs:domain :Course ;
     rdfs:range xsd:decimal .
 
+:semester rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Course ;
+    rdfs:range xsd:string .
+
 :language rdf:type owl:DatatypeProperty ;
     rdfs:domain :Course ;
     rdfs:range xsd:string .
 
-### Person
-
-:office rdf:type owl:DatatypeProperty ;
-    rdfs:domain foaf:Person ;
+:courseDescription rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Course ;
     rdfs:range xsd:string .
 
-:tutorialSchedule rdf:type owl:DatatypeProperty ;
-    rdfs:domain foaf:Person ;
+:totalHours rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Course ;
+    rdfs:range xsd:decimal .
+
+:contactHours rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Course ;
+    rdfs:range xsd:decimal .
+
+### Topic
+
+:topicDescription rdf:type owl:DatatypeProperty ;
+    rdfs:domain :SyllabusTopic ;
     rdfs:range xsd:string .
 
-:academicCategory rdf:type owl:DatatypeProperty ;
-    rdfs:domain foaf:Person ;
+### Learning Activity
+
+:activityDescription rdf:type owl:DatatypeProperty ;
+    rdfs:domain :LearningActivity ;
     rdfs:range xsd:string .
 
-### Competence / LearningOutcome
-
-:competenceCode rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Competence ;
+:duration rdf:type owl:DatatypeProperty ;
+    rdfs:domain :LearningActivity ;
     rdfs:range xsd:string .
 
-:competenceName rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Competence ;
-    rdfs:range xsd:string .
+### Evaluation Activity (MUST)
 
-:learningOutcomeCode rdf:type owl:DatatypeProperty ;
-    rdfs:domain :LearningOutcome ;
-    rdfs:range xsd:string .
-
-:learningOutcomeDescription rdf:type owl:DatatypeProperty ;
-    rdfs:domain :LearningOutcome ;
-    rdfs:range xsd:string .
-
-### Evaluation
-
-:evaluationType rdf:type owl:DatatypeProperty ;
+:evaluationDescription rdf:type owl:DatatypeProperty ;
     rdfs:domain :EvaluationActivity ;
     rdfs:range xsd:string .
 
@@ -219,51 +224,70 @@ foaf:Person rdf:type owl:Class .
     rdfs:domain :EvaluationActivity ;
     rdfs:range xsd:decimal .
 
+### Evaluation System
+
 :evaluationCriteriaText rdf:type owl:DatatypeProperty ;
     rdfs:domain :EvaluationSystem ;
     rdfs:range xsd:string .
 
-### Planificación
+### Resources
 
-:weekNumber rdf:type owl:DatatypeProperty ;
-    rdfs:domain :ScheduleWeek ;
-    rdfs:range xsd:integer .
-
-:activityDescription rdf:type owl:DatatypeProperty ;
-    rdfs:domain :LearningActivity ;
+:resourceName rdf:type owl:DatatypeProperty ;
+    rdfs:domain :LearningResource ;
     rdfs:range xsd:string .
 
-:duration rdf:type owl:DatatypeProperty ;
-    rdfs:domain :LearningActivity ;
+:resourceType rdf:type owl:DatatypeProperty ;
+    rdfs:domain :LearningResource ;
     rdfs:range xsd:string .
 
-#################################################################
-# Restricciones estructurales mínimas
-#################################################################
+:resourceDescription rdf:type owl:DatatypeProperty ;
+    rdfs:domain :LearningResource ;
+    rdfs:range xsd:string .
 
-:Course rdfs:subClassOf [
-    rdf:type owl:Restriction ;
-    owl:onProperty :hasEvaluationSystem ;
-    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-    owl:onClass :EvaluationSystem
-] .
+### Prerequisite
 
-:Course rdfs:subClassOf [
-    rdf:type owl:Restriction ;
-    owl:onProperty :hasLearningOutcome ;
-    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-    owl:onClass :LearningOutcome
-] .
+:prerequisiteName rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Prerequisite ;
+    rdfs:range xsd:string .
 
-:EvaluationActivity rdfs:subClassOf [
-    rdf:type owl:Restriction ;
-    owl:onProperty :weight ;
-    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-    owl:onDataRange xsd:decimal
-] .
+:prerequisiteCode rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Prerequisite ;
+    rdfs:range xsd:string .
 
-:ScheduleWeek rdfs:subClassOf [
-    rdf:type owl:Restriction ;
-    owl:onProperty :weekNumber ;
-    owl:cardinality "1"^^xsd:nonNegativeInteger
-] .
+### Professor
+
+foaf:name rdf:type owl:DatatypeProperty .
+foaf:mbox rdf:type owl:DatatypeProperty .
+
+:office rdf:type owl:DatatypeProperty ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:string .
+
+:tutorialSchedule rdf:type owl:DatatypeProperty ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:string .
+##RESTRICCIONES
+:Course rdfs:subClassOf
+    [ rdf:type owl:Restriction ;
+      owl:onProperty :hasEvaluationSystem ;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass :EvaluationSystem ],
+
+    [ rdf:type owl:Restriction ;
+      owl:onProperty :hasLearningOutcome ;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass :LearningOutcome ],
+
+    [ rdf:type owl:Restriction ;
+      owl:onProperty :hasScheduleWeek ;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass :ScheduleWeek ] .
+
+:EvaluationActivity rdfs:subClassOf
+    [ rdf:type owl:Restriction ;
+      owl:onProperty :weight ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ],
+
+    [ rdf:type owl:Restriction ;
+      owl:onProperty :minimumGrade ;
+      owl:minCardinality "1"^^xsd:nonNegativeInteger ] .
