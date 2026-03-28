@@ -1,0 +1,550 @@
+prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix sch:   <https://schema.org/>
+prefix guide: <https://guia.org/>
+prefix owl:   <http://www.w3.org/2002/07/owl#>
+prefix dct: <http://purl.org/dc/terms/>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+
+
+<https://guia.org/>
+    a owl:Ontology ;
+    rdfs:label "GUIA Ontology"@en ;
+    rdfs:comment "This ontology defines concepts to represent academic course guides in higher education. It models degrees, courses, teaching roles, learning design, resources, schedules, and evaluation systems, while reusing existing vocabularies such as Schema.org whenever possible."@en ;
+    dc:title "GUIA ontology"@en ;
+    dct:creator "Andrea Cimmino Arriaga", "Covadonga Arias" ;
+    dct:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    owl:versionInfo "0.1.0"@en .
+
+#################################################################
+# GUIA classes
+#################################################################
+
+
+guide:UniversityCenter
+    a owl:Class ;
+    rdfs:subClassOf sch:Organization ;
+    rdfs:label "University Center"@en ;
+    rdfs:description "An organizational unit within a university where degree programmes are taught, such as a faculty, school, or institute responsible for academic delivery."@en .
+
+guide:Course
+    rdf:type owl:Class ;
+    rdfs:subClassOf sch:Course ;
+    rdfs:label "Course"@en ;
+    rdfs:comment "An academic course as defined in the GUIA model, typically described through its content, teaching organization, assessment, and related course guide."@en .
+
+guide:Degree
+    rdf:type owl:Class ;
+    rdfs:label "Degree"@en ;
+    rdfs:comment "An academic degree programme that structures and groups courses within a formal higher education curriculum."@en .
+
+guide:MasterDegree
+    rdf:type owl:Class ;
+    rdfs:label "Master's Degree"@en ;
+    rdfs:comment "A postgraduate degree programme corresponding to advanced academic or professional specialization."@en .
+
+guide:BachelorDegree
+    rdf:type owl:Class ;
+    rdfs:label "Bachelor's Degree"@en ;
+    rdfs:comment "An undergraduate degree programme that provides foundational higher education in a given field of study."@en .
+
+guide:CourseGuide
+    rdf:type owl:Class ;
+    rdfs:subClassOf sch:CourseInstance ;
+    rdfs:label "Course Guide"@en ;
+    rdfs:comment "A structured academic document that describes a course, including objectives, contents, methodology, resources, schedule, and evaluation."@en .
+
+guide:Lecturer
+    rdf:type owl:Class ;
+    rdfs:subClassOf sch:Person ;
+    rdfs:label "Lecturer"@en ;
+    rdfs:comment "A teaching person responsible for delivering, coordinating, or supporting a course within an academic programme."@en .
+
+guide:RequiredKnowledge
+    rdf:type owl:Class ;
+    rdfs:label "Required Knowledge"@en ;
+    rdfs:comment "Prior knowledge, skills, or academic background expected from students before taking a course."@en .
+
+guide:Competency
+    rdf:type owl:Class ;
+    rdfs:label "Competency"@en ;
+    rdfs:comment "A capability, skill, or integrated learning outcome that students are expected to develop through the course."@en .
+
+guide:LearningResult
+    rdf:type owl:Class ;
+    rdfs:label "Learning Result"@en ;
+    rdfs:comment "A specific and assessable statement of what a student is expected to know, understand, or be able to do after completing the course."@en .
+
+guide:Syllabus
+    rdf:type owl:Class ;
+    rdfs:subClassOf sch:Syllabus ;
+    rdfs:label "Syllabus"@en ;
+    rdfs:comment "The structured outline of the course content, usually organized into thematic units, topics, or instructional blocks."@en .
+
+guide:SyllabusItem
+    rdf:type owl:Class ;
+    rdfs:label "Syllabus Item"@en ;
+    rdfs:comment "A single element of a syllabus, representing a topic, unit, lesson, or other content component within the course structure."@en .
+
+guide:DidacticResource
+    rdf:type owl:Class ;
+    rdfs:label "Didactic Resource"@en ;
+    rdfs:comment "A teaching or learning resource used in the course, such as readings, software, audiovisual material, or practical tools."@en .
+
+guide:Activity
+    rdf:type owl:Class ;
+    rdfs:label "Activity"@en ;
+    rdfs:comment "A teaching or learning activity carried out as part of the course, such as lectures, labs, seminars, tutorials, or independent work."@en .
+
+guide:ActivityType1
+    rdf:type owl:Class ;
+    rdfs:label "Activity Type 1"@en ;
+    rdfs:comment "A first-level category used to classify academic activities according to the pedagogical structure adopted in the course guide."@en .
+
+guide:ActivityType2
+    rdf:type owl:Class ;
+    rdfs:label "Activity Type 2"@en ;
+    rdfs:comment "A second-level or more specific category used to refine the classification of academic activities in the course guide."@en .
+
+guide:EvaluationActivity
+    rdf:type owl:Class ;
+    rdfs:label "Evaluation Activity"@en ;
+    rdfs:comment "An activity specifically intended to assess student performance, achievement, or progress within the course."@en .
+
+guide:RemoteActivity
+    rdf:type owl:Class ;
+    rdfs:label "Remote Activity"@en ;
+    rdfs:comment "An activity designed to be carried out remotely, typically through online or distance-learning modalities."@en .
+
+guide:Schedule
+    rdf:type owl:Class ;
+    rdfs:subClassOf sch:Schedule ;
+    rdfs:label "Schedule"@en ;
+    rdfs:comment "A temporal organization of course-related events, activities, or milestones across the academic period."@en .
+
+guide:ScheduleEvent
+    rdf:type owl:Class ;
+    rdfs:subClassOf sch:Event ;
+    rdfs:label "Schedule Event"@en ;
+    rdfs:comment "A dated or timed element within a course schedule, such as a class session, deadline, exam, or planned activity."@en .
+
+guide:EvaluationSystem
+    rdf:type owl:Class ;
+    rdfs:label "Evaluation System"@en ;
+    rdfs:comment "The overall framework that defines how student learning is assessed in a course, including criteria, components, and grading structure."@en .
+
+guide:EvaluationTrial
+    rdf:type owl:Class ;
+    rdfs:label "Evaluation Trial"@en ;
+    rdfs:comment "A specific assessment instance or examination opportunity within the evaluation system, such as an ordinary or extraordinary attempt."@en .
+
+
+#################################################################
+# GUIA datatype properties
+#################################################################
+
+guide:semester
+    a owl:DatatypeProperty ;
+    rdfs:label "semester"@en ;
+    rdfs:comment "Indicates the semester or semesters in which a course is taught."@en ;
+    rdfs:domain guide:Course ;
+    rdfs:range rdf:langString .
+
+guide:courseType
+    a owl:DatatypeProperty ;
+    rdfs:label "course type"@en ;
+    rdfs:comment "Specifies the academic nature of the course, such as basic, mandatory, elective, or similar categories."@en ;
+    rdfs:domain guide:Course ;
+    rdfs:range rdf:langString .
+
+guide:numberOfCredits
+    a owl:DatatypeProperty ;
+    rdfs:label "number of credits"@en ;
+    rdfs:comment "States the number of academic credits assigned to a course guide or course offering."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range xsd:decimal .
+
+guide:teachingPeriod
+    a owl:DatatypeProperty ;
+    rdfs:label "teaching period"@en ;
+    rdfs:comment "Identifies the academic year to which the course guide applies."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range xsd:string .
+
+guide:teachingPeriodMonths
+    a owl:DatatypeProperty ;
+    rdfs:label "teaching period months"@en ;
+    rdfs:comment "Describes the months or span of months during which the course is taught."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range rdf:langString .
+
+guide:totalHours
+    a owl:DatatypeProperty ;
+    rdfs:label "total hours"@en ;
+    rdfs:comment "States the total student workload of the course guide expressed in hours."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range rdf:langString .
+
+guide:inpersonHours
+    a owl:DatatypeProperty ;
+    rdfs:label "in-person hours"@en ;
+    rdfs:comment "Specifies the number or description of face-to-face hours within the course guide."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range rdf:langString .
+
+guide:remoteHours
+    a owl:DatatypeProperty ;
+    rdfs:label "remote hours"@en ;
+    rdfs:comment "Specifies the number or description of remote hours within the course guide."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range rdf:langString .
+
+guide:office
+    a owl:DatatypeProperty ;
+    rdfs:label "office"@en ;
+    rdfs:comment "Provides the office or location assigned to a lecturer for student attention."@en ;
+    rdfs:domain guide:Lecturer ;
+    rdfs:range rdf:langString .
+
+guide:tutorshipsSchedule
+    a owl:DatatypeProperty ;
+    rdfs:label "tutorship schedule"@en ;
+    rdfs:comment "Specifies the timetable or availability for tutoring sessions."@en ;
+    rdfs:domain guide:Lecturer ;
+    rdfs:range rdf:langString .
+
+guide:activityDuration
+    a owl:DatatypeProperty ;
+    rdfs:label "activity duration"@en ;
+    rdfs:comment "States the duration value assigned to an academic activity."@en ;
+    rdfs:domain guide:Activity ;
+    rdfs:range xsd:decimal .
+
+guide:activityFormat
+    a owl:DatatypeProperty ;
+    rdfs:label "activity format"@en ;
+    rdfs:comment "Indicates the delivery format or modality of an academic activity."@en ;
+    rdfs:domain guide:Activity ;
+    rdfs:range rdf:langString .
+
+guide:activityDescription
+    a owl:DatatypeProperty ;
+    rdfs:label "activity description"@en ;
+    rdfs:comment "Provides a textual description of an academic activity."@en ;
+    rdfs:domain guide:Activity ;
+    rdfs:range rdf:langString .
+
+guide:tecnic
+    a owl:DatatypeProperty ;
+    rdfs:label "technique"@en ;
+    rdfs:comment "Describes the teaching or assessment technique associated with an academic activity."@en ;
+    rdfs:domain guide:Activity ;
+    rdfs:range rdf:langString .
+
+guide:evaluationType
+    a owl:DatatypeProperty ;
+    rdfs:label "type"@en ;
+    rdfs:comment "Specifies a local type classification used for an activity or evaluation element. For instance, in spanish university the following categories exist: progressive, final, extraordinay."@en ;
+    rdfs:range rdf:langString .
+
+guide:attendanceType
+    a owl:DatatypeProperty ;
+    rdfs:label "attendance mode"@en ;
+    rdfs:comment "Indicates whether an activity is face-to-face, remote, or follows another attendance modality."@en ;
+    rdfs:domain guide:Activity ;
+    rdfs:range rdf:langString .
+
+guide:evaluationDescription
+    a owl:DatatypeProperty ;
+    rdfs:label "evaluation description"@en ;
+    rdfs:comment "Describes the criteria, rules, or overall structure of the evaluation system."@en ;
+    rdfs:domain guide:EvaluationSystem ;
+    rdfs:range rdf:langString .
+
+guide:evaluationType
+    a owl:DatatypeProperty ;
+    rdfs:label "evaluation type"@en ;
+    rdfs:comment "Specifies the type of evaluation associated with an assessment activity or trial."@en ;
+    rdfs:domain guide:EvaluationTrial ;
+    rdfs:range rdf:langString .
+
+guide:trialWeek
+    a owl:DatatypeProperty ;
+    rdfs:label "trial week"@en ;
+    rdfs:comment "Indicates the week in which an evaluation trial takes place."@en ;
+    rdfs:domain guide:EvaluationTrial ;
+    rdfs:range rdf:langString .
+
+guide:trialDescription
+    a owl:DatatypeProperty ;
+    rdfs:label "trial description"@en ;
+    rdfs:comment "Provides a textual description of an evaluation trial."@en ;
+    rdfs:domain guide:EvaluationTrial ;
+    rdfs:range rdf:langString .
+
+guide:trialMode
+    a owl:DatatypeProperty ;
+    rdfs:label "trial mode"@en ;
+    rdfs:comment "Indicates the mode in which an evaluation trial is carried out, such as on-site or remote."@en ;
+    rdfs:domain guide:EvaluationTrial ;
+    rdfs:range rdf:langString .
+
+guide:trialType
+    a owl:DatatypeProperty ;
+    rdfs:label "trial type"@en ;
+    rdfs:comment "Specifies the specific kind of evaluation trial, such as exam, assignment, or presentation."@en ;
+    rdfs:domain guide:EvaluationTrial ;
+    rdfs:range rdf:langString .
+
+guide:evaluationDuration
+    a owl:DatatypeProperty ;
+    rdfs:label "evaluation duration"@en ;
+    rdfs:comment "States the duration of an evaluation activity or trial."@en ;
+    rdfs:domain guide:EvaluationTrial ;
+    rdfs:range rdf:langString .
+
+guide:gradePercentage
+    a owl:DatatypeProperty ;
+    rdfs:label "grade percentage"@en ;
+    rdfs:comment "Specifies the percentage weight of an evaluation activity in the final grade."@en ;
+    rdfs:domain guide:EvaluationTrial ;
+    rdfs:range rdf:langString .
+
+guide:minimumScore
+    a owl:DatatypeProperty ;
+    rdfs:label "minimum score"@en ;
+    rdfs:comment "Indicates the minimum score required for an evaluation activity or assessment component."@en ;
+    rdfs:domain guide:EvaluationTrial ;
+    rdfs:range rdf:langString .
+
+guide:bibliographyTitle
+    a owl:DatatypeProperty ;
+    rdfs:label "bibliography title"@en ;
+    rdfs:comment "Provides the title or name of a bibliographic or didactic resource."@en ;
+    rdfs:domain guide:DidacticResource ;
+    rdfs:range rdf:langString .
+
+guide:bibliographyType
+    a owl:DatatypeProperty ;
+    rdfs:label "bibliography type"@en ;
+    rdfs:comment "Specifies the category of a bibliographic or didactic resource."@en ;
+    rdfs:domain guide:DidacticResource ;
+    rdfs:range rdf:langString .
+
+guide:bibliographyDescription
+    a owl:DatatypeProperty ;
+    rdfs:label "bibliography description"@en ;
+    rdfs:comment "Provides a textual description or reference for a bibliographic or didactic resource."@en ;
+    rdfs:domain guide:DidacticResource ;
+    rdfs:range rdf:langString .
+
+guide:previousCourses
+    a owl:DatatypeProperty ;
+    rdfs:label "previous courses"@en ;
+    rdfs:comment "Provides a textual statement about prior courses recommended or required before taking the course."@en ;
+    rdfs:domain guide:RequiredKnowledge ;
+    rdfs:range rdf:langString .
+
+guide:previousKnowledge
+    a owl:DatatypeProperty ;
+    rdfs:label "previous knowledge"@en ;
+    rdfs:comment "Describes prior knowledge or skills expected from students before taking the course."@en ;
+    rdfs:domain guide:RequiredKnowledge ;
+    rdfs:range rdf:langString .
+
+guide:otherInformation
+    a owl:DatatypeProperty ;
+    rdfs:label "other information"@en ;
+    rdfs:comment "Provides additional general information relevant to the course guide."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range rdf:langString .
+
+guide:periodEndingMonth
+    a owl:DatatypeProperty ;
+    rdfs:label "period ending month"@en ;
+    rdfs:comment "Indicates the month in which the teaching period ends."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range rdf:langString .
+
+guide:periodStaringtMonth
+    a owl:DatatypeProperty ;
+    rdfs:label "period starting month"@en ;
+    rdfs:comment "Indicates the month in which the teaching period starts."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range rdf:langString .
+
+#################################################################
+# Reused Schema.org datatype properties referenced in GUIA data
+#################################################################
+
+sch:name
+    a owl:DatatypeProperty ;
+    rdfs:label "name"@en ;
+    rdfs:comment "Provides the name of an entity such as a course, person, or university center."@en ;
+    rdfs:range rdf:langString .
+
+sch:courseCode
+    a owl:DatatypeProperty ;
+    rdfs:label "course code"@en ;
+    rdfs:comment "Provides the institutional code used to identify a course."@en ;
+    rdfs:domain guide:Course ;
+    rdfs:range xsd:integer .
+
+sch:inLanguage
+    a owl:DatatypeProperty ;
+    rdfs:label "in language"@en ;
+    rdfs:comment "Indicates the language in which the course guide or teaching is delivered."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range rdf:langString .
+
+sch:activitiesWorkload
+    a owl:DatatypeProperty ;
+    rdfs:label "activities workload"@en ;
+    rdfs:comment "States the workload distribution associated with course activities."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range rdf:langString .
+
+sch:email
+    a owl:DatatypeProperty ;
+    rdfs:label "email"@en ;
+    rdfs:comment "Provides the email address of a person involved in teaching or coordination."@en ;
+    rdfs:domain guide:Lecturer ;
+    rdfs:range xsd:string .
+
+sch:numberOfCredits
+    a owl:DatatypeProperty ;
+    rdfs:label "number of credits"@en ;
+    rdfs:comment "States the number of academic credits assigned to a course."@en ;
+    rdfs:domain guide:Course ;
+    rdfs:range xsd:decimal .
+
+sch:description
+    a owl:DatatypeProperty ;
+    rdfs:label "description"@en ;
+    rdfs:comment "Provides a textual description of the course guide or academic entity."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range rdf:langString .
+
+
+#################################################################
+# GUIA object properties
+#################################################################
+
+guide:hasItem
+    a owl:ObjectProperty ;
+    rdfs:label "has item"@en ;
+    rdfs:comment "Links a syllabus to one of its constituent syllabus items."@en ;
+    rdfs:domain guide:Syllabus ;
+    rdfs:range guide:SyllabusItem .
+
+guide:hasDidacticResource
+    a owl:ObjectProperty ;
+    rdfs:label "has didactic resource"@en ;
+    rdfs:comment "Links a course guide to a didactic or bibliographic resource used in the course."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range guide:DidacticResource .
+
+guide:hasActivity
+    a owl:ObjectProperty ;
+    rdfs:label "has activity"@en ;
+    rdfs:comment "Links a schedule event to an academic activity carried out during that event."@en ;
+    rdfs:domain guide:ScheduleEvent ;
+    rdfs:range guide:Activity .
+
+guide:activityDurationUnit
+    a owl:ObjectProperty ;
+    rdfs:label "activity duration unit"@en ;
+    rdfs:comment "Links an activity to the unit used to express its duration."@en ;
+    rdfs:domain guide:Activity ;
+    rdfs:range om:Unit .
+
+guide:hasScheduleEvent
+    a owl:ObjectProperty ;
+    rdfs:label "has schedule event"@en ;
+    rdfs:comment "Links an evaluation trial to the schedule event in which it takes place."@en ;
+    rdfs:domain guide:EvaluationTrial ;
+    rdfs:range guide:ScheduleEvent .
+
+guide:involvesCompetency
+    a owl:ObjectProperty ;
+    rdfs:label "involves competency"@en ;
+    rdfs:comment "Links an evaluation trial to a competency involved in that assessment."@en ;
+    rdfs:domain guide:EvaluationTrial ;
+    rdfs:range guide:Competency .
+
+guide:hasLearningResult
+    a owl:ObjectProperty ;
+    rdfs:label "has learning result"@en ;
+    rdfs:comment "Links a course guide to a learning result expected from the course."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range guide:LearningResult .
+
+guide:hasEvaluationTrial
+    a owl:ObjectProperty ;
+    rdfs:label "has evaluation trial"@en ;
+    rdfs:comment "Links an evaluation system to one of its evaluation trials."@en ;
+    rdfs:domain guide:EvaluationSystem ;
+    rdfs:range guide:EvaluationTrial .
+
+guide:hasCourse
+    a owl:ObjectProperty ;
+    rdfs:label "has course"@en ;
+    rdfs:comment "Links a degree programme to a course included in its curriculum."@en ;
+    rdfs:domain guide:Degree ;
+    rdfs:range guide:Course .
+
+guide:hasEvaluation
+    a owl:ObjectProperty ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:comment "Links a course guide to its evaluation system."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range guide:EvaluationSystem .
+
+guide:offers
+    a owl:ObjectProperty ;
+    rdfs:label "offers"@en ;
+    rdfs:comment "Links a university center to a degree programme that it offers."@en ;
+    rdfs:domain guide:UniversityCenter ;
+    rdfs:range guide:Degree .
+
+guide:hasCompetency
+    a owl:ObjectProperty ;
+    rdfs:label "has competency"@en ;
+    rdfs:comment "Links a course guide to a competency developed or addressed in the course."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range guide:Competency .
+
+sch:courseSchedule
+    a owl:ObjectProperty ;
+    rdfs:label "course schedule"@en ;
+    rdfs:comment "Links a course guide to the schedule that organizes its planned events."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range guide:Schedule .
+
+sch:eventSchedule
+    a owl:ObjectProperty ;
+    rdfs:label "event schedule"@en ;
+    rdfs:comment "Links a schedule to one of its schedule events."@en ;
+    rdfs:domain guide:Schedule ;
+    rdfs:range guide:ScheduleEvent .
+
+sch:director
+    a owl:ObjectProperty ;
+    rdfs:label "director"@en ;
+    rdfs:comment "Links a course guide to the lecturer acting as course coordinator or academic lead."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range guide:Lecturer .
+
+sch:instructor
+    a owl:ObjectProperty ;
+    rdfs:label "instructor"@en ;
+    rdfs:comment "Links a course guide to a lecturer involved in teaching the course."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range guide:Lecturer .
+
+sch:hasCourseInstance
+    a owl:ObjectProperty ;
+    rdfs:label "has course instance"@en ;
+    rdfs:comment "Links a course to a concrete course guide or offering for a given academic period."@en ;
+    rdfs:domain guide:Course ;
+    rdfs:range guide:CourseGuide .

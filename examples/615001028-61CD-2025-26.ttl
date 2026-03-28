@@ -1,0 +1,661 @@
+@prefix ns1: <https://guia.org/> .
+@prefix ns2: <http://data.org/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.org/615001028/2025-26/previous_courses> a ns1:RequiredKnowledge ;
+    ns1:previousCourses "El plan de estudios Grado En Ciencia De Datos E Inteligencia Artificial no tiene definidos otros requisitos para esta asignatura."@es ;
+    ns1:previousKnowledge "El coordinador de la asignatura no ha definido otros conocimientos previos recomendados."@es .
+
+<http://data.org/615001028/2025-26/syllabus> a ns1:Syllabus ;
+    ns1:hasItem <http://data.org/615001028/2025-26/syllabus/0>,
+        <http://data.org/615001028/2025-26/syllabus/1>,
+        <http://data.org/615001028/2025-26/syllabus/10>,
+        <http://data.org/615001028/2025-26/syllabus/11>,
+        <http://data.org/615001028/2025-26/syllabus/12>,
+        <http://data.org/615001028/2025-26/syllabus/13>,
+        <http://data.org/615001028/2025-26/syllabus/14>,
+        <http://data.org/615001028/2025-26/syllabus/15>,
+        <http://data.org/615001028/2025-26/syllabus/2>,
+        <http://data.org/615001028/2025-26/syllabus/3>,
+        <http://data.org/615001028/2025-26/syllabus/4>,
+        <http://data.org/615001028/2025-26/syllabus/5>,
+        <http://data.org/615001028/2025-26/syllabus/6>,
+        <http://data.org/615001028/2025-26/syllabus/7>,
+        <http://data.org/615001028/2025-26/syllabus/8>,
+        <http://data.org/615001028/2025-26/syllabus/9> .
+
+ns2:E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos a ns1:UniversityCenter ;
+    ns1:offers ns2:61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial ;
+    schema:name "E.T.S De Ing. De Sistemas Informáticos" .
+
+ns2:615001028 a ns1:Course ;
+    ns2:courseYear 3 ;
+    ns1:courseType "Obligatoria"@es ;
+    ns1:semester "Quinto semestre"@es ;
+    schema:courseCode 615001028 ;
+    schema:hasCourseInstance <http://data.org/615001028/2025-26> ;
+    schema:name "Image Analysis Fundamentals"@en,
+        "Fundamentos de Análisis de Imágenes"@es ;
+    schema:numberOfCredits 3.0 .
+
+<http://data.org/615001028/2025-26> a ns1:CourseGuide ;
+    ns1:hasCompetency ns2:CB02,
+        ns2:CE01,
+        ns2:CE16,
+        ns2:CG01 ;
+    ns1:hasDidacticResource <http://data.org/615001028/2025-26/didactic_resource/1>,
+        <http://data.org/615001028/2025-26/didactic_resource/2>,
+        <http://data.org/615001028/2025-26/didactic_resource/3>,
+        <http://data.org/615001028/2025-26/didactic_resource/4>,
+        <http://data.org/615001028/2025-26/didactic_resource/5> ;
+    ns1:hasEvaluation <http://data.org/615001028/2025-26/evaluation> ;
+    ns1:hasLearningResult ns2:RA133,
+        ns2:RA63,
+        ns2:RA90 ;
+    ns1:inpersonHours "36 horas (46.2%)"@es ;
+    ns1:numberOfCredits 3.0 ;
+    ns1:otherInformation """Esta asignatura está relacionada con el "Objetivo de Desarrollo Sostenible 9" (Industria, innovación e infraestructura) definido por el Programa de las Naciones Unidas para el Desarrollo (www.undp.org) en lo referente a innovación e investigación científica en tecnologías de la información.
+
+La información contenida en esta guía de aprendizaje es orientativa, podría variar por error, omisión, cambios en la situación sanitaria, cambios de normativa a aplicar o incidencias ocurridas a lo largo del semestre."""@es ;
+    ns1:periodEndingMonth "Enero"@es ;
+    ns1:periodStaringtMonth "Septiembre"@es ;
+    ns1:teachingPeriod "2025-26"^^xsd:gYear ;
+    ns1:teachingPeriodMonths "Septiembre-Enero"@es ;
+    ns1:totalHours "36 horas"@es ;
+    schema:activitiesWorkload "100%"@es ;
+    schema:courseSchedule <http://data.org/615001028/2025-26/eventSchedule> ;
+    schema:description "Esta asignatura tiene como objetivo estudiar un conjunto de técnicas que permitan extraer información útil a partir de imágenes digitales. Se estudiará su proceso de formación, las técnicas de procesamiento y descripción más habituales y su aplicación en problemas prácticos. Se utilizarán las bibliotecas y entornos más habituales de procesamiento y análisis de imágenes."@es ;
+    schema:director ns2:angel.arroyo%40upm.es ;
+    schema:inLanguage "Castellano"@es ;
+    schema:instructor ns2:angel.arroyo%40upm.es .
+
+<http://data.org/615001028/2025-26/didactic_resource/1> a ns1:DidacticResource ;
+    ns1:bibliographyDescription "En la plataforma Moodle de la universidad estará disponible toda la documentación del curso."@es ;
+    ns1:bibliographyTitle "Aula virtual"@es ;
+    ns1:bibliographyType "Recursos web"@es .
+
+<http://data.org/615001028/2025-26/didactic_resource/2> a ns1:DidacticResource ;
+    ns1:bibliographyDescription "Rafael C. Gonzalez,Richard E. Woods. Digital Image Processing. Pearson."@es ;
+    ns1:bibliographyTitle "Libro de procesamiento de imágenes"@es ;
+    ns1:bibliographyType "Bibliografía"@es .
+
+<http://data.org/615001028/2025-26/didactic_resource/3> a ns1:DidacticResource ;
+    ns1:bibliographyDescription "David Forsyth, Jean Ponce. Computer vision. A modern approach. Pearson."@es ;
+    ns1:bibliographyTitle "Libro sobre visión por computador"@es ;
+    ns1:bibliographyType "Bibliografía"@es .
+
+<http://data.org/615001028/2025-26/didactic_resource/4> a ns1:DidacticResource ;
+    ns1:bibliographyDescription "Richard Szeliski. Computer Vision: Algorithms and Applications. Springer."@es ;
+    ns1:bibliographyTitle "Otro libro sobre visión por computador"@es ;
+    ns1:bibliographyType "Bibliografía"@es .
+
+<http://data.org/615001028/2025-26/didactic_resource/5> a ns1:DidacticResource ;
+    ns1:bibliographyDescription "Ángel Arroyo, Javier Alcalá y Francisco Serradilla. Percepción Computacional. Departamento de publicaciones de la EUI (UPM). 2001"@es ;
+    ns1:bibliographyTitle "Libro sobre Percepción Computacional"@es ;
+    ns1:bibliographyType "Bibliografía"@es .
+
+<http://data.org/615001028/2025-26/evaluation> a ns1:EvaluationSystem ;
+    ns1:evaluationDescription """Bajo el sistema de evaluación progresiva existen tres actividades evaluables:
+
+1. Examen de los temas 1 al 3. Se realizará, aproximadamente, en la semana 8. Quien no supere la nota mínima deberá volver a examinarse de estos temas en la convocatoria ordinaria. Quien superando la nota mínima obtenga una calificación inferior a 5 puntos, también puede volver a examinarse en la convocatoria ordinaria, en cuyo caso la calificación definitiva será la obtenida en este último examen. Quien obtenga una calificación superior a 5 puntos no puede volver a examinarse en la convocatoria ordinaria.
+
+2. Examen de los temas 4 y 5. Se realizará en la convocatoria ordinaria de la asignatura.
+
+3. Proyecto práctico. A lo largo del curso, a medida que se vayan presentando los conocimientos de cada tema, se irá desarrollado en grupo un proyecto práctico de análisis de imagen, que se materializará en un programa y en la redacción de una memoria. La entrega de este trabajo se realizará coincidiendo con la convocatoria ordinaria. Quien supere la nota mínima de esta actividad no necesitará volver a presentar el proyecto en la convocatoria extraordinaria.
+
+La calificación del alumno se obtiene sumando ponderadamente las calificaciones obtenidas en las actividades evaluables detalladas anteriormente. Para aprobar la asignatura es necesario superar la nota mínima de cada actividad y obtener una suma ponderada igual o superior a 5 puntos.
+
+En caso de que el alumno no supere alguna de las calificaciones mínimas establecidas, obtendrá una puntuación máxima de 4 puntos sobre 10 (suspenso) en la asignatura.
+
+En la calificación del proyecto práctico se valorará:
+
+1 La precisión en la solución
+
+2. La originalidad/novedad de la solución planteada
+
+3. La calidad del programa informático realizado, en términos de eficiencia y diseño.
+
+4. La calidad de la memoria.
+
+En la convocatoria extraordinaria se realizará un examen que abarca todos los contenidos de la asignatura. Quien haya superado la nota mínima del proyecto práctico en la convocatoria ordinaria puede optar por no presentar el proyecto, manteniendo la nota obtenida en dicha convocatoria."""@es ;
+    ns1:hasEvaluationTrial <http://data.org/615001028/2025-26/evaluation/trial1>,
+        <http://data.org/615001028/2025-26/evaluation/trial2>,
+        <http://data.org/615001028/2025-26/evaluation/trial3>,
+        <http://data.org/615001028/2025-26/evaluation/trial4>,
+        <http://data.org/615001028/2025-26/evaluation/trial5>,
+        <http://data.org/615001028/2025-26/evaluation/trial6>,
+        <http://data.org/615001028/2025-26/evaluation/trial7>,
+        <http://data.org/615001028/2025-26/evaluation/trial8> .
+
+<http://data.org/615001028/2025-26/evaluation/trial1> a ns1:EvaluationTrial ;
+    ns1:evaluationDuration "02:00"@es ;
+    ns1:evaluationType "progresiva"@es ;
+    ns1:gradePercentage "20%"@es ;
+    ns1:hasScheduleEvent <http://data.org/615001028/2025-26/eventSchedule/8> ;
+    ns1:involvesCompetency ns2:CB02,
+        ns2:CE01,
+        ns2:CE16 ;
+    ns1:minimumScore "4 / 10"@es ;
+    ns1:trialDescription "Examen temas 1 al 3"@es ;
+    ns1:trialType "Presencial"@es ;
+    ns1:trialWeek "8"@es .
+
+<http://data.org/615001028/2025-26/evaluation/trial2> a ns1:EvaluationTrial ;
+    ns1:evaluationDuration "02:00"@es ;
+    ns1:evaluationType "progresiva"@es ;
+    ns1:gradePercentage "20%"@es ;
+    ns1:hasScheduleEvent <http://data.org/615001028/2025-26/eventSchedule/15> ;
+    ns1:minimumScore "4 / 10"@es ;
+    ns1:trialDescription "Examen temas 4 y 5"@es ;
+    ns1:trialType "Presencial"@es ;
+    ns1:trialWeek "15"@es .
+
+<http://data.org/615001028/2025-26/evaluation/trial3> a ns1:EvaluationTrial ;
+    ns1:evaluationDuration "00:00"@es ;
+    ns1:evaluationType "progresiva"@es ;
+    ns1:gradePercentage "60%"@es ;
+    ns1:hasScheduleEvent <http://data.org/615001028/2025-26/eventSchedule/17> ;
+    ns1:involvesCompetency ns2:CB02,
+        ns2:CE01,
+        ns2:CE16,
+        ns2:CG01 ;
+    ns1:minimumScore "4 / 10"@es ;
+    ns1:trialDescription "Proyecto práctico"@es ;
+    ns1:trialType "No Presencial"@es ;
+    ns1:trialWeek "17"@es .
+
+<http://data.org/615001028/2025-26/evaluation/trial4> a ns1:EvaluationTrial ;
+    ns1:evaluationDuration "00:00"@es ;
+    ns1:evaluationType "global"@es ;
+    ns1:gradePercentage "60%"@es ;
+    ns1:hasScheduleEvent <http://data.org/615001028/2025-26/eventSchedule/17> ;
+    ns1:involvesCompetency ns2:CB02,
+        ns2:CE01,
+        ns2:CE16,
+        ns2:CG01 ;
+    ns1:minimumScore "4 / 10"@es ;
+    ns1:trialDescription "Proyecto práctico"@es ;
+    ns1:trialType "No Presencial"@es ;
+    ns1:trialWeek "17"@es .
+
+<http://data.org/615001028/2025-26/evaluation/trial5> a ns1:EvaluationTrial ;
+    ns1:evaluationDuration "01:00"@es ;
+    ns1:evaluationType "global"@es ;
+    ns1:gradePercentage "20%"@es ;
+    ns1:hasScheduleEvent <http://data.org/615001028/2025-26/eventSchedule/17> ;
+    ns1:involvesCompetency ns2:CB02,
+        ns2:CE01,
+        ns2:CE16 ;
+    ns1:minimumScore "4 / 10"@es ;
+    ns1:trialDescription "Examen temas 1 al 3"@es ;
+    ns1:trialType "Presencial"@es ;
+    ns1:trialWeek "17"@es .
+
+<http://data.org/615001028/2025-26/evaluation/trial6> a ns1:EvaluationTrial ;
+    ns1:evaluationDuration "01:00"@es ;
+    ns1:evaluationType "global"@es ;
+    ns1:gradePercentage "20%"@es ;
+    ns1:hasScheduleEvent <http://data.org/615001028/2025-26/eventSchedule/17> ;
+    ns1:involvesCompetency ns2:CB02,
+        ns2:CE01 ;
+    ns1:minimumScore "4 / 10"@es ;
+    ns1:trialDescription "Examen temas 4 y 5"@es ;
+    ns1:trialType "Presencial"@es ;
+    ns1:trialWeek "17"@es .
+
+<http://data.org/615001028/2025-26/evaluation/trial7> a ns1:EvaluationTrial ;
+    ns1:evaluationDuration "02:00"@es ;
+    ns1:evaluationType "extraordinaria"@es ;
+    ns1:gradePercentage "40%"@es ;
+    ns1:involvesCompetency ns2:CB02,
+        ns2:CE01,
+        ns2:CE16 ;
+    ns1:minimumScore "4 / 10"@es ;
+    ns1:trialDescription "Examen temas 1 al 5"@es ;
+    ns1:trialType "Presencial"@es .
+
+<http://data.org/615001028/2025-26/evaluation/trial8> a ns1:EvaluationTrial ;
+    ns1:evaluationDuration "00:00"@es ;
+    ns1:evaluationType "extraordinaria"@es ;
+    ns1:gradePercentage "60%"@es ;
+    ns1:involvesCompetency ns2:CB02,
+        ns2:CE01,
+        ns2:CE16,
+        ns2:CG01 ;
+    ns1:minimumScore "4 / 10"@es ;
+    ns1:trialDescription "Proyecto práctico"@es ;
+    ns1:trialType "Presencial"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule> a ns1:Schedule ;
+    schema:eventSchedule <http://data.org/615001028/2025-26/eventSchedule/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/10>,
+        <http://data.org/615001028/2025-26/eventSchedule/11>,
+        <http://data.org/615001028/2025-26/eventSchedule/12>,
+        <http://data.org/615001028/2025-26/eventSchedule/13>,
+        <http://data.org/615001028/2025-26/eventSchedule/14>,
+        <http://data.org/615001028/2025-26/eventSchedule/15>,
+        <http://data.org/615001028/2025-26/eventSchedule/16>,
+        <http://data.org/615001028/2025-26/eventSchedule/17>,
+        <http://data.org/615001028/2025-26/eventSchedule/2>,
+        <http://data.org/615001028/2025-26/eventSchedule/3>,
+        <http://data.org/615001028/2025-26/eventSchedule/4>,
+        <http://data.org/615001028/2025-26/eventSchedule/5>,
+        <http://data.org/615001028/2025-26/eventSchedule/6>,
+        <http://data.org/615001028/2025-26/eventSchedule/7>,
+        <http://data.org/615001028/2025-26/eventSchedule/8>,
+        <http://data.org/615001028/2025-26/eventSchedule/9> .
+
+<http://data.org/615001028/2025-26/eventSchedule/1> a ns1:ScheduleEvent ;
+    ns1:eventIndex 1 ;
+    ns1:eventWeek "Semana 1"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/1/activity/TActivityType1/1> .
+
+<http://data.org/615001028/2025-26/eventSchedule/1/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 1. Introducción"@es ;
+    ns1:activityDuration "02:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "LM: Actividad del tipo Lección Magistral"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/10> a ns1:ScheduleEvent ;
+    ns1:eventIndex 10 ;
+    ns1:eventWeek "Semana 10"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/10/activity/TActivityType1/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/10/activity/TActivityType1/2> .
+
+<http://data.org/615001028/2025-26/eventSchedule/10/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 4. Descripción de imágenes digitales"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "LM: Actividad del tipo Lección Magistral"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/10/activity/TActivityType1/2> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 4. Descripción de imágenes digitales"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/11> a ns1:ScheduleEvent ;
+    ns1:eventIndex 11 ;
+    ns1:eventWeek "Semana 11"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/12> a ns1:ScheduleEvent ;
+    ns1:eventIndex 12 ;
+    ns1:eventWeek "Semana 12"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/12/activity/TActivityType1/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/12/activity/TActivityType1/2> .
+
+<http://data.org/615001028/2025-26/eventSchedule/12/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 5. Aplicaciones"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "LM: Actividad del tipo Lección Magistral"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/12/activity/TActivityType1/2> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 5. Aplicaciones"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/13> a ns1:ScheduleEvent ;
+    ns1:eventIndex 13 ;
+    ns1:eventWeek "Semana 13"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/13/activity/TActivityType1/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/13/activity/TActivityType1/2> .
+
+<http://data.org/615001028/2025-26/eventSchedule/13/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 5. Aplicaciones"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "LM: Actividad del tipo Lección Magistral"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/13/activity/TActivityType1/2> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 5. Aplicaciones"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/14> a ns1:ScheduleEvent ;
+    ns1:eventIndex 14 ;
+    ns1:eventWeek "Semana 14"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/14/activity/TActivityType1/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/14/activity/TActivityType1/2> .
+
+<http://data.org/615001028/2025-26/eventSchedule/14/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 5. Aplicaciones"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "LM: Actividad del tipo Lección Magistral"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/14/activity/TActivityType1/2> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 5. Aplicaciones"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/15/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Examen temas 4 y 5"@es ;
+    ns1:activityDuration "02:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "OT: Otras actividades formativas / Evaluación"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> a ns1:Activity,
+        ns1:EvaluationActivity ;
+    ns1:activityDescription "Examen temas 4 y 5"@es ;
+    ns1:activityDuration "02:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:attendanceType "Presencial"@es ;
+    ns1:evaluationType "Evaluación Progresiva"@es ;
+    ns1:tecnic "EX: Técnica del tipo Examen Escrito"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/16> a ns1:ScheduleEvent ;
+    ns1:eventIndex 16 ;
+    ns1:eventWeek "Semana 16"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/17/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Examen temas 1 al 3"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "OT: Otras actividades formativas / Evaluación"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/17/activity/TActivityType1/2> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Examen temas 4 y 5"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "OT: Otras actividades formativas / Evaluación"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> a ns1:Activity,
+        ns1:EvaluationActivity ;
+    ns1:activityDescription "Proyecto práctico"@es ;
+    ns1:activityDuration "00:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:attendanceType "No presencial"@es ;
+    ns1:evaluationType "Evaluación Progresiva y Global"@es ;
+    ns1:tecnic "TG: Técnica del tipo Trabajo en Grupo"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/17/activity/TEvaluationActivity/2> a ns1:Activity,
+        ns1:EvaluationActivity ;
+    ns1:activityDescription "Examen temas 1 al 3"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:attendanceType "Presencial"@es ;
+    ns1:evaluationType "Evaluación Global"@es ;
+    ns1:tecnic "EX: Técnica del tipo Examen Escrito"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/17/activity/TEvaluationActivity/3> a ns1:Activity,
+        ns1:EvaluationActivity ;
+    ns1:activityDescription "Examen temas 4 y 5"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:attendanceType "Presencial"@es ;
+    ns1:evaluationType "Evaluación Global"@es ;
+    ns1:tecnic "EX: Técnica del tipo Examen Escrito"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/2> a ns1:ScheduleEvent ;
+    ns1:eventIndex 2 ;
+    ns1:eventWeek "Semana 2"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/2/activity/TActivityType1/1> .
+
+<http://data.org/615001028/2025-26/eventSchedule/2/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 2. Formación de imagen"@es ;
+    ns1:activityDuration "02:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "LM: Actividad del tipo Lección Magistral"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/3> a ns1:ScheduleEvent ;
+    ns1:eventIndex 3 ;
+    ns1:eventWeek "Semana 3"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/3/activity/TActivityType1/1> .
+
+<http://data.org/615001028/2025-26/eventSchedule/3/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 2. Formación de imagen"@es ;
+    ns1:activityDuration "02:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "LM: Actividad del tipo Lección Magistral"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/4> a ns1:ScheduleEvent ;
+    ns1:eventIndex 4 ;
+    ns1:eventWeek "Semana 4"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/4/activity/TActivityType1/1> .
+
+<http://data.org/615001028/2025-26/eventSchedule/4/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 3. Procesamiento de imágenes digitales"@es ;
+    ns1:activityDuration "02:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "LM: Actividad del tipo Lección Magistral"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/5> a ns1:ScheduleEvent ;
+    ns1:eventIndex 5 ;
+    ns1:eventWeek "Semana 5"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/5/activity/TActivityType1/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/5/activity/TActivityType1/2> .
+
+<http://data.org/615001028/2025-26/eventSchedule/5/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 3. Procesamiento de imágenes digitales"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "LM: Actividad del tipo Lección Magistral"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/5/activity/TActivityType1/2> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 3. Procesamiento de imágenes digitales"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/6> a ns1:ScheduleEvent ;
+    ns1:eventIndex 6 ;
+    ns1:eventWeek "Semana 6"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/6/activity/TActivityType1/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/6/activity/TActivityType1/2> .
+
+<http://data.org/615001028/2025-26/eventSchedule/6/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 3. Procesamiento de imágenes digitales"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "LM: Actividad del tipo Lección Magistral"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/6/activity/TActivityType1/2> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 3. Procesamiento de imágenes digitales"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/7> a ns1:ScheduleEvent ;
+    ns1:eventIndex 7 ;
+    ns1:eventWeek "Semana 7"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/7/activity/TActivityType1/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/7/activity/TActivityType1/2> .
+
+<http://data.org/615001028/2025-26/eventSchedule/7/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 3. Procesamiento de imágenes digitales"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "LM: Actividad del tipo Lección Magistral"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/7/activity/TActivityType1/2> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 3. Procesamiento de imágenes digitales"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/8/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Examen temas 1 al 3"@es ;
+    ns1:activityDuration "02:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "OT: Otras actividades formativas / Evaluación"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/8/activity/TEvaluationActivity/1> a ns1:Activity,
+        ns1:EvaluationActivity ;
+    ns1:activityDescription "Examen temas 1 al 3"@es ;
+    ns1:activityDuration "02:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:attendanceType "Presencial"@es ;
+    ns1:evaluationType "Evaluación Progresiva"@es ;
+    ns1:tecnic "EX: Técnica del tipo Examen Escrito"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/9> a ns1:ScheduleEvent ;
+    ns1:eventIndex 9 ;
+    ns1:eventWeek "Semana 9"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/9/activity/TActivityType1/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/9/activity/TActivityType1/2> .
+
+<http://data.org/615001028/2025-26/eventSchedule/9/activity/TActivityType1/1> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 4. Descripción de imágenes digitales"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "LM: Actividad del tipo Lección Magistral"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/9/activity/TActivityType1/2> a ns1:Activity,
+        ns1:ActivityType1 ;
+    ns1:activityDescription "Tema 4. Descripción de imágenes digitales"@es ;
+    ns1:activityDuration "01:00" ;
+    ns1:activityDurationUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+    ns1:activityFormat "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+<http://data.org/615001028/2025-26/syllabus/0> a ns1:SyllabusItem ;
+    ns1:itemIndex 0 ;
+    ns1:syllabusDescription "1. Introducción Sin subniveles"@es .
+
+<http://data.org/615001028/2025-26/syllabus/1> a ns1:SyllabusItem ;
+    ns1:itemIndex 1 ;
+    ns1:syllabusDescription "2. Formación de imagen"@es .
+
+<http://data.org/615001028/2025-26/syllabus/10> a ns1:SyllabusItem ;
+    ns1:itemIndex 10 ;
+    ns1:syllabusDescription "4.1. Descriptores de apariencia Sin subniveles"@es .
+
+<http://data.org/615001028/2025-26/syllabus/11> a ns1:SyllabusItem ;
+    ns1:itemIndex 11 ;
+    ns1:syllabusDescription "4.2. Descriptores de forma Sin subniveles"@es .
+
+<http://data.org/615001028/2025-26/syllabus/12> a ns1:SyllabusItem ;
+    ns1:itemIndex 12 ;
+    ns1:syllabusDescription "4.3. Correspondencia de características Sin subniveles"@es .
+
+<http://data.org/615001028/2025-26/syllabus/13> a ns1:SyllabusItem ;
+    ns1:itemIndex 13 ;
+    ns1:syllabusDescription "5. Aplicaciones"@es .
+
+<http://data.org/615001028/2025-26/syllabus/14> a ns1:SyllabusItem ;
+    ns1:itemIndex 14 ;
+    ns1:syllabusDescription "5.1. Segmentación Sin subniveles"@es .
+
+<http://data.org/615001028/2025-26/syllabus/15> a ns1:SyllabusItem ;
+    ns1:itemIndex 15 ;
+    ns1:syllabusDescription "5.2. Reconocimiento Sin subniveles"@es .
+
+<http://data.org/615001028/2025-26/syllabus/2> a ns1:SyllabusItem ;
+    ns1:itemIndex 2 ;
+    ns1:syllabusDescription "2.1. Tecnologías de captura de imagen Sin subniveles"@es .
+
+<http://data.org/615001028/2025-26/syllabus/3> a ns1:SyllabusItem ;
+    ns1:itemIndex 3 ;
+    ns1:syllabusDescription "2.2. Formación de color Sin subniveles"@es .
+
+<http://data.org/615001028/2025-26/syllabus/4> a ns1:SyllabusItem ;
+    ns1:itemIndex 4 ;
+    ns1:syllabusDescription "2.3. Modelado de cámara Sin subniveles"@es .
+
+<http://data.org/615001028/2025-26/syllabus/5> a ns1:SyllabusItem ;
+    ns1:itemIndex 5 ;
+    ns1:syllabusDescription "3. Procesamiento de imágenes digitales"@es .
+
+<http://data.org/615001028/2025-26/syllabus/6> a ns1:SyllabusItem ;
+    ns1:itemIndex 6 ;
+    ns1:syllabusDescription "3.1. Transformaciones puntuales Sin subniveles"@es .
+
+<http://data.org/615001028/2025-26/syllabus/7> a ns1:SyllabusItem ;
+    ns1:itemIndex 7 ;
+    ns1:syllabusDescription "3.2. Filtrado Sin subniveles"@es .
+
+<http://data.org/615001028/2025-26/syllabus/8> a ns1:SyllabusItem ;
+    ns1:itemIndex 8 ;
+    ns1:syllabusDescription "3.3. Transformaciones geométricas Sin subniveles"@es .
+
+<http://data.org/615001028/2025-26/syllabus/9> a ns1:SyllabusItem ;
+    ns1:itemIndex 9 ;
+    ns1:syllabusDescription "4. Descripción de imágenes digitales"@es .
+
+ns2:61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial a ns1:BachelorDegree,
+        ns1:Degree ;
+    ns1:hasCourse ns2:615001028 ;
+    schema:name "61CD - Grado en Ciencia de Datos e Inteligencia Artificial"@es .
+
+ns2:RA133 a ns1:LearningResult ;
+    ns1:learningResultCode "RA133" ;
+    ns1:learningResultDescription "Ser capaz de diseñar algoritmos que reconozcan objetos"@es .
+
+ns2:RA63 a ns1:LearningResult ;
+    ns1:learningResultCode "RA63" ;
+    ns1:learningResultDescription "RA67"@es .
+
+ns2:RA90 a ns1:LearningResult ;
+    ns1:learningResultCode "RA90" ;
+    ns1:learningResultDescription "Programar aplicaciones mediante librerías existentes de Análisis de Datos"@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/15> a ns1:ScheduleEvent ;
+    ns1:eventIndex 15 ;
+    ns1:eventWeek "Semana 15"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/15/activity/TActivityType1/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> .
+
+<http://data.org/615001028/2025-26/eventSchedule/8> a ns1:ScheduleEvent ;
+    ns1:eventIndex 8 ;
+    ns1:eventWeek "Semana 8"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/8/activity/TActivityType1/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/8/activity/TEvaluationActivity/1> .
+
+ns2:angel.arroyo%40upm.es a ns1:Lecturer ;
+    ns1:office "4213"@es ;
+    ns1:tutorshipsSchedule "Los horarios de tutoría se publicarán en los medios habilitados para ello por el departamento (web y tablón de anuncios) y en el moodle de la asignatura."@es ;
+    schema:email "angel.arroyo@upm.es" ;
+    schema:name "Arroyo Castillo, Angel" .
+
+ns2:CG01 a ns1:Competency ;
+    ns1:competencyCode "CG01" ;
+    ns1:competencyDescription "Capacidad de trabajo en equipo, en entornos interdisciplinares y complejos, negociando y resolviendo conflictos, diseñando soluciones eficientes, fiables, robustas y responsables."@es .
+
+<http://data.org/615001028/2025-26/eventSchedule/17> a ns1:ScheduleEvent ;
+    ns1:eventIndex 17 ;
+    ns1:eventWeek "Semana 17"@es ;
+    ns1:hasActivity <http://data.org/615001028/2025-26/eventSchedule/17/activity/TActivityType1/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/17/activity/TActivityType1/2>,
+        <http://data.org/615001028/2025-26/eventSchedule/17/activity/TEvaluationActivity/1>,
+        <http://data.org/615001028/2025-26/eventSchedule/17/activity/TEvaluationActivity/2>,
+        <http://data.org/615001028/2025-26/eventSchedule/17/activity/TEvaluationActivity/3> .
+
+ns2:CE16 a ns1:Competency ;
+    ns1:competencyCode "CE16" ;
+    ns1:competencyDescription "Capacidad para describir las técnicas de percepción y robótica cognitiva y utilizarlas para desarrollar sistemas que puedan percibir su entorno y desempeñar tareas de manipulación, navegación y planificación de su comportamiento, con cierto grado de autonomía."@es .
+
+ns2:CB02 a ns1:Competency ;
+    ns1:competencyCode "CB02" ;
+    ns1:competencyDescription "Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio"@es .
+
+ns2:CE01 a ns1:Competency ;
+    ns1:competencyCode "CE01" ;
+    ns1:competencyDescription "Capacidad para utilizar con destreza los conceptos y métodos matemáticos que subyacen a los problemas de la ciencia de datos y la inteligencia artificial para su modelización y resolución."@es .
+
