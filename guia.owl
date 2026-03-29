@@ -234,13 +234,6 @@ guide:activityDescription
     rdfs:domain guide:Activity ;
     rdfs:range rdf:langString .
 
-guide:tecnic
-    a owl:DatatypeProperty ;
-    rdfs:label "technique"@en ;
-    rdfs:comment "Describes the teaching or assessment technique associated with an academic activity."@en ;
-    rdfs:domain guide:Activity ;
-    rdfs:range rdf:langString .
-
 guide:evaluationType
     a owl:DatatypeProperty ;
     rdfs:label "type"@en ;
