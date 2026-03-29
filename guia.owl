@@ -40,11 +40,13 @@ guide:Degree
 
 guide:MasterDegree
     rdf:type owl:Class ;
+    rdfs:subClassOf guide:Degree ;
     rdfs:label "Master's Degree"@en ;
     rdfs:comment "A postgraduate degree programme corresponding to advanced academic or professional specialization."@en .
 
 guide:BachelorDegree
     rdf:type owl:Class ;
+    rdfs:subClassOf guide:Degree ;
     rdfs:label "Bachelor's Degree"@en ;
     rdfs:comment "An undergraduate degree programme that provides foundational higher education in a given field of study."@en .
 
