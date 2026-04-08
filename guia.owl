@@ -5,7 +5,8 @@ prefix guide: <https://guia.org/>
 prefix owl:   <http://www.w3.org/2002/07/owl#>
 prefix dct: <http://purl.org/dc/terms/>
 prefix dc: <http://purl.org/dc/elements/1.1/>
-
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/>
 
 <https://guia.org/>
     a owl:Ontology ;
