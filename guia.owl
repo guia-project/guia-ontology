@@ -369,6 +369,13 @@ guide:periodStaringtMonth
     rdfs:domain guide:CourseGuide ;
     rdfs:range rdf:langString .
 
+guide:degreeCode
+    a owl:DatatypeProperty ;
+    rdfs:label "degree code"@en ;
+    rdfs:comment "Indicates the identification code of a degree."@en ;
+    rdfs:domain guide:Degree ;
+    rdfs:range xsd:string .
+
 #################################################################
 # Reused Schema.org datatype properties referenced in GUIA data
 #################################################################
@@ -421,10 +428,15 @@ sch:description
     rdfs:domain guide:CourseGuide ;
     rdfs:range rdf:langString .
 
-
 #################################################################
 # GUIA object properties
 #################################################################
+
+guide:publishedAt a owl:ObjectProperty ;
+     rdfs:label "published at"@en ;
+    rdfs:comment "Provides the URL where the course guide is publicly available."@en ;
+    rdfs:domain guide:CourseGuide ;
+    rdfs:range rdfs:Resource .
 
 guide:hasItem
     a owl:ObjectProperty ;
