@@ -1,0 +1,603 @@
+<https://guia.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://guia.org/> <http://purl.org/dc/elements/1.1/title> "GUIA ontology"@en .
+<https://guia.org/> <http://purl.org/dc/terms/creator> "Andrea Cimmino Arriaga" .
+<https://guia.org/> <http://purl.org/dc/terms/creator> "Covadonga Arias" .
+<https://guia.org/> <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> .
+<https://guia.org/> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology defines concepts to represent academic course guides in higher education. It models degrees, courses, teaching roles, learning design, resources, schedules, and evaluation systems, while reusing existing vocabularies such as Schema.org whenever possible."@en .
+<https://guia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "GUIA Ontology"@en .
+<https://guia.org/> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#description
+<http://www.w3.org/2000/01/rdf-schema#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://guia.org/activityDurationUnit
+<https://guia.org/activityDurationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/activityDurationUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Activity> .
+<https://guia.org/activityDurationUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontology-of-units-of-measure.org/resource/om-2/Unit> .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/activityDurationUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an activity to the unit used to express its duration."@en .
+<https://guia.org/activityDurationUnit> <http://www.w3.org/2000/01/rdf-schema#label> "activity duration unit"@en .
+# 
+# https://guia.org/hasActivity
+<https://guia.org/hasActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/hasActivity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/ScheduleEvent> .
+<https://guia.org/hasActivity> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/Activity> .
+<https://guia.org/hasActivity> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a schedule event to an academic activity carried out during that event."@en .
+<https://guia.org/hasActivity> <http://www.w3.org/2000/01/rdf-schema#label> "has activity"@en .
+# 
+# https://guia.org/hasCompetency
+<https://guia.org/hasCompetency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/hasCompetency> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/hasCompetency> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/Competency> .
+<https://guia.org/hasCompetency> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a course guide to a competency developed or addressed in the course."@en .
+<https://guia.org/hasCompetency> <http://www.w3.org/2000/01/rdf-schema#label> "has competency"@en .
+# 
+# https://guia.org/hasCourse
+<https://guia.org/hasCourse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/hasCourse> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Degree> .
+<https://guia.org/hasCourse> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/Course> .
+<https://guia.org/hasCourse> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a degree programme to a course included in its curriculum."@en .
+<https://guia.org/hasCourse> <http://www.w3.org/2000/01/rdf-schema#label> "has course"@en .
+# 
+# https://guia.org/hasDidacticResource
+<https://guia.org/hasDidacticResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/hasDidacticResource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/hasDidacticResource> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/DidacticResource> .
+<https://guia.org/hasDidacticResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a course guide to a didactic or bibliographic resource used in the course."@en .
+<https://guia.org/hasDidacticResource> <http://www.w3.org/2000/01/rdf-schema#label> "has didactic resource"@en .
+# 
+# https://guia.org/hasEvaluation
+<https://guia.org/hasEvaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/hasEvaluation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/hasEvaluation> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/EvaluationSystem> .
+<https://guia.org/hasEvaluation> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a course guide to its evaluation system."@en .
+<https://guia.org/hasEvaluation> <http://www.w3.org/2000/01/rdf-schema#label> "has evaluation"@en .
+# 
+# https://guia.org/hasEvaluationTrial
+<https://guia.org/hasEvaluationTrial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/hasEvaluationTrial> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/EvaluationSystem> .
+<https://guia.org/hasEvaluationTrial> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/EvaluationTrial> .
+<https://guia.org/hasEvaluationTrial> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an evaluation system to one of its evaluation trials."@en .
+<https://guia.org/hasEvaluationTrial> <http://www.w3.org/2000/01/rdf-schema#label> "has evaluation trial"@en .
+# 
+# https://guia.org/hasItem
+<https://guia.org/hasItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/hasItem> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Syllabus> .
+<https://guia.org/hasItem> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/SyllabusItem> .
+<https://guia.org/hasItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a syllabus to one of its constituent syllabus items."@en .
+<https://guia.org/hasItem> <http://www.w3.org/2000/01/rdf-schema#label> "has item"@en .
+# 
+# https://guia.org/hasLearningResult
+<https://guia.org/hasLearningResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/hasLearningResult> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/hasLearningResult> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/LearningResult> .
+<https://guia.org/hasLearningResult> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a course guide to a learning result expected from the course."@en .
+<https://guia.org/hasLearningResult> <http://www.w3.org/2000/01/rdf-schema#label> "has learning result"@en .
+# 
+# https://guia.org/hasScheduleEvent
+<https://guia.org/hasScheduleEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/hasScheduleEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/EvaluationTrial> .
+<https://guia.org/hasScheduleEvent> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/ScheduleEvent> .
+<https://guia.org/hasScheduleEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an evaluation trial to the schedule event in which it takes place."@en .
+<https://guia.org/hasScheduleEvent> <http://www.w3.org/2000/01/rdf-schema#label> "has schedule event"@en .
+# 
+# https://guia.org/involvesCompetency
+<https://guia.org/involvesCompetency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/involvesCompetency> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/EvaluationTrial> .
+<https://guia.org/involvesCompetency> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/Competency> .
+<https://guia.org/involvesCompetency> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an evaluation trial to a competency involved in that assessment."@en .
+<https://guia.org/involvesCompetency> <http://www.w3.org/2000/01/rdf-schema#label> "involves competency"@en .
+# 
+# https://guia.org/offers
+<https://guia.org/offers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/offers> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/UniversityCenter> .
+<https://guia.org/offers> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/Degree> .
+<https://guia.org/offers> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a university center to a degree programme that it offers."@en .
+<https://guia.org/offers> <http://www.w3.org/2000/01/rdf-schema#label> "offers"@en .
+# 
+# https://guia.org/publishedAt
+<https://guia.org/publishedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://guia.org/publishedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/publishedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/publishedAt> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides the URL where the course guide is publicly available."@en .
+<https://guia.org/publishedAt> <http://www.w3.org/2000/01/rdf-schema#label> "published at"@en .
+# 
+# https://schema.org/courseSchedule
+<https://schema.org/courseSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://schema.org/courseSchedule> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://schema.org/courseSchedule> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/Schedule> .
+<https://schema.org/courseSchedule> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a course guide to the schedule that organizes its planned events."@en .
+<https://schema.org/courseSchedule> <http://www.w3.org/2000/01/rdf-schema#label> "course schedule"@en .
+# 
+# https://schema.org/director
+<https://schema.org/director> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://schema.org/director> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://schema.org/director> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/Lecturer> .
+<https://schema.org/director> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a course guide to the lecturer acting as course coordinator or academic lead."@en .
+<https://schema.org/director> <http://www.w3.org/2000/01/rdf-schema#label> "director"@en .
+# 
+# https://schema.org/eventSchedule
+<https://schema.org/eventSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://schema.org/eventSchedule> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Schedule> .
+<https://schema.org/eventSchedule> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/ScheduleEvent> .
+<https://schema.org/eventSchedule> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a schedule to one of its schedule events."@en .
+<https://schema.org/eventSchedule> <http://www.w3.org/2000/01/rdf-schema#label> "event schedule"@en .
+# 
+# https://schema.org/hasCourseInstance
+<https://schema.org/hasCourseInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://schema.org/hasCourseInstance> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Course> .
+<https://schema.org/hasCourseInstance> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/CourseGuide> .
+<https://schema.org/hasCourseInstance> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a course to a concrete course guide or offering for a given academic period."@en .
+<https://schema.org/hasCourseInstance> <http://www.w3.org/2000/01/rdf-schema#label> "has course instance"@en .
+# 
+# https://schema.org/instructor
+<https://schema.org/instructor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://schema.org/instructor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://schema.org/instructor> <http://www.w3.org/2000/01/rdf-schema#range> <https://guia.org/Lecturer> .
+<https://schema.org/instructor> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a course guide to a lecturer involved in teaching the course."@en .
+<https://schema.org/instructor> <http://www.w3.org/2000/01/rdf-schema#label> "instructor"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://guia.org/activityDescription
+<https://guia.org/activityDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/activityDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Activity> .
+<https://guia.org/activityDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/activityDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides a textual description of an academic activity."@en .
+<https://guia.org/activityDescription> <http://www.w3.org/2000/01/rdf-schema#label> "activity description"@en .
+# 
+# https://guia.org/activityDuration
+<https://guia.org/activityDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/activityDuration> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Activity> .
+<https://guia.org/activityDuration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://guia.org/activityDuration> <http://www.w3.org/2000/01/rdf-schema#comment> "States the duration value assigned to an academic activity."@en .
+<https://guia.org/activityDuration> <http://www.w3.org/2000/01/rdf-schema#label> "activity duration"@en .
+# 
+# https://guia.org/activityFormat
+<https://guia.org/activityFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/activityFormat> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Activity> .
+<https://guia.org/activityFormat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/activityFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the delivery format or modality of an academic activity."@en .
+<https://guia.org/activityFormat> <http://www.w3.org/2000/01/rdf-schema#label> "activity format"@en .
+# 
+# https://guia.org/attendanceType
+<https://guia.org/attendanceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/attendanceType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Activity> .
+<https://guia.org/attendanceType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/attendanceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether an activity is face-to-face, remote, or follows another attendance modality."@en .
+<https://guia.org/attendanceType> <http://www.w3.org/2000/01/rdf-schema#label> "attendance mode"@en .
+# 
+# https://guia.org/bibliographyDescription
+<https://guia.org/bibliographyDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/bibliographyDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/DidacticResource> .
+<https://guia.org/bibliographyDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/bibliographyDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides a textual description or reference for a bibliographic or didactic resource."@en .
+<https://guia.org/bibliographyDescription> <http://www.w3.org/2000/01/rdf-schema#label> "bibliography description"@en .
+# 
+# https://guia.org/bibliographyTitle
+<https://guia.org/bibliographyTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/bibliographyTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/DidacticResource> .
+<https://guia.org/bibliographyTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/bibliographyTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides the title or name of a bibliographic or didactic resource."@en .
+<https://guia.org/bibliographyTitle> <http://www.w3.org/2000/01/rdf-schema#label> "bibliography title"@en .
+# 
+# https://guia.org/bibliographyType
+<https://guia.org/bibliographyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/bibliographyType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/DidacticResource> .
+<https://guia.org/bibliographyType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/bibliographyType> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the category of a bibliographic or didactic resource."@en .
+<https://guia.org/bibliographyType> <http://www.w3.org/2000/01/rdf-schema#label> "bibliography type"@en .
+# 
+# https://guia.org/courseType
+<https://guia.org/courseType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/courseType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Course> .
+<https://guia.org/courseType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/courseType> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the academic nature of the course, such as basic, mandatory, elective, or similar categories."@en .
+<https://guia.org/courseType> <http://www.w3.org/2000/01/rdf-schema#label> "course type"@en .
+# 
+# https://guia.org/degreeCode
+<https://guia.org/degreeCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/degreeCode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Degree> .
+<https://guia.org/degreeCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://guia.org/degreeCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the identification code of a degree."@en .
+<https://guia.org/degreeCode> <http://www.w3.org/2000/01/rdf-schema#label> "degree code"@en .
+# 
+# https://guia.org/evaluationDescription
+<https://guia.org/evaluationDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/evaluationDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/EvaluationSystem> .
+<https://guia.org/evaluationDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/evaluationDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the criteria, rules, or overall structure of the evaluation system."@en .
+<https://guia.org/evaluationDescription> <http://www.w3.org/2000/01/rdf-schema#label> "evaluation description"@en .
+# 
+# https://guia.org/evaluationDuration
+<https://guia.org/evaluationDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/evaluationDuration> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/EvaluationTrial> .
+<https://guia.org/evaluationDuration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/evaluationDuration> <http://www.w3.org/2000/01/rdf-schema#comment> "States the duration of an evaluation activity or trial."@en .
+<https://guia.org/evaluationDuration> <http://www.w3.org/2000/01/rdf-schema#label> "evaluation duration"@en .
+# 
+# https://guia.org/evaluationType
+<https://guia.org/evaluationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/evaluationType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/EvaluationTrial> .
+<https://guia.org/evaluationType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/evaluationType> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a local type classification used for an activity or evaluation element. For instance, in spanish university the following categories exist: progressive, final, extraordinay."@en .
+<https://guia.org/evaluationType> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the type of evaluation associated with an assessment activity or trial."@en .
+<https://guia.org/evaluationType> <http://www.w3.org/2000/01/rdf-schema#label> "evaluation type"@en .
+<https://guia.org/evaluationType> <http://www.w3.org/2000/01/rdf-schema#label> "type"@en .
+# 
+# https://guia.org/gradePercentage
+<https://guia.org/gradePercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/gradePercentage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/EvaluationTrial> .
+<https://guia.org/gradePercentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/gradePercentage> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the percentage weight of an evaluation activity in the final grade."@en .
+<https://guia.org/gradePercentage> <http://www.w3.org/2000/01/rdf-schema#label> "grade percentage"@en .
+# 
+# https://guia.org/inpersonHours
+<https://guia.org/inpersonHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/inpersonHours> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/inpersonHours> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/inpersonHours> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the number or description of face-to-face hours within the course guide."@en .
+<https://guia.org/inpersonHours> <http://www.w3.org/2000/01/rdf-schema#label> "in-person hours"@en .
+# 
+# https://guia.org/minimumScore
+<https://guia.org/minimumScore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/minimumScore> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/EvaluationTrial> .
+<https://guia.org/minimumScore> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/minimumScore> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the minimum score required for an evaluation activity or assessment component."@en .
+<https://guia.org/minimumScore> <http://www.w3.org/2000/01/rdf-schema#label> "minimum score"@en .
+# 
+# https://guia.org/numberOfCredits
+<https://guia.org/numberOfCredits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/numberOfCredits> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/numberOfCredits> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://guia.org/numberOfCredits> <http://www.w3.org/2000/01/rdf-schema#comment> "States the number of academic credits assigned to a course guide or course offering."@en .
+<https://guia.org/numberOfCredits> <http://www.w3.org/2000/01/rdf-schema#label> "number of credits"@en .
+# 
+# https://guia.org/office
+<https://guia.org/office> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/office> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Lecturer> .
+<https://guia.org/office> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/office> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides the office or location assigned to a lecturer for student attention."@en .
+<https://guia.org/office> <http://www.w3.org/2000/01/rdf-schema#label> "office"@en .
+# 
+# https://guia.org/otherInformation
+<https://guia.org/otherInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/otherInformation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/otherInformation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/otherInformation> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides additional general information relevant to the course guide."@en .
+<https://guia.org/otherInformation> <http://www.w3.org/2000/01/rdf-schema#label> "other information"@en .
+# 
+# https://guia.org/periodEndingMonth
+<https://guia.org/periodEndingMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/periodEndingMonth> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/periodEndingMonth> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/periodEndingMonth> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the month in which the teaching period ends."@en .
+<https://guia.org/periodEndingMonth> <http://www.w3.org/2000/01/rdf-schema#label> "period ending month"@en .
+# 
+# https://guia.org/periodStaringtMonth
+<https://guia.org/periodStaringtMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/periodStaringtMonth> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/periodStaringtMonth> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/periodStaringtMonth> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the month in which the teaching period starts."@en .
+<https://guia.org/periodStaringtMonth> <http://www.w3.org/2000/01/rdf-schema#label> "period starting month"@en .
+# 
+# https://guia.org/previousCourses
+<https://guia.org/previousCourses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/previousCourses> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/RequiredKnowledge> .
+<https://guia.org/previousCourses> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/previousCourses> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides a textual statement about prior courses recommended or required before taking the course."@en .
+<https://guia.org/previousCourses> <http://www.w3.org/2000/01/rdf-schema#label> "previous courses"@en .
+# 
+# https://guia.org/previousKnowledge
+<https://guia.org/previousKnowledge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/previousKnowledge> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/RequiredKnowledge> .
+<https://guia.org/previousKnowledge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/previousKnowledge> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes prior knowledge or skills expected from students before taking the course."@en .
+<https://guia.org/previousKnowledge> <http://www.w3.org/2000/01/rdf-schema#label> "previous knowledge"@en .
+# 
+# https://guia.org/remoteHours
+<https://guia.org/remoteHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/remoteHours> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/remoteHours> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/remoteHours> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the number or description of remote hours within the course guide."@en .
+<https://guia.org/remoteHours> <http://www.w3.org/2000/01/rdf-schema#label> "remote hours"@en .
+# 
+# https://guia.org/semester
+<https://guia.org/semester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/semester> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Course> .
+<https://guia.org/semester> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/semester> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the semester or semesters in which a course is taught."@en .
+<https://guia.org/semester> <http://www.w3.org/2000/01/rdf-schema#label> "semester"@en .
+# 
+# https://guia.org/teachingPeriod
+<https://guia.org/teachingPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/teachingPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/teachingPeriod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://guia.org/teachingPeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the academic year to which the course guide applies."@en .
+<https://guia.org/teachingPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "teaching period"@en .
+# 
+# https://guia.org/teachingPeriodMonths
+<https://guia.org/teachingPeriodMonths> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/teachingPeriodMonths> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/teachingPeriodMonths> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/teachingPeriodMonths> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the months or span of months during which the course is taught."@en .
+<https://guia.org/teachingPeriodMonths> <http://www.w3.org/2000/01/rdf-schema#label> "teaching period months"@en .
+# 
+# https://guia.org/totalHours
+<https://guia.org/totalHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/totalHours> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://guia.org/totalHours> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/totalHours> <http://www.w3.org/2000/01/rdf-schema#comment> "States the total student workload of the course guide expressed in hours."@en .
+<https://guia.org/totalHours> <http://www.w3.org/2000/01/rdf-schema#label> "total hours"@en .
+# 
+# https://guia.org/trialDescription
+<https://guia.org/trialDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/trialDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/EvaluationTrial> .
+<https://guia.org/trialDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/trialDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides a textual description of an evaluation trial."@en .
+<https://guia.org/trialDescription> <http://www.w3.org/2000/01/rdf-schema#label> "trial description"@en .
+# 
+# https://guia.org/trialMode
+<https://guia.org/trialMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/trialMode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/EvaluationTrial> .
+<https://guia.org/trialMode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/trialMode> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the mode in which an evaluation trial is carried out, such as on-site or remote."@en .
+<https://guia.org/trialMode> <http://www.w3.org/2000/01/rdf-schema#label> "trial mode"@en .
+# 
+# https://guia.org/trialType
+<https://guia.org/trialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/trialType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/EvaluationTrial> .
+<https://guia.org/trialType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/trialType> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the specific kind of evaluation trial, such as exam, assignment, or presentation."@en .
+<https://guia.org/trialType> <http://www.w3.org/2000/01/rdf-schema#label> "trial type"@en .
+# 
+# https://guia.org/trialWeek
+<https://guia.org/trialWeek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/trialWeek> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/EvaluationTrial> .
+<https://guia.org/trialWeek> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/trialWeek> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the week in which an evaluation trial takes place."@en .
+<https://guia.org/trialWeek> <http://www.w3.org/2000/01/rdf-schema#label> "trial week"@en .
+# 
+# https://guia.org/tutorshipsSchedule
+<https://guia.org/tutorshipsSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://guia.org/tutorshipsSchedule> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Lecturer> .
+<https://guia.org/tutorshipsSchedule> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://guia.org/tutorshipsSchedule> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the timetable or availability for tutoring sessions."@en .
+<https://guia.org/tutorshipsSchedule> <http://www.w3.org/2000/01/rdf-schema#label> "tutorship schedule"@en .
+# 
+# https://schema.org/activitiesWorkload
+<https://schema.org/activitiesWorkload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/activitiesWorkload> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://schema.org/activitiesWorkload> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://schema.org/activitiesWorkload> <http://www.w3.org/2000/01/rdf-schema#comment> "States the workload distribution associated with course activities."@en .
+<https://schema.org/activitiesWorkload> <http://www.w3.org/2000/01/rdf-schema#label> "activities workload"@en .
+# 
+# https://schema.org/courseCode
+<https://schema.org/courseCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/courseCode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Course> .
+<https://schema.org/courseCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://schema.org/courseCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides the institutional code used to identify a course."@en .
+<https://schema.org/courseCode> <http://www.w3.org/2000/01/rdf-schema#label> "course code"@en .
+# 
+# https://schema.org/description
+<https://schema.org/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides a textual description of the course guide or academic entity."@en .
+<https://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#label> "description"@en .
+# 
+# https://schema.org/email
+<https://schema.org/email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/email> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Lecturer> .
+<https://schema.org/email> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://schema.org/email> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides the email address of a person involved in teaching or coordination."@en .
+<https://schema.org/email> <http://www.w3.org/2000/01/rdf-schema#label> "email"@en .
+# 
+# https://schema.org/inLanguage
+<https://schema.org/inLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/inLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/CourseGuide> .
+<https://schema.org/inLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://schema.org/inLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the language in which the course guide or teaching is delivered."@en .
+<https://schema.org/inLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "in language"@en .
+# 
+# https://schema.org/name
+<https://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides the name of an entity such as a course, person, or university center."@en .
+<https://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+# 
+# https://schema.org/numberOfCredits
+<https://schema.org/numberOfCredits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/numberOfCredits> <http://www.w3.org/2000/01/rdf-schema#domain> <https://guia.org/Course> .
+<https://schema.org/numberOfCredits> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://schema.org/numberOfCredits> <http://www.w3.org/2000/01/rdf-schema#comment> "States the number of academic credits assigned to a course."@en .
+<https://schema.org/numberOfCredits> <http://www.w3.org/2000/01/rdf-schema#label> "number of credits"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.ontology-of-units-of-measure.org/resource/om-2/Unit
+# 
+# http://www.w3.org/2000/01/rdf-schema#Resource
+# 
+# https://guia.org/Activity
+<https://guia.org/Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "A teaching or learning activity carried out as part of the course, such as lectures, labs, seminars, tutorials, or independent work."@en .
+<https://guia.org/Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Activity"@en .
+# 
+# https://guia.org/ActivityType1
+<https://guia.org/ActivityType1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/ActivityType1> <http://www.w3.org/2000/01/rdf-schema#comment> "A first-level category used to classify academic activities according to the pedagogical structure adopted in the course guide."@en .
+<https://guia.org/ActivityType1> <http://www.w3.org/2000/01/rdf-schema#label> "Activity Type 1"@en .
+# 
+# https://guia.org/ActivityType2
+<https://guia.org/ActivityType2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/ActivityType2> <http://www.w3.org/2000/01/rdf-schema#comment> "A second-level or more specific category used to refine the classification of academic activities in the course guide."@en .
+<https://guia.org/ActivityType2> <http://www.w3.org/2000/01/rdf-schema#label> "Activity Type 2"@en .
+# 
+# https://guia.org/BachelorDegree
+<https://guia.org/BachelorDegree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/BachelorDegree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://guia.org/Degree> .
+<https://guia.org/BachelorDegree> <http://www.w3.org/2000/01/rdf-schema#comment> "An undergraduate degree programme that provides foundational higher education in a given field of study."@en .
+<https://guia.org/BachelorDegree> <http://www.w3.org/2000/01/rdf-schema#label> "Bachelor's Degree"@en .
+# 
+# https://guia.org/Competency
+<https://guia.org/Competency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/Competency> <http://www.w3.org/2000/01/rdf-schema#comment> "A capability, skill, or integrated learning outcome that students are expected to develop through the course."@en .
+<https://guia.org/Competency> <http://www.w3.org/2000/01/rdf-schema#label> "Competency"@en .
+# 
+# https://guia.org/Course
+<https://guia.org/Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/Course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Course> .
+<https://schema.org/Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/Course> <http://www.w3.org/2000/01/rdf-schema#comment> "An academic course as defined in the GUIA model, typically described through its content, teaching organization, assessment, and related course guide."@en .
+<https://guia.org/Course> <http://www.w3.org/2000/01/rdf-schema#label> "Course"@en .
+# 
+# https://guia.org/CourseGuide
+<https://guia.org/CourseGuide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/CourseGuide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/CourseInstance> .
+<https://schema.org/CourseInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/CourseGuide> <http://www.w3.org/2000/01/rdf-schema#comment> "A structured academic document that describes a course, including objectives, contents, methodology, resources, schedule, and evaluation."@en .
+<https://guia.org/CourseGuide> <http://www.w3.org/2000/01/rdf-schema#label> "Course Guide"@en .
+# 
+# https://guia.org/Degree
+<https://guia.org/Degree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/Degree> <http://www.w3.org/2000/01/rdf-schema#comment> "An academic degree programme that structures and groups courses within a formal higher education curriculum."@en .
+<https://guia.org/Degree> <http://www.w3.org/2000/01/rdf-schema#label> "Degree"@en .
+# 
+# https://guia.org/DidacticResource
+<https://guia.org/DidacticResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/DidacticResource> <http://www.w3.org/2000/01/rdf-schema#comment> "A teaching or learning resource used in the course, such as readings, software, audiovisual material, or practical tools."@en .
+<https://guia.org/DidacticResource> <http://www.w3.org/2000/01/rdf-schema#label> "Didactic Resource"@en .
+# 
+# https://guia.org/EvaluationActivity
+<https://guia.org/EvaluationActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/EvaluationActivity> <http://www.w3.org/2000/01/rdf-schema#comment> "An activity specifically intended to assess student performance, achievement, or progress within the course."@en .
+<https://guia.org/EvaluationActivity> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation Activity"@en .
+# 
+# https://guia.org/EvaluationSystem
+<https://guia.org/EvaluationSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/EvaluationSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "The overall framework that defines how student learning is assessed in a course, including criteria, components, and grading structure."@en .
+<https://guia.org/EvaluationSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation System"@en .
+# 
+# https://guia.org/EvaluationTrial
+<https://guia.org/EvaluationTrial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/EvaluationTrial> <http://www.w3.org/2000/01/rdf-schema#comment> "A specific assessment instance or examination opportunity within the evaluation system, such as an ordinary or extraordinary attempt."@en .
+<https://guia.org/EvaluationTrial> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation Trial"@en .
+# 
+# https://guia.org/LearningResult
+<https://guia.org/LearningResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/LearningResult> <http://www.w3.org/2000/01/rdf-schema#comment> "A specific and assessable statement of what a student is expected to know, understand, or be able to do after completing the course."@en .
+<https://guia.org/LearningResult> <http://www.w3.org/2000/01/rdf-schema#label> "Learning Result"@en .
+# 
+# https://guia.org/Lecturer
+<https://guia.org/Lecturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/Lecturer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Person> .
+<https://schema.org/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/Lecturer> <http://www.w3.org/2000/01/rdf-schema#comment> "A teaching person responsible for delivering, coordinating, or supporting a course within an academic programme."@en .
+<https://guia.org/Lecturer> <http://www.w3.org/2000/01/rdf-schema#label> "Lecturer"@en .
+# 
+# https://guia.org/MasterDegree
+<https://guia.org/MasterDegree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/MasterDegree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://guia.org/Degree> .
+<https://guia.org/MasterDegree> <http://www.w3.org/2000/01/rdf-schema#comment> "A postgraduate degree programme corresponding to advanced academic or professional specialization."@en .
+<https://guia.org/MasterDegree> <http://www.w3.org/2000/01/rdf-schema#label> "Master's Degree"@en .
+# 
+# https://guia.org/RemoteActivity
+<https://guia.org/RemoteActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/RemoteActivity> <http://www.w3.org/2000/01/rdf-schema#comment> "An activity designed to be carried out remotely, typically through online or distance-learning modalities."@en .
+<https://guia.org/RemoteActivity> <http://www.w3.org/2000/01/rdf-schema#label> "Remote Activity"@en .
+# 
+# https://guia.org/RequiredKnowledge
+<https://guia.org/RequiredKnowledge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/RequiredKnowledge> <http://www.w3.org/2000/01/rdf-schema#comment> "Prior knowledge, skills, or academic background expected from students before taking a course."@en .
+<https://guia.org/RequiredKnowledge> <http://www.w3.org/2000/01/rdf-schema#label> "Required Knowledge"@en .
+# 
+# https://guia.org/Schedule
+<https://guia.org/Schedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/Schedule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Schedule> .
+<https://schema.org/Schedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/Schedule> <http://www.w3.org/2000/01/rdf-schema#comment> "A temporal organization of course-related events, activities, or milestones across the academic period."@en .
+<https://guia.org/Schedule> <http://www.w3.org/2000/01/rdf-schema#label> "Schedule"@en .
+# 
+# https://guia.org/ScheduleEvent
+<https://guia.org/ScheduleEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/ScheduleEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Event> .
+<https://schema.org/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/ScheduleEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A dated or timed element within a course schedule, such as a class session, deadline, exam, or planned activity."@en .
+<https://guia.org/ScheduleEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Schedule Event"@en .
+# 
+# https://guia.org/Syllabus
+<https://guia.org/Syllabus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/Syllabus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Syllabus> .
+<https://schema.org/Syllabus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/Syllabus> <http://www.w3.org/2000/01/rdf-schema#comment> "The structured outline of the course content, usually organized into thematic units, topics, or instructional blocks."@en .
+<https://guia.org/Syllabus> <http://www.w3.org/2000/01/rdf-schema#label> "Syllabus"@en .
+# 
+# https://guia.org/SyllabusItem
+<https://guia.org/SyllabusItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/SyllabusItem> <http://www.w3.org/2000/01/rdf-schema#comment> "A single element of a syllabus, representing a topic, unit, lesson, or other content component within the course structure."@en .
+<https://guia.org/SyllabusItem> <http://www.w3.org/2000/01/rdf-schema#label> "Syllabus Item"@en .
+# 
+# https://guia.org/UniversityCenter
+<https://guia.org/UniversityCenter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/UniversityCenter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Organization> .
+<https://schema.org/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://guia.org/UniversityCenter> <http://www.w3.org/2000/01/rdf-schema#description> "An organizational unit within a university where degree programmes are taught, such as a faculty, school, or institute responsible for academic delivery."@en .
+<https://guia.org/UniversityCenter> <http://www.w3.org/2000/01/rdf-schema#label> "University Center"@en .
+# 
+# https://schema.org/Course
+# 
+# https://schema.org/CourseInstance
+# 
+# https://schema.org/Event
+# 
+# https://schema.org/Organization
+# 
+# https://schema.org/Person
+# 
+# https://schema.org/Schedule
+# 
+# https://schema.org/Syllabus
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,1113 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://data.org/courseYear
+<http://data.org/courseYear> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/activityDescription
+<https://guia.org/activityDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/activityDuration
+<https://guia.org/activityDuration> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/activityDurationUnit
+<https://guia.org/activityDurationUnit> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/activityFormat
+<https://guia.org/activityFormat> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/bibliographyDescription
+<https://guia.org/bibliographyDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/bibliographyTitle
+<https://guia.org/bibliographyTitle> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/bibliographyType
+<https://guia.org/bibliographyType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/code
+<https://guia.org/code> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/courseType
+<https://guia.org/courseType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/description
+<https://guia.org/description> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/evaluationDescription
+<https://guia.org/evaluationDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/evaluationDuration
+<https://guia.org/evaluationDuration> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/evaluationType
+<https://guia.org/evaluationType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/eventIndex
+<https://guia.org/eventIndex> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/eventWeek
+<https://guia.org/eventWeek> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/gradePercentage
+<https://guia.org/gradePercentage> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasActivity
+<https://guia.org/hasActivity> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasCompetency
+<https://guia.org/hasCompetency> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasCourse
+<https://guia.org/hasCourse> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasDidacticResource
+<https://guia.org/hasDidacticResource> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasEvaluation
+<https://guia.org/hasEvaluation> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasEvaluationTrial
+<https://guia.org/hasEvaluationTrial> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasItem
+<https://guia.org/hasItem> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasLearningResult
+<https://guia.org/hasLearningResult> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasScheduleEvent
+<https://guia.org/hasScheduleEvent> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/inpersonHours
+<https://guia.org/inpersonHours> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/involvesCompentecy
+<https://guia.org/involvesCompentecy> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/itemIndex
+<https://guia.org/itemIndex> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/minimumScore
+<https://guia.org/minimumScore> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/numberOfCredits
+<https://guia.org/numberOfCredits> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/offers
+<https://guia.org/offers> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/otherInformation
+<https://guia.org/otherInformation> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/periodEndingMonth
+<https://guia.org/periodEndingMonth> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/periodStaringtMonth
+<https://guia.org/periodStaringtMonth> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/presencial
+<https://guia.org/presencial> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/previousCourses
+<https://guia.org/previousCourses> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/previousKnowledge
+<https://guia.org/previousKnowledge> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/semester
+<https://guia.org/semester> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/teachingPeriod
+<https://guia.org/teachingPeriod> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/teachingPeriodMonths
+<https://guia.org/teachingPeriodMonths> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/tecnic
+<https://guia.org/tecnic> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/tipo
+<https://guia.org/tipo> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/totalHours
+<https://guia.org/totalHours> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/trialDescription
+<https://guia.org/trialDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/trialType
+<https://guia.org/trialType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/trialWeek
+<https://guia.org/trialWeek> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/activitiesWorkload
+<https://schema.org/activitiesWorkload> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/courseCode
+<https://schema.org/courseCode> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/courseSchedule
+<https://schema.org/courseSchedule> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/description
+<https://schema.org/description> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/director
+<https://schema.org/director> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/email
+<https://schema.org/email> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/eventSchedule
+<https://schema.org/eventSchedule> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/hasCourseInstance
+<https://schema.org/hasCourseInstance> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/inLanguage
+<https://schema.org/inLanguage> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/instructor
+<https://schema.org/instructor> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/name
+<https://schema.org/name> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/numberOfCredits
+<https://schema.org/numberOfCredits> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#gYear
+xsd:gYear rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://guia.org/Activity
+<https://guia.org/Activity> rdf:type owl:Class .
+
+
+###  https://guia.org/ActivityType1
+<https://guia.org/ActivityType1> rdf:type owl:Class .
+
+
+###  https://guia.org/BachelorDegree
+<https://guia.org/BachelorDegree> rdf:type owl:Class .
+
+
+###  https://guia.org/Competency
+<https://guia.org/Competency> rdf:type owl:Class .
+
+
+###  https://guia.org/Course
+<https://guia.org/Course> rdf:type owl:Class .
+
+
+###  https://guia.org/CourseGuide
+<https://guia.org/CourseGuide> rdf:type owl:Class .
+
+
+###  https://guia.org/Degree
+<https://guia.org/Degree> rdf:type owl:Class .
+
+
+###  https://guia.org/DidacticResource
+<https://guia.org/DidacticResource> rdf:type owl:Class .
+
+
+###  https://guia.org/EvaluationActivity
+<https://guia.org/EvaluationActivity> rdf:type owl:Class .
+
+
+###  https://guia.org/EvaluationSystem
+<https://guia.org/EvaluationSystem> rdf:type owl:Class .
+
+
+###  https://guia.org/EvaluationTrial
+<https://guia.org/EvaluationTrial> rdf:type owl:Class .
+
+
+###  https://guia.org/LearningResult
+<https://guia.org/LearningResult> rdf:type owl:Class .
+
+
+###  https://guia.org/Lecturer
+<https://guia.org/Lecturer> rdf:type owl:Class .
+
+
+###  https://guia.org/RequiredKnowledge
+<https://guia.org/RequiredKnowledge> rdf:type owl:Class .
+
+
+###  https://guia.org/Schedule
+<https://guia.org/Schedule> rdf:type owl:Class .
+
+
+###  https://guia.org/ScheduleEvent
+<https://guia.org/ScheduleEvent> rdf:type owl:Class .
+
+
+###  https://guia.org/Syllabus
+<https://guia.org/Syllabus> rdf:type owl:Class .
+
+
+###  https://guia.org/SyllabusItem
+<https://guia.org/SyllabusItem> rdf:type owl:Class .
+
+
+###  https://guia.org/UniversityCenter
+<https://guia.org/UniversityCenter> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://data.org/CE09
+<http://data.org/CE09> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/code> "CE09" ;
+                       <https://guia.org/description> "Capacidad para describir los requisitos de seguridad de la información e implementar las medidas de seguridad informática necesarias para garantizar el acceso restringido y seguro a los datos y al conocimiento."@es .
+
+
+###  http://data.org/CG04
+<http://data.org/CG04> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/code> "CG04" ;
+                       <https://guia.org/description> "Capacidad para innovar y encontrar soluciones creativas en situaciones complejas o de incertidumbre en el ámbito de la ingeniería."@es .
+
+
+###  http://data.org/CG06
+<http://data.org/CG06> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/code> "CG06" ;
+                       <https://guia.org/description> "Identificar y utilizar las tecnologías de la información y las comunicaciones más adecuadas en el ámbito de la ingeniería."@es .
+
+
+###  http://data.org/RA82
+<http://data.org/RA82> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/LearningResult> ;
+                       <https://guia.org/code> "RA82" ;
+                       <https://guia.org/description> "Conocer y comprender la importancia de la seguridad para la empresa"@es .
+
+
+###  http://data.org/RA83
+<http://data.org/RA83> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/LearningResult> ;
+                       <https://guia.org/code> "RA83" ;
+                       <https://guia.org/description> "Arquitectura de Seguridad y de Red frente a incidencias y ataques."@es .
+
+
+###  http://data.org/RA85
+<http://data.org/RA85> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/LearningResult> ;
+                       <https://guia.org/code> "RA85" ;
+                       <https://guia.org/description> "Conocimiento actualizado de soluciones de seguridad para la Sociedad de la Información"@es .
+
+
+###  http://data.org/RA86
+<http://data.org/RA86> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/LearningResult> ;
+                       <https://guia.org/code> "RA86" ;
+                       <https://guia.org/description> "Fundamentos de criptografía y criptoanálisis"@es .
+
+
+###  http://data.org/RA87
+<http://data.org/RA87> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/LearningResult> ;
+                       <https://guia.org/code> "RA87" ;
+                       <https://guia.org/description> "Conocer, comprender y saber utilizar servicios criptográficos para la obtención de seguridad"@es .
+
+
+###  http://data.org/RA88
+<http://data.org/RA88> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/LearningResult> ;
+                       <https://guia.org/code> "RA88" ;
+                       <https://guia.org/description> "Seguridad de los Datos de carácter Personal"@es .
+
+
+###  http://data.org/615001021
+<http://data.org/615001021> rdf:type owl:NamedIndividual ,
+                                     <https://guia.org/Course> ;
+                            <http://data.org/courseYear> 2 ;
+                            <https://guia.org/courseType> "Obligatoria"@es ;
+                            <https://guia.org/semester> "Cuarto semestre"@es ;
+                            <https://schema.org/courseCode> 615001021 ;
+                            <https://schema.org/hasCourseInstance> <http://data.org/615001021/2025-26> ;
+                            <https://schema.org/name> "Information Technology Security"@en ,
+                                                      "Seguridad de las Tecnologías de la Información"@es ;
+                            <https://schema.org/numberOfCredits> 6.0 .
+
+
+###  http://data.org/615001021/2025-26
+<http://data.org/615001021/2025-26> rdf:type owl:NamedIndividual ,
+                                             <https://guia.org/CourseGuide> ;
+                                    <https://guia.org/hasCompetency> <http://data.org/CE09> ,
+                                                                     <http://data.org/CG04> ,
+                                                                     <http://data.org/CG06> ;
+                                    <https://guia.org/hasDidacticResource> <http://data.org/615001021/2025-26/didactic_resource/1> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/10> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/11> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/12> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/13> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/14> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/15> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/2> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/3> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/4> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/5> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/6> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/7> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/8> ,
+                                                                           <http://data.org/615001021/2025-26/didactic_resource/9> ;
+                                    <https://guia.org/hasEvaluation> <http://data.org/615001021/2025-26/evaluation> ;
+                                    <https://guia.org/hasLearningResult> <http://data.org/RA82> ,
+                                                                         <http://data.org/RA83> ,
+                                                                         <http://data.org/RA85> ,
+                                                                         <http://data.org/RA86> ,
+                                                                         <http://data.org/RA87> ,
+                                                                         <http://data.org/RA88> ;
+                                    <https://guia.org/inpersonHours> "57 horas (36.5%)"@es ;
+                                    <https://guia.org/numberOfCredits> 6.0 ;
+                                    <https://guia.org/otherInformation> """La asistencia a clase no es obligatoria y el comportamiento en aula debe ser respetuoso y correcto con las otras personas.
+Se debe colaborar en el adecuado desarrollo de las clases y las demás actividades formativas del curso.
+Antes de acudir a una tutoría, se debe solicitar cita para ello con el profesorado mediante un correo electrónico indicando tal interés.
+El profesorado de la asignatura se reserva la potestad de dividir o reunir grupos para el desarrollo de temas específicos si el desarrollo del temario y sus actividades asociadas así lo aconsejan.
+Si el desarrollo de la asignatura así lo requiriese o aconsejase, el profesorado de reserva la potestad de cambiar el orden en el que se exponen y desarrollan los distintos bloques que constituyen el temario de la asignatura.
+Para el correcto desarrollo de esta asignatura, se debe utilizar la plataforma Moodle en la que el estudiantado está registrado automáticamente como consecuencia de su matrícula en ella.
+Está prohibido el plagio tanto en las memorias, como en los códigos o en el software que se desarrolle. En todos los casos se debe indicar explícitamente y con detalle de dónde han salido y cuál es el origen de los materiales utilizados.
+Está prohibida la mera traducción de artículos académicos o de cualquier otra índole. El uso de traductores automáticos está completamente prohibido.
+Las incorrecciones sintácticas, ortográficas y semánticas del lenguaje utilizado podrán ser penalizadas.
+Cualquier sospecha sobre la autoría de un examen, un ejercicio individual o una práctica, llevará inexorablemente al Examen Oral de la asignatura y parte del cuál será la defensa de lo expuesto en su entrega (examen, memoria, código, ejecutables, etc.)."""@es ;
+                                    <https://guia.org/periodEndingMonth> "Junio"@es ;
+                                    <https://guia.org/periodStaringtMonth> "Febrero"@es ;
+                                    <https://guia.org/teachingPeriod> "2025-26"^^xsd:gYear ;
+                                    <https://guia.org/teachingPeriodMonths> "Febrero-Junio"@es ;
+                                    <https://guia.org/totalHours> "57 horas"@es ;
+                                    <https://schema.org/activitiesWorkload> "100%"@es ;
+                                    <https://schema.org/courseSchedule> <http://data.org/615001021/2025-26/eventSchedule> ;
+                                    <https://schema.org/description> """El objetivo de esta asignatura es comprender el papel central que tienen los algoritmos y las estructuras de datos en la seguridad de los sistemas informáticos. Con ella se pretende que el estudiantado adquiera destrezas fundamentales en el uso, programación e implementación de algoritmos y sistemas que proporcionen seguridad a las TIC. Para ello se deberán aplicar conocimientos e intuición en el diseño de soluciones válidas según requisitos de seguridad especificados.
+El objetivo global es que se pueda llegar a diseñar, desarrollar y evaluar la Seguridad de sistemas, aplicaciones y servicios informáticos de todo tipo. Los conocimientos adquiridos siempre apuntaran al desarrollo, despliegue, organización y gestión de servicios informáticos en contextos empresariales que realmente puedan mejorar los procesos de negocio. En esta asignatura se favorecerá la capacidad en la resolución de problemas de seguridad recurriendo a los conocimientos que sean necesarios (matemáticas, ciencias, ingeniería, etc.).
+Al final, el alumnado conocerá y comprenderá la importancia que tiene la seguridad informática para las Administraciones y Empresas, será capaz de identificar riesgos y posibles ataques. Para ello conocerá, comprenderá y sabrá utilizar servicios criptográficos para proporcionar seguridad TIC y conocerá algunas soluciones de seguridad que están disponibles y son válidas para la protección de la Sociedad de la Información."""@es ;
+                                    <https://schema.org/director> <http://data.org/g.scarpa%40upm.es> ;
+                                    <https://schema.org/inLanguage> "Castellano"@es ;
+                                    <https://schema.org/instructor> <http://data.org/g.scarpa%40upm.es> .
+
+
+###  http://data.org/615001021/2025-26/evaluation
+<http://data.org/615001021/2025-26/evaluation> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/EvaluationSystem> ;
+                                               <https://guia.org/evaluationDescription> """La evaluación consiste en un examen en el que el/la estudiante deberá responder correctamente y por escrito a las preguntas y enunciados que se le planteen.
+En el caso de no aprobarse la asignatura y tener que concurrir al examen de la Convocatoria Extraordinaria, el/la alumno/a tendrá que volver a examinarse de todo el temario. No se guardan resultados entre convocatorias.
+El criterio de evaluación es la correcta respuesta a las preguntas planteadas, así como correcta satisfacción de los objetivos marcados en cualquier ejercicio práctico individual que se le plantee."""@es ;
+                                               <https://guia.org/hasEvaluationTrial> <http://data.org/615001021/2025-26/evaluation/trial1> ,
+                                                                                     <http://data.org/615001021/2025-26/evaluation/trial2> ,
+                                                                                     <http://data.org/615001021/2025-26/evaluation/trial3> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule
+<http://data.org/615001021/2025-26/eventSchedule> rdf:type owl:NamedIndividual ,
+                                                           <https://guia.org/Schedule> ;
+                                                  <https://schema.org/eventSchedule> <http://data.org/615001021/2025-26/eventSchedule/1> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/10> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/11> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/12> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/13> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/14> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/15> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/16> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/17> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/2> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/3> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/4> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/5> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/6> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/7> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/8> ,
+                                                                                     <http://data.org/615001021/2025-26/eventSchedule/9> .
+
+
+###  http://data.org/615001021/2025-26/previous_courses
+<http://data.org/615001021/2025-26/previous_courses> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/RequiredKnowledge> ;
+                                                     <https://guia.org/previousCourses> "El plan de estudios Grado En Ciencia De Datos E Inteligencia Artificial no tiene definidos otros requisitos para esta asignatura."@es ;
+                                                     <https://guia.org/previousKnowledge> "El coordinador de la asignatura no ha definido otros conocimientos previos recomendados."@es .
+
+
+###  http://data.org/615001021/2025-26/syllabus
+<http://data.org/615001021/2025-26/syllabus> rdf:type owl:NamedIndividual ,
+                                                      <https://guia.org/Syllabus> ;
+                                             <https://guia.org/hasItem> <http://data.org/615001021/2025-26/syllabus/0> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/1> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/10> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/11> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/12> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/13> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/14> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/2> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/3> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/4> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/5> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/6> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/7> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/8> ,
+                                                                        <http://data.org/615001021/2025-26/syllabus/9> .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/1
+<http://data.org/615001021/2025-26/didactic_resource/1> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> "5th Edition, William Stallings (Author) ISBN-10: 0136097049 ISBN-13: 978-0136097044"@es ;
+                                                        <https://guia.org/bibliographyTitle> "Cryptography and Network Security. Principles and Practice."@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/10
+<http://data.org/615001021/2025-26/didactic_resource/10> rdf:type owl:NamedIndividual ,
+                                                                  <https://guia.org/DidacticResource> ;
+                                                         <https://guia.org/bibliographyDescription> "(4ª ed.). Charles P. Pfleeger y Shari Lawrence Pfleeger. Prentice Hall (2006) ISBN-10: 0132390779, ISBN-13: 978-0132390774"@es ;
+                                                         <https://guia.org/bibliographyTitle> "Security in Computing"@es ;
+                                                         <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/11
+<http://data.org/615001021/2025-26/didactic_resource/11> rdf:type owl:NamedIndividual ,
+                                                                  <https://guia.org/DidacticResource> ;
+                                                         <https://guia.org/bibliographyDescription> "(2ª ed). Charlie Kaufman, Radia Perlman y Mike Speciner. Prentice Hall (2002) ISBN-10: 0130460192, ISBN-13: 978-0130460196"@es ;
+                                                         <https://guia.org/bibliographyTitle> "Network Security: Private Communication in a Public World"@es ;
+                                                         <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/12
+<http://data.org/615001021/2025-26/didactic_resource/12> rdf:type owl:NamedIndividual ,
+                                                                  <https://guia.org/DidacticResource> ;
+                                                         <https://guia.org/bibliographyDescription> "(2ª ed.) Rick Lehtinen y G.T. Gangemi. O'Reilly Media, Inc. (2006) ISBN-10: 0596006691, ISBN-13: 978-0596006693"@es ;
+                                                         <https://guia.org/bibliographyTitle> "Computer Security Basics"@es ;
+                                                         <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/13
+<http://data.org/615001021/2025-26/didactic_resource/13> rdf:type owl:NamedIndividual ,
+                                                                  <https://guia.org/DidacticResource> ;
+                                                         <https://guia.org/bibliographyDescription> "(2ª ed.). Dieter Gollmann. Wiley (2006) ISBN-10: 0470862939, ISBN-13: 978-0470862933"@es ;
+                                                         <https://guia.org/bibliographyTitle> "Computer Security"@es ;
+                                                         <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/14
+<http://data.org/615001021/2025-26/didactic_resource/14> rdf:type owl:NamedIndividual ,
+                                                                  <https://guia.org/DidacticResource> ;
+                                                         <https://guia.org/bibliographyDescription> "Matt Bishop. Addison-Wesley Professional (November 5, 2004) ISBN-10: 0321247442, ISBN-13: 978-0321247445"@es ;
+                                                         <https://guia.org/bibliographyTitle> "Introduction to Computer Security."@es ;
+                                                         <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/15
+<http://data.org/615001021/2025-26/didactic_resource/15> rdf:type owl:NamedIndividual ,
+                                                                  <https://guia.org/DidacticResource> ;
+                                                         <https://guia.org/bibliographyDescription> "Josef Pieprzyk, Thomas Hardjono, Jennifer Seberry ISBN: 3540431012, ISBN-13: 9783540431015, 978-3540431015. Springer 2003"@es ;
+                                                         <https://guia.org/bibliographyTitle> "Fundamentals Of Computer Security"@es ;
+                                                         <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/2
+<http://data.org/615001021/2025-26/didactic_resource/2> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> "2nd Edition, Bruce Schneier (Author) ISBN-10: 0471117099 ISBN-13: 978-0471117094"@es ;
+                                                        <https://guia.org/bibliographyTitle> "Applied Cryptography. Protocols, Algorithms, and Source Code in C"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/3
+<http://data.org/615001021/2025-26/didactic_resource/3> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> "Niels Ferguson (Author), Bruce Schneier (Author) ISBN-10: 0471223573 ISBN-13: 978-0471223573"@es ;
+                                                        <https://guia.org/bibliographyTitle> "Practical Cryptography"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/4
+<http://data.org/615001021/2025-26/didactic_resource/4> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> "Alfred Menezes, Paul van Oorschot y Scott Vanstone (Editores) ISBN-10: 0849385237 ISBN-13: 978-0849385230"@es ;
+                                                        <https://guia.org/bibliographyTitle> "Handbook of Applied Cryptography. Discrete Mathematics and Its Applications"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/5
+<http://data.org/615001021/2025-26/didactic_resource/5> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> "Tom St Denis (Author) ISBN-10: 1597491047 ISBN-13: 978-1597491044"@es ;
+                                                        <https://guia.org/bibliographyTitle> "Cryptography for Developers"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/6
+<http://data.org/615001021/2025-26/didactic_resource/6> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> "Tom St Denis (Author) ISBN-10: 1597491128 ISBN-13: 978-1597491129"@es ;
+                                                        <https://guia.org/bibliographyTitle> "BigNum Math: Implementing Cryptographic Multiple Precision Arithmetic."@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/7
+<http://data.org/615001021/2025-26/didactic_resource/7> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> "Fred B. Wrixon (Author) ISBN-10: 1579124852 ISBN-13: 978-1579124854"@es ;
+                                                        <https://guia.org/bibliographyTitle> "Codes, Ciphers, Secrets and Cryptic Communication. Making and Breaking Secret Messages from Hieroglyphs to the Internet,"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/8
+<http://data.org/615001021/2025-26/didactic_resource/8> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> "Simon Singh (Author) ISBN-10: 0385495323 ISBN-13: 978-0385495325"@es ;
+                                                        <https://guia.org/bibliographyTitle> "The Code Book. The Science of Secrecy from Ancient Egypt to Quantum Cryptography,"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/didactic_resource/9
+<http://data.org/615001021/2025-26/didactic_resource/9> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> "David Kahn (Author) ISBN-10: 0684831309 ISBN-13: 978-0684831305"@es ;
+                                                        <https://guia.org/bibliographyTitle> "The Codebreakers: The Comprehensive History of Secret Communication from Ancient Times to the Internet,"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001021/2025-26/evaluation/trial1
+<http://data.org/615001021/2025-26/evaluation/trial1> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "01:00"@es ;
+                                                      <https://guia.org/evaluationType> "progresiva"@es ;
+                                                      <https://guia.org/gradePercentage> "100%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001021/2025-26/eventSchedule/17> ;
+                                                      <https://guia.org/involvesCompentecy> <http://data.org/CE09> ,
+                                                                                            <http://data.org/CG04> ,
+                                                                                            <http://data.org/CG06> ;
+                                                      <https://guia.org/minimumScore> "0 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Examen de toda la asignatura"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "17"@es .
+
+
+###  http://data.org/615001021/2025-26/evaluation/trial2
+<http://data.org/615001021/2025-26/evaluation/trial2> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "01:00"@es ;
+                                                      <https://guia.org/evaluationType> "global"@es ;
+                                                      <https://guia.org/gradePercentage> "100%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001021/2025-26/eventSchedule/17> ;
+                                                      <https://guia.org/involvesCompentecy> <http://data.org/CE09> ,
+                                                                                            <http://data.org/CG04> ,
+                                                                                            <http://data.org/CG06> ;
+                                                      <https://guia.org/minimumScore> "0 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Examen de toda la asignatura"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "17"@es .
+
+
+###  http://data.org/615001021/2025-26/evaluation/trial3
+<http://data.org/615001021/2025-26/evaluation/trial3> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "01:00"@es ;
+                                                      <https://guia.org/evaluationType> "extraordinaria"@es ;
+                                                      <https://guia.org/gradePercentage> "100%"@es ;
+                                                      <https://guia.org/involvesCompentecy> <http://data.org/CE09> ,
+                                                                                            <http://data.org/CG04> ,
+                                                                                            <http://data.org/CG06> ;
+                                                      <https://guia.org/minimumScore> "0 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Examen de toda la asignatura"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/1
+<http://data.org/615001021/2025-26/eventSchedule/1> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 1 ;
+                                                    <https://guia.org/eventWeek> "Semana 1"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/1/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/1/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/1/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/10
+<http://data.org/615001021/2025-26/eventSchedule/10> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 10 ;
+                                                     <https://guia.org/eventWeek> "Semana 10"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/10/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/10/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/10/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                               <https://guia.org/activityDuration> "04:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/11
+<http://data.org/615001021/2025-26/eventSchedule/11> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 11 ;
+                                                     <https://guia.org/eventWeek> "Semana 11"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/11/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/11/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/11/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                               <https://guia.org/activityDuration> "04:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/12
+<http://data.org/615001021/2025-26/eventSchedule/12> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 12 ;
+                                                     <https://guia.org/eventWeek> "Semana 12"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/12/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/12/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/12/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                               <https://guia.org/activityDuration> "04:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/13
+<http://data.org/615001021/2025-26/eventSchedule/13> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 13 ;
+                                                     <https://guia.org/eventWeek> "Semana 13"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/13/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/13/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/13/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                               <https://guia.org/activityDuration> "04:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/14
+<http://data.org/615001021/2025-26/eventSchedule/14> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 14 ;
+                                                     <https://guia.org/eventWeek> "Semana 14"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/14/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/14/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/14/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                               <https://guia.org/activityDuration> "04:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/15
+<http://data.org/615001021/2025-26/eventSchedule/15> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 15 ;
+                                                     <https://guia.org/eventWeek> "Semana 15"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/15/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/15/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/15/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                               <https://guia.org/activityDuration> "04:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/16
+<http://data.org/615001021/2025-26/eventSchedule/16> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 16 ;
+                                                     <https://guia.org/eventWeek> "Semana 16"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/17
+<http://data.org/615001021/2025-26/eventSchedule/17> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 17 ;
+                                                     <https://guia.org/eventWeek> "Semana 17"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/17/activity/TEvaluationActivity/1
+<http://data.org/615001021/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> rdf:type owl:NamedIndividual ,
+                                                                                             <https://guia.org/Activity> ,
+                                                                                             <https://guia.org/EvaluationActivity> ;
+                                                                                    <https://guia.org/activityDescription> "Examen de toda la asignatura"@es ;
+                                                                                    <https://guia.org/activityDuration> "01:00" ;
+                                                                                    <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                                    <https://guia.org/presencial> "Presencial"@es ;
+                                                                                    <https://guia.org/tecnic> "EX: Técnica del tipo Examen Escrito"@es ;
+                                                                                    <https://guia.org/tipo> "Evaluación Progresiva y Global"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/2
+<http://data.org/615001021/2025-26/eventSchedule/2> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 2 ;
+                                                    <https://guia.org/eventWeek> "Semana 2"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/2/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/2/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/2/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/3
+<http://data.org/615001021/2025-26/eventSchedule/3> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 3 ;
+                                                    <https://guia.org/eventWeek> "Semana 3"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/3/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/3/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/3/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/4
+<http://data.org/615001021/2025-26/eventSchedule/4> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 4 ;
+                                                    <https://guia.org/eventWeek> "Semana 4"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/4/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/4/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/4/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/5
+<http://data.org/615001021/2025-26/eventSchedule/5> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 5 ;
+                                                    <https://guia.org/eventWeek> "Semana 5"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/5/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/5/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/5/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/6
+<http://data.org/615001021/2025-26/eventSchedule/6> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 6 ;
+                                                    <https://guia.org/eventWeek> "Semana 6"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/6/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/6/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/6/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/7
+<http://data.org/615001021/2025-26/eventSchedule/7> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 7 ;
+                                                    <https://guia.org/eventWeek> "Semana 7"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/8
+<http://data.org/615001021/2025-26/eventSchedule/8> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 8 ;
+                                                    <https://guia.org/eventWeek> "Semana 8"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/8/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/8/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/8/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/9
+<http://data.org/615001021/2025-26/eventSchedule/9> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 9 ;
+                                                    <https://guia.org/eventWeek> "Semana 9"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001021/2025-26/eventSchedule/9/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001021/2025-26/eventSchedule/9/activity/TActivityType1/1
+<http://data.org/615001021/2025-26/eventSchedule/9/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clases de teoría"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001021/2025-26/syllabus/0
+<http://data.org/615001021/2025-26/syllabus/0> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/description> "1. Soluciones Criptográficas"@es ;
+                                               <https://guia.org/itemIndex> 0 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/1
+<http://data.org/615001021/2025-26/syllabus/1> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/description> "1.1. Metodos de Sustitución Sin subniveles"@es ;
+                                               <https://guia.org/itemIndex> 1 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/10
+<http://data.org/615001021/2025-26/syllabus/10> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/description> "5. Código Malicioso y medidas en contra Sin subniveles"@es ;
+                                                <https://guia.org/itemIndex> 10 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/11
+<http://data.org/615001021/2025-26/syllabus/11> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/description> "6. Uso de bibliotecas criptográficas (Open SSL, GnuPG, etc.) y otros programas"@es ;
+                                                <https://guia.org/itemIndex> 11 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/12
+<http://data.org/615001021/2025-26/syllabus/12> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/description> "6.1. Confidencialidad y cifrado Sin subniveles"@es ;
+                                                <https://guia.org/itemIndex> 12 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/13
+<http://data.org/615001021/2025-26/syllabus/13> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/description> "6.2. Integridad Sin subniveles"@es ;
+                                                <https://guia.org/itemIndex> 13 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/14
+<http://data.org/615001021/2025-26/syllabus/14> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/description> "6.3. Identidad y Autenticación Sin subniveles"@es ;
+                                                <https://guia.org/itemIndex> 14 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/2
+<http://data.org/615001021/2025-26/syllabus/2> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/description> "1.2. Métodos de Transposición Sin subniveles"@es ;
+                                               <https://guia.org/itemIndex> 2 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/3
+<http://data.org/615001021/2025-26/syllabus/3> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/description> "1.3. Máquinas de Cifrado Sin subniveles"@es ;
+                                               <https://guia.org/itemIndex> 3 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/4
+<http://data.org/615001021/2025-26/syllabus/4> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/description> "2. Criptoanálisis Clásico Sin subniveles"@es ;
+                                               <https://guia.org/itemIndex> 4 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/5
+<http://data.org/615001021/2025-26/syllabus/5> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/description> "3. Algoritmos de Cifrado Actuales"@es ;
+                                               <https://guia.org/itemIndex> 5 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/6
+<http://data.org/615001021/2025-26/syllabus/6> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/description> "3.1. Cifradores Simétricos Sin subniveles"@es ;
+                                               <https://guia.org/itemIndex> 6 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/7
+<http://data.org/615001021/2025-26/syllabus/7> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/description> "3.2. Funciones Hash Sin subniveles"@es ;
+                                               <https://guia.org/itemIndex> 7 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/8
+<http://data.org/615001021/2025-26/syllabus/8> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/description> "3.3. Cifradores Asimétricos Sin subniveles"@es ;
+                                               <https://guia.org/itemIndex> 8 .
+
+
+###  http://data.org/615001021/2025-26/syllabus/9
+<http://data.org/615001021/2025-26/syllabus/9> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/description> "4. Control de Accesos y Autenticación Sin subniveles"@es ;
+                                               <https://guia.org/itemIndex> 9 .
+
+
+###  http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial
+<http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial> rdf:type owl:NamedIndividual ,
+                                                                                                        <https://guia.org/BachelorDegree> ,
+                                                                                                        <https://guia.org/Degree> ;
+                                                                                               <https://guia.org/hasCourse> <http://data.org/615001021> ;
+                                                                                               <https://schema.org/name> "61CD - Grado en Ciencia de Datos e Inteligencia Artificial"@es .
+
+
+###  http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos
+<http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos> rdf:type owl:NamedIndividual ,
+                                                                                 <https://guia.org/UniversityCenter> ;
+                                                                        <https://guia.org/offers> <http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial> ;
+                                                                        <https://schema.org/name> "E.T.S De Ing. De Sistemas Informáticos" .
+
+
+###  http://data.org/g.scarpa%40upm.es
+<http://data.org/g.scarpa%40upm.es> rdf:type owl:NamedIndividual ,
+                                             <https://guia.org/Lecturer> ;
+                                    <https://schema.org/email> "g.scarpa@upm.es" ;
+                                    <https://schema.org/name> "Scarpa, Giannicola" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
