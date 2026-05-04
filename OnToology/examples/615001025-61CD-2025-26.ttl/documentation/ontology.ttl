@@ -1,0 +1,1426 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://data.org/courseYear
+<http://data.org/courseYear> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/activityDescription
+<https://guia.org/activityDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/activityDuration
+<https://guia.org/activityDuration> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/activityDurationUnit
+<https://guia.org/activityDurationUnit> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/activityFormat
+<https://guia.org/activityFormat> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/attendanceType
+<https://guia.org/attendanceType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/bibliographyDescription
+<https://guia.org/bibliographyDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/bibliographyTitle
+<https://guia.org/bibliographyTitle> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/bibliographyType
+<https://guia.org/bibliographyType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/competencyCode
+<https://guia.org/competencyCode> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/competencyDescription
+<https://guia.org/competencyDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/courseType
+<https://guia.org/courseType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/evaluationDescription
+<https://guia.org/evaluationDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/evaluationDuration
+<https://guia.org/evaluationDuration> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/evaluationType
+<https://guia.org/evaluationType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/eventIndex
+<https://guia.org/eventIndex> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/eventWeek
+<https://guia.org/eventWeek> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/gradePercentage
+<https://guia.org/gradePercentage> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasActivity
+<https://guia.org/hasActivity> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasCompetency
+<https://guia.org/hasCompetency> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasCourse
+<https://guia.org/hasCourse> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasDidacticResource
+<https://guia.org/hasDidacticResource> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasEvaluation
+<https://guia.org/hasEvaluation> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasEvaluationTrial
+<https://guia.org/hasEvaluationTrial> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasItem
+<https://guia.org/hasItem> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasLearningResult
+<https://guia.org/hasLearningResult> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasScheduleEvent
+<https://guia.org/hasScheduleEvent> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/inpersonHours
+<https://guia.org/inpersonHours> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/involvesCompetency
+<https://guia.org/involvesCompetency> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/itemIndex
+<https://guia.org/itemIndex> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/learningResultCode
+<https://guia.org/learningResultCode> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/learningResultDescription
+<https://guia.org/learningResultDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/minimumScore
+<https://guia.org/minimumScore> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/numberOfCredits
+<https://guia.org/numberOfCredits> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/offers
+<https://guia.org/offers> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/office
+<https://guia.org/office> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/otherInformation
+<https://guia.org/otherInformation> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/periodEndingMonth
+<https://guia.org/periodEndingMonth> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/periodStaringtMonth
+<https://guia.org/periodStaringtMonth> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/previousCourses
+<https://guia.org/previousCourses> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/previousKnowledge
+<https://guia.org/previousKnowledge> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/semester
+<https://guia.org/semester> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/syllabusDescription
+<https://guia.org/syllabusDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/teachingPeriod
+<https://guia.org/teachingPeriod> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/teachingPeriodMonths
+<https://guia.org/teachingPeriodMonths> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/tecnic
+<https://guia.org/tecnic> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/totalHours
+<https://guia.org/totalHours> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/trialDescription
+<https://guia.org/trialDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/trialType
+<https://guia.org/trialType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/trialWeek
+<https://guia.org/trialWeek> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/tutorshipsSchedule
+<https://guia.org/tutorshipsSchedule> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/activitiesWorkload
+<https://schema.org/activitiesWorkload> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/courseCode
+<https://schema.org/courseCode> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/courseSchedule
+<https://schema.org/courseSchedule> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/description
+<https://schema.org/description> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/director
+<https://schema.org/director> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/email
+<https://schema.org/email> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/eventSchedule
+<https://schema.org/eventSchedule> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/hasCourseInstance
+<https://schema.org/hasCourseInstance> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/inLanguage
+<https://schema.org/inLanguage> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/instructor
+<https://schema.org/instructor> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/name
+<https://schema.org/name> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/numberOfCredits
+<https://schema.org/numberOfCredits> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#gYear
+xsd:gYear rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://guia.org/Activity
+<https://guia.org/Activity> rdf:type owl:Class .
+
+
+###  https://guia.org/ActivityType1
+<https://guia.org/ActivityType1> rdf:type owl:Class .
+
+
+###  https://guia.org/ActivityType2
+<https://guia.org/ActivityType2> rdf:type owl:Class .
+
+
+###  https://guia.org/BachelorDegree
+<https://guia.org/BachelorDegree> rdf:type owl:Class .
+
+
+###  https://guia.org/Competency
+<https://guia.org/Competency> rdf:type owl:Class .
+
+
+###  https://guia.org/Course
+<https://guia.org/Course> rdf:type owl:Class .
+
+
+###  https://guia.org/CourseGuide
+<https://guia.org/CourseGuide> rdf:type owl:Class .
+
+
+###  https://guia.org/Degree
+<https://guia.org/Degree> rdf:type owl:Class .
+
+
+###  https://guia.org/DidacticResource
+<https://guia.org/DidacticResource> rdf:type owl:Class .
+
+
+###  https://guia.org/EvaluationActivity
+<https://guia.org/EvaluationActivity> rdf:type owl:Class .
+
+
+###  https://guia.org/EvaluationSystem
+<https://guia.org/EvaluationSystem> rdf:type owl:Class .
+
+
+###  https://guia.org/EvaluationTrial
+<https://guia.org/EvaluationTrial> rdf:type owl:Class .
+
+
+###  https://guia.org/LearningResult
+<https://guia.org/LearningResult> rdf:type owl:Class .
+
+
+###  https://guia.org/Lecturer
+<https://guia.org/Lecturer> rdf:type owl:Class .
+
+
+###  https://guia.org/RequiredKnowledge
+<https://guia.org/RequiredKnowledge> rdf:type owl:Class .
+
+
+###  https://guia.org/Schedule
+<https://guia.org/Schedule> rdf:type owl:Class .
+
+
+###  https://guia.org/ScheduleEvent
+<https://guia.org/ScheduleEvent> rdf:type owl:Class .
+
+
+###  https://guia.org/Syllabus
+<https://guia.org/Syllabus> rdf:type owl:Class .
+
+
+###  https://guia.org/SyllabusItem
+<https://guia.org/SyllabusItem> rdf:type owl:Class .
+
+
+###  https://guia.org/UniversityCenter
+<https://guia.org/UniversityCenter> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://data.org/CB04
+<http://data.org/CB04> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CB04" ;
+                       <https://guia.org/competencyDescription> "Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado"@es .
+
+
+###  http://data.org/CB05
+<http://data.org/CB05> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CB05" ;
+                       <https://guia.org/competencyDescription> "Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores con un alto grado de autonomía"@es .
+
+
+###  http://data.org/CE06
+<http://data.org/CE06> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CE06" ;
+                       <https://guia.org/competencyDescription> "Capacidad para describir los fundamentos de las infraestructuras de gestión e intercambio de datos: hardware, sistemas operativos, bases de datos, redes de computadores."@es .
+
+
+###  http://data.org/CG06
+<http://data.org/CG06> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CG06" ;
+                       <https://guia.org/competencyDescription> "Identificar y utilizar las tecnologías de la información y las comunicaciones más adecuadas en el ámbito de la ingeniería."@es .
+
+
+###  http://data.org/RA178
+<http://data.org/RA178> rdf:type owl:NamedIndividual ,
+                                 <https://guia.org/LearningResult> ;
+                        <https://guia.org/learningResultCode> "RA178" ;
+                        <https://guia.org/learningResultDescription> "RA"@es .
+
+
+###  http://data.org/615001025
+<http://data.org/615001025> rdf:type owl:NamedIndividual ,
+                                     <https://guia.org/Course> ;
+                            <http://data.org/courseYear> 3 ;
+                            <https://guia.org/courseType> "Obligatoria"@es ;
+                            <https://guia.org/semester> "Quinto semestre"@es ;
+                            <https://schema.org/courseCode> 615001025 ;
+                            <https://schema.org/hasCourseInstance> <http://data.org/615001025/2025-26> ;
+                            <https://schema.org/name> "Cloud Services"@en ,
+                                                      "Infraestructuras y Servicios Cloud"@es ;
+                            <https://schema.org/numberOfCredits> 6.0 .
+
+
+###  http://data.org/615001025/2025-26
+<http://data.org/615001025/2025-26> rdf:type owl:NamedIndividual ,
+                                             <https://guia.org/CourseGuide> ;
+                                    <https://guia.org/hasCompetency> <http://data.org/CB04> ,
+                                                                     <http://data.org/CB05> ,
+                                                                     <http://data.org/CE06> ,
+                                                                     <http://data.org/CG06> ;
+                                    <https://guia.org/hasDidacticResource> <http://data.org/615001025/2025-26/didactic_resource/1> ,
+                                                                           <http://data.org/615001025/2025-26/didactic_resource/10> ,
+                                                                           <http://data.org/615001025/2025-26/didactic_resource/11> ,
+                                                                           <http://data.org/615001025/2025-26/didactic_resource/2> ,
+                                                                           <http://data.org/615001025/2025-26/didactic_resource/3> ,
+                                                                           <http://data.org/615001025/2025-26/didactic_resource/4> ,
+                                                                           <http://data.org/615001025/2025-26/didactic_resource/5> ,
+                                                                           <http://data.org/615001025/2025-26/didactic_resource/6> ,
+                                                                           <http://data.org/615001025/2025-26/didactic_resource/7> ,
+                                                                           <http://data.org/615001025/2025-26/didactic_resource/8> ,
+                                                                           <http://data.org/615001025/2025-26/didactic_resource/9> ;
+                                    <https://guia.org/hasEvaluation> <http://data.org/615001025/2025-26/evaluation> ;
+                                    <https://guia.org/hasLearningResult> <http://data.org/RA178> ;
+                                    <https://guia.org/inpersonHours> "65 horas (41.7%)"@es ;
+                                    <https://guia.org/numberOfCredits> 6.0 ;
+                                    <https://guia.org/otherInformation> "Aclaración al cronograma: Para cada actividad se especifica la dedicación en horas que implica para el estudiante. Esta distribución de esfuerzos debe entenderse para el \"estudiante medio\", por lo que si bien puede servir de orientación, no debe tomarse en ningún caso en sentido estricto a la hora de planificar su trabajo. Cada estudiante deberá hacer su propia planificación para alcanzar los resultados de aprendizaje descritos en esta Guía y ajustar dicha planificación en un proceso iterativo en función de los resultados intermedios que vaya obteniendo."@es ;
+                                    <https://guia.org/periodEndingMonth> "Enero"@es ;
+                                    <https://guia.org/periodStaringtMonth> "Septiembre"@es ;
+                                    <https://guia.org/teachingPeriod> "2025-26"^^xsd:gYear ;
+                                    <https://guia.org/teachingPeriodMonths> "Septiembre-Enero"@es ;
+                                    <https://guia.org/totalHours> "65 horas"@es ;
+                                    <https://schema.org/activitiesWorkload> "100%"@es ;
+                                    <https://schema.org/courseSchedule> <http://data.org/615001025/2025-26/eventSchedule> ;
+                                    <https://schema.org/description> """El objetivo de esta asignatura es capacitar a los alumnos en el despliegue de sus proyectos en infraestructuras cloud y enseñarles a diseñar servicios ligeros desplegables en cloud como alternativa al desarrollo tradicional de servicios.
+En el segundo tema, los estudiantes conocerán la arquitectura de una infraestructura cloud pública, sus servicios de infraestructura (computación, almacenamiento, redes) y sus principales servicios para aplicaciones, para finalmente aprender a desplegar aplicaciones sobre dicha infraestructura.
+En el tercer tema, los estudiantes conocerán el uso de contenedores para el despliegue de servicios como alternativa ligera al uso de máquinas virtuales, para finalmente aprender a desplegar aplicaciones contenerizadas en la nube.
+En los dos siguientes temas, los estudiantes aprenderán a diseñar microservicios y aplicaciones sin infraestructura (serverless) y a desplegarlos en una infraestructura en la nube."""@es ;
+                                    <https://schema.org/director> <http://data.org/franciscojavier.gil%40upm.es> ;
+                                    <https://schema.org/inLanguage> "Castellano"@es ;
+                                    <https://schema.org/instructor> <http://data.org/franciscojavier.gil%40upm.es> ,
+                                                                    <http://data.org/juanmanuel.castelo%40upm.es> .
+
+
+###  http://data.org/615001025/2025-26/evaluation
+<http://data.org/615001025/2025-26/evaluation> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/EvaluationSystem> ;
+                                               <https://guia.org/evaluationDescription> """Sistema de evaluación progresiva
+La asignatura está organizada en cinco temas. Durante el desarrollo de cada tema se realizarán en el aula informática diferentes despliegues en cloud para obtener los conocimientos que luego permitirán evaluar las competencias (generales/específicas) adquiridas por los estudiantes.
+La asignatura seguirá un proceso de evaluación progresiva, de modo que al final de los temas 2, 3 y 5 se realizan prácticas en el laboratorio donde los alumnos tendrán que desplegar en cloud un servicio realizado por ellos en asignaturas previas:
+Práctica 1 \"Despliegue en cloud\": los estudiantes tendrán que desplegar su servicio en una máquina alojada en un cloud público y analizar las ventajas e inconvenientes de este despliegue respecto a una alternativa on premise. La práctica se realizará y evaluará en horario de clase.
+Práctica 2 \"Despliegue en contenedores\": los estudiantes tendrán que desplegar ahora su servicio en contenedores y analizar las ventajas e inconvenientes de este despliegue respecto a las alternativas de on premise y máquina virtual en cloud. La práctica se realizará y evaluará en horario de clase.
+Práctica 3 \"Despliegue de microservicios/serverless\": los estudiantes tendrán que rediseñar su servicio para transformarlo en un microservicio/serverless, desplegarlo utilizando servicios cloud y analizar las ventajas e inconvenientes de este despliegue respecto a las alternativas de on premise, máquina virtual en cloud y contenedores. La práctica se realizará y evaluará en horario de clase.
+Las prácticas no requieren nota mínima.
+Durante la semana oficial de exámenes programada por Jefatura de Estudios (semana 17), los estudiantes realizarán un examen final de la asignatura que cubrirá todos los temas de la asignatura y que requerirá nota mínima de 4.
+La nota final de la asignatura será la media ponderada de las notas de la Práctica 1 (15%), Práctica 2 (15%), Práctica 3 (15%) y el Examen Global (55%), siempre que el examen global supere la nota mínima.
+Evaluación en periodo extraordinario
+La convocatoria extraordinaria de julio consistirá en la recuperación del Examen Global de la asignatura y la entrega de las prácticas realizadas durante el curso.
+Actuación ante fraude académico
+Ante la comprobación de fraude académico durante el desarrollo de pruebas de evaluación, se aplicará lo recogido en el artículo 13 de la Normativa de Evaluación UPM aprobada en Consejo de Gobierno de 26 de mayo de 2022."""@es ;
+                                               <https://guia.org/hasEvaluationTrial> <http://data.org/615001025/2025-26/evaluation/trial1> ,
+                                                                                     <http://data.org/615001025/2025-26/evaluation/trial10> ,
+                                                                                     <http://data.org/615001025/2025-26/evaluation/trial11> ,
+                                                                                     <http://data.org/615001025/2025-26/evaluation/trial12> ,
+                                                                                     <http://data.org/615001025/2025-26/evaluation/trial2> ,
+                                                                                     <http://data.org/615001025/2025-26/evaluation/trial3> ,
+                                                                                     <http://data.org/615001025/2025-26/evaluation/trial4> ,
+                                                                                     <http://data.org/615001025/2025-26/evaluation/trial5> ,
+                                                                                     <http://data.org/615001025/2025-26/evaluation/trial6> ,
+                                                                                     <http://data.org/615001025/2025-26/evaluation/trial7> ,
+                                                                                     <http://data.org/615001025/2025-26/evaluation/trial8> ,
+                                                                                     <http://data.org/615001025/2025-26/evaluation/trial9> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule
+<http://data.org/615001025/2025-26/eventSchedule> rdf:type owl:NamedIndividual ,
+                                                           <https://guia.org/Schedule> ;
+                                                  <https://schema.org/eventSchedule> <http://data.org/615001025/2025-26/eventSchedule/1> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/10> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/11> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/12> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/13> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/14> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/15> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/16> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/17> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/2> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/3> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/4> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/5> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/6> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/7> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/8> ,
+                                                                                     <http://data.org/615001025/2025-26/eventSchedule/9> .
+
+
+###  http://data.org/615001025/2025-26/previous_courses
+<http://data.org/615001025/2025-26/previous_courses> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/RequiredKnowledge> ;
+                                                     <https://guia.org/previousCourses> "El plan de estudios Grado En Ciencia De Datos E Inteligencia Artificial no tiene definidos otros requisitos para esta asignatura."@es ;
+                                                     <https://guia.org/previousKnowledge> "El plan de estudios Grado en Ciencia de Datos e Inteligencia Artificial no tiene definidos otros conocimientos previos para esta asignatura"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus
+<http://data.org/615001025/2025-26/syllabus> rdf:type owl:NamedIndividual ,
+                                                      <https://guia.org/Syllabus> ;
+                                             <https://guia.org/hasItem> <http://data.org/615001025/2025-26/syllabus/0> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/1> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/10> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/11> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/12> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/13> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/14> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/15> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/16> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/17> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/18> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/19> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/2> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/20> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/21> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/22> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/23> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/24> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/3> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/4> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/5> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/6> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/7> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/8> ,
+                                                                        <http://data.org/615001025/2025-26/syllabus/9> .
+
+
+###  http://data.org/615001025/2025-26/didactic_resource/1
+<http://data.org/615001025/2025-26/didactic_resource/1> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> """AWS Certified Cloud Practitioner (CLF-C02) Cert Guide. Anthony Sequeira. Pearson IT Certification. 2024.
+(https://www.oreilly.com/library/view/aws-certified-cloud/9780138286002/)"""@es ;
+                                                        <https://guia.org/bibliographyTitle> "AWS Certified Cloud Practitioner (CLF-C02) Cert Guide, 2nd Ed."@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001025/2025-26/didactic_resource/10
+<http://data.org/615001025/2025-26/didactic_resource/10> rdf:type owl:NamedIndividual ,
+                                                                  <https://guia.org/DidacticResource> ;
+                                                         <https://guia.org/bibliographyDescription> """Building Microservices, 2nd Ed. O'Reilly Media. 2021.
+(https://learning.oreilly.com/library/view/buildi ng-microservices-2nd/9781492034018/)"""@es ;
+                                                         <https://guia.org/bibliographyTitle> "Building Microservices"@es ;
+                                                         <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001025/2025-26/didactic_resource/11
+<http://data.org/615001025/2025-26/didactic_resource/11> rdf:type owl:NamedIndividual ,
+                                                                  <https://guia.org/DidacticResource> ;
+                                                         <https://guia.org/bibliographyDescription> "Comunicación, evaluación y calificación de la asignatura (https://moodle.upm.es/titulaciones /oficiales/)"@es ;
+                                                         <https://guia.org/bibliographyTitle> "Moodle de la asignatura"@es ;
+                                                         <https://guia.org/bibliographyType> "Recursos web"@es .
+
+
+###  http://data.org/615001025/2025-26/didactic_resource/2
+<http://data.org/615001025/2025-26/didactic_resource/2> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> """Amazon Web Services (AWS), 3rd Ed. Richard Jones. Addison-Wesley Professional. 2022.
+(https://learning.oreilly.com/videos/amazon- web-services/9780134702186/)"""@es ;
+                                                        <https://guia.org/bibliographyTitle> "AWS Live Sessions"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001025/2025-26/didactic_resource/3
+<http://data.org/615001025/2025-26/didactic_resource/3> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> "https://docs.aws.amazon.com/index.html?nc2 =h_ql_doc_do_v"@es ;
+                                                        <https://guia.org/bibliographyTitle> "Documentación AWS"@es ;
+                                                        <https://guia.org/bibliographyType> "Recursos web"@es .
+
+
+###  http://data.org/615001025/2025-26/didactic_resource/4
+<http://data.org/615001025/2025-26/didactic_resource/4> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> """Docker: Up & Running, 2nd Ed. Sean P. Kane & Karl Matthias. O'Reilly Media. 2018
+(https://learning.oreilly.com/library/view/docke r-up/9781492036722/)"""@es ;
+                                                        <https://guia.org/bibliographyTitle> "Docker: Up & Running"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001025/2025-26/didactic_resource/5
+<http://data.org/615001025/2025-26/didactic_resource/5> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> """Using Docker. Adrián Mouat. O'Reilly Media. 2015.
+(https://learning.oreilly.com/library/view/using- docker/9781491915752/)"""@es ;
+                                                        <https://guia.org/bibliographyTitle> "Using Docker"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001025/2025-26/didactic_resource/6
+<http://data.org/615001025/2025-26/didactic_resource/6> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> "https://docs.docker.com/"@es ;
+                                                        <https://guia.org/bibliographyTitle> "Documentación Docker"@es ;
+                                                        <https://guia.org/bibliographyType> "Recursos web"@es .
+
+
+###  http://data.org/615001025/2025-26/didactic_resource/7
+<http://data.org/615001025/2025-26/didactic_resource/7> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> """Kubernetes: Up & Running, 3rd Ed. Brendan Burns et al. O'Reilly. 2022.
+(https://learning.oreilly.com/library/view/kuber netes-up-and/9781098110192/)"""@es ;
+                                                        <https://guia.org/bibliographyTitle> "Kubernetes: Up & Running"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001025/2025-26/didactic_resource/8
+<http://data.org/615001025/2025-26/didactic_resource/8> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> """Kubernetes: Best Practices. Brendan Burns et al. O'Reilly Media. 2019.
+(https://learning.oreilly.com/library/view/kuber netes-best-practices/9781492056461/)"""@es ;
+                                                        <https://guia.org/bibliographyTitle> "Kubernetes: Best Practices"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001025/2025-26/didactic_resource/9
+<http://data.org/615001025/2025-26/didactic_resource/9> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> "https://kubernetes.io/es/docs/concepts/overvi ew/what-is-kubernetes/"@es ;
+                                                        <https://guia.org/bibliographyTitle> "Documentación Kubernetes"@es ;
+                                                        <https://guia.org/bibliographyType> "Recursos web"@es .
+
+
+###  http://data.org/615001025/2025-26/evaluation/trial1
+<http://data.org/615001025/2025-26/evaluation/trial1> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                      <https://guia.org/evaluationType> "progresiva"@es ;
+                                                      <https://guia.org/gradePercentage> "15%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001025/2025-26/eventSchedule/5> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CB04> ,
+                                                                                            <http://data.org/CB05> ,
+                                                                                            <http://data.org/CE06> ,
+                                                                                            <http://data.org/CG06> ;
+                                                      <https://guia.org/minimumScore> "0 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Práctica \"Despliegue en cloud\" RA178"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "5"@es .
+
+
+###  http://data.org/615001025/2025-26/evaluation/trial10
+<http://data.org/615001025/2025-26/evaluation/trial10> rdf:type owl:NamedIndividual ,
+                                                                <https://guia.org/EvaluationTrial> ;
+                                                       <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                       <https://guia.org/evaluationType> "extraordinaria"@es ;
+                                                       <https://guia.org/gradePercentage> "15%"@es ;
+                                                       <https://guia.org/involvesCompetency> <http://data.org/CB04> ,
+                                                                                             <http://data.org/CB05> ,
+                                                                                             <http://data.org/CE06> ,
+                                                                                             <http://data.org/CG06> ;
+                                                       <https://guia.org/minimumScore> "0 / 10"@es ;
+                                                       <https://guia.org/trialDescription> "Práctica \"Despliegue en cloud\" RA178"@es ;
+                                                       <https://guia.org/trialType> "Presencial"@es .
+
+
+###  http://data.org/615001025/2025-26/evaluation/trial11
+<http://data.org/615001025/2025-26/evaluation/trial11> rdf:type owl:NamedIndividual ,
+                                                                <https://guia.org/EvaluationTrial> ;
+                                                       <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                       <https://guia.org/evaluationType> "extraordinaria"@es ;
+                                                       <https://guia.org/gradePercentage> "15%"@es ;
+                                                       <https://guia.org/involvesCompetency> <http://data.org/CB04> ,
+                                                                                             <http://data.org/CB05> ,
+                                                                                             <http://data.org/CE06> ,
+                                                                                             <http://data.org/CG06> ;
+                                                       <https://guia.org/minimumScore> "0 / 10"@es ;
+                                                       <https://guia.org/trialDescription> "Práctica \"Despliegue en contenedores\" RA178"@es ;
+                                                       <https://guia.org/trialType> "Presencial"@es .
+
+
+###  http://data.org/615001025/2025-26/evaluation/trial12
+<http://data.org/615001025/2025-26/evaluation/trial12> rdf:type owl:NamedIndividual ,
+                                                                <https://guia.org/EvaluationTrial> ;
+                                                       <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                       <https://guia.org/evaluationType> "extraordinaria"@es ;
+                                                       <https://guia.org/gradePercentage> "15%"@es ;
+                                                       <https://guia.org/involvesCompetency> <http://data.org/CB04> ,
+                                                                                             <http://data.org/CB05> ,
+                                                                                             <http://data.org/CE06> ,
+                                                                                             <http://data.org/CG06> ;
+                                                       <https://guia.org/minimumScore> "0 / 10"@es ;
+                                                       <https://guia.org/trialDescription> "Práctica \"Despliegue de microservicios/serverless\" RA178"@es ;
+                                                       <https://guia.org/trialType> "Presencial"@es .
+
+
+###  http://data.org/615001025/2025-26/evaluation/trial2
+<http://data.org/615001025/2025-26/evaluation/trial2> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                      <https://guia.org/evaluationType> "progresiva"@es ;
+                                                      <https://guia.org/gradePercentage> "15%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001025/2025-26/eventSchedule/9> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CB04> ,
+                                                                                            <http://data.org/CB05> ;
+                                                      <https://guia.org/minimumScore> "0 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Práctica \"Despliegue en contenedores\" RA178"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "9"@es .
+
+
+###  http://data.org/615001025/2025-26/evaluation/trial3
+<http://data.org/615001025/2025-26/evaluation/trial3> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                      <https://guia.org/evaluationType> "progresiva"@es ;
+                                                      <https://guia.org/gradePercentage> "15%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001025/2025-26/eventSchedule/15> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CB04> ,
+                                                                                            <http://data.org/CB05> ;
+                                                      <https://guia.org/minimumScore> "0 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Práctica \"Despliegue de microservicios/serverless\" RA178"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "15"@es .
+
+
+###  http://data.org/615001025/2025-26/evaluation/trial4
+<http://data.org/615001025/2025-26/evaluation/trial4> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "01:30"@es ;
+                                                      <https://guia.org/evaluationType> "progresiva"@es ;
+                                                      <https://guia.org/gradePercentage> "55%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001025/2025-26/eventSchedule/17> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CE06> ,
+                                                                                            <http://data.org/CG06> ;
+                                                      <https://guia.org/minimumScore> "4 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Examen final RA178"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "17"@es .
+
+
+###  http://data.org/615001025/2025-26/evaluation/trial5
+<http://data.org/615001025/2025-26/evaluation/trial5> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                      <https://guia.org/evaluationType> "global"@es ;
+                                                      <https://guia.org/gradePercentage> "15%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001025/2025-26/eventSchedule/5> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CB04> ,
+                                                                                            <http://data.org/CB05> ,
+                                                                                            <http://data.org/CE06> ,
+                                                                                            <http://data.org/CG06> ;
+                                                      <https://guia.org/minimumScore> "0 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Práctica \"Despliegue en cloud\" RA178"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "5"@es .
+
+
+###  http://data.org/615001025/2025-26/evaluation/trial6
+<http://data.org/615001025/2025-26/evaluation/trial6> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                      <https://guia.org/evaluationType> "global"@es ;
+                                                      <https://guia.org/gradePercentage> "15%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001025/2025-26/eventSchedule/9> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CB04> ,
+                                                                                            <http://data.org/CB05> ;
+                                                      <https://guia.org/minimumScore> "0 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Práctica \"Despliegue en contenedores\" RA178"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "9"@es .
+
+
+###  http://data.org/615001025/2025-26/evaluation/trial7
+<http://data.org/615001025/2025-26/evaluation/trial7> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                      <https://guia.org/evaluationType> "global"@es ;
+                                                      <https://guia.org/gradePercentage> "15%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001025/2025-26/eventSchedule/15> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CB04> ,
+                                                                                            <http://data.org/CB05> ;
+                                                      <https://guia.org/minimumScore> "0 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Práctica \"Despliegue de microservicios/serverless\" RA178"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "15"@es .
+
+
+###  http://data.org/615001025/2025-26/evaluation/trial8
+<http://data.org/615001025/2025-26/evaluation/trial8> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "01:30"@es ;
+                                                      <https://guia.org/evaluationType> "global"@es ;
+                                                      <https://guia.org/gradePercentage> "55%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001025/2025-26/eventSchedule/17> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CE06> ,
+                                                                                            <http://data.org/CG06> ;
+                                                      <https://guia.org/minimumScore> "4 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Examen final RA178"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "17"@es .
+
+
+###  http://data.org/615001025/2025-26/evaluation/trial9
+<http://data.org/615001025/2025-26/evaluation/trial9> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "01:30"@es ;
+                                                      <https://guia.org/evaluationType> "extraordinaria"@es ;
+                                                      <https://guia.org/gradePercentage> "55%"@es ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CE06> ,
+                                                                                            <http://data.org/CG06> ;
+                                                      <https://guia.org/minimumScore> "4 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Examen final RA178"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/1
+<http://data.org/615001025/2025-26/eventSchedule/1> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 1 ;
+                                                    <https://guia.org/eventWeek> "Semana 1"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/1/activity/TActivityType2/1> ,
+                                                                                   <http://data.org/615001025/2025-26/eventSchedule/1/activity/TActivityType2/2> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/1/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/1/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Tema 1: Introducción a Cloud"@es ;
+                                                                              <https://guia.org/activityDuration> "02:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/1/activity/TActivityType2/2
+<http://data.org/615001025/2025-26/eventSchedule/1/activity/TActivityType2/2> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Tema 2: Infraestructura Cloud"@es ;
+                                                                              <https://guia.org/activityDuration> "02:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/10
+<http://data.org/615001025/2025-26/eventSchedule/10> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 10 ;
+                                                     <https://guia.org/eventWeek> "Semana 10"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/10/activity/TActivityType2/1> ,
+                                                                                    <http://data.org/615001025/2025-26/eventSchedule/10/activity/TActivityType2/2> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/10/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/10/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType2> ;
+                                                                               <https://guia.org/activityDescription> "Tema 4: Microservicios"@es ;
+                                                                               <https://guia.org/activityDuration> "02:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/10/activity/TActivityType2/2
+<http://data.org/615001025/2025-26/eventSchedule/10/activity/TActivityType2/2> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType2> ;
+                                                                               <https://guia.org/activityDescription> "Tema 4: Microservicios"@es ;
+                                                                               <https://guia.org/activityDuration> "02:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/11
+<http://data.org/615001025/2025-26/eventSchedule/11> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 11 ;
+                                                     <https://guia.org/eventWeek> "Semana 11"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/12
+<http://data.org/615001025/2025-26/eventSchedule/12> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 12 ;
+                                                     <https://guia.org/eventWeek> "Semana 12"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/12/activity/TActivityType2/1> ,
+                                                                                    <http://data.org/615001025/2025-26/eventSchedule/12/activity/TActivityType2/2> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/12/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/12/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType2> ;
+                                                                               <https://guia.org/activityDescription> "Tema 5: Servicios sin infraestructura"@es ;
+                                                                               <https://guia.org/activityDuration> "02:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/12/activity/TActivityType2/2
+<http://data.org/615001025/2025-26/eventSchedule/12/activity/TActivityType2/2> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType2> ;
+                                                                               <https://guia.org/activityDescription> "Tema 5: Servicios sin infraestructura"@es ;
+                                                                               <https://guia.org/activityDuration> "02:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/13
+<http://data.org/615001025/2025-26/eventSchedule/13> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 13 ;
+                                                     <https://guia.org/eventWeek> "Semana 13"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/13/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/13/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/13/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType2> ;
+                                                                               <https://guia.org/activityDescription> "Tema 5: Servicios sin infraestructura"@es ;
+                                                                               <https://guia.org/activityDuration> "04:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/14
+<http://data.org/615001025/2025-26/eventSchedule/14> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 14 ;
+                                                     <https://guia.org/eventWeek> "Semana 14"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/14/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/14/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/14/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType2> ;
+                                                                               <https://guia.org/activityDescription> "Tema 5: Servicios sin infraestructura"@es ;
+                                                                               <https://guia.org/activityDuration> "04:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/15
+<http://data.org/615001025/2025-26/eventSchedule/15> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 15 ;
+                                                     <https://guia.org/eventWeek> "Semana 15"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/15/activity/TActivityType1/1> ,
+                                                                                    <http://data.org/615001025/2025-26/eventSchedule/15/activity/TActivityType2/1> ,
+                                                                                    <http://data.org/615001025/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/15/activity/TActivityType1/1
+<http://data.org/615001025/2025-26/eventSchedule/15/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Práctica \"Despliegue de microservicios/serverless\""@es ;
+                                                                               <https://guia.org/activityDuration> "02:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "OT: Otras actividades formativas / Evaluación"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/15/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/15/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType2> ;
+                                                                               <https://guia.org/activityDescription> "Tema 5: Servicios sin infraestructura"@es ;
+                                                                               <https://guia.org/activityDuration> "02:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/15/activity/TEvaluationActivity/1
+<http://data.org/615001025/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> rdf:type owl:NamedIndividual ,
+                                                                                             <https://guia.org/Activity> ,
+                                                                                             <https://guia.org/EvaluationActivity> ;
+                                                                                    <https://guia.org/activityDescription> "Práctica \"Despliegue de microservicios/serverless\" RA178"@es ;
+                                                                                    <https://guia.org/activityDuration> "02:00" ;
+                                                                                    <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                                    <https://guia.org/attendanceType> "Presencial"@es ;
+                                                                                    <https://guia.org/evaluationType> "Evaluación Progresiva y Global"@es ;
+                                                                                    <https://guia.org/tecnic> "TI: Técnica del tipo Trabajo Individual"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/16
+<http://data.org/615001025/2025-26/eventSchedule/16> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 16 ;
+                                                     <https://guia.org/eventWeek> "Semana 16"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/17
+<http://data.org/615001025/2025-26/eventSchedule/17> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 17 ;
+                                                     <https://guia.org/eventWeek> "Semana 17"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/17/activity/TActivityType1/1> ,
+                                                                                    <http://data.org/615001025/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/17/activity/TActivityType1/1
+<http://data.org/615001025/2025-26/eventSchedule/17/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Examen final - Presencial - Evaluación Progresiva y Global"@es ;
+                                                                               <https://guia.org/activityDuration> "01:30" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "OT: Otras actividades formativas / Evaluación"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/17/activity/TEvaluationActivity/1
+<http://data.org/615001025/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> rdf:type owl:NamedIndividual ,
+                                                                                             <https://guia.org/Activity> ,
+                                                                                             <https://guia.org/EvaluationActivity> ;
+                                                                                    <https://guia.org/activityDescription> "Examen final RA178"@es ;
+                                                                                    <https://guia.org/activityDuration> "01:30" ;
+                                                                                    <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                                    <https://guia.org/attendanceType> "Presencial"@es ;
+                                                                                    <https://guia.org/evaluationType> "Evaluación Progresiva y Global"@es ;
+                                                                                    <https://guia.org/tecnic> "EX: Técnica del tipo Examen Escrito"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/2
+<http://data.org/615001025/2025-26/eventSchedule/2> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 2 ;
+                                                    <https://guia.org/eventWeek> "Semana 2"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/2/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/2/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/2/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Tema 2: Infraestructura Cloud"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/3
+<http://data.org/615001025/2025-26/eventSchedule/3> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 3 ;
+                                                    <https://guia.org/eventWeek> "Semana 3"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/3/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/3/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/3/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Tema 2: Infraestructura Cloud"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/4
+<http://data.org/615001025/2025-26/eventSchedule/4> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 4 ;
+                                                    <https://guia.org/eventWeek> "Semana 4"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/4/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/4/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/4/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Tema 2: Infraestructura Cloud"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/5
+<http://data.org/615001025/2025-26/eventSchedule/5> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 5 ;
+                                                    <https://guia.org/eventWeek> "Semana 5"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/5/activity/TActivityType1/1> ,
+                                                                                   <http://data.org/615001025/2025-26/eventSchedule/5/activity/TActivityType2/1> ,
+                                                                                   <http://data.org/615001025/2025-26/eventSchedule/5/activity/TEvaluationActivity/1> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/5/activity/TActivityType1/1
+<http://data.org/615001025/2025-26/eventSchedule/5/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Práctica \"Despliegue en cloud\""@es ;
+                                                                              <https://guia.org/activityDuration> "02:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "OT: Otras actividades formativas / Evaluación"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/5/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/5/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Tema 2: Infraestructura Cloud"@es ;
+                                                                              <https://guia.org/activityDuration> "02:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/5/activity/TEvaluationActivity/1
+<http://data.org/615001025/2025-26/eventSchedule/5/activity/TEvaluationActivity/1> rdf:type owl:NamedIndividual ,
+                                                                                            <https://guia.org/Activity> ,
+                                                                                            <https://guia.org/EvaluationActivity> ;
+                                                                                   <https://guia.org/activityDescription> "Práctica \"Despliegue en cloud\" RA178"@es ;
+                                                                                   <https://guia.org/activityDuration> "02:00" ;
+                                                                                   <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                                   <https://guia.org/attendanceType> "Presencial"@es ;
+                                                                                   <https://guia.org/evaluationType> "Evaluación Progresiva y Global"@es ;
+                                                                                   <https://guia.org/tecnic> "TI: Técnica del tipo Trabajo Individual"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/6
+<http://data.org/615001025/2025-26/eventSchedule/6> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 6 ;
+                                                    <https://guia.org/eventWeek> "Semana 6"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/6/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/6/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/6/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Tema 3: Contenedores"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/7
+<http://data.org/615001025/2025-26/eventSchedule/7> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 7 ;
+                                                    <https://guia.org/eventWeek> "Semana 7"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/7/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/7/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/7/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Tema 3: Contenedores"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/8
+<http://data.org/615001025/2025-26/eventSchedule/8> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 8 ;
+                                                    <https://guia.org/eventWeek> "Semana 8"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/8/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/8/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/8/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Tema 3: Contenedores"@es ;
+                                                                              <https://guia.org/activityDuration> "04:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/9
+<http://data.org/615001025/2025-26/eventSchedule/9> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 9 ;
+                                                    <https://guia.org/eventWeek> "Semana 9"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001025/2025-26/eventSchedule/9/activity/TActivityType1/1> ,
+                                                                                   <http://data.org/615001025/2025-26/eventSchedule/9/activity/TActivityType2/1> ,
+                                                                                   <http://data.org/615001025/2025-26/eventSchedule/9/activity/TEvaluationActivity/1> .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/9/activity/TActivityType1/1
+<http://data.org/615001025/2025-26/eventSchedule/9/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Práctica \"Despliegue en contenedores\""@es ;
+                                                                              <https://guia.org/activityDuration> "02:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "OT: Otras actividades formativas / Evaluación"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/9/activity/TActivityType2/1
+<http://data.org/615001025/2025-26/eventSchedule/9/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Tema 3: Contenedores"@es ;
+                                                                              <https://guia.org/activityDuration> "02:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+
+
+###  http://data.org/615001025/2025-26/eventSchedule/9/activity/TEvaluationActivity/1
+<http://data.org/615001025/2025-26/eventSchedule/9/activity/TEvaluationActivity/1> rdf:type owl:NamedIndividual ,
+                                                                                            <https://guia.org/Activity> ,
+                                                                                            <https://guia.org/EvaluationActivity> ;
+                                                                                   <https://guia.org/activityDescription> "Práctica \"Despliegue en contenedores\" RA178"@es ;
+                                                                                   <https://guia.org/activityDuration> "02:00" ;
+                                                                                   <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                                   <https://guia.org/attendanceType> "Presencial"@es ;
+                                                                                   <https://guia.org/evaluationType> "Evaluación Progresiva y Global"@es ;
+                                                                                   <https://guia.org/tecnic> "TI: Técnica del tipo Trabajo Individual"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/0
+<http://data.org/615001025/2025-26/syllabus/0> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 0 ;
+                                               <https://guia.org/syllabusDescription> "1. Introducción a Cloud"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/1
+<http://data.org/615001025/2025-26/syllabus/1> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 1 ;
+                                               <https://guia.org/syllabusDescription> "1.1. Evolución de Internet Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/10
+<http://data.org/615001025/2025-26/syllabus/10> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 10 ;
+                                                <https://guia.org/syllabusDescription> "2.4. Servicios para aplicaciones: bases de datos, eventos, monitorización Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/11
+<http://data.org/615001025/2025-26/syllabus/11> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 11 ;
+                                                <https://guia.org/syllabusDescription> "3. Contenedores"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/12
+<http://data.org/615001025/2025-26/syllabus/12> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 12 ;
+                                                <https://guia.org/syllabusDescription> "3.1. Contenedores de aplicaciones y servicios Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/13
+<http://data.org/615001025/2025-26/syllabus/13> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 13 ;
+                                                <https://guia.org/syllabusDescription> "3.2. Grupos de contenedores Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/14
+<http://data.org/615001025/2025-26/syllabus/14> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 14 ;
+                                                <https://guia.org/syllabusDescription> "3.3. Orquestación de servicios Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/15
+<http://data.org/615001025/2025-26/syllabus/15> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 15 ;
+                                                <https://guia.org/syllabusDescription> "3.4. Docker Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/16
+<http://data.org/615001025/2025-26/syllabus/16> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 16 ;
+                                                <https://guia.org/syllabusDescription> "3.5. Kubernetes Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/17
+<http://data.org/615001025/2025-26/syllabus/17> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 17 ;
+                                                <https://guia.org/syllabusDescription> "3.6. Servicios cloud de contenedores Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/18
+<http://data.org/615001025/2025-26/syllabus/18> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 18 ;
+                                                <https://guia.org/syllabusDescription> "4. Microservicios"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/19
+<http://data.org/615001025/2025-26/syllabus/19> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 19 ;
+                                                <https://guia.org/syllabusDescription> "4.1. Características y diseño Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/2
+<http://data.org/615001025/2025-26/syllabus/2> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 2 ;
+                                               <https://guia.org/syllabusDescription> "1.2. Características Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/20
+<http://data.org/615001025/2025-26/syllabus/20> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 20 ;
+                                                <https://guia.org/syllabusDescription> "4.2. Implementación de microservicios en cloud Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/21
+<http://data.org/615001025/2025-26/syllabus/21> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 21 ;
+                                                <https://guia.org/syllabusDescription> "4.3. Servicios cloud de gestión de APIs Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/22
+<http://data.org/615001025/2025-26/syllabus/22> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 22 ;
+                                                <https://guia.org/syllabusDescription> "5. Servicios sin infraestructura (serverless)"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/23
+<http://data.org/615001025/2025-26/syllabus/23> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 23 ;
+                                                <https://guia.org/syllabusDescription> "5.1. Funciones como servicio (FaaS) Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/24
+<http://data.org/615001025/2025-26/syllabus/24> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/SyllabusItem> ;
+                                                <https://guia.org/itemIndex> 24 ;
+                                                <https://guia.org/syllabusDescription> "5.2. Despliegue de aplicaciones sin infraestructura Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/3
+<http://data.org/615001025/2025-26/syllabus/3> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 3 ;
+                                               <https://guia.org/syllabusDescription> "1.3. Modelos de servicio: IaaS, SaaS, PaaS, FaaS Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/4
+<http://data.org/615001025/2025-26/syllabus/4> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 4 ;
+                                               <https://guia.org/syllabusDescription> "1.4. Modelos de despliegue: público, privado, híbrido Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/5
+<http://data.org/615001025/2025-26/syllabus/5> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 5 ;
+                                               <https://guia.org/syllabusDescription> "1.5. Proveedores cloud actuales Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/6
+<http://data.org/615001025/2025-26/syllabus/6> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 6 ;
+                                               <https://guia.org/syllabusDescription> "2. Infraestructura Cloud"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/7
+<http://data.org/615001025/2025-26/syllabus/7> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 7 ;
+                                               <https://guia.org/syllabusDescription> "2.1. Arquitectura Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/8
+<http://data.org/615001025/2025-26/syllabus/8> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 8 ;
+                                               <https://guia.org/syllabusDescription> "2.2. Consola, CLI y APIs de desarrollo Sin subniveles"@es .
+
+
+###  http://data.org/615001025/2025-26/syllabus/9
+<http://data.org/615001025/2025-26/syllabus/9> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 9 ;
+                                               <https://guia.org/syllabusDescription> "2.3. Servicios de infraestructura: computación, almacenamiento y redes Sin subniveles"@es .
+
+
+###  http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial
+<http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial> rdf:type owl:NamedIndividual ,
+                                                                                                        <https://guia.org/BachelorDegree> ,
+                                                                                                        <https://guia.org/Degree> ;
+                                                                                               <https://guia.org/hasCourse> <http://data.org/615001025> ;
+                                                                                               <https://schema.org/name> "61CD - Grado en Ciencia de Datos e Inteligencia Artificial"@es .
+
+
+###  http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos
+<http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos> rdf:type owl:NamedIndividual ,
+                                                                                 <https://guia.org/UniversityCenter> ;
+                                                                        <https://guia.org/offers> <http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial> ;
+                                                                        <https://schema.org/name> "E.T.S De Ing. De Sistemas Informáticos" .
+
+
+###  http://data.org/franciscojavier.gil%40upm.es
+<http://data.org/franciscojavier.gil%40upm.es> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/Lecturer> ;
+                                               <https://guia.org/office> "D-1118"@es ;
+                                               <https://guia.org/tutorshipsSchedule> "Las reservas para tutorías se realizarán a través de http://tutor.etsisi.upm.es/"@es ;
+                                               <https://schema.org/email> "franciscojavier.gil@upm.es" ;
+                                               <https://schema.org/name> "Gil Rubio, Fco. Javier" .
+
+
+###  http://data.org/juanmanuel.castelo%40upm.es
+<http://data.org/juanmanuel.castelo%40upm.es> rdf:type owl:NamedIndividual ,
+                                                       <https://guia.org/Lecturer> ;
+                                              <https://guia.org/office> "D-4105"@es ;
+                                              <https://schema.org/email> "juanmanuel.castelo@upm.es" ;
+                                              <https://schema.org/name> "Castelo Gomez, Juan Manuel" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
