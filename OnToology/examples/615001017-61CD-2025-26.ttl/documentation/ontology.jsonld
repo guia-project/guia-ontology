@@ -1,0 +1,2851 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://data.org/615001017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.org/courseYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Course"
+  } ],
+  "https://guia.org/courseType" : [ {
+    "@language" : "es",
+    "@value" : "Básica"
+  } ],
+  "https://guia.org/semester" : [ {
+    "@language" : "es",
+    "@value" : "Cuarto semestre"
+  } ],
+  "https://schema.org/courseCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "615001017"
+  } ],
+  "https://schema.org/hasCourseInstance" : [ {
+    "@id" : "http://data.org/615001017/2025-26"
+  } ],
+  "https://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Fundamentals Of Economics And Business Administration"
+  }, {
+    "@language" : "es",
+    "@value" : "Fundamentos de Economía y Administración de Empresas"
+  } ],
+  "https://schema.org/numberOfCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.0"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/CourseGuide"
+  } ],
+  "https://guia.org/hasCompetency" : [ {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CE19"
+  }, {
+    "@id" : "http://data.org/CG01"
+  }, {
+    "@id" : "http://data.org/CG02"
+  }, {
+    "@id" : "http://data.org/CG07"
+  } ],
+  "https://guia.org/hasDidacticResource" : [ {
+    "@id" : "http://data.org/615001017/2025-26/didactic_resource/1"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/didactic_resource/10"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/didactic_resource/11"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/didactic_resource/2"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/didactic_resource/3"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/didactic_resource/4"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/didactic_resource/5"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/didactic_resource/6"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/didactic_resource/7"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/didactic_resource/8"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/didactic_resource/9"
+  } ],
+  "https://guia.org/hasEvaluation" : [ {
+    "@id" : "http://data.org/615001017/2025-26/evaluation"
+  } ],
+  "https://guia.org/hasLearningResult" : [ {
+    "@id" : "http://data.org/RA78"
+  }, {
+    "@id" : "http://data.org/RA79"
+  }, {
+    "@id" : "http://data.org/RA80"
+  } ],
+  "https://guia.org/inpersonHours" : [ {
+    "@language" : "es",
+    "@value" : "32 horas (41%)"
+  } ],
+  "https://guia.org/numberOfCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.0"
+  } ],
+  "https://guia.org/otherInformation" : [ {
+    "@language" : "es",
+    "@value" : "Objetivos de Desarrollo Sostenible\nLa asignatura se relaciona con el ODS1 (fin de la pobreza), ODS 8 (trabajo decente y crecimiento económico) y ODS 12 (producción y consumo responsables). Asimismo, en la parte de Administración de Empresas, la utilización de herramientas de análisis estratégico implica una consideración transversal de los ODS como condicionantes o metas de las empresas, con relación más directa con los de contenido económico, como son: ODS8, ODS9, ODS10 y ODS12."
+  } ],
+  "https://guia.org/periodEndingMonth" : [ {
+    "@language" : "es",
+    "@value" : "Junio"
+  } ],
+  "https://guia.org/periodStaringtMonth" : [ {
+    "@language" : "es",
+    "@value" : "Febrero"
+  } ],
+  "https://guia.org/teachingPeriod" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value" : "2025-26"
+  } ],
+  "https://guia.org/teachingPeriodMonths" : [ {
+    "@language" : "es",
+    "@value" : "Febrero-Junio"
+  } ],
+  "https://guia.org/totalHours" : [ {
+    "@language" : "es",
+    "@value" : "32 horas"
+  } ],
+  "https://schema.org/activitiesWorkload" : [ {
+    "@language" : "es",
+    "@value" : "100%"
+  } ],
+  "https://schema.org/courseSchedule" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule"
+  } ],
+  "https://schema.org/description" : [ {
+    "@language" : "es",
+    "@value" : "La asignatura de Fundamentos de Economía y Administración de Empresas es una primera aproximación al entorno económico empresarial con un enfoque teórico-práctico. En el primer bloque se abordan temas referentes a la teoría económica; en el segundo, temas relativos al concepto de empresa, la estrategia y la dirección empresarial; y, en el tercero, se recorren las áreas funcionales clásicas de la empresa: finanzas, producción y marketing."
+  } ],
+  "https://schema.org/director" : [ {
+    "@id" : "http://data.org/jaime.gonzalez.masip%40upm.es"
+  } ],
+  "https://schema.org/inLanguage" : [ {
+    "@language" : "es",
+    "@value" : "Castellano"
+  } ],
+  "https://schema.org/instructor" : [ {
+    "@id" : "http://data.org/jaime.gonzalez.masip%40upm.es"
+  }, {
+    "@id" : "http://data.org/m.uche%40upm.es"
+  }, {
+    "@id" : "http://data.org/marta.olea%40upm.es"
+  }, {
+    "@id" : "http://data.org/paula.farias%40upm.es"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/didactic_resource/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Amat, O. (2008): Análisis económico financiero. 20ª edición. Gestión 2000. Barcelona"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/didactic_resource/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Suárez, A. (1994): Decisiones óptimas de inversión y financiación en la empresa. Pirámide. Madrid."
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/didactic_resource/11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Documentación de ayuda para la preparación de la asignatura (resúmenes, esquemas, presentaciones, ejercicios, exámenes anteriores, etc.)."
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Moodle: https://moodle.upm.es/titulaciones/oficiales"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/didactic_resource/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Cepeda, I. et al. (2004): Economía para ingenieros. Thomson. Madrid."
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/didactic_resource/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Chase, R.B. y Aquilano, N.J. (2000): Administración de producción y operaciones. McGraw Hill. Madrid."
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/didactic_resource/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Cuervo, A. (1994): Introducción a la administración de empresas. Civitas. Madrid."
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/didactic_resource/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Fernández Arias, P et al (2010): Fundamentos de economía y empresa. Departamento de Publicaciones de la ETSISI. Madrid."
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/didactic_resource/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Fernández, E. et al (2008): Iniciación a los negocios para ingenieros. Aspectos funcionales. Paraninfo. Madrid."
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/didactic_resource/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Kotler, P. (2000): Dirección de marketing. Prentice Hall. México."
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/didactic_resource/8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Larrán, M. (2008): Fundamentos de contabilidad financiera. Pirámide. Madrid."
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/didactic_resource/9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Martín, I. y Quevedo, P. (coord.) (2011): Manual de economía y gestión de empresas en ingeniería. Civitas Thomson Reuters. Madrid."
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/evaluation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationSystem"
+  } ],
+  "https://guia.org/evaluationDescription" : [ {
+    "@language" : "es",
+    "@value" : "EVALUACIÓN PROGRESIVA\n\nEl alumnado que opte por la evaluación progresiva tendrá que hacer dos exámenes parciales (liberatorios) a lo largo del curso. En cada uno de estos exámenes se evaluarán los conocimientos obtenidos por el/la alumno/a en uno o más bloques de la asignatura. Para poder superar la asignatura cada uno de estos controles deberá ser aprobado. Las calificaciones de los exámenes aprobados se guardarán a lo largo de un curso académico y el/la alumno/a se presentará en las sucesivas convocatorias tan sólo con aquellos controles que tenga suspendidos. Si al final del curso académico el/la alumno/a no hubiera superado alguna de las partes, la asignatura quedará suspendida con la calificación de la parte supensa (o la media ponderada si fueran ambas).\nEl alumnado que opte por esta modalidad de evaluación, tendrá que realizar un trabajo teórico descriptivo. Este trabajo se realiza en grupo. El número mínimo de componentes para formar los grupos es de 5, aunque se poderá modificar este parámetro al principio del curso de acuerdo a las circunstancias del grupo de clase. Esta prueba tendrá un peso del 30% en la calificación final. Los trabajos teóricos serán presentados oralmente por todos los componentes del grupo de trabajo. La entrega de este trabajo no es recuperable porque se realiza en grupo y, además, la exposición en público no se puede hacer fuera de horario y calendario lectivos.\nLas pruebas que se realizan llevan asociados los siguientes resultados de aprendizaje:\n- Parcial nº1: RA78, RA79.\n- Parcial nº2: RA78, RA79.\n- Entrega de la Actividad Grupal: RA78.\n- Exposición de alumnos de los trabajos de la Actividad Grupal: RA79, RA80.\nEVALUACIÓN POR PRUEBA GLOBAL\n\nEl alumnado que no entregue trabajo en grupo deberá optar obligatoriamente por el método de evaluación global (o final).\nSe deberá presentar al examen final en la fecha establecida por el centro en convocatoria ordinaria. En esta prueba se examinará de todo el temario de la asignatura. El peso de esta prueba es del 70% de la calificación final.\nEn cuanto al trabajo escrito, el alumnado deberá preparar un ejercicio que deberá entregar, sobre un tema del programa que será asignado por el profesorado de la asignatura. Este ejercicio se entregará como fecha límite el día en el que se realice la prueba de convocatoria ordinaria. El/la profesor/a podría asignar fecha y hora para que el/la alumno/a explique oralmente el ejercicio anteriormente descrito, en un máximo de 15 minutos.\nEl conjunto de esta prueba (ejercicio escrito y defensa oral) tendrá un peso del 30% de la nota y sólo se unirá a la calificación del \"examen final\" o \"prueba global\" cuando en el examen se supere la calificación de 5.\nLas pruebas que se realizan llevan asociados los siguientes resultados de aprendizaje:\n- Examen final (control nº1 y nº2): RA78, RA79.\n- Trabajo y exposición del trabajo: RA79, RA80.\nEVALUACIÓN CONVOCATORIA EXTRAORDINARIA\n\nEl alumnado que no supere la asignatura por evaluación progresiva ni por prueba global, deberá realizar una prueba extraordinaria con las mismas características que la prueba global descritas en la convocatoria ordinaria."
+  } ],
+  "https://guia.org/hasEvaluationTrial" : [ {
+    "@id" : "http://data.org/615001017/2025-26/evaluation/trial1"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/evaluation/trial2"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/evaluation/trial3"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/evaluation/trial4"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/evaluation/trial5"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/evaluation/trial6"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/evaluation/trial7"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/evaluation/trial1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "10%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/1"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Asistencia y participación (no recuperable)"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/evaluation/trial2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "30%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/8"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CE19"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "5 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen parcial 1 (recuperable)"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "8"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/evaluation/trial3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "30%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/14"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CG01"
+  }, {
+    "@id" : "http://data.org/CG02"
+  }, {
+    "@id" : "http://data.org/CG07"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Entrega y exposición de la Actividad Grupal (no recuperable)"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "No Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "14"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/evaluation/trial4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "30%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/15"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CE19"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "5 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen parcial 2 (recuperable)"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "15"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/evaluation/trial5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "global"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "70%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/17"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CE19"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "5 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen final (parcial 1 y 2)"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/evaluation/trial6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "global"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "30%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/17"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CG01"
+  }, {
+    "@id" : "http://data.org/CG02"
+  }, {
+    "@id" : "http://data.org/CG07"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Entrega de la Actividad Individual (no recuperable)"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/evaluation/trial7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "extraordinaria"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "70%"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CE19"
+  }, {
+    "@id" : "http://data.org/CG01"
+  }, {
+    "@id" : "http://data.org/CG02"
+  }, {
+    "@id" : "http://data.org/CG07"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "5 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen de convocatoria extraordinaria (parcial 1 y 2)"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Schedule"
+  } ],
+  "https://schema.org/eventSchedule" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/1"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/10"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/11"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/12"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/13"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/14"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/15"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/16"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/17"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/2"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/3"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/4"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/5"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/6"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/7"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/8"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 1"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/1/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/1/activity/TActivityType1/2"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/1/activity/TEvaluationActivity/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/1/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas y prácticas. Tema 1"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/1/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Asistencia y participación"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras actividades formativas / Evaluación"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/1/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Asistencia y participación (no recuperable)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras técnicas evaluativas"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 10"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/10/activity/TActivityType1/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/10/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas y prácticas. Tema 8"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 11"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/11/activity/TActivityType1/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/11/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas y prácticas. Tema 8"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 12"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/12/activity/TActivityType1/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/12/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas y prácticas. Tema 8"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 13"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/13/activity/TActivityType1/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/13/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas y prácticas. Tema 9"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 14"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/14/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/14/activity/TEvaluationActivity/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/14/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Entrega y exposición de la Actividad Grupal (no recuperable)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras actividades formativas / Evaluación"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/14/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Entrega y exposición de la Actividad Grupal (no recuperable)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "No presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "TG: Técnica del tipo Trabajo en Grupo"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 15"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/15/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/15/activity/TEvaluationActivity/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/15/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen parcial 2 (recuperable)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras actividades formativas / Evaluación"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/15/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen parcial 2 (recuperable)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "EX: Técnica del tipo Examen Escrito"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "16"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 16"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 17"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/17/activity/TEvaluationActivity/1"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/17/activity/TEvaluationActivity/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/17/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen final (parcial 1 y 2)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Global"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "EX: Técnica del tipo Examen Escrito"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/17/activity/TEvaluationActivity/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Entrega de la Actividad Individual (no recuperable)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Global"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "TI: Técnica del tipo Trabajo Individual"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 2"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/2/activity/TActivityType1/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/2/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas y prácticas. Tema 2"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 3"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/3/activity/TActivityType1/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/3/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas y prácticas. Tema 2"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 4"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/4/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/4/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/4/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas y prácticas. Tema 2"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/4/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas y prácticas. Tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 5"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/5/activity/TActivityType1/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/5/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas y prácticas. Tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 6"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/6/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/6/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/6/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Planteamiento actividad grupal: trabajo y exposición de los temas 4, 5 y 6."
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras actividades formativas / Evaluación"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/6/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas y prácticas. Tema 7"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 7"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 8"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/8/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/8/activity/TEvaluationActivity/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/8/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen parcial 1 (recuperable)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras actividades formativas / Evaluación"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/8/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen parcial 1 (recuperable)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "EX: Técnica del tipo Examen Escrito"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 9"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001017/2025-26/eventSchedule/9/activity/TActivityType1/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/eventSchedule/9/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas y prácticas. Tema 7"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/previous_courses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/RequiredKnowledge"
+  } ],
+  "https://guia.org/previousCourses" : [ {
+    "@language" : "es",
+    "@value" : "El plan de estudios Grado En Ciencia De Datos E Inteligencia Artificial no tiene definidos otros requisitos para esta asignatura."
+  } ],
+  "https://guia.org/previousKnowledge" : [ {
+    "@language" : "es",
+    "@value" : "El coordinador de la asignatura no ha definido otros conocimientos previos recomendados."
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Syllabus"
+  } ],
+  "https://guia.org/hasItem" : [ {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/0"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/1"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/10"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/11"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/12"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/13"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/14"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/15"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/16"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/17"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/18"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/19"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/2"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/20"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/21"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/22"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/23"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/24"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/25"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/26"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/27"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/28"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/29"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/3"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/30"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/31"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/32"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/33"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/34"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/35"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/36"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/37"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/38"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/39"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/4"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/40"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/41"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/42"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/43"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/44"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/45"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/46"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/47"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/48"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/49"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/5"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/50"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/51"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/52"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/53"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/6"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/7"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/8"
+  }, {
+    "@id" : "http://data.org/615001017/2025-26/syllabus/9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "0"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1. Tema 1: Introducción a la teoría económica"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.1. La actividad económica y el concepto de economía Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.5. La teoría de los costes Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.6. Ingreso total, medio y marginal Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.7. Maximización del beneficio Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.8. Tipos de mercado Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.9. La maximización de beneficios y la empresa competitiva Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.10. La curva de oferta a corto plazo en la empresa competitiva Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "16"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.11. Equilibrio Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3. Tema 3: Macroeconomía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "18"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.1. Concepto Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "19"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.2. Variables macroeconómicas Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.2. Algunos conceptos básicos Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "20"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.3. Los instrumentos de política macroeconómica Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "21"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.4. Oferta y demanda agregadas Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.5. Renta Nacional y otras macromagnitudes Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "23"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4. Tema 4: Introducción al concepto de empresa"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "24"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.1. La empresa desde el punto de vista macroeconómico Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "25"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.2. La empresa desde el punto de vista microeconómico Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "26"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.3. El entorno de la empresa Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "27"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.4. Tipos de empresa Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "28"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5. Tema 5: Estrategia e innovación en la empresa"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "29"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.1. Necesidad del pensamiento estratégico Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.3. Economía de mercado y economía centralizada Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "30"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.2. Los niveles de estrategia Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "31"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.3. Alternativas estratégicas para competir Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "32"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.4. Estrategias de crecimiento Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "33"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.5. Concepto de innovación Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "34"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.6. Tipos de Innovación Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "35"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.7. Gestión de la innovación Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "36"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "6. Tema 6: La dirección"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "37"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "6.1. La dirección Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "38"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "6.2. Los niveles directivos Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "39"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "6.3. Funciones directivas Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.4. Microeconomía y macroeconomía Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "40"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "6.4. Dirección de recursos humanos Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "41"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "7. Tema 7: Finanzas"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "42"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "7.1. Las decisiones financieras Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "43"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "7.2. Las decisiones de inversión Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "44"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "8. Tema 8: El área de producción de la empresa"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "45"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "8.1. La función de producción o función de operaciones Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "46"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "8.2. Introducción a la problemática de la capacidad Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "47"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "8.3. El diseño del proceso Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "48"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "8.4. Métodos de planificación, programación y control de proyectos: concepto y utilidad Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "49"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "8.5. Administración y control de la calidad Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2. Tema 2: Microeconomía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "50"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "9. Tema 9: El área comercial de la empresa"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "51"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "9.1. Concepto de marketing Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "52"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "9.2. La gestión del marketing en la empresa Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "53"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "9.3. Investigación de mercados Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.1. Introducción Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.2. Teoría del equilibrio del consumidor Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.3. La curva de demanda Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001017/2025-26/syllabus/9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.4. Teoría de la producción Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/BachelorDegree"
+  }, {
+    "@id" : "https://guia.org/Degree"
+  } ],
+  "https://guia.org/hasCourse" : [ {
+    "@id" : "http://data.org/615001017"
+  } ],
+  "https://schema.org/name" : [ {
+    "@language" : "es",
+    "@value" : "61CD - Grado en Ciencia de Datos e Inteligencia Artificial"
+  } ]
+}, {
+  "@id" : "http://data.org/CB03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CB03"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética"
+  } ]
+}, {
+  "@id" : "http://data.org/CE19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CE19"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad para definir e interpretar los fundamentos de las organizaciones, los aspectos básicos de su organización y gestión, el proceso de innovación y su gestión, sus distintas áreas funcionales y su entorno socioeconómico."
+  } ]
+}, {
+  "@id" : "http://data.org/CG01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CG01"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad de trabajo en equipo, en entornos interdisciplinares y complejos, negociando y resolviendo conflictos, diseñando soluciones eficientes, fiables, robustas y responsables."
+  } ]
+}, {
+  "@id" : "http://data.org/CG02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CG02"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad para organizar y planificar tareas y proyectos, identificando objetivos, prioridades, plazos, recursos y riesgos, y controlando los procesos establecidos."
+  } ]
+}, {
+  "@id" : "http://data.org/CG07",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CG07"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad para integrar aspectos sociales, ambientales, económicos y éticos inherentes a la ingeniería, analizando sus impactos, y comprometiéndose con la búsqueda de soluciones a retos del desarrollo sostenible."
+  } ]
+}, {
+  "@id" : "http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/UniversityCenter"
+  } ],
+  "https://guia.org/offers" : [ {
+    "@id" : "http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "E.T.S De Ing. De Sistemas Informáticos"
+  } ]
+}, {
+  "@id" : "http://data.org/RA78",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/LearningResult"
+  } ],
+  "https://guia.org/learningResultCode" : [ {
+    "@value" : "RA78"
+  } ],
+  "https://guia.org/learningResultDescription" : [ {
+    "@language" : "es",
+    "@value" : "Aplicar técnicas y análisis de mercados, para seguir las acciones necesarias para definir un objetivo en una estrategia empresarial."
+  } ]
+}, {
+  "@id" : "http://data.org/RA79",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/LearningResult"
+  } ],
+  "https://guia.org/learningResultCode" : [ {
+    "@value" : "RA79"
+  } ],
+  "https://guia.org/learningResultDescription" : [ {
+    "@language" : "es",
+    "@value" : "Identificar y describir las áreas funcionales de una empresa y sus responsabilidades, así como el análisis y diseño de los procesos de negocio"
+  } ]
+}, {
+  "@id" : "http://data.org/RA80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/LearningResult"
+  } ],
+  "https://guia.org/learningResultCode" : [ {
+    "@value" : "RA80"
+  } ],
+  "https://guia.org/learningResultDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad para identificar y asegurar el cumplimiento de los valores y principios éticos, legales, democráticos, de igualdad y derechos fundamentales dentro de una organización"
+  } ]
+}, {
+  "@id" : "http://data.org/courseYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://data.org/jaime.gonzalez.masip%40upm.es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Lecturer"
+  } ],
+  "https://guia.org/office" : [ {
+    "@language" : "es",
+    "@value" : "4202"
+  } ],
+  "https://guia.org/tutorshipsSchedule" : [ {
+    "@language" : "es",
+    "@value" : "Cita previa a confirmar con el profesor."
+  } ],
+  "https://schema.org/email" : [ {
+    "@value" : "jaime.gonzalez.masip@upm.es"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Gonzalez Masip, Jaime Juan"
+  } ]
+}, {
+  "@id" : "http://data.org/m.uche%40upm.es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Lecturer"
+  } ],
+  "https://guia.org/office" : [ {
+    "@language" : "es",
+    "@value" : "4207"
+  } ],
+  "https://guia.org/tutorshipsSchedule" : [ {
+    "@language" : "es",
+    "@value" : "Cita previa a confirmar con el profesor."
+  } ],
+  "https://schema.org/email" : [ {
+    "@value" : "m.uche@upm.es"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Uche Soria, Manuel"
+  } ]
+}, {
+  "@id" : "http://data.org/marta.olea%40upm.es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Lecturer"
+  } ],
+  "https://guia.org/office" : [ {
+    "@language" : "es",
+    "@value" : "4203"
+  } ],
+  "https://guia.org/tutorshipsSchedule" : [ {
+    "@language" : "es",
+    "@value" : "Cita previa a confirmar con el profesor."
+  } ],
+  "https://schema.org/email" : [ {
+    "@value" : "marta.olea@upm.es"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Olea De Cardenas, Marta"
+  } ]
+}, {
+  "@id" : "http://data.org/paula.farias%40upm.es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Lecturer"
+  } ],
+  "https://guia.org/office" : [ {
+    "@language" : "es",
+    "@value" : "4204"
+  } ],
+  "https://guia.org/tutorshipsSchedule" : [ {
+    "@language" : "es",
+    "@value" : "Cita previa a confirmar con el profesor."
+  } ],
+  "https://schema.org/email" : [ {
+    "@value" : "paula.farias@upm.es"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Fernandez Arias, M. Paula"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "https://guia.org/Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/ActivityType1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/BachelorDegree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Competency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Course",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/CourseGuide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Degree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/DidacticResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/EvaluationActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/EvaluationSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/EvaluationTrial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/LearningResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Lecturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/RequiredKnowledge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Schedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/ScheduleEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/SyllabusItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/UniversityCenter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/activityDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/activityDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/activityDurationUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/activityFormat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/attendanceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/bibliographyDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/bibliographyTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/bibliographyType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/competencyCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/competencyDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/courseType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/evaluationDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/evaluationDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/evaluationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/eventIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/eventWeek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/gradePercentage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasCompetency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasCourse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasDidacticResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasEvaluation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasEvaluationTrial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasLearningResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasScheduleEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/inpersonHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/involvesCompetency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/itemIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/learningResultCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/learningResultDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/minimumScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/numberOfCredits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/offers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/office",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/otherInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/periodEndingMonth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/periodStaringtMonth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/previousCourses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/previousKnowledge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/semester",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/syllabusDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/teachingPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/teachingPeriodMonths",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/tecnic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/totalHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/trialDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/trialType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/trialWeek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/tutorshipsSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/activitiesWorkload",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/courseCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/courseSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/director",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/eventSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/hasCourseInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/inLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/instructor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/numberOfCredits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

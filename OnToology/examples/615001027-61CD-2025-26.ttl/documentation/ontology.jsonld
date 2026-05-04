@@ -1,0 +1,2674 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://data.org/615001027",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.org/courseYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Course"
+  } ],
+  "https://guia.org/courseType" : [ {
+    "@language" : "es",
+    "@value" : "Obligatoria"
+  } ],
+  "https://guia.org/semester" : [ {
+    "@language" : "es",
+    "@value" : "Quinto semestre"
+  } ],
+  "https://schema.org/courseCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "615001027"
+  } ],
+  "https://schema.org/hasCourseInstance" : [ {
+    "@id" : "http://data.org/615001027/2025-26"
+  } ],
+  "https://schema.org/name" : [ {
+    "@language" : "es",
+    "@value" : "Aprendizaje Automático I"
+  }, {
+    "@language" : "en",
+    "@value" : "Machine Learning I"
+  } ],
+  "https://schema.org/numberOfCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "6.0"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/CourseGuide"
+  } ],
+  "https://guia.org/hasCompetency" : [ {
+    "@id" : "http://data.org/CB01"
+  }, {
+    "@id" : "http://data.org/CB02"
+  }, {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE11"
+  }, {
+    "@id" : "http://data.org/CE15"
+  }, {
+    "@id" : "http://data.org/CG01"
+  }, {
+    "@id" : "http://data.org/CG02"
+  }, {
+    "@id" : "http://data.org/CG04"
+  }, {
+    "@id" : "http://data.org/CG06"
+  }, {
+    "@id" : "http://data.org/CG07"
+  } ],
+  "https://guia.org/hasDidacticResource" : [ {
+    "@id" : "http://data.org/615001027/2025-26/didactic_resource/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/didactic_resource/10"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/didactic_resource/2"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/didactic_resource/3"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/didactic_resource/4"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/didactic_resource/5"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/didactic_resource/6"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/didactic_resource/7"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/didactic_resource/8"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/didactic_resource/9"
+  } ],
+  "https://guia.org/hasEvaluation" : [ {
+    "@id" : "http://data.org/615001027/2025-26/evaluation"
+  } ],
+  "https://guia.org/hasLearningResult" : [ {
+    "@id" : "http://data.org/RA120"
+  }, {
+    "@id" : "http://data.org/RA121"
+  }, {
+    "@id" : "http://data.org/RA122"
+  } ],
+  "https://guia.org/inpersonHours" : [ {
+    "@language" : "es",
+    "@value" : "58 horas (37.2%)"
+  } ],
+  "https://guia.org/numberOfCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "6.0"
+  } ],
+  "https://guia.org/otherInformation" : [ {
+    "@language" : "es",
+    "@value" : "La asignatura se apoya en la herramienta Moodle para proporcionar información y documentación a los alumnos, así como para la asignación de enunciados y entregas de las prácticas y la comunicación de las calificaciones de los alumnos.\nLas clases magistrales y las tutorías individuales y en grupo se realizarán de forma telemática o presencial de acuerdo a las recomendaciones oficiales debido a la situación sanitaria. En caso de ser telemática se realizará a través de la herramienta institucional UPM (Zoom o Microsoft Teams), todas ellas, en los horarios establecidos, así como posibles presentaciones orales por parte de los alumnos.\nSe responderán emails y se resolverán dudas, usando sistemas de teleconferencia, en los horarios de tutorías."
+  } ],
+  "https://guia.org/periodEndingMonth" : [ {
+    "@language" : "es",
+    "@value" : "Enero"
+  } ],
+  "https://guia.org/periodStaringtMonth" : [ {
+    "@language" : "es",
+    "@value" : "Septiembre"
+  } ],
+  "https://guia.org/teachingPeriod" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value" : "2025-26"
+  } ],
+  "https://guia.org/teachingPeriodMonths" : [ {
+    "@language" : "es",
+    "@value" : "Septiembre-Enero"
+  } ],
+  "https://guia.org/totalHours" : [ {
+    "@language" : "es",
+    "@value" : "58 horas"
+  } ],
+  "https://schema.org/activitiesWorkload" : [ {
+    "@language" : "es",
+    "@value" : "100%"
+  } ],
+  "https://schema.org/courseSchedule" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule"
+  } ],
+  "https://schema.org/description" : [ {
+    "@language" : "es",
+    "@value" : "El aprendizaje automático (o Machine Learning, ML) es el estudio de algoritmos que permiten que los programas mejoren automáticamente a través de la experiencia. Los algoritmos de ML construyen un modelo basado en \"datos de entrenamiento\" para hacer predicciones o decisiones sin estar programados explícitamente para ello.Esta asignatura expone varios métodos para la construcción de estos modelos."
+  } ],
+  "https://schema.org/director" : [ {
+    "@id" : "http://data.org/alejandro.martin%40upm.es"
+  } ],
+  "https://schema.org/inLanguage" : [ {
+    "@language" : "es",
+    "@value" : "Castellano"
+  } ],
+  "https://schema.org/instructor" : [ {
+    "@id" : "http://data.org/alejandro.martin%40upm.es"
+  }, {
+    "@id" : "http://data.org/david.camacho%40upm.es"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/didactic_resource/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Alpaydin, E. (2020).Introduction to Machine Learning, fourth edition (Adaptive Computation and Machine Learning series). MIT press."
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Libro 2020"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/didactic_resource/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "R. Duda, P.E. Hart, D.G. Stork. Pattern Classification. Wiley. 2001."
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Libro 2001"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/didactic_resource/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Géron, A. (2019). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow: Concepts, tools, and techniques to build intelligent systems. \" O'Reilly Media, Inc.\"."
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Libro 2019"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/didactic_resource/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Raschka, S., & Mirjalili, V. (2019). Python machine learning: Machine learning and deep learning with Python, scikit-learn, and TensorFlow 2. Packt Publishing Ltd."
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Libro 2019-2"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/didactic_resource/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning. 1st Edición - 2018. Author: Chris Albon"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Libro 2018"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/didactic_resource/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Müller, A. C., & Guido, S. (2016). Introduction to machine learning with Python: a guide for data scientists. \" O'Reilly Media, Inc.\"."
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Libro 2016"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/didactic_resource/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Data Mining: Practical Machine Learning Tools and Techniques. 4th Edition - October 1, 2016. Authors: Ian Witten, Eibe Frank, Mark Hall, Christopher Pal."
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Libro 2016-2"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/didactic_resource/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Data Preprocessing in Data Mining. Salvador García, Julián Luengo, Francisco Herrera. Springer-Verlag, 2015. ISBN: 978-3319102467"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Libro 2015"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/didactic_resource/8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "The Fourth Paradigm: Data-intensive Scientific Discovery. Tony Hey, Stewart Tansley and Kristin Tolle. Microsoft Research, 2009. ISBN: 978-0982544204"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Libro 2009"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/didactic_resource/9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "E. Alpaydin. Introduction to Machine Learning. MIT Press"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Libro 2004"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/evaluation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationSystem"
+  } ],
+  "https://guia.org/evaluationDescription" : [ {
+    "@language" : "es",
+    "@value" : "Las calificaciones de 5 o superiores en exámenes parciales y proyectos prácticos se conservan para la evaluación global y extraordinaria.\nSolo se puede optar a una segunda o tercera evaluación de exámenes parciales y proyectos prácticos si estos han recibido calificaciones inferiores a 5 o no se han presentado.\nLos derechos y deberes de los estudiantes universitarios están desarrollados en los Estatutos de la Universidad Politécnica de Madrid (BOCM de 15 de noviembre de 2010) y en el Estatuto del Estudiante Universitario (RD 1791/2010 de 30 de diciembre).\nEl artículo 124 (a) de los EUPM fija como deber del estudiante ...\"seguir con responsabilidad y aprovechamiento el proceso de formación, adquisición de conocimientos, y aprendizaje correspondiente a su condición de universitario\"... y el artículo 13 del Estatuto del Estudiante Universitario, en el punto (d) especifica también como deber del estudiante universitario \"abstenerse de la utilización o cooperación en procedimientos fraudulentos en las pruebas de evaluación, en los trabajos que se realicen o en documentos oficiales de la universidad\".\nEn el caso de que en el desarrollo de las pruebas de evaluación se aprecie el incumplimiento de los deberes como estudiante universitario, el coordinador de la asignatura podrá ponerlo en conocimiento del Director o Decano del Centro, que de acuerdo con lo establecido en el artículo 74 (n) de los Estatutos de la UPM tiene competencias para \"Proponer la iniciación del procedimiento disciplinario a cualquier miembro de la Escuela o Facultad, por propia iniciativa o a instancia de la Comisión de Gobierno\" al Rector, en los términos previstos en los estatutos y normas de aplicación"
+  } ],
+  "https://guia.org/hasEvaluationTrial" : [ {
+    "@id" : "http://data.org/615001027/2025-26/evaluation/trial1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/evaluation/trial2"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/evaluation/trial3"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/evaluation/trial4"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/evaluation/trial5"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/evaluation/trial6"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/evaluation/trial7"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/evaluation/trial1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "30%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/10"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB01"
+  }, {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE11"
+  }, {
+    "@id" : "http://data.org/CE15"
+  }, {
+    "@id" : "http://data.org/CG01"
+  }, {
+    "@id" : "http://data.org/CG02"
+  }, {
+    "@id" : "http://data.org/CG04"
+  }, {
+    "@id" : "http://data.org/CG07"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "4 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Proyecto práctico tema 3"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "10"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/evaluation/trial2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "30%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/15"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB01"
+  }, {
+    "@id" : "http://data.org/CB02"
+  }, {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE11"
+  }, {
+    "@id" : "http://data.org/CE15"
+  }, {
+    "@id" : "http://data.org/CG01"
+  }, {
+    "@id" : "http://data.org/CG02"
+  }, {
+    "@id" : "http://data.org/CG04"
+  }, {
+    "@id" : "http://data.org/CG06"
+  }, {
+    "@id" : "http://data.org/CG07"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "4 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Proyecto práctico tema 4"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "15"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/evaluation/trial3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "40%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/17"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB01"
+  }, {
+    "@id" : "http://data.org/CB02"
+  }, {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE11"
+  }, {
+    "@id" : "http://data.org/CE15"
+  }, {
+    "@id" : "http://data.org/CG07"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "5 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen escrito para evaluación de la asignatura"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/evaluation/trial4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "global"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "40%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/17"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB01"
+  }, {
+    "@id" : "http://data.org/CB02"
+  }, {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE11"
+  }, {
+    "@id" : "http://data.org/CE15"
+  }, {
+    "@id" : "http://data.org/CG07"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "5 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen escrito para evaluación de la asignatura"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/evaluation/trial5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "global"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "60%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/17"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB01"
+  }, {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE11"
+  }, {
+    "@id" : "http://data.org/CE15"
+  }, {
+    "@id" : "http://data.org/CG01"
+  }, {
+    "@id" : "http://data.org/CG02"
+  }, {
+    "@id" : "http://data.org/CG04"
+  }, {
+    "@id" : "http://data.org/CG06"
+  }, {
+    "@id" : "http://data.org/CG07"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "4 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Proyectos prácticos 1 y 2"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/evaluation/trial6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "extraordinaria"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "60%"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB01"
+  }, {
+    "@id" : "http://data.org/CB02"
+  }, {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE11"
+  }, {
+    "@id" : "http://data.org/CE15"
+  }, {
+    "@id" : "http://data.org/CG01"
+  }, {
+    "@id" : "http://data.org/CG02"
+  }, {
+    "@id" : "http://data.org/CG04"
+  }, {
+    "@id" : "http://data.org/CG06"
+  }, {
+    "@id" : "http://data.org/CG07"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "4 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Proyectos prácticos 1 y 2"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/evaluation/trial7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "extraordinaria"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "40%"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB01"
+  }, {
+    "@id" : "http://data.org/CB02"
+  }, {
+    "@id" : "http://data.org/CB03"
+  }, {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE11"
+  }, {
+    "@id" : "http://data.org/CE15"
+  }, {
+    "@id" : "http://data.org/CG07"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "5 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen escrito"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Schedule"
+  } ],
+  "https://schema.org/eventSchedule" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/10"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/11"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/12"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/13"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/14"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/15"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/16"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/17"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/2"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/3"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/4"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/5"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/6"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/7"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/8"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 1"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/1/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/1/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/1/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 1"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/1/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 2"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 10"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/10/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/10/activity/TActivityType1/2"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/10/activity/TActivityType1/3"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/10/activity/TEvaluationActivity/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/10/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/10/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen parcial temas 1, 2 y 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras actividades formativas / Evaluación"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/10/activity/TActivityType1/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Proyecto práctico tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras actividades formativas / Evaluación"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/10/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Proyecto práctico tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "TI: Técnica del tipo Trabajo Individual"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 11"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 12"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/12/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/12/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/12/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 4"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/12/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 4"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 13"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/13/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/13/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/13/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 4"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/13/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 4"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 14"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/14/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/14/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/14/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 4"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/14/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 4"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 15"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/15/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/15/activity/TActivityType1/2"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/15/activity/TEvaluationActivity/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/15/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 4"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/15/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 4"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/15/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Proyecto práctico tema 4"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "TI: Técnica del tipo Trabajo Individual"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "16"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 16"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 17"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/17/activity/TEvaluationActivity/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/17/activity/TEvaluationActivity/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/17/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen escrito para evaluación de la asignatura"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva y Global"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "EX: Técnica del tipo Examen Escrito"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/17/activity/TEvaluationActivity/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Proyectos prácticos 1 y 2"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Global"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "TI: Técnica del tipo Trabajo Individual"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 2"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/2/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/2/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/2/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 2"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/2/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 2"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 3"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/3/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/3/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/3/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/3/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 4"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/4/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/4/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/4/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/4/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 5"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/5/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/5/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/5/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/5/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 6"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/6/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/6/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/6/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/6/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 7"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/7/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/7/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/7/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/7/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 8"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/8/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/8/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/8/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/8/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 9"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/9/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/eventSchedule/9/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/9/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/eventSchedule/9/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Clases teóricas del tema 3"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/previous_courses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/RequiredKnowledge"
+  } ],
+  "https://guia.org/previousCourses" : [ {
+    "@language" : "es",
+    "@value" : "El plan de estudios Grado En Ciencia De Datos E Inteligencia Artificial no tiene definidos otros requisitos para esta asignatura."
+  } ],
+  "https://guia.org/previousKnowledge" : [ {
+    "@language" : "es",
+    "@value" : "Programación en Python"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Syllabus"
+  } ],
+  "https://guia.org/hasItem" : [ {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/0"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/1"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/10"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/11"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/12"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/13"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/14"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/15"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/16"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/2"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/3"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/4"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/5"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/6"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/7"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/8"
+  }, {
+    "@id" : "http://data.org/615001027/2025-26/syllabus/9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "0"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1. Introducción"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.1. Fundamentos del aprendizaje automático Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.3. Evaluación de modelos de aprendizaje para clasificación y regresión Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.4. Métodos avanzados de clasificación y regresión Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4. Aprendizaje no supervisado"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.1. Introducción al Clustering Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.2. Evaluación de modelos de aprendizaje para Clustering Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.3. Clustering particional Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "16"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.4. Clustering jerárquico Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.2. Preprocesamiento de datos Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2. Selección de características"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.1. Métodos de filtro Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.2. Métodos de Wrapper Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.3. Métodos embebidos Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3. Aprendizaje supervisado"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.1. Introducción a la clasificación y a la regresión Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001027/2025-26/syllabus/9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.2. Métodos simples de clasificación y regresión Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/BachelorDegree"
+  }, {
+    "@id" : "https://guia.org/Degree"
+  } ],
+  "https://guia.org/hasCourse" : [ {
+    "@id" : "http://data.org/615001027"
+  } ],
+  "https://schema.org/name" : [ {
+    "@language" : "es",
+    "@value" : "61CD - Grado en Ciencia de Datos e Inteligencia Artificial"
+  } ]
+}, {
+  "@id" : "http://data.org/CB01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CB01"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Que los estudiantes hayan demostrado poseer y comprender conocimientos en un área de estudio que parte de la base de la educación secundaria general, y se suele encontrar a un nivel que, si bien se apoya en libros de texto avanzados, incluye también algunos aspectos que implican conocimientos procedentes de la vanguardia de su campo de estudio"
+  } ]
+}, {
+  "@id" : "http://data.org/CB02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CB02"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio"
+  } ]
+}, {
+  "@id" : "http://data.org/CB03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CB03"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética"
+  } ]
+}, {
+  "@id" : "http://data.org/CB04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CB04"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado"
+  } ]
+}, {
+  "@id" : "http://data.org/CB05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CB05"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores con un alto grado de autonomía"
+  } ]
+}, {
+  "@id" : "http://data.org/CE11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CE11"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad para aplicar métodos generales de ciencia de datos e inteligencia artificial para desarrollar software que explote los datos de un dominio concreto científico o de negocio."
+  } ]
+}, {
+  "@id" : "http://data.org/CE15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CE15"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad para describir y aplicar las técnicas de aprendizaje automático y estadística avanzada que permitan transformar los datos en conocimiento y proporcionar sistemas capaces de resolver problemas de clasificación supervisada y no supervisada, así como de búsqueda de relaciones de independencia condicional entre variables relacionadas."
+  } ]
+}, {
+  "@id" : "http://data.org/CG01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CG01"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad de trabajo en equipo, en entornos interdisciplinares y complejos, negociando y resolviendo conflictos, diseñando soluciones eficientes, fiables, robustas y responsables."
+  } ]
+}, {
+  "@id" : "http://data.org/CG02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CG02"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad para organizar y planificar tareas y proyectos, identificando objetivos, prioridades, plazos, recursos y riesgos, y controlando los procesos establecidos."
+  } ]
+}, {
+  "@id" : "http://data.org/CG04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CG04"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad para innovar y encontrar soluciones creativas en situaciones complejas o de incertidumbre en el ámbito de la ingeniería."
+  } ]
+}, {
+  "@id" : "http://data.org/CG06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CG06"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Identificar y utilizar las tecnologías de la información y las comunicaciones más adecuadas en el ámbito de la ingeniería."
+  } ]
+}, {
+  "@id" : "http://data.org/CG07",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CG07"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad para integrar aspectos sociales, ambientales, económicos y éticos inherentes a la ingeniería, analizando sus impactos, y comprometiéndose con la búsqueda de soluciones a retos del desarrollo sostenible."
+  } ]
+}, {
+  "@id" : "http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/UniversityCenter"
+  } ],
+  "https://guia.org/offers" : [ {
+    "@id" : "http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "E.T.S De Ing. De Sistemas Informáticos"
+  } ]
+}, {
+  "@id" : "http://data.org/RA120",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/LearningResult"
+  } ],
+  "https://guia.org/learningResultCode" : [ {
+    "@value" : "RA120"
+  } ],
+  "https://guia.org/learningResultDescription" : [ {
+    "@language" : "es",
+    "@value" : "RA96"
+  } ]
+}, {
+  "@id" : "http://data.org/RA121",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/LearningResult"
+  } ],
+  "https://guia.org/learningResultCode" : [ {
+    "@value" : "RA121"
+  } ],
+  "https://guia.org/learningResultDescription" : [ {
+    "@language" : "es",
+    "@value" : "RA93"
+  } ]
+}, {
+  "@id" : "http://data.org/RA122",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/LearningResult"
+  } ],
+  "https://guia.org/learningResultCode" : [ {
+    "@value" : "RA122"
+  } ],
+  "https://guia.org/learningResultDescription" : [ {
+    "@language" : "es",
+    "@value" : "RA94"
+  } ]
+}, {
+  "@id" : "http://data.org/alejandro.martin%40upm.es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Lecturer"
+  } ],
+  "https://guia.org/office" : [ {
+    "@language" : "es",
+    "@value" : "1220"
+  } ],
+  "https://guia.org/tutorshipsSchedule" : [ {
+    "@language" : "es",
+    "@value" : "El horario de tutorías se publicará en la Web de la ETSISI y en el Moodle de la asignatura."
+  } ],
+  "https://schema.org/email" : [ {
+    "@value" : "alejandro.martin@upm.es"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Martin Garcia, Alejandro"
+  } ]
+}, {
+  "@id" : "http://data.org/courseYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://data.org/david.camacho%40upm.es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Lecturer"
+  } ],
+  "https://guia.org/office" : [ {
+    "@language" : "es",
+    "@value" : "1215"
+  } ],
+  "https://guia.org/tutorshipsSchedule" : [ {
+    "@language" : "es",
+    "@value" : "El horario de tutorías se publicará en la Web de la ETSISI y en el Moodle de la asignatura."
+  } ],
+  "https://schema.org/email" : [ {
+    "@value" : "david.camacho@upm.es"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Camacho Fernandez, David"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "https://guia.org/Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/ActivityType1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/BachelorDegree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Competency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Course",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/CourseGuide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Degree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/DidacticResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/EvaluationActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/EvaluationSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/EvaluationTrial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/LearningResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Lecturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/RequiredKnowledge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Schedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/ScheduleEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/SyllabusItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/UniversityCenter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/activityDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/activityDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/activityDurationUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/activityFormat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/attendanceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/bibliographyDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/bibliographyTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/bibliographyType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/competencyCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/competencyDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/courseType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/evaluationDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/evaluationDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/evaluationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/eventIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/eventWeek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/gradePercentage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasCompetency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasCourse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasDidacticResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasEvaluation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasEvaluationTrial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasLearningResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasScheduleEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/inpersonHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/involvesCompetency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/itemIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/learningResultCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/learningResultDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/minimumScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/numberOfCredits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/offers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/office",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/otherInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/periodEndingMonth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/periodStaringtMonth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/previousCourses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/previousKnowledge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/semester",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/syllabusDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/teachingPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/teachingPeriodMonths",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/tecnic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/totalHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/trialDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/trialType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/trialWeek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/tutorshipsSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/activitiesWorkload",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/courseCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/courseSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/director",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/eventSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/hasCourseInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/inLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/instructor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/numberOfCredits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
