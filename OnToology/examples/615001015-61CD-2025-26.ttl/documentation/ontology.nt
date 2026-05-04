@@ -1,0 +1,1159 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://data.org/courseYear
+<http://data.org/courseYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/activityDescription
+<https://guia.org/activityDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/activityDuration
+<https://guia.org/activityDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/activityDurationUnit
+<https://guia.org/activityDurationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/activityFormat
+<https://guia.org/activityFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/bibliographyDescription
+<https://guia.org/bibliographyDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/bibliographyTitle
+<https://guia.org/bibliographyTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/bibliographyType
+<https://guia.org/bibliographyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/code
+<https://guia.org/code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/courseType
+<https://guia.org/courseType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/description
+<https://guia.org/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/evaluationDescription
+<https://guia.org/evaluationDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/evaluationDuration
+<https://guia.org/evaluationDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/evaluationType
+<https://guia.org/evaluationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/eventIndex
+<https://guia.org/eventIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/eventWeek
+<https://guia.org/eventWeek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/gradePercentage
+<https://guia.org/gradePercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/hasActivity
+<https://guia.org/hasActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/hasCompetency
+<https://guia.org/hasCompetency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/hasCourse
+<https://guia.org/hasCourse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/hasDidacticResource
+<https://guia.org/hasDidacticResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/hasEvaluation
+<https://guia.org/hasEvaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/hasEvaluationTrial
+<https://guia.org/hasEvaluationTrial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/hasItem
+<https://guia.org/hasItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/hasLearningResult
+<https://guia.org/hasLearningResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/hasScheduleEvent
+<https://guia.org/hasScheduleEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/inpersonHours
+<https://guia.org/inpersonHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/involvesCompentecy
+<https://guia.org/involvesCompentecy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/itemIndex
+<https://guia.org/itemIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/minimumScore
+<https://guia.org/minimumScore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/numberOfCredits
+<https://guia.org/numberOfCredits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/offers
+<https://guia.org/offers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/otherInformation
+<https://guia.org/otherInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/periodEndingMonth
+<https://guia.org/periodEndingMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/periodStaringtMonth
+<https://guia.org/periodStaringtMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/presencial
+<https://guia.org/presencial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/previousCourses
+<https://guia.org/previousCourses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/previousKnowledge
+<https://guia.org/previousKnowledge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/semester
+<https://guia.org/semester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/teachingPeriod
+<https://guia.org/teachingPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/teachingPeriodMonths
+<https://guia.org/teachingPeriodMonths> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/tecnic
+<https://guia.org/tecnic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/tipo
+<https://guia.org/tipo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/totalHours
+<https://guia.org/totalHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/trialDescription
+<https://guia.org/trialDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/trialType
+<https://guia.org/trialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://guia.org/trialWeek
+<https://guia.org/trialWeek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/activitiesWorkload
+<https://schema.org/activitiesWorkload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/courseCode
+<https://schema.org/courseCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/courseSchedule
+<https://schema.org/courseSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/description
+<https://schema.org/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/director
+<https://schema.org/director> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/email
+<https://schema.org/email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/eventSchedule
+<https://schema.org/eventSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/hasCourseInstance
+<https://schema.org/hasCourseInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/inLanguage
+<https://schema.org/inLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/instructor
+<https://schema.org/instructor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/name
+<https://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/numberOfCredits
+<https://schema.org/numberOfCredits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#gYear
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://guia.org/Activity
+<https://guia.org/Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/ActivityType1
+<https://guia.org/ActivityType1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/ActivityType2
+<https://guia.org/ActivityType2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/BachelorDegree
+<https://guia.org/BachelorDegree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/Competency
+<https://guia.org/Competency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/Course
+<https://guia.org/Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/CourseGuide
+<https://guia.org/CourseGuide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/Degree
+<https://guia.org/Degree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/DidacticResource
+<https://guia.org/DidacticResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/EvaluationActivity
+<https://guia.org/EvaluationActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/EvaluationSystem
+<https://guia.org/EvaluationSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/EvaluationTrial
+<https://guia.org/EvaluationTrial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/LearningResult
+<https://guia.org/LearningResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/Lecturer
+<https://guia.org/Lecturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/RequiredKnowledge
+<https://guia.org/RequiredKnowledge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/Schedule
+<https://guia.org/Schedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/ScheduleEvent
+<https://guia.org/ScheduleEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/Syllabus
+<https://guia.org/Syllabus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/SyllabusItem
+<https://guia.org/SyllabusItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://guia.org/UniversityCenter
+<https://guia.org/UniversityCenter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://data.org/CB01
+<http://data.org/CB01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/CB01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Competency> .
+<http://data.org/CB01> <https://guia.org/code> "CB01" .
+<http://data.org/CB01> <https://guia.org/description> "Que los estudiantes hayan demostrado poseer y comprender conocimientos en un área de estudio que parte de la base de la educación secundaria general, y se suele encontrar a un nivel que, si bien se apoya en libros de texto avanzados, incluye también algunos aspectos que implican conocimientos procedentes de la vanguardia de su campo de estudio"@es .
+# 
+# http://data.org/CB02
+<http://data.org/CB02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/CB02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Competency> .
+<http://data.org/CB02> <https://guia.org/code> "CB02" .
+<http://data.org/CB02> <https://guia.org/description> "Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio"@es .
+# 
+# http://data.org/CB03
+<http://data.org/CB03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/CB03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Competency> .
+<http://data.org/CB03> <https://guia.org/code> "CB03" .
+<http://data.org/CB03> <https://guia.org/description> "Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética"@es .
+# 
+# http://data.org/CB04
+<http://data.org/CB04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/CB04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Competency> .
+<http://data.org/CB04> <https://guia.org/code> "CB04" .
+<http://data.org/CB04> <https://guia.org/description> "Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado"@es .
+# 
+# http://data.org/CB05
+<http://data.org/CB05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/CB05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Competency> .
+<http://data.org/CB05> <https://guia.org/code> "CB05" .
+<http://data.org/CB05> <https://guia.org/description> "Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores con un alto grado de autonomía"@es .
+# 
+# http://data.org/CE11
+<http://data.org/CE11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/CE11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Competency> .
+<http://data.org/CE11> <https://guia.org/code> "CE11" .
+<http://data.org/CE11> <https://guia.org/description> "Capacidad para aplicar métodos generales de ciencia de datos e inteligencia artificial para desarrollar software que explote los datos de un dominio concreto científico o de negocio."@es .
+# 
+# http://data.org/CE14
+<http://data.org/CE14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/CE14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Competency> .
+<http://data.org/CE14> <https://guia.org/code> "CE14" .
+<http://data.org/CE14> <https://guia.org/description> "Capacidad para describir las técnicas de adquisición y representación del conocimiento, y modelos de razonamiento en entornos centralizados y distribuidos, y utilizarlas para desarrollar sistemas basados en el conocimiento orientados a la resolución de problemas y toma de decisiones que requieran conducta inteligente."@es .
+# 
+# http://data.org/CG01
+<http://data.org/CG01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/CG01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Competency> .
+<http://data.org/CG01> <https://guia.org/code> "CG01" .
+<http://data.org/CG01> <https://guia.org/description> "Capacidad de trabajo en equipo, en entornos interdisciplinares y complejos, negociando y resolviendo conflictos, diseñando soluciones eficientes, fiables, robustas y responsables."@es .
+# 
+# http://data.org/CG02
+<http://data.org/CG02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/CG02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Competency> .
+<http://data.org/CG02> <https://guia.org/code> "CG02" .
+<http://data.org/CG02> <https://guia.org/description> "Capacidad para organizar y planificar tareas y proyectos, identificando objetivos, prioridades, plazos, recursos y riesgos, y controlando los procesos establecidos."@es .
+# 
+# http://data.org/CG04
+<http://data.org/CG04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/CG04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Competency> .
+<http://data.org/CG04> <https://guia.org/code> "CG04" .
+<http://data.org/CG04> <https://guia.org/description> "Capacidad para innovar y encontrar soluciones creativas en situaciones complejas o de incertidumbre en el ámbito de la ingeniería."@es .
+# 
+# http://data.org/CG06
+<http://data.org/CG06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/CG06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Competency> .
+<http://data.org/CG06> <https://guia.org/code> "CG06" .
+<http://data.org/CG06> <https://guia.org/description> "Identificar y utilizar las tecnologías de la información y las comunicaciones más adecuadas en el ámbito de la ingeniería."@es .
+# 
+# http://data.org/CG07
+<http://data.org/CG07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/CG07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Competency> .
+<http://data.org/CG07> <https://guia.org/code> "CG07" .
+<http://data.org/CG07> <https://guia.org/description> "Capacidad para integrar aspectos sociales, ambientales, económicos y éticos inherentes a la ingeniería, analizando sus impactos, y comprometiéndose con la búsqueda de soluciones a retos del desarrollo sostenible."@es .
+# 
+# http://data.org/RA93
+<http://data.org/RA93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/RA93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/LearningResult> .
+<http://data.org/RA93> <https://guia.org/code> "RA93" .
+<http://data.org/RA93> <https://guia.org/description> "Ser capaz de crear aplicaciones que hagan uso de los datos disponibles en la Web Semántica y en la Web de Linked Data, para resolver problemas en el mundo real"@es .
+# 
+# http://data.org/RA94
+<http://data.org/RA94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/RA94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/LearningResult> .
+<http://data.org/RA94> <https://guia.org/code> "RA94" .
+<http://data.org/RA94> <https://guia.org/description> "Ser capaz de utilizar los diferentes lenguajes, técnicas, métodos y metodologías que permiten la construcción de ontologías y de datos de la Web Semántica"@es .
+# 
+# http://data.org/RA95
+<http://data.org/RA95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/RA95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/LearningResult> .
+<http://data.org/RA95> <https://guia.org/code> "RA95" .
+<http://data.org/RA95> <https://guia.org/description> "Ser capaz de generar datos en el formato utilizado en la Web Semántica y en la Web de Linked Data, y de publicarlos para su uso por terceros"@es .
+# 
+# http://data.org/615001015
+<http://data.org/615001015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Course> .
+<http://data.org/615001015> <http://data.org/courseYear> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015> <https://guia.org/courseType> "Obligatoria"@es .
+<http://data.org/615001015> <https://guia.org/semester> "Tercer semestre"@es .
+<http://data.org/615001015> <https://schema.org/courseCode> "615001015"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015> <https://schema.org/hasCourseInstance> <http://data.org/615001015/2025-26> .
+<http://data.org/615001015> <https://schema.org/name> "Semantic Web, Linked Data And Knowledge Graphs"@en .
+<http://data.org/615001015> <https://schema.org/name> "Web Semántica, Linked Data y Grafos de Conocimientos"@es .
+<http://data.org/615001015> <https://schema.org/numberOfCredits> "3.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://data.org/615001015/2025-26
+<http://data.org/615001015/2025-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/CourseGuide> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasCompetency> <http://data.org/CB01> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasCompetency> <http://data.org/CB02> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasCompetency> <http://data.org/CB03> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasCompetency> <http://data.org/CB04> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasCompetency> <http://data.org/CB05> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasCompetency> <http://data.org/CE11> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasCompetency> <http://data.org/CE14> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasCompetency> <http://data.org/CG01> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasCompetency> <http://data.org/CG02> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasCompetency> <http://data.org/CG04> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasCompetency> <http://data.org/CG06> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasCompetency> <http://data.org/CG07> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasDidacticResource> <http://data.org/615001015/2025-26/didactic_resource/1> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasDidacticResource> <http://data.org/615001015/2025-26/didactic_resource/2> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasDidacticResource> <http://data.org/615001015/2025-26/didactic_resource/3> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasDidacticResource> <http://data.org/615001015/2025-26/didactic_resource/4> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasDidacticResource> <http://data.org/615001015/2025-26/didactic_resource/5> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasDidacticResource> <http://data.org/615001015/2025-26/didactic_resource/6> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasEvaluation> <http://data.org/615001015/2025-26/evaluation> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasLearningResult> <http://data.org/RA93> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasLearningResult> <http://data.org/RA94> .
+<http://data.org/615001015/2025-26> <https://guia.org/hasLearningResult> <http://data.org/RA95> .
+<http://data.org/615001015/2025-26> <https://guia.org/inpersonHours> "34 horas (43.6%)"@es .
+<http://data.org/615001015/2025-26> <https://guia.org/numberOfCredits> "3.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://data.org/615001015/2025-26> <https://guia.org/otherInformation> "El curso es eminentemente práctico, por lo que es aconsejable que los alumnos traigan a clase sus portátiles para poder trabajar durante las horas de clase."@es .
+<http://data.org/615001015/2025-26> <https://guia.org/periodEndingMonth> "Enero"@es .
+<http://data.org/615001015/2025-26> <https://guia.org/periodStaringtMonth> "Septiembre"@es .
+<http://data.org/615001015/2025-26> <https://guia.org/teachingPeriod> "2025-26"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.org/615001015/2025-26> <https://guia.org/teachingPeriodMonths> "Septiembre-Enero"@es .
+<http://data.org/615001015/2025-26> <https://guia.org/totalHours> "65 horas"@es .
+<http://data.org/615001015/2025-26> <https://schema.org/activitiesWorkload> "100%"@es .
+<http://data.org/615001015/2025-26> <https://schema.org/courseSchedule> <http://data.org/615001015/2025-26/eventSchedule> .
+<http://data.org/615001015/2025-26> <https://schema.org/description> "El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de datos en la Web de datos enlazados, así como en forma de grafos de conocimientos. En concreto, se presentarán: los conceptos de Web Semántica, Web de datos enlazados y grafos de conocimientos, así como de datos abiertos, lenguajes de representación de datos en la Web, metodología y tecnologías de soporte a la generación y publicación de datos enlazados, ontologías y vocabularios utilizados, fuentes de datos representativas, como DBpedia, Wikidata, Geonames, etc., y aplicaciones que hacen uso de datos enlazados y de grafos de conocimientos."@es .
+<http://data.org/615001015/2025-26> <https://schema.org/director> <http://data.org/andreajesus.cimmino%40upm.es> .
+<http://data.org/615001015/2025-26> <https://schema.org/inLanguage> "Castellano"@es .
+<http://data.org/615001015/2025-26> <https://schema.org/instructor> <http://data.org/andreajesus.cimmino%40upm.es> .
+# 
+# http://data.org/615001015/2025-26/evaluation
+<http://data.org/615001015/2025-26/evaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/evaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/EvaluationSystem> .
+<http://data.org/615001015/2025-26/evaluation> <https://guia.org/evaluationDescription> "La calificación vendrá dada a partir de la evaluación de:\n1. El examen teórico abarcará todos los conceptos vistos en la asignatura. Este examen tendrá un peso del 50%. Está relacionado con los resultados de aprendizaje RA93, RA94, RA95\n2. El material proporcionado por el alumno y su interacción en el repositorio de la asignatura sobre el trabajo global final. Este trabajo tendrá un peso del 40%. Está relacionado con los resultados de aprendizaje RA93, RA94, RA95\n3. La exposición oral y una prueba escrita sobre el trabajo realizado en grupo tendrá un peso del 10%. Está relacionado con los resultados de aprendizaje RA93, RA94\nTodas las pruebas y trabajos previamente descritos tienen una nota mínima de 5 para poder seguir superando la asignatura por evaluación continua. Todo aquel estudiante que no supere la asignatura en las distintas pruebas continuas, o no se presente a las mismas, tendrá la posibilidad de presentarse a un examen final donde podrá superar cualquiera de las distintas pruebas anteriores o la asignatura en su completo. Sin embargo, no será posible presentarse a dicho examen final para subir nota."@es .
+<http://data.org/615001015/2025-26/evaluation> <https://guia.org/hasEvaluationTrial> <http://data.org/615001015/2025-26/evaluation/trial1> .
+<http://data.org/615001015/2025-26/evaluation> <https://guia.org/hasEvaluationTrial> <http://data.org/615001015/2025-26/evaluation/trial2> .
+<http://data.org/615001015/2025-26/evaluation> <https://guia.org/hasEvaluationTrial> <http://data.org/615001015/2025-26/evaluation/trial3> .
+<http://data.org/615001015/2025-26/evaluation> <https://guia.org/hasEvaluationTrial> <http://data.org/615001015/2025-26/evaluation/trial4> .
+<http://data.org/615001015/2025-26/evaluation> <https://guia.org/hasEvaluationTrial> <http://data.org/615001015/2025-26/evaluation/trial5> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule
+<http://data.org/615001015/2025-26/eventSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Schedule> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/1> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/10> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/11> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/12> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/13> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/14> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/15> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/16> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/17> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/2> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/3> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/4> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/5> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/6> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/7> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/8> .
+<http://data.org/615001015/2025-26/eventSchedule> <https://schema.org/eventSchedule> <http://data.org/615001015/2025-26/eventSchedule/9> .
+# 
+# http://data.org/615001015/2025-26/previous_courses
+<http://data.org/615001015/2025-26/previous_courses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/previous_courses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/RequiredKnowledge> .
+<http://data.org/615001015/2025-26/previous_courses> <https://guia.org/previousCourses> "El plan de estudios Grado En Ciencia De Datos E Inteligencia Artificial no tiene definidos otros requisitos para esta asignatura."@es .
+<http://data.org/615001015/2025-26/previous_courses> <https://guia.org/previousKnowledge> "El coordinador de la asignatura no ha definido otros conocimientos previos recomendados."@es .
+# 
+# http://data.org/615001015/2025-26/syllabus
+<http://data.org/615001015/2025-26/syllabus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Syllabus> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/0> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/1> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/10> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/11> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/12> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/2> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/3> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/4> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/5> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/6> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/7> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/8> .
+<http://data.org/615001015/2025-26/syllabus> <https://guia.org/hasItem> <http://data.org/615001015/2025-26/syllabus/9> .
+# 
+# http://data.org/615001015/2025-26/didactic_resource/1
+<http://data.org/615001015/2025-26/didactic_resource/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/didactic_resource/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/DidacticResource> .
+<http://data.org/615001015/2025-26/didactic_resource/1> <https://guia.org/bibliographyTitle> "A. Gómez-Pérez, M. Fernández, O. Corcho. Ontological Engineering. Ed Springer, 2003"@es .
+<http://data.org/615001015/2025-26/didactic_resource/1> <https://guia.org/bibliographyType> "Bibliografía"@es .
+# 
+# http://data.org/615001015/2025-26/didactic_resource/2
+<http://data.org/615001015/2025-26/didactic_resource/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/didactic_resource/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/DidacticResource> .
+<http://data.org/615001015/2025-26/didactic_resource/2> <https://guia.org/bibliographyTitle> "Tom Heath and Christian Bizer (2011) Linked Data: Evolving the Web into a Global Data Space (1st edition). Synthesis Lectures on the Semantic Web: Theory and Technology, 1:1, 1-136. Morgan & Claypool."@es .
+<http://data.org/615001015/2025-26/didactic_resource/2> <https://guia.org/bibliographyType> "Bibliografía"@es .
+# 
+# http://data.org/615001015/2025-26/didactic_resource/3
+<http://data.org/615001015/2025-26/didactic_resource/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/didactic_resource/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/DidacticResource> .
+<http://data.org/615001015/2025-26/didactic_resource/3> <https://guia.org/bibliographyDescription> "https://www.dbpedia.org/"@es .
+<http://data.org/615001015/2025-26/didactic_resource/3> <https://guia.org/bibliographyTitle> "DBpedia"@es .
+<http://data.org/615001015/2025-26/didactic_resource/3> <https://guia.org/bibliographyType> "Recursos web"@es .
+# 
+# http://data.org/615001015/2025-26/didactic_resource/4
+<http://data.org/615001015/2025-26/didactic_resource/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/didactic_resource/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/DidacticResource> .
+<http://data.org/615001015/2025-26/didactic_resource/4> <https://guia.org/bibliographyDescription> "http://vocab.ciudadesabiertas.es/"@es .
+<http://data.org/615001015/2025-26/didactic_resource/4> <https://guia.org/bibliographyTitle> "Ciudades Abiertas"@es .
+<http://data.org/615001015/2025-26/didactic_resource/4> <https://guia.org/bibliographyType> "Recursos web"@es .
+# 
+# http://data.org/615001015/2025-26/didactic_resource/5
+<http://data.org/615001015/2025-26/didactic_resource/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/didactic_resource/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/DidacticResource> .
+<http://data.org/615001015/2025-26/didactic_resource/5> <https://guia.org/bibliographyDescription> "http://red.linkeddata.es/"@es .
+<http://data.org/615001015/2025-26/didactic_resource/5> <https://guia.org/bibliographyTitle> "Red temática española de Linked Data"@es .
+<http://data.org/615001015/2025-26/didactic_resource/5> <https://guia.org/bibliographyType> "Recursos web"@es .
+# 
+# http://data.org/615001015/2025-26/didactic_resource/6
+<http://data.org/615001015/2025-26/didactic_resource/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/didactic_resource/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/DidacticResource> .
+<http://data.org/615001015/2025-26/didactic_resource/6> <https://guia.org/bibliographyDescription> "http://www.opencitydata.es/"@es .
+<http://data.org/615001015/2025-26/didactic_resource/6> <https://guia.org/bibliographyTitle> "Red temática española de datos abiertos y ciudades inteligentes"@es .
+<http://data.org/615001015/2025-26/didactic_resource/6> <https://guia.org/bibliographyType> "Recursos web"@es .
+# 
+# http://data.org/615001015/2025-26/evaluation/trial1
+<http://data.org/615001015/2025-26/evaluation/trial1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/evaluation/trial1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/EvaluationTrial> .
+<http://data.org/615001015/2025-26/evaluation/trial1> <https://guia.org/evaluationDuration> "01:00"@es .
+<http://data.org/615001015/2025-26/evaluation/trial1> <https://guia.org/evaluationType> "progresiva"@es .
+<http://data.org/615001015/2025-26/evaluation/trial1> <https://guia.org/gradePercentage> "50%"@es .
+<http://data.org/615001015/2025-26/evaluation/trial1> <https://guia.org/hasScheduleEvent> <http://data.org/615001015/2025-26/eventSchedule/8> .
+<http://data.org/615001015/2025-26/evaluation/trial1> <https://guia.org/involvesCompentecy> <http://data.org/CE11> .
+<http://data.org/615001015/2025-26/evaluation/trial1> <https://guia.org/involvesCompentecy> <http://data.org/CE14> .
+<http://data.org/615001015/2025-26/evaluation/trial1> <https://guia.org/minimumScore> "5 / 10"@es .
+<http://data.org/615001015/2025-26/evaluation/trial1> <https://guia.org/trialDescription> "Prueba teórica escrita"@es .
+<http://data.org/615001015/2025-26/evaluation/trial1> <https://guia.org/trialType> "Presencial"@es .
+<http://data.org/615001015/2025-26/evaluation/trial1> <https://guia.org/trialWeek> "8"@es .
+# 
+# http://data.org/615001015/2025-26/evaluation/trial2
+<http://data.org/615001015/2025-26/evaluation/trial2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/EvaluationTrial> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/evaluationDuration> "31:00"@es .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/evaluationType> "progresiva"@es .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/gradePercentage> "40%"@es .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/hasScheduleEvent> <http://data.org/615001015/2025-26/eventSchedule/15> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/involvesCompentecy> <http://data.org/CB01> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/involvesCompentecy> <http://data.org/CB02> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/involvesCompentecy> <http://data.org/CB03> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/involvesCompentecy> <http://data.org/CB05> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/involvesCompentecy> <http://data.org/CE11> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/involvesCompentecy> <http://data.org/CE14> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/involvesCompentecy> <http://data.org/CG01> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/involvesCompentecy> <http://data.org/CG02> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/involvesCompentecy> <http://data.org/CG04> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/involvesCompentecy> <http://data.org/CG06> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/involvesCompentecy> <http://data.org/CG07> .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/minimumScore> "5 / 10"@es .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/trialDescription> "Creación y publicación de datos a partir de fuentes de datos heterogéneas"@es .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/trialType> "No Presencial"@es .
+<http://data.org/615001015/2025-26/evaluation/trial2> <https://guia.org/trialWeek> "15"@es .
+# 
+# http://data.org/615001015/2025-26/evaluation/trial3
+<http://data.org/615001015/2025-26/evaluation/trial3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/evaluation/trial3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/EvaluationTrial> .
+<http://data.org/615001015/2025-26/evaluation/trial3> <https://guia.org/evaluationDuration> "02:00"@es .
+<http://data.org/615001015/2025-26/evaluation/trial3> <https://guia.org/evaluationType> "progresiva"@es .
+<http://data.org/615001015/2025-26/evaluation/trial3> <https://guia.org/gradePercentage> "10%"@es .
+<http://data.org/615001015/2025-26/evaluation/trial3> <https://guia.org/hasScheduleEvent> <http://data.org/615001015/2025-26/eventSchedule/15> .
+<http://data.org/615001015/2025-26/evaluation/trial3> <https://guia.org/involvesCompentecy> <http://data.org/CB04> .
+<http://data.org/615001015/2025-26/evaluation/trial3> <https://guia.org/involvesCompentecy> <http://data.org/CE11> .
+<http://data.org/615001015/2025-26/evaluation/trial3> <https://guia.org/involvesCompentecy> <http://data.org/CE14> .
+<http://data.org/615001015/2025-26/evaluation/trial3> <https://guia.org/minimumScore> "5 / 10"@es .
+<http://data.org/615001015/2025-26/evaluation/trial3> <https://guia.org/trialDescription> "Test escrito y Exposición Oral"@es .
+<http://data.org/615001015/2025-26/evaluation/trial3> <https://guia.org/trialType> "Presencial"@es .
+<http://data.org/615001015/2025-26/evaluation/trial3> <https://guia.org/trialWeek> "15"@es .
+# 
+# http://data.org/615001015/2025-26/evaluation/trial4
+<http://data.org/615001015/2025-26/evaluation/trial4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/EvaluationTrial> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/evaluationDuration> "02:00"@es .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/evaluationType> "global"@es .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/gradePercentage> "100%"@es .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/hasScheduleEvent> <http://data.org/615001015/2025-26/eventSchedule/17> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/involvesCompentecy> <http://data.org/CB01> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/involvesCompentecy> <http://data.org/CB02> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/involvesCompentecy> <http://data.org/CB03> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/involvesCompentecy> <http://data.org/CB04> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/involvesCompentecy> <http://data.org/CB05> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/involvesCompentecy> <http://data.org/CE11> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/involvesCompentecy> <http://data.org/CE14> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/involvesCompentecy> <http://data.org/CG01> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/involvesCompentecy> <http://data.org/CG02> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/involvesCompentecy> <http://data.org/CG04> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/involvesCompentecy> <http://data.org/CG06> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/involvesCompentecy> <http://data.org/CG07> .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/minimumScore> "5 / 10"@es .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/trialDescription> "Examen final"@es .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/trialType> "Presencial"@es .
+<http://data.org/615001015/2025-26/evaluation/trial4> <https://guia.org/trialWeek> "17"@es .
+# 
+# http://data.org/615001015/2025-26/evaluation/trial5
+<http://data.org/615001015/2025-26/evaluation/trial5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/EvaluationTrial> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/evaluationDuration> "02:00"@es .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/evaluationType> "extraordinaria"@es .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/gradePercentage> "100%"@es .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/involvesCompentecy> <http://data.org/CB01> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/involvesCompentecy> <http://data.org/CB02> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/involvesCompentecy> <http://data.org/CB03> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/involvesCompentecy> <http://data.org/CB04> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/involvesCompentecy> <http://data.org/CB05> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/involvesCompentecy> <http://data.org/CE11> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/involvesCompentecy> <http://data.org/CE14> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/involvesCompentecy> <http://data.org/CG01> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/involvesCompentecy> <http://data.org/CG02> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/involvesCompentecy> <http://data.org/CG04> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/involvesCompentecy> <http://data.org/CG06> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/involvesCompentecy> <http://data.org/CG07> .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/minimumScore> "5 / 10"@es .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/trialDescription> "Examen final"@es .
+<http://data.org/615001015/2025-26/evaluation/trial5> <https://guia.org/trialType> "Presencial"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/1
+<http://data.org/615001015/2025-26/eventSchedule/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/1> <https://guia.org/eventIndex> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/1> <https://guia.org/eventWeek> "Semana 1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/1> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/1> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType2/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 1.1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType1/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 1.1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType2/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/1/activity/TActivityType2/1> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/10
+<http://data.org/615001015/2025-26/eventSchedule/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/10> <https://guia.org/eventIndex> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/10> <https://guia.org/eventWeek> "Semana 10"@es .
+<http://data.org/615001015/2025-26/eventSchedule/10> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/10> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType2/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 4.1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType1/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 4.1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType2/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/10/activity/TActivityType2/1> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/11
+<http://data.org/615001015/2025-26/eventSchedule/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/11> <https://guia.org/eventIndex> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/11> <https://guia.org/eventWeek> "Semana 11"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/12
+<http://data.org/615001015/2025-26/eventSchedule/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/12> <https://guia.org/eventIndex> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/12> <https://guia.org/eventWeek> "Semana 12"@es .
+<http://data.org/615001015/2025-26/eventSchedule/12> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/12> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType2/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 4.1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType1/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 4.1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType2/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/12/activity/TActivityType2/1> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/13
+<http://data.org/615001015/2025-26/eventSchedule/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/13> <https://guia.org/eventIndex> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/13> <https://guia.org/eventWeek> "Semana 13"@es .
+<http://data.org/615001015/2025-26/eventSchedule/13> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/13> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType2/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 4.2"@es .
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType1/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 4.2"@es .
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType2/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/13/activity/TActivityType2/1> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/14
+<http://data.org/615001015/2025-26/eventSchedule/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/14> <https://guia.org/eventIndex> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/14> <https://guia.org/eventWeek> "Semana 14"@es .
+<http://data.org/615001015/2025-26/eventSchedule/14> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/14> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/2> .
+<http://data.org/615001015/2025-26/eventSchedule/14> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/1> .
+<http://data.org/615001015/2025-26/eventSchedule/14> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/2> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 4.3"@es .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/1> <https://guia.org/activityDuration> "00:30" .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/2
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/2> <https://guia.org/activityDescription> "Tema 5"@es .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/2> <https://guia.org/activityDuration> "00:30" .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/2> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType1/2> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 4.3"@es .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/1> <https://guia.org/activityDuration> "00:30" .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/1> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/2
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/2> <https://guia.org/activityDescription> "Tema 5"@es .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/2> <https://guia.org/activityDuration> "00:30" .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/2> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/14/activity/TActivityType2/2> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/15
+<http://data.org/615001015/2025-26/eventSchedule/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/15> <https://guia.org/eventIndex> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/15> <https://guia.org/eventWeek> "Semana 15"@es .
+<http://data.org/615001015/2025-26/eventSchedule/15> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/15/activity/TActivityType2/1> .
+<http://data.org/615001015/2025-26/eventSchedule/15> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> .
+<http://data.org/615001015/2025-26/eventSchedule/15> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/2> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/15/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TActivityType2/1> <https://guia.org/activityDescription> "Test escrito y Exposición oral"@es .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TActivityType2/1> <https://guia.org/activityDuration> "02:00" .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TActivityType2/1> <https://guia.org/activityFormat> "OT: Otras actividades formativas / Evaluación"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/1
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/EvaluationActivity> .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> <https://guia.org/activityDescription> "Creación y publicación de datos a partir de fuentes de datos heterogéneas"@es .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> <https://guia.org/activityDuration> "31:00" .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> <https://guia.org/presencial> "No presencial"@es .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> <https://guia.org/tecnic> "TG: Técnica del tipo Trabajo en Grupo"@es .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> <https://guia.org/tipo> "Evaluación Progresiva"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/2
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/EvaluationActivity> .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/2> <https://guia.org/activityDescription> "Test escrito y Exposición Oral"@es .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/2> <https://guia.org/activityDuration> "02:00" .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/2> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/2> <https://guia.org/presencial> "Presencial"@es .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/2> <https://guia.org/tecnic> "PG: Técnica del tipo Presentación en Grupo"@es .
+<http://data.org/615001015/2025-26/eventSchedule/15/activity/TEvaluationActivity/2> <https://guia.org/tipo> "Evaluación Progresiva"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/16
+<http://data.org/615001015/2025-26/eventSchedule/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/16> <https://guia.org/eventIndex> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/16> <https://guia.org/eventWeek> "Semana 16"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/17
+<http://data.org/615001015/2025-26/eventSchedule/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/17> <https://guia.org/eventIndex> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/17> <https://guia.org/eventWeek> "Semana 17"@es .
+<http://data.org/615001015/2025-26/eventSchedule/17> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/17/activity/TEvaluationActivity/1
+<http://data.org/615001015/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/EvaluationActivity> .
+<http://data.org/615001015/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> <https://guia.org/activityDescription> "Examen final"@es .
+<http://data.org/615001015/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> <https://guia.org/activityDuration> "02:00" .
+<http://data.org/615001015/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> <https://guia.org/presencial> "Presencial"@es .
+<http://data.org/615001015/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> <https://guia.org/tecnic> "EX: Técnica del tipo Examen Escrito"@es .
+<http://data.org/615001015/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> <https://guia.org/tipo> "Evaluación Global"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/2
+<http://data.org/615001015/2025-26/eventSchedule/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/2> <https://guia.org/eventIndex> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/2> <https://guia.org/eventWeek> "Semana 2"@es .
+<http://data.org/615001015/2025-26/eventSchedule/2> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/2> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType2/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 2.1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType1/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 2.1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType2/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/2/activity/TActivityType2/1> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/3
+<http://data.org/615001015/2025-26/eventSchedule/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/3> <https://guia.org/eventIndex> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/3> <https://guia.org/eventWeek> "Semana 3"@es .
+<http://data.org/615001015/2025-26/eventSchedule/3> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/3> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType2/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 2.2"@es .
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType1/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 2.2"@es .
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType2/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/3/activity/TActivityType2/1> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/4
+<http://data.org/615001015/2025-26/eventSchedule/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/4> <https://guia.org/eventIndex> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/4> <https://guia.org/eventWeek> "Semana 4"@es .
+<http://data.org/615001015/2025-26/eventSchedule/4> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/4> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType2/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 2.2"@es .
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType1/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 2.2"@es .
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType2/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/4/activity/TActivityType2/1> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/5
+<http://data.org/615001015/2025-26/eventSchedule/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/5> <https://guia.org/eventIndex> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/5> <https://guia.org/eventWeek> "Semana 5"@es .
+<http://data.org/615001015/2025-26/eventSchedule/5> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/5> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType2/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 2.3"@es .
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType1/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 2.2"@es .
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType2/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/5/activity/TActivityType2/1> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/6
+<http://data.org/615001015/2025-26/eventSchedule/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/6> <https://guia.org/eventIndex> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/6> <https://guia.org/eventWeek> "Semana 6"@es .
+<http://data.org/615001015/2025-26/eventSchedule/6> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/6> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType2/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 2.4"@es .
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType1/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 2.4"@es .
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType2/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/6/activity/TActivityType2/1> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/7
+<http://data.org/615001015/2025-26/eventSchedule/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/7> <https://guia.org/eventIndex> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/7> <https://guia.org/eventWeek> "Semana 7"@es .
+<http://data.org/615001015/2025-26/eventSchedule/7> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/7> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType2/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 3"@es .
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType1/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 2.4"@es .
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType2/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/7/activity/TActivityType2/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/8
+<http://data.org/615001015/2025-26/eventSchedule/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/8> <https://guia.org/eventIndex> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/8> <https://guia.org/eventWeek> "Semana 8"@es .
+<http://data.org/615001015/2025-26/eventSchedule/8> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/8> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/2> .
+<http://data.org/615001015/2025-26/eventSchedule/8> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType2/1> .
+<http://data.org/615001015/2025-26/eventSchedule/8> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/8/activity/TEvaluationActivity/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 4.1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/2
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/2> <https://guia.org/activityDescription> "Prueba teórica escrita"@es .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/2> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/2> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType1/2> <https://guia.org/activityFormat> "OT: Otras actividades formativas / Evaluación"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 4.1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType2/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TActivityType2/1> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/8/activity/TEvaluationActivity/1
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TEvaluationActivity/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TEvaluationActivity/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TEvaluationActivity/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/EvaluationActivity> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TEvaluationActivity/1> <https://guia.org/activityDescription> "Prueba teórica escrita"@es .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TEvaluationActivity/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TEvaluationActivity/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TEvaluationActivity/1> <https://guia.org/presencial> "Presencial"@es .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TEvaluationActivity/1> <https://guia.org/tecnic> "EX: Técnica del tipo Examen Escrito"@es .
+<http://data.org/615001015/2025-26/eventSchedule/8/activity/TEvaluationActivity/1> <https://guia.org/tipo> "Evaluación Progresiva"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/9
+<http://data.org/615001015/2025-26/eventSchedule/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ScheduleEvent> .
+<http://data.org/615001015/2025-26/eventSchedule/9> <https://guia.org/eventIndex> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.org/615001015/2025-26/eventSchedule/9> <https://guia.org/eventWeek> "Semana 9"@es .
+<http://data.org/615001015/2025-26/eventSchedule/9> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType1/1> .
+<http://data.org/615001015/2025-26/eventSchedule/9> <https://guia.org/hasActivity> <http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType2/1> .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType1/1
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType1> .
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType1/1> <https://guia.org/activityDescription> "Tema 4.1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType1/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType1/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType1/1> <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+# 
+# http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType2/1
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Activity> .
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/ActivityType2> .
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType2/1> <https://guia.org/activityDescription> "Tema 4.1"@es .
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType2/1> <https://guia.org/activityDuration> "01:00" .
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType2/1> <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> .
+<http://data.org/615001015/2025-26/eventSchedule/9/activity/TActivityType2/1> <https://guia.org/activityFormat> "PL: Actividad del tipo Prácticas de Laboratorio"@es .
+# 
+# http://data.org/615001015/2025-26/syllabus/0
+<http://data.org/615001015/2025-26/syllabus/0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/0> <https://guia.org/description> "1. Introducción a la Web Semántica, Web de Linked Data y Grafos de Conocimientos"@es .
+<http://data.org/615001015/2025-26/syllabus/0> <https://guia.org/itemIndex> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/615001015/2025-26/syllabus/1
+<http://data.org/615001015/2025-26/syllabus/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/1> <https://guia.org/description> "1.1. Motivación y fundamentos Sin subniveles"@es .
+<http://data.org/615001015/2025-26/syllabus/1> <https://guia.org/itemIndex> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/615001015/2025-26/syllabus/10
+<http://data.org/615001015/2025-26/syllabus/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/10> <https://guia.org/description> "4.2. Enlazado de datos Sin subniveles"@es .
+<http://data.org/615001015/2025-26/syllabus/10> <https://guia.org/itemIndex> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/615001015/2025-26/syllabus/11
+<http://data.org/615001015/2025-26/syllabus/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/11> <https://guia.org/description> "4.3. Publicación de datos Sin subniveles"@es .
+<http://data.org/615001015/2025-26/syllabus/11> <https://guia.org/itemIndex> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/615001015/2025-26/syllabus/12
+<http://data.org/615001015/2025-26/syllabus/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/12> <https://guia.org/description> "5. Aplicaciones Sin subniveles"@es .
+<http://data.org/615001015/2025-26/syllabus/12> <https://guia.org/itemIndex> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/615001015/2025-26/syllabus/2
+<http://data.org/615001015/2025-26/syllabus/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/2> <https://guia.org/description> "2. Lenguajes, protocolos y tecnologías asociadas"@es .
+<http://data.org/615001015/2025-26/syllabus/2> <https://guia.org/itemIndex> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/615001015/2025-26/syllabus/3
+<http://data.org/615001015/2025-26/syllabus/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/3> <https://guia.org/description> "2.1. Redes semánticas, grafos y taxonomías Sin subniveles"@es .
+<http://data.org/615001015/2025-26/syllabus/3> <https://guia.org/itemIndex> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/615001015/2025-26/syllabus/4
+<http://data.org/615001015/2025-26/syllabus/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/4> <https://guia.org/description> "2.2. RDF(S) Sin subniveles"@es .
+<http://data.org/615001015/2025-26/syllabus/4> <https://guia.org/itemIndex> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/615001015/2025-26/syllabus/5
+<http://data.org/615001015/2025-26/syllabus/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/5> <https://guia.org/description> "2.3. SPARQL Sin subniveles"@es .
+<http://data.org/615001015/2025-26/syllabus/5> <https://guia.org/itemIndex> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/615001015/2025-26/syllabus/6
+<http://data.org/615001015/2025-26/syllabus/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/6> <https://guia.org/description> "2.4. APIs y librerias RDF(S) Sin subniveles"@es .
+<http://data.org/615001015/2025-26/syllabus/6> <https://guia.org/itemIndex> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/615001015/2025-26/syllabus/7
+<http://data.org/615001015/2025-26/syllabus/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/7> <https://guia.org/description> "3. Ontologías y grafos de conocimientos relevantes Sin subniveles"@es .
+<http://data.org/615001015/2025-26/syllabus/7> <https://guia.org/itemIndex> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/615001015/2025-26/syllabus/8
+<http://data.org/615001015/2025-26/syllabus/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/8> <https://guia.org/description> "4. Creación de Grafos de Conocimientos"@es .
+<http://data.org/615001015/2025-26/syllabus/8> <https://guia.org/itemIndex> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/615001015/2025-26/syllabus/9
+<http://data.org/615001015/2025-26/syllabus/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/615001015/2025-26/syllabus/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/SyllabusItem> .
+<http://data.org/615001015/2025-26/syllabus/9> <https://guia.org/description> "4.1. Generación de RDF a partir de fuentes de datos heterogéneas Sin subniveles"@es .
+<http://data.org/615001015/2025-26/syllabus/9> <https://guia.org/itemIndex> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial
+<http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/BachelorDegree> .
+<http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Degree> .
+<http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial> <https://guia.org/hasCourse> <http://data.org/615001015> .
+<http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial> <https://schema.org/name> "61CD - Grado en Ciencia de Datos e Inteligencia Artificial"@es .
+# 
+# http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos
+<http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/UniversityCenter> .
+<http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos> <https://guia.org/offers> <http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial> .
+<http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos> <https://schema.org/name> "E.T.S De Ing. De Sistemas Informáticos" .
+# 
+# http://data.org/andreajesus.cimmino%40upm.es
+<http://data.org/andreajesus.cimmino%40upm.es> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.org/andreajesus.cimmino%40upm.es> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://guia.org/Lecturer> .
+<http://data.org/andreajesus.cimmino%40upm.es> <https://schema.org/email> "andreajesus.cimmino@upm.es" .
+<http://data.org/andreajesus.cimmino%40upm.es> <https://schema.org/name> "Cimmino Arriaga, Andrea Jesus" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
