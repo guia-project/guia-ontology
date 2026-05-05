@@ -1,0 +1,2507 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://data.org/615001036",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.org/courseYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Course"
+  } ],
+  "https://guia.org/courseType" : [ {
+    "@language" : "es",
+    "@value" : "Obligatoria"
+  } ],
+  "https://guia.org/semester" : [ {
+    "@language" : "es",
+    "@value" : "Séptimo semestre"
+  } ],
+  "https://schema.org/courseCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "615001036"
+  } ],
+  "https://schema.org/hasCourseInstance" : [ {
+    "@id" : "http://data.org/615001036/2025-26"
+  } ],
+  "https://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Internet Of Things (Iot)"
+  }, {
+    "@language" : "es",
+    "@value" : "Internet de las Cosas (Iot)"
+  } ],
+  "https://schema.org/numberOfCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.0"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/CourseGuide"
+  } ],
+  "https://guia.org/hasCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CE04"
+  }, {
+    "@id" : "http://data.org/CE05"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/hasDidacticResource" : [ {
+    "@id" : "http://data.org/615001036/2025-26/didactic_resource/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/didactic_resource/10"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/didactic_resource/2"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/didactic_resource/3"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/didactic_resource/4"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/didactic_resource/5"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/didactic_resource/6"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/didactic_resource/7"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/didactic_resource/8"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/didactic_resource/9"
+  } ],
+  "https://guia.org/hasEvaluation" : [ {
+    "@id" : "http://data.org/615001036/2025-26/evaluation"
+  } ],
+  "https://guia.org/hasLearningResult" : [ {
+    "@id" : "http://data.org/RA160"
+  }, {
+    "@id" : "http://data.org/RA161"
+  } ],
+  "https://guia.org/inpersonHours" : [ {
+    "@language" : "es",
+    "@value" : "30 horas (38.5%)"
+  } ],
+  "https://guia.org/numberOfCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.0"
+  } ],
+  "https://guia.org/otherInformation" : [ {
+    "@language" : "es",
+    "@value" : ""
+  } ],
+  "https://guia.org/periodEndingMonth" : [ {
+    "@language" : "es",
+    "@value" : "Enero"
+  } ],
+  "https://guia.org/periodStaringtMonth" : [ {
+    "@language" : "es",
+    "@value" : "Septiembre"
+  } ],
+  "https://guia.org/teachingPeriod" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value" : "2025-26"
+  } ],
+  "https://guia.org/teachingPeriodMonths" : [ {
+    "@language" : "es",
+    "@value" : "Septiembre-Enero"
+  } ],
+  "https://guia.org/totalHours" : [ {
+    "@language" : "es",
+    "@value" : "30 horas"
+  } ],
+  "https://schema.org/activitiesWorkload" : [ {
+    "@language" : "es",
+    "@value" : "100%"
+  } ],
+  "https://schema.org/courseSchedule" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule"
+  } ],
+  "https://schema.org/description" : [ {
+    "@language" : "es",
+    "@value" : "El objetivo de esta asignatura es proporcionar a los futuros ingenieros de datos una panorámica de las posibles aplicaciones basadas en dispositivos conectados, tanto en su vertiente mínima de sistemas para captura y transmisión de información como de implementación de aplicaciones para análisis y aprendizaje automático.\nLa asignatura tratará los aspectos básicos de implementación de sistemas IoT construidos sobre dispositivos electrónicos (microprocesadores, sensores y actuadores de bajo coste, ampliamente reconocidos y utilizados en la industria) y sus protocolos de comunicación. De igual manera, se revisarán los protocolos y tecnologías de comunicación disponibles para su interconexión con otros dispositivos y servidores para la posterior gestión de los datos adquiridos.\nTambién se analizarán diferentes ejemplos de implementación de aplicaciones de procesamiento de señales y modelado de datos implementados en los propios dispositivos IoT."
+  } ],
+  "https://schema.org/director" : [ {
+    "@id" : "http://data.org/vicente.garcia%40upm.es"
+  } ],
+  "https://schema.org/inLanguage" : [ {
+    "@language" : "es",
+    "@value" : "Castellano"
+  } ],
+  "https://schema.org/instructor" : [ {
+    "@id" : "http://data.org/alberto.cruz%40upm.es"
+  }, {
+    "@id" : "http://data.org/vicente.garcia%40upm.es"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/didactic_resource/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "https://moodle.upm.es/titulaciones/oficiales"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Sitio Moodle de la asignatura"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/didactic_resource/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Microcontroladores ESP-32, en placa de desarrollo, sensores y actuadores."
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Hardware específico"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Equipamiento"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/didactic_resource/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "https://www.open-std.org/jtc1/sc22/wg14"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "C Programming Language"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/didactic_resource/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "https://micropython.org/"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "MicroPython - Python for microcontrollers"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/didactic_resource/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Espressif IoT Development Framework (esp-idf)"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/didactic_resource/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "https://www.arduino.cc/reference/en/"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Arduino Programming Language"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/didactic_resource/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "https://www.espressif.com/en/products/socs/esp32"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Esp-32"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/didactic_resource/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "https://docs.m5stack.com/en/quick_start/m5stickc_plus/arduino"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "M5StickC Plus. Arduino IDE environment"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/didactic_resource/8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "https://mqtt.org/mqtt-specification/"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "MQTT: The Standard for IoT Messaging"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/didactic_resource/9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Computador de altas prestaciones con monitor de gran tamaño, con instrumentación de electrónica (fuente de alimentación, multímetro, osciloscopio, generador de funciones, ...) y material diverso necesario (cables, protoboards, pinzas, lupas, etc)."
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Equipamiento de cada puesto de laboratorio"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Equipamiento"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/evaluation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationSystem"
+  } ],
+  "https://guia.org/evaluationDescription" : [ {
+    "@language" : "es",
+    "@value" : "SISTEMA GENERAL DE EVALUACIÓN PROGRESIVA:\nLa asignatura se superará cuando se obtenga 5 o más puntos sobre un total de 10, según las normas que se indican a continuación y siempre y cuando superen la nota mínima estipulada:\nNOTA FINAL = [20% Práctica_P1 + 20% Práctica_P2 + 40% Práctica_P3 + 20 % Examen de teoría y prácticas_T]\nLa nota mínima para el último examen de prácticas (P3) y el examen de teoría (T) y prácticas es de 3 puntos sobre 10.\nEn caso de no superar la nota mínima en todas las pruebas, el cálculo de la nota será el siguiente (misma fórmula anterior DIVIDIDA por 2):\nNOTA FINAL = [20% Práctica_P1 + 20% Práctica_P2 + 40% Práctica_P3 + 20 % Examen de teoría y prácticas_T]/2.0\n\nSISTEMA GENERAL DE EVALUACIÓN GLOBAL:\nLa asignatura se superará cuando se obtenga 5 o más puntos sobre un total de 10, según las normas que se indican a continuación y siempre y cuando superen la nota mínima estipulada:\nNOTA FINAL = [40% Práctica_P3 + 20 % Examen de teoría y prácticas_T]\nLa nota mínima para cada prueba es de 3 puntos sobre 10.\nEn caso de no superar la nota mínima en todas las pruebas, el cálculo de la nota será el siguiente (misma fórmula anterior DIVIDIDA por 2)::\nNOTA FINAL = [40% Práctica_P3 + 20 % Examen de teoría y prácticas_T]/2.0\nPreviamente a la fecha asignada al examen de la asignatura, se deberá realizar la entrega de la práctica a evaluar en esta convocatoria.\nLas prácticas P1 y P2 de la evaluación progresiva, no son recuperables en esta evaluación, puesto que forman parte de la evolución continuada del proyecto de la asignatura y que, en la evaluación global no se puede evaluar, por ser entrega única.\n\nSISTEMA GENERAL DE EVALUACIÓN EXTRAORDINARIA:\nLa asignatura se superará cuando se obtenga 5 o más puntos sobre un total de 10, según las normas que se indican a continuación y siempre y cuando superen la nota mínima estipulada:\nNOTA FINAL = [60% Práctica (P) + 20% Defensa de la práctica (D) + 20% Examen de teoría (T)]\nLa nota mínima para cada prueba evaluada en esta convocatoria es de 3 puntos sobre 10.\nEn caso de no superar la nota mínima en todas las pruebas, el cálculo de la nota será el siguiente (misma fórmula anterior DIVIDIDA por dos):\nNOTA FINAL = [60% Práctica (P) + 20% Defensa de la práctica (D) + 20% Examen de teoría (T)]/2.0\nTodas las pruebas de la evaluación extraordinaria son individuales.\nPreviamente a la fecha asignada al examen de la asignatura, se deberá realizar la entrega de la práctica a evaluar en esta convocatoria.\n\nNota para todos los sistemas de evaluación: Las diferentes pruebas de evaluación conducen al desarrollo de Sistemas IoT que integran componentes hardware y software. La solución nunca es única, lo que imposibilita la publicación de la misma."
+  } ],
+  "https://guia.org/hasEvaluationTrial" : [ {
+    "@id" : "http://data.org/615001036/2025-26/evaluation/trial1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/evaluation/trial2"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/evaluation/trial3"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/evaluation/trial4"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/evaluation/trial5"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/evaluation/trial6"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/evaluation/trial7"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/evaluation/trial8"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/evaluation/trial9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/evaluation/trial1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "20%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/5"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CE04"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "(P1) Sistema IoT: Local"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/evaluation/trial2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "20%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/9"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CE04"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "(P2) Sistema IoT: Protocolos comunicación"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/evaluation/trial3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "40%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/15"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CE04"
+  }, {
+    "@id" : "http://data.org/CE05"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "3 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "(P3) Sistema IoT: Cloud computing"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "15"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/evaluation/trial4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "20%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/15"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CE05"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "3 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "(T) Examen contenidos teóricos y prácticos de la asignatura"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "15"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/evaluation/trial5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "global"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "40%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/17"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CE04"
+  }, {
+    "@id" : "http://data.org/CE05"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "3 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "(P3) Sistema IoT: Cloud computing"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/evaluation/trial6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "global"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "20%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/17"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CE05"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "3 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "(T) Examen contenidos teóricos y prácticos de la asignatura"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/evaluation/trial7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "extraordinaria"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "60%"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CE04"
+  }, {
+    "@id" : "http://data.org/CE05"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "3 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "(P) Implementación de un sistema IoT completo"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/evaluation/trial8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "00:30"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "extraordinaria"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "20%"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CE04"
+  }, {
+    "@id" : "http://data.org/CE05"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "3 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "(D) Defensa práctica"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/evaluation/trial9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "extraordinaria"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "20%"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CE05"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "3 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "(T) Examen contenidos teóricos"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Schedule"
+  } ],
+  "https://schema.org/eventSchedule" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/10"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/11"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/12"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/13"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/14"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/15"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/16"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/17"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/2"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/3"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/4"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/5"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/6"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/7"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/8"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 1"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/1/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/1/activity/TActivityType1/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/1/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Presentación."
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/1/activity/TActivityType1/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 1: Introducción a Internet de las Cosas (IoT)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 10"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/10/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/10/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/10/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 4: Procesamiento de datos en IoT"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/10/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 3: Implementación de un sistema IoT: Cloud computing (Cont)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 11"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 12"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/12/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/12/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/12/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 4: Procesamiento de datos en IoT (Cont)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/12/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 3: Implementación de un sistema IoT: Cloud computing (Cont)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 13"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/13/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/13/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 3: Implementación de un sistema IoT: Cloud computing (Cont)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 14"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/14/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/14/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/14/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 5: Desafíos y tendencias en IoT"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/14/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 3: Implementación de un sistema IoT: Cloud computing (Cont)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 15"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/15/activity/TActivityType2/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/15/activity/TActivityType2/2"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/15/activity/TEvaluationActivity/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/15/activity/TEvaluationActivity/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/15/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 3: Implementación de un sistema IoT: Cloud computing (Cont)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/15/activity/TActivityType2/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "(T) Examen contenidos teóricos y prácticos de la asignatura"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras actividades formativas / Evaluación"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/15/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "(P3) Sistema IoT: Cloud computing"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "EP: Técnica del tipo Examen de Prácticas"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/15/activity/TEvaluationActivity/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "(T) Examen contenidos teóricos y prácticos de la asignatura"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "EX: Técnica del tipo Examen Escrito"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "16"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 16"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 17"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/17/activity/TEvaluationActivity/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/17/activity/TEvaluationActivity/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/17/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "(P3) Sistema IoT: Cloud computing"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Global"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "EP: Técnica del tipo Examen de Prácticas"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/17/activity/TEvaluationActivity/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "(T) Examen contenidos teóricos y prácticos de la asignatura"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Global"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "EX: Técnica del tipo Examen Escrito"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 2"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/2/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/2/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/2/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 2: Dispositivos IoT"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/2/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 0: Herramientas del laboratorio"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 3"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/3/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/3/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/3/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 2: Dispositivos IoT (Cont)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/3/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 0: Herramientas del laboratorio (Cont)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 4"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/4/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/4/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 1: Implementación de un sistema IoT: Uso local"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 5"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/5/activity/TActivityType2/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/5/activity/TEvaluationActivity/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/5/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 1: Implementación de un sistema IoT: Uso local (Cont)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/5/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "(P1) Sistema IoT: Local"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "EP: Técnica del tipo Examen de Prácticas"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 6"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/6/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/6/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/6/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 3: Tecnologías y protocolos para IoT."
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/6/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 2: Conexión del sistema IoT con la nube."
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 7"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/7/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/7/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 2: Conexión del sistema IoT con la nube (Cont)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 8"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/8/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/8/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 3: Implementación de un sistema IoT: Cloud computing"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 9"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/9/activity/TActivityType2/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/eventSchedule/9/activity/TEvaluationActivity/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/9/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Lab. 3: Implementación de un sistema IoT: Cloud computing (Cont)"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/eventSchedule/9/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "(P2) Sistema IoT: Protocolos comunicación"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "00:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "EP: Técnica del tipo Examen de Prácticas"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/previous_courses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/RequiredKnowledge"
+  } ],
+  "https://guia.org/previousCourses" : [ {
+    "@language" : "es",
+    "@value" : "El plan de estudios Grado En Ciencia De Datos E Inteligencia Artificial no tiene definidos otros requisitos para esta asignatura."
+  } ],
+  "https://guia.org/previousKnowledge" : [ {
+    "@language" : "es",
+    "@value" : "Electrónica"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Syllabus"
+  } ],
+  "https://guia.org/hasItem" : [ {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/0"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/1"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/10"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/11"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/12"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/13"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/14"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/15"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/16"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/17"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/18"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/19"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/2"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/20"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/21"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/3"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/4"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/5"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/6"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/7"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/8"
+  }, {
+    "@id" : "http://data.org/615001036/2025-26/syllabus/9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "0"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1. Introducción a Internet de las Cosas (IoT)"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.1. Definición y conceptos fundamentales Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.2. Protocolos de comunicación Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.3. Interoperabilidad de dispositivos IoT Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4. Procesamiento de datos en IoT"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.1. Plataformas para la generación de flujos de datos y reglas Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.2. Almacenamiento persistente de los datos Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.3. Plataformas para la visualización de los datos Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "16"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.4. Notificaciones y alertas automáticas Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5. Desafíos y tendencias en IoT"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "18"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.1. Seguridad y privacidad en IoT Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "19"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.2. Energía y eficiencia en sistemas IoT Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.2. Arquitectura y componentes de un sistema IoT Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "20"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.3. Escalabilidad y gestión de grandes volúmenes de dispositivos IoT Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "21"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.4. Avances tecnológicos y tendencias futuras en IoT Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.3. Casos de uso y aplicaciones IoT Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2. Dispositivos IoT"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.1. Microcontroladores, microprocesadores y placas de desarrollo Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.2. Sensores y actuadores Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.3. Interfaces de conexión Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3. Tecnologías y protocolos para IoT"
+  } ]
+}, {
+  "@id" : "http://data.org/615001036/2025-26/syllabus/9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.1. Tecnologías de conectividad Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/BachelorDegree"
+  }, {
+    "@id" : "https://guia.org/Degree"
+  } ],
+  "https://guia.org/hasCourse" : [ {
+    "@id" : "http://data.org/615001036"
+  } ],
+  "https://schema.org/name" : [ {
+    "@language" : "es",
+    "@value" : "61CD - Grado en Ciencia de Datos e Inteligencia Artificial"
+  } ]
+}, {
+  "@id" : "http://data.org/CB04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CB04"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado"
+  } ]
+}, {
+  "@id" : "http://data.org/CE04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CE04"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Poseer las destrezas para extraer y recuperar información desde fuentes de datos heterogéneos de cara a su posterior tratamiento."
+  } ]
+}, {
+  "@id" : "http://data.org/CE05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CE05"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad de diseñar e implementar los procesos de selección, limpieza, transformación, integración y verificación de la calidad de los datos de cara a su posterior tratamiento."
+  } ]
+}, {
+  "@id" : "http://data.org/CG06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CG06"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Identificar y utilizar las tecnologías de la información y las comunicaciones más adecuadas en el ámbito de la ingeniería."
+  } ]
+}, {
+  "@id" : "http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/UniversityCenter"
+  } ],
+  "https://guia.org/offers" : [ {
+    "@id" : "http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "E.T.S De Ing. De Sistemas Informáticos"
+  } ]
+}, {
+  "@id" : "http://data.org/RA160",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/LearningResult"
+  } ],
+  "https://guia.org/learningResultCode" : [ {
+    "@value" : "RA160"
+  } ],
+  "https://guia.org/learningResultDescription" : [ {
+    "@language" : "es",
+    "@value" : "Conocer los dispositivos de captura y procesamiento de datos en soluciones de Internet de las Cosas (IoT)."
+  } ]
+}, {
+  "@id" : "http://data.org/RA161",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/LearningResult"
+  } ],
+  "https://guia.org/learningResultCode" : [ {
+    "@value" : "RA161"
+  } ],
+  "https://guia.org/learningResultDescription" : [ {
+    "@language" : "es",
+    "@value" : "Emplear herramientas de desarrollo y bibliotecas software para adquisición y tratamiento de datos en aplicaciones IoT."
+  } ]
+}, {
+  "@id" : "http://data.org/alberto.cruz%40upm.es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Lecturer"
+  } ],
+  "https://guia.org/office" : [ {
+    "@language" : "es",
+    "@value" : "4209"
+  } ],
+  "https://guia.org/tutorshipsSchedule" : [ {
+    "@language" : "es",
+    "@value" : "Consultar/reservar en: https://tutor.etsisi.upm.es. Se publicarán en la plataforma Moodle."
+  } ],
+  "https://schema.org/email" : [ {
+    "@value" : "alberto.cruz@upm.es"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Cruz Ruiz, Alberto"
+  } ]
+}, {
+  "@id" : "http://data.org/courseYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://data.org/vicente.garcia%40upm.es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Lecturer"
+  } ],
+  "https://guia.org/office" : [ {
+    "@language" : "es",
+    "@value" : "4011"
+  } ],
+  "https://guia.org/tutorshipsSchedule" : [ {
+    "@language" : "es",
+    "@value" : "Consultar/reservar en: https://tutor.etsisi.upm.es. Se publicarán en la plataforma Moodle."
+  } ],
+  "https://schema.org/email" : [ {
+    "@value" : "vicente.garcia@upm.es"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Garcia Alcantara, Vicente Angel"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "https://guia.org/Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/ActivityType1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/ActivityType2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/BachelorDegree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Competency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Course",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/CourseGuide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Degree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/DidacticResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/EvaluationActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/EvaluationSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/EvaluationTrial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/LearningResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Lecturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/RequiredKnowledge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Schedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/ScheduleEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/SyllabusItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/UniversityCenter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/activityDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/activityDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/activityDurationUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/activityFormat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/attendanceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/bibliographyDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/bibliographyTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/bibliographyType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/competencyCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/competencyDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/courseType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/evaluationDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/evaluationDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/evaluationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/eventIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/eventWeek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/gradePercentage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasCompetency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasCourse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasDidacticResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasEvaluation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasEvaluationTrial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasLearningResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasScheduleEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/inpersonHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/involvesCompetency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/itemIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/learningResultCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/learningResultDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/minimumScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/numberOfCredits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/offers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/office",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/otherInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/periodEndingMonth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/periodStaringtMonth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/previousCourses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/previousKnowledge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/semester",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/syllabusDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/teachingPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/teachingPeriodMonths",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/tecnic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/totalHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/trialDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/trialType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/trialWeek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/tutorshipsSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/activitiesWorkload",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/courseCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/courseSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/director",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/eventSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/hasCourseInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/inLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/instructor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/numberOfCredits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

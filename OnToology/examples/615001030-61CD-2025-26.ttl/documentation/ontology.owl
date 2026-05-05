@@ -1,0 +1,2027 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:data="http://data.org/"
+     xmlns:guia="https://guia.org/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:schema="https://schema.org/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://data.org/courseYear -->
+
+
+    <AnnotationProperty rdf:about="http://data.org/courseYear"/>
+    
+
+
+    <!-- https://guia.org/activityDescription -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/activityDescription"/>
+    
+
+
+    <!-- https://guia.org/activityDuration -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/activityDuration"/>
+    
+
+
+    <!-- https://guia.org/activityDurationUnit -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/activityDurationUnit"/>
+    
+
+
+    <!-- https://guia.org/activityFormat -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/activityFormat"/>
+    
+
+
+    <!-- https://guia.org/attendanceType -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/attendanceType"/>
+    
+
+
+    <!-- https://guia.org/bibliographyTitle -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/bibliographyTitle"/>
+    
+
+
+    <!-- https://guia.org/bibliographyType -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/bibliographyType"/>
+    
+
+
+    <!-- https://guia.org/competencyCode -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/competencyCode"/>
+    
+
+
+    <!-- https://guia.org/competencyDescription -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/competencyDescription"/>
+    
+
+
+    <!-- https://guia.org/courseType -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/courseType"/>
+    
+
+
+    <!-- https://guia.org/evaluationDescription -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/evaluationDescription"/>
+    
+
+
+    <!-- https://guia.org/evaluationDuration -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/evaluationDuration"/>
+    
+
+
+    <!-- https://guia.org/evaluationType -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/evaluationType"/>
+    
+
+
+    <!-- https://guia.org/eventIndex -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/eventIndex"/>
+    
+
+
+    <!-- https://guia.org/eventWeek -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/eventWeek"/>
+    
+
+
+    <!-- https://guia.org/gradePercentage -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/gradePercentage"/>
+    
+
+
+    <!-- https://guia.org/hasActivity -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/hasActivity"/>
+    
+
+
+    <!-- https://guia.org/hasCompetency -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/hasCompetency"/>
+    
+
+
+    <!-- https://guia.org/hasCourse -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/hasCourse"/>
+    
+
+
+    <!-- https://guia.org/hasDidacticResource -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/hasDidacticResource"/>
+    
+
+
+    <!-- https://guia.org/hasEvaluation -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/hasEvaluation"/>
+    
+
+
+    <!-- https://guia.org/hasEvaluationTrial -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/hasEvaluationTrial"/>
+    
+
+
+    <!-- https://guia.org/hasItem -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/hasItem"/>
+    
+
+
+    <!-- https://guia.org/hasLearningResult -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/hasLearningResult"/>
+    
+
+
+    <!-- https://guia.org/hasScheduleEvent -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/hasScheduleEvent"/>
+    
+
+
+    <!-- https://guia.org/inpersonHours -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/inpersonHours"/>
+    
+
+
+    <!-- https://guia.org/involvesCompetency -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/involvesCompetency"/>
+    
+
+
+    <!-- https://guia.org/itemIndex -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/itemIndex"/>
+    
+
+
+    <!-- https://guia.org/learningResultCode -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/learningResultCode"/>
+    
+
+
+    <!-- https://guia.org/learningResultDescription -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/learningResultDescription"/>
+    
+
+
+    <!-- https://guia.org/minimumScore -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/minimumScore"/>
+    
+
+
+    <!-- https://guia.org/numberOfCredits -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/numberOfCredits"/>
+    
+
+
+    <!-- https://guia.org/offers -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/offers"/>
+    
+
+
+    <!-- https://guia.org/office -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/office"/>
+    
+
+
+    <!-- https://guia.org/otherInformation -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/otherInformation"/>
+    
+
+
+    <!-- https://guia.org/periodEndingMonth -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/periodEndingMonth"/>
+    
+
+
+    <!-- https://guia.org/periodStaringtMonth -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/periodStaringtMonth"/>
+    
+
+
+    <!-- https://guia.org/previousCourses -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/previousCourses"/>
+    
+
+
+    <!-- https://guia.org/previousKnowledge -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/previousKnowledge"/>
+    
+
+
+    <!-- https://guia.org/semester -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/semester"/>
+    
+
+
+    <!-- https://guia.org/syllabusDescription -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/syllabusDescription"/>
+    
+
+
+    <!-- https://guia.org/teachingPeriod -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/teachingPeriod"/>
+    
+
+
+    <!-- https://guia.org/teachingPeriodMonths -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/teachingPeriodMonths"/>
+    
+
+
+    <!-- https://guia.org/tecnic -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/tecnic"/>
+    
+
+
+    <!-- https://guia.org/totalHours -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/totalHours"/>
+    
+
+
+    <!-- https://guia.org/trialDescription -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/trialDescription"/>
+    
+
+
+    <!-- https://guia.org/trialType -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/trialType"/>
+    
+
+
+    <!-- https://guia.org/trialWeek -->
+
+
+    <AnnotationProperty rdf:about="https://guia.org/trialWeek"/>
+    
+
+
+    <!-- https://schema.org/activitiesWorkload -->
+
+
+    <AnnotationProperty rdf:about="https://schema.org/activitiesWorkload"/>
+    
+
+
+    <!-- https://schema.org/courseCode -->
+
+
+    <AnnotationProperty rdf:about="https://schema.org/courseCode"/>
+    
+
+
+    <!-- https://schema.org/courseSchedule -->
+
+
+    <AnnotationProperty rdf:about="https://schema.org/courseSchedule"/>
+    
+
+
+    <!-- https://schema.org/description -->
+
+
+    <AnnotationProperty rdf:about="https://schema.org/description"/>
+    
+
+
+    <!-- https://schema.org/director -->
+
+
+    <AnnotationProperty rdf:about="https://schema.org/director"/>
+    
+
+
+    <!-- https://schema.org/email -->
+
+
+    <AnnotationProperty rdf:about="https://schema.org/email"/>
+    
+
+
+    <!-- https://schema.org/eventSchedule -->
+
+
+    <AnnotationProperty rdf:about="https://schema.org/eventSchedule"/>
+    
+
+
+    <!-- https://schema.org/hasCourseInstance -->
+
+
+    <AnnotationProperty rdf:about="https://schema.org/hasCourseInstance"/>
+    
+
+
+    <!-- https://schema.org/inLanguage -->
+
+
+    <AnnotationProperty rdf:about="https://schema.org/inLanguage"/>
+    
+
+
+    <!-- https://schema.org/instructor -->
+
+
+    <AnnotationProperty rdf:about="https://schema.org/instructor"/>
+    
+
+
+    <!-- https://schema.org/name -->
+
+
+    <AnnotationProperty rdf:about="https://schema.org/name"/>
+    
+
+
+    <!-- https://schema.org/numberOfCredits -->
+
+
+    <AnnotationProperty rdf:about="https://schema.org/numberOfCredits"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gYear -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://guia.org/Activity -->
+
+
+    <Class rdf:about="https://guia.org/Activity"/>
+    
+
+
+    <!-- https://guia.org/ActivityType1 -->
+
+
+    <Class rdf:about="https://guia.org/ActivityType1"/>
+    
+
+
+    <!-- https://guia.org/ActivityType2 -->
+
+
+    <Class rdf:about="https://guia.org/ActivityType2"/>
+    
+
+
+    <!-- https://guia.org/BachelorDegree -->
+
+
+    <Class rdf:about="https://guia.org/BachelorDegree"/>
+    
+
+
+    <!-- https://guia.org/Competency -->
+
+
+    <Class rdf:about="https://guia.org/Competency"/>
+    
+
+
+    <!-- https://guia.org/Course -->
+
+
+    <Class rdf:about="https://guia.org/Course"/>
+    
+
+
+    <!-- https://guia.org/CourseGuide -->
+
+
+    <Class rdf:about="https://guia.org/CourseGuide"/>
+    
+
+
+    <!-- https://guia.org/Degree -->
+
+
+    <Class rdf:about="https://guia.org/Degree"/>
+    
+
+
+    <!-- https://guia.org/DidacticResource -->
+
+
+    <Class rdf:about="https://guia.org/DidacticResource"/>
+    
+
+
+    <!-- https://guia.org/EvaluationActivity -->
+
+
+    <Class rdf:about="https://guia.org/EvaluationActivity"/>
+    
+
+
+    <!-- https://guia.org/EvaluationSystem -->
+
+
+    <Class rdf:about="https://guia.org/EvaluationSystem"/>
+    
+
+
+    <!-- https://guia.org/EvaluationTrial -->
+
+
+    <Class rdf:about="https://guia.org/EvaluationTrial"/>
+    
+
+
+    <!-- https://guia.org/LearningResult -->
+
+
+    <Class rdf:about="https://guia.org/LearningResult"/>
+    
+
+
+    <!-- https://guia.org/Lecturer -->
+
+
+    <Class rdf:about="https://guia.org/Lecturer"/>
+    
+
+
+    <!-- https://guia.org/RequiredKnowledge -->
+
+
+    <Class rdf:about="https://guia.org/RequiredKnowledge"/>
+    
+
+
+    <!-- https://guia.org/Schedule -->
+
+
+    <Class rdf:about="https://guia.org/Schedule"/>
+    
+
+
+    <!-- https://guia.org/ScheduleEvent -->
+
+
+    <Class rdf:about="https://guia.org/ScheduleEvent"/>
+    
+
+
+    <!-- https://guia.org/Syllabus -->
+
+
+    <Class rdf:about="https://guia.org/Syllabus"/>
+    
+
+
+    <!-- https://guia.org/SyllabusItem -->
+
+
+    <Class rdf:about="https://guia.org/SyllabusItem"/>
+    
+
+
+    <!-- https://guia.org/UniversityCenter -->
+
+
+    <Class rdf:about="https://guia.org/UniversityCenter"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://data.org/CB03 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/CB03">
+        <rdf:type rdf:resource="https://guia.org/Competency"/>
+        <guia:competencyCode>CB03</guia:competencyCode>
+        <guia:competencyDescription xml:lang="es">Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética</guia:competencyDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/CB04 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/CB04">
+        <rdf:type rdf:resource="https://guia.org/Competency"/>
+        <guia:competencyCode>CB04</guia:competencyCode>
+        <guia:competencyDescription xml:lang="es">Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado</guia:competencyDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/CE05 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/CE05">
+        <rdf:type rdf:resource="https://guia.org/Competency"/>
+        <guia:competencyCode>CE05</guia:competencyCode>
+        <guia:competencyDescription xml:lang="es">Capacidad de diseñar e implementar los procesos de selección, limpieza, transformación, integración y verificación de la calidad de los datos de cara a su posterior tratamiento.</guia:competencyDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/CE07 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/CE07">
+        <rdf:type rdf:resource="https://guia.org/Competency"/>
+        <guia:competencyCode>CE07</guia:competencyCode>
+        <guia:competencyDescription xml:lang="es">Capacidad de diseñar e implementar sistemas de información (incluyendo modelos de datos y estrategias de gestión de datos) dimensionados para gestionar el volumen, velocidad y variedad de los datos, de forma adecuada para su almacenamiento, procesamiento y acceso para tratamientos posteriores.</guia:competencyDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/RA129 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/RA129">
+        <rdf:type rdf:resource="https://guia.org/LearningResult"/>
+        <guia:learningResultCode>RA129</guia:learningResultCode>
+        <guia:learningResultDescription xml:lang="es">Ser capaz de implementar y gestionar una base de datos en un gestor no relacional</guia:learningResultDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/RA134 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/RA134">
+        <rdf:type rdf:resource="https://guia.org/LearningResult"/>
+        <guia:learningResultCode>RA134</guia:learningResultCode>
+        <guia:learningResultDescription xml:lang="es">RA114</guia:learningResultDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/RA76 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/RA76">
+        <rdf:type rdf:resource="https://guia.org/LearningResult"/>
+        <guia:learningResultCode>RA76</guia:learningResultCode>
+        <guia:learningResultDescription xml:lang="es">RA</guia:learningResultDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/RA77 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/RA77">
+        <rdf:type rdf:resource="https://guia.org/LearningResult"/>
+        <guia:learningResultCode>RA77</guia:learningResultCode>
+        <guia:learningResultDescription xml:lang="es">RA</guia:learningResultDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/RA89 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/RA89">
+        <rdf:type rdf:resource="https://guia.org/LearningResult"/>
+        <guia:learningResultCode>RA89</guia:learningResultCode>
+        <guia:learningResultDescription xml:lang="es">Usar lenguajes de programación y de descripción de datos, comunes en Ciencia de Datos</guia:learningResultDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030">
+        <rdf:type rdf:resource="https://guia.org/Course"/>
+        <data:courseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</data:courseYear>
+        <guia:courseType xml:lang="es">Obligatoria</guia:courseType>
+        <guia:semester xml:lang="es">Sexto semestre</guia:semester>
+        <schema:courseCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">615001030</schema:courseCode>
+        <schema:hasCourseInstance rdf:resource="http://data.org/615001030/2025-26"/>
+        <schema:name xml:lang="es">Bases de Datos II</schema:name>
+        <schema:name xml:lang="en">Databases II</schema:name>
+        <schema:numberOfCredits rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</schema:numberOfCredits>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26">
+        <rdf:type rdf:resource="https://guia.org/CourseGuide"/>
+        <guia:hasCompetency rdf:resource="http://data.org/CB03"/>
+        <guia:hasCompetency rdf:resource="http://data.org/CB04"/>
+        <guia:hasCompetency rdf:resource="http://data.org/CE05"/>
+        <guia:hasCompetency rdf:resource="http://data.org/CE07"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/1"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/10"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/11"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/12"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/13"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/14"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/2"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/3"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/4"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/5"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/6"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/7"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/8"/>
+        <guia:hasDidacticResource rdf:resource="http://data.org/615001030/2025-26/didactic_resource/9"/>
+        <guia:hasEvaluation rdf:resource="http://data.org/615001030/2025-26/evaluation"/>
+        <guia:hasLearningResult rdf:resource="http://data.org/RA129"/>
+        <guia:hasLearningResult rdf:resource="http://data.org/RA134"/>
+        <guia:hasLearningResult rdf:resource="http://data.org/RA76"/>
+        <guia:hasLearningResult rdf:resource="http://data.org/RA77"/>
+        <guia:hasLearningResult rdf:resource="http://data.org/RA89"/>
+        <guia:inpersonHours xml:lang="es">63 horas (40.4%)</guia:inpersonHours>
+        <guia:numberOfCredits rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</guia:numberOfCredits>
+        <guia:otherInformation xml:lang="es"></guia:otherInformation>
+        <guia:periodEndingMonth xml:lang="es">Junio</guia:periodEndingMonth>
+        <guia:periodStaringtMonth xml:lang="es">Febrero</guia:periodStaringtMonth>
+        <guia:teachingPeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2025-26</guia:teachingPeriod>
+        <guia:teachingPeriodMonths xml:lang="es">Febrero-Junio</guia:teachingPeriodMonths>
+        <guia:totalHours xml:lang="es">63 horas</guia:totalHours>
+        <schema:activitiesWorkload xml:lang="es">100%</schema:activitiesWorkload>
+        <schema:courseSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule"/>
+        <schema:description xml:lang="es">El objetivo de la asignatura &quot;Bases de Datos II&quot; es dar continuidad al alumno en el conocimiento de diferentes tipos de sistemas de almacenamiento de información. Tras haber cursado y visto bases de datos, donde se focaliza la asignatura en las bases de datos relacionales, esta asignatura pretende continuar con otros modelos de almacenamiento y manejo de datos, centrándose principalmente en bases de datos NoSQL pero mostrando también otros enfoques como son aquellos relativos a las bases de datos distribuidas. Se verá por lo tanto una transición en lo que son las bases de datos relacionales clásicas, con un modelo de arquitectura cliente-servidor, a otros modelos, para acabar estudiando tanto las bases de datos NoSQL como el concepto de Data Streaming.
+El orden de impartición del temario será especificado a comienzo de curso.</schema:description>
+        <schema:director rdf:resource="http://data.org/angel.panizo%40upm.es"/>
+        <schema:inLanguage xml:lang="es">Castellano</schema:inLanguage>
+        <schema:instructor rdf:resource="http://data.org/angel.panizo%40upm.es"/>
+        <schema:instructor rdf:resource="http://data.org/rodrigo.raya%40upm.es"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/evaluation -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/evaluation">
+        <rdf:type rdf:resource="https://guia.org/EvaluationSystem"/>
+        <guia:evaluationDescription xml:lang="es">Criterios de evaluación
+La asignatura se evaluará mediante 2 proyectos y un examen, siendo los pesos de estas partes los que se indican a continuación:
+Proyecto/entrega 1: 20%
+Proyecto/entrega 2: 20%
+Examen: 60%
+Para aprobar la asignatura es necesario:
+Obtener en la calificación final al menos un 5.
+Obtener, al menos, 4 puntos sobre 10 en el examen.
+Los profesores se reservan la posibilidad de realizar un examen oral a los alumnos sobre los proyectos entregados.
+En el caso de ir por prueba de evaluación global (es decir, las prácticas que representan el 40% no se realizan y no son recuperables), se va a examen, el cual tendrá el valor del 60% y donde la nota mínima del examen debe ser de 5 puntos sobre 10 y obtener en la calificación final al menos un 5.
+
+Criterios para aprobar la asignatura en la convocatoria extraordinaria:
+
+La evaluación en la convocatoria extraordinaria de la asignatura será mediante un examen final en el que se evaluarán todos los conocimientos del temario de la asignatura y donde será necesario sacar al menos 5 puntos sobre 10. El examen se realizará en la fecha establecida en el calendario oficial de exámenes por jefatura de estudios para la convocatoria correspondiente. Para calcular la nota final en esta convocatoria se tendrá en cuenta la nota del examen, que representa el 100% de la asignatura.
+Examen: 100%
+Para aprobar la asignatura en esta convocatoria es necesario:
+Obtener en la calificación final de al menos un 5.
+
+Nota final sobre las prácticas
+Las prácticas 1 y 2 no son recuperables, pues se realizarán en base a un criterio de realización y evaluación continua durante las clases como si fueran prácticas de laboratorio.</guia:evaluationDescription>
+        <guia:hasEvaluationTrial rdf:resource="http://data.org/615001030/2025-26/evaluation/trial1"/>
+        <guia:hasEvaluationTrial rdf:resource="http://data.org/615001030/2025-26/evaluation/trial2"/>
+        <guia:hasEvaluationTrial rdf:resource="http://data.org/615001030/2025-26/evaluation/trial3"/>
+        <guia:hasEvaluationTrial rdf:resource="http://data.org/615001030/2025-26/evaluation/trial4"/>
+        <guia:hasEvaluationTrial rdf:resource="http://data.org/615001030/2025-26/evaluation/trial5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule">
+        <rdf:type rdf:resource="https://guia.org/Schedule"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/1"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/10"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/11"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/12"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/13"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/14"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/15"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/16"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/17"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/2"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/3"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/4"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/5"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/6"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/7"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/8"/>
+        <schema:eventSchedule rdf:resource="http://data.org/615001030/2025-26/eventSchedule/9"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/previous_courses -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/previous_courses">
+        <rdf:type rdf:resource="https://guia.org/RequiredKnowledge"/>
+        <guia:previousCourses xml:lang="es">El plan de estudios Grado En Ciencia De Datos E Inteligencia Artificial no tiene definidos otros requisitos para esta asignatura.</guia:previousCourses>
+        <guia:previousKnowledge xml:lang="es">Bases de datos relacionales
+Programación</guia:previousKnowledge>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus">
+        <rdf:type rdf:resource="https://guia.org/Syllabus"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/0"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/1"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/10"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/11"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/12"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/13"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/2"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/3"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/4"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/5"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/6"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/7"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/8"/>
+        <guia:hasItem rdf:resource="http://data.org/615001030/2025-26/syllabus/9"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/1">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">Data Governance: How to Design, Deploy, and Sustain an Effective Data Governance Program (English Edition) 2o Edición. John Ladley</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Bibliografía</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/10 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/10">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">Neo4j Manual, https://neo4j.com/docs/</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Recursos web</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/11 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/11">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">Solr in Action, T. Grainger, T. Potter, Manning publications</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Bibliografía</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/12 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/12">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">Bigtable: A Distributed Storage System for Structured Data. Journal ACM Transactions on Computer Systems (TOCS) Vol. 26 Issue 2, June 2008.</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Bibliografía</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/13 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/13">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">HBase Manual http://hbase.apache.org/book.html</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Recursos web</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/14 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/14">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">HBase in Action! https://www.mannin g.com/books/hbase-in-action</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Recursos web</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/2 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/2">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">Data Provenance A Complete Guide - 2020 Edition (English Edition). Gerardus Blokdyk</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Bibliografía</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/3 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/3">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">Pandas 1.x Cookbook: Practical recipes for scientific computing, time series analysis, and exploratory data analysis using Python, 2nd Edition (English Edition). Matt Harrison; Theodore Petrou</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Bibliografía</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/4 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/4">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">SQL &amp; NoSQL Databases: A Comprehensive Introduction To Relational (SQL) And Non-relational (NoSQL) Databases (English Edition). Danniella Hardin</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Bibliografía</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/5 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/5">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">SQL &amp; NoSQL Databases: Models, Languages, Consistency Options and Architectures for Big Data Management (English Edition). Andreas Meier; Michael Kaufmann</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Bibliografía</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/6 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/6">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">Stream Processing with Apache Flink: Fundamentals, Implementation, and Operation of Streaming Applications. Fabian Hueske, Vasiliki Kalavri</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Bibliografía</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/7 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/7">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">G. DeCandia, D. Hastorun, M. Jampani, G. Kakulapati, A. Lakshman, A. Pilchin, S. Sivasubramanian, P. Vosshall and W. Vogels. ACM Symposium on Operating Systems Principles (SOSPS), 2007</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Bibliografía</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/8 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/8">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">DynamoDB documentation https://do cs.aws.amazon.com/dynamodb/inde x.html</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Recursos web</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/didactic_resource/9 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/didactic_resource/9">
+        <rdf:type rdf:resource="https://guia.org/DidacticResource"/>
+        <guia:bibliographyTitle xml:lang="es">Graph Databases, O¿Reilly 2015, 2nd edition</guia:bibliographyTitle>
+        <guia:bibliographyType xml:lang="es">Bibliografía</guia:bibliographyType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/evaluation/trial1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/evaluation/trial1">
+        <rdf:type rdf:resource="https://guia.org/EvaluationTrial"/>
+        <guia:evaluationDuration xml:lang="es">00:00</guia:evaluationDuration>
+        <guia:evaluationType xml:lang="es">progresiva</guia:evaluationType>
+        <guia:gradePercentage xml:lang="es">20%</guia:gradePercentage>
+        <guia:hasScheduleEvent rdf:resource="http://data.org/615001030/2025-26/eventSchedule/6"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CB03"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CB04"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CE05"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CE07"/>
+        <guia:trialDescription xml:lang="es">Práctica 1 (No recuperable)</guia:trialDescription>
+        <guia:trialType xml:lang="es">Presencial</guia:trialType>
+        <guia:trialWeek xml:lang="es">6</guia:trialWeek>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/evaluation/trial2 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/evaluation/trial2">
+        <rdf:type rdf:resource="https://guia.org/EvaluationTrial"/>
+        <guia:evaluationDuration xml:lang="es">02:00</guia:evaluationDuration>
+        <guia:evaluationType xml:lang="es">progresiva</guia:evaluationType>
+        <guia:gradePercentage xml:lang="es">20%</guia:gradePercentage>
+        <guia:hasScheduleEvent rdf:resource="http://data.org/615001030/2025-26/eventSchedule/15"/>
+        <guia:trialDescription xml:lang="es">Práctica 2 (No recuperable)</guia:trialDescription>
+        <guia:trialType xml:lang="es">Presencial</guia:trialType>
+        <guia:trialWeek xml:lang="es">15</guia:trialWeek>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/evaluation/trial3 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/evaluation/trial3">
+        <rdf:type rdf:resource="https://guia.org/EvaluationTrial"/>
+        <guia:evaluationDuration xml:lang="es">03:00</guia:evaluationDuration>
+        <guia:evaluationType xml:lang="es">progresiva</guia:evaluationType>
+        <guia:gradePercentage xml:lang="es">60%</guia:gradePercentage>
+        <guia:hasScheduleEvent rdf:resource="http://data.org/615001030/2025-26/eventSchedule/17"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CB03"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CB04"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CE05"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CE07"/>
+        <guia:minimumScore xml:lang="es">4 / 10</guia:minimumScore>
+        <guia:trialDescription xml:lang="es">Examen asignatura</guia:trialDescription>
+        <guia:trialType xml:lang="es">Presencial</guia:trialType>
+        <guia:trialWeek xml:lang="es">17</guia:trialWeek>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/evaluation/trial4 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/evaluation/trial4">
+        <rdf:type rdf:resource="https://guia.org/EvaluationTrial"/>
+        <guia:evaluationDuration xml:lang="es">02:00</guia:evaluationDuration>
+        <guia:evaluationType xml:lang="es">global</guia:evaluationType>
+        <guia:gradePercentage xml:lang="es">60%</guia:gradePercentage>
+        <guia:hasScheduleEvent rdf:resource="http://data.org/615001030/2025-26/eventSchedule/17"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CB03"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CB04"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CE05"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CE07"/>
+        <guia:minimumScore xml:lang="es">5 / 10</guia:minimumScore>
+        <guia:trialDescription xml:lang="es">Examen evaluación global</guia:trialDescription>
+        <guia:trialType xml:lang="es">Presencial</guia:trialType>
+        <guia:trialWeek xml:lang="es">17</guia:trialWeek>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/evaluation/trial5 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/evaluation/trial5">
+        <rdf:type rdf:resource="https://guia.org/EvaluationTrial"/>
+        <guia:evaluationDuration xml:lang="es">03:00</guia:evaluationDuration>
+        <guia:evaluationType xml:lang="es">extraordinaria</guia:evaluationType>
+        <guia:gradePercentage xml:lang="es">100%</guia:gradePercentage>
+        <guia:involvesCompetency rdf:resource="http://data.org/CB03"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CB04"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CE05"/>
+        <guia:involvesCompetency rdf:resource="http://data.org/CE07"/>
+        <guia:minimumScore xml:lang="es">5 / 10</guia:minimumScore>
+        <guia:trialDescription xml:lang="es">Examen convocatoria extraordinaria</guia:trialDescription>
+        <guia:trialType xml:lang="es">Presencial</guia:trialType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/1">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 1</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/1/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/1/activity/TActivityType2/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/1/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/1/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/1/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/1/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Práctica de laboratorio</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">PL: Actividad del tipo Prácticas de Laboratorio</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/10 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/10">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 10</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/10/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/10/activity/TActivityType2/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/10/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/10/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/10/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/10/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Práctica de laboratorio</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">PL: Actividad del tipo Prácticas de Laboratorio</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/11 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/11">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 11</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/11/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/11/activity/TActivityType2/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/11/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/11/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/11/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/11/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Práctica de laboratorio</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">PL: Actividad del tipo Prácticas de Laboratorio</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/12 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/12">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 12</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/12/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/12/activity/TActivityType2/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/12/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/12/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/12/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/12/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Práctica de laboratorio</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">PL: Actividad del tipo Prácticas de Laboratorio</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/13 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/13">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 13</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/13/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/13/activity/TActivityType2/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/13/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/13/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/13/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/13/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Práctica de laboratorio</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">PL: Actividad del tipo Prácticas de Laboratorio</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/14 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/14">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 14</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/14/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/14/activity/TActivityType2/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/14/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/14/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/14/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/14/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Práctica de laboratorio</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">PL: Actividad del tipo Prácticas de Laboratorio</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/15 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/15">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 15</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/15/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/15/activity/TActivityType2/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/15/activity/TEvaluationActivity/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/15/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/15/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/15/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/15/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Correción Práctica 2</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">OT: Otras actividades formativas / Evaluación</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/15/activity/TEvaluationActivity/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/15/activity/TEvaluationActivity/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/EvaluationActivity"/>
+        <guia:activityDescription xml:lang="es">Práctica 2 (No recuperable)</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:attendanceType xml:lang="es">Presencial</guia:attendanceType>
+        <guia:evaluationType xml:lang="es">Evaluación Progresiva</guia:evaluationType>
+        <guia:tecnic xml:lang="es">TG: Técnica del tipo Trabajo en Grupo</guia:tecnic>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/16 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/16">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 16</guia:eventWeek>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/17 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/17">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 17</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/17/activity/TEvaluationActivity/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/17/activity/TEvaluationActivity/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/17/activity/TEvaluationActivity/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/17/activity/TEvaluationActivity/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/EvaluationActivity"/>
+        <guia:activityDescription xml:lang="es">Examen asignatura</guia:activityDescription>
+        <guia:activityDuration>03:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:attendanceType xml:lang="es">Presencial</guia:attendanceType>
+        <guia:evaluationType xml:lang="es">Evaluación Progresiva</guia:evaluationType>
+        <guia:tecnic xml:lang="es">EX: Técnica del tipo Examen Escrito</guia:tecnic>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/17/activity/TEvaluationActivity/2 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/17/activity/TEvaluationActivity/2">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/EvaluationActivity"/>
+        <guia:activityDescription xml:lang="es">Examen evaluación global</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:attendanceType xml:lang="es">Presencial</guia:attendanceType>
+        <guia:evaluationType xml:lang="es">Evaluación Global</guia:evaluationType>
+        <guia:tecnic xml:lang="es">EX: Técnica del tipo Examen Escrito</guia:tecnic>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/2 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/2">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 2</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/2/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/2/activity/TActivityType2/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/2/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/2/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/2/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/2/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Práctica de laboratorio</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">PL: Actividad del tipo Prácticas de Laboratorio</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/3 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/3">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 3</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/3/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/3/activity/TActivityType2/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/3/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/3/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/3/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/3/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Práctica de laboratorio</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">PL: Actividad del tipo Prácticas de Laboratorio</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/4 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/4">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 4</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/4/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/4/activity/TActivityType2/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/4/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/4/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/4/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/4/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Práctica de laboratorio</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">PL: Actividad del tipo Prácticas de Laboratorio</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/5 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/5">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 5</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/5/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/5/activity/TActivityType2/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/5/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/5/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/5/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/5/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Práctica de laboratorio</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">PL: Actividad del tipo Prácticas de Laboratorio</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/6 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/6">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 6</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/6/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/6/activity/TActivityType2/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/6/activity/TEvaluationActivity/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/6/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/6/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/6/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/6/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Correción Práctica 1</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">OT: Otras actividades formativas / Evaluación</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/6/activity/TEvaluationActivity/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/6/activity/TEvaluationActivity/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/EvaluationActivity"/>
+        <guia:activityDescription xml:lang="es">Práctica 1 (No recuperable)</guia:activityDescription>
+        <guia:activityDuration>00:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:attendanceType xml:lang="es">Presencial</guia:attendanceType>
+        <guia:evaluationType xml:lang="es">Evaluación Progresiva</guia:evaluationType>
+        <guia:tecnic xml:lang="es">TG: Técnica del tipo Trabajo en Grupo</guia:tecnic>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/7 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/7">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 7</guia:eventWeek>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/8 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/8">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 8</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/8/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/8/activity/TActivityType2/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/8/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/8/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/8/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/8/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Práctica de laboratorio</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">PL: Actividad del tipo Prácticas de Laboratorio</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/9 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/9">
+        <rdf:type rdf:resource="https://guia.org/ScheduleEvent"/>
+        <guia:eventIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</guia:eventIndex>
+        <guia:eventWeek xml:lang="es">Semana 9</guia:eventWeek>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/9/activity/TActivityType1/1"/>
+        <guia:hasActivity rdf:resource="http://data.org/615001030/2025-26/eventSchedule/9/activity/TActivityType2/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/9/activity/TActivityType1/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/9/activity/TActivityType1/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType1"/>
+        <guia:activityDescription xml:lang="es">Clases de teoría</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">LM: Actividad del tipo Lección Magistral</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/eventSchedule/9/activity/TActivityType2/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/eventSchedule/9/activity/TActivityType2/1">
+        <rdf:type rdf:resource="https://guia.org/Activity"/>
+        <rdf:type rdf:resource="https://guia.org/ActivityType2"/>
+        <guia:activityDescription xml:lang="es">Práctica de laboratorio</guia:activityDescription>
+        <guia:activityDuration>02:00</guia:activityDuration>
+        <guia:activityDurationUnit rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hour"/>
+        <guia:activityFormat xml:lang="es">PL: Actividad del tipo Prácticas de Laboratorio</guia:activityFormat>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/0 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/0">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">1. Bloque I: Bases de datos avanzadas</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/1 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/1">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">1.1. Gestión y administración de bases de datos Sin subniveles</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/10 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/10">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">5.1. Manejo y uso de bases de datos clave-valor Sin subniveles</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/11 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/11">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">6. Bloque VI: Data streaming</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/12 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/12">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">6.1. Motores de data streaming Sin subniveles</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/13 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/13">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">6.2. Procesamiento de datos continuos en memoria Sin subniveles</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/2 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/2">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">1.2. Otros modelos de bases de datos Sin subniveles</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/3 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/3">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">2. Bloque II: Bases de datos distribuidas</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/4 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/4">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">2.1. Modelos de bases de datos de manejo distribuido Sin subniveles</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/5 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/5">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">3. Bases de datos NoSQL: documentales</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/6 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/6">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">3.1. Manejo y uso de bases de datos documentales Sin subniveles</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/7 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/7">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">4. Bases de datos NoSQL: grafos</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/8 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/8">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">4.1. Manejo y uso de bases de datos basadas en grafos Sin subniveles</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/615001030/2025-26/syllabus/9 -->
+
+
+    <NamedIndividual rdf:about="http://data.org/615001030/2025-26/syllabus/9">
+        <rdf:type rdf:resource="https://guia.org/SyllabusItem"/>
+        <guia:itemIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</guia:itemIndex>
+        <guia:syllabusDescription xml:lang="es">5. Bases de datos NoSQL: clave-valor</guia:syllabusDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial -->
+
+
+    <NamedIndividual rdf:about="http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial">
+        <rdf:type rdf:resource="https://guia.org/BachelorDegree"/>
+        <rdf:type rdf:resource="https://guia.org/Degree"/>
+        <guia:hasCourse rdf:resource="http://data.org/615001030"/>
+        <schema:name xml:lang="es">61CD - Grado en Ciencia de Datos e Inteligencia Artificial</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos -->
+
+
+    <NamedIndividual rdf:about="http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos">
+        <rdf:type rdf:resource="https://guia.org/UniversityCenter"/>
+        <guia:offers rdf:resource="http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial"/>
+        <schema:name>E.T.S De Ing. De Sistemas Informáticos</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/angel.panizo%40upm.es -->
+
+
+    <NamedIndividual rdf:about="http://data.org/angel.panizo%40upm.es">
+        <rdf:type rdf:resource="https://guia.org/Lecturer"/>
+        <guia:office xml:lang="es">1214</guia:office>
+        <schema:email>angel.panizo@upm.es</schema:email>
+        <schema:name>Panizo Lledot, Angel</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://data.org/rodrigo.raya%40upm.es -->
+
+
+    <NamedIndividual rdf:about="http://data.org/rodrigo.raya%40upm.es">
+        <rdf:type rdf:resource="https://guia.org/Lecturer"/>
+        <schema:email>rodrigo.raya@upm.es</schema:email>
+        <schema:name>Raya Castellano, Rodrigo Javier</schema:name>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

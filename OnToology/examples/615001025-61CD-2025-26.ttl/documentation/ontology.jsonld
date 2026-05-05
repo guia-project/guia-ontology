@@ -1,0 +1,2595 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://data.org/615001025",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://data.org/courseYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Course"
+  } ],
+  "https://guia.org/courseType" : [ {
+    "@language" : "es",
+    "@value" : "Obligatoria"
+  } ],
+  "https://guia.org/semester" : [ {
+    "@language" : "es",
+    "@value" : "Quinto semestre"
+  } ],
+  "https://schema.org/courseCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "615001025"
+  } ],
+  "https://schema.org/hasCourseInstance" : [ {
+    "@id" : "http://data.org/615001025/2025-26"
+  } ],
+  "https://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Cloud Services"
+  }, {
+    "@language" : "es",
+    "@value" : "Infraestructuras y Servicios Cloud"
+  } ],
+  "https://schema.org/numberOfCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "6.0"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/CourseGuide"
+  } ],
+  "https://guia.org/hasCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE06"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/hasDidacticResource" : [ {
+    "@id" : "http://data.org/615001025/2025-26/didactic_resource/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/didactic_resource/10"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/didactic_resource/11"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/didactic_resource/2"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/didactic_resource/3"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/didactic_resource/4"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/didactic_resource/5"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/didactic_resource/6"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/didactic_resource/7"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/didactic_resource/8"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/didactic_resource/9"
+  } ],
+  "https://guia.org/hasEvaluation" : [ {
+    "@id" : "http://data.org/615001025/2025-26/evaluation"
+  } ],
+  "https://guia.org/hasLearningResult" : [ {
+    "@id" : "http://data.org/RA178"
+  } ],
+  "https://guia.org/inpersonHours" : [ {
+    "@language" : "es",
+    "@value" : "65 horas (41.7%)"
+  } ],
+  "https://guia.org/numberOfCredits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "6.0"
+  } ],
+  "https://guia.org/otherInformation" : [ {
+    "@language" : "es",
+    "@value" : "Aclaración al cronograma: Para cada actividad se especifica la dedicación en horas que implica para el estudiante. Esta distribución de esfuerzos debe entenderse para el \"estudiante medio\", por lo que si bien puede servir de orientación, no debe tomarse en ningún caso en sentido estricto a la hora de planificar su trabajo. Cada estudiante deberá hacer su propia planificación para alcanzar los resultados de aprendizaje descritos en esta Guía y ajustar dicha planificación en un proceso iterativo en función de los resultados intermedios que vaya obteniendo."
+  } ],
+  "https://guia.org/periodEndingMonth" : [ {
+    "@language" : "es",
+    "@value" : "Enero"
+  } ],
+  "https://guia.org/periodStaringtMonth" : [ {
+    "@language" : "es",
+    "@value" : "Septiembre"
+  } ],
+  "https://guia.org/teachingPeriod" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value" : "2025-26"
+  } ],
+  "https://guia.org/teachingPeriodMonths" : [ {
+    "@language" : "es",
+    "@value" : "Septiembre-Enero"
+  } ],
+  "https://guia.org/totalHours" : [ {
+    "@language" : "es",
+    "@value" : "65 horas"
+  } ],
+  "https://schema.org/activitiesWorkload" : [ {
+    "@language" : "es",
+    "@value" : "100%"
+  } ],
+  "https://schema.org/courseSchedule" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule"
+  } ],
+  "https://schema.org/description" : [ {
+    "@language" : "es",
+    "@value" : "El objetivo de esta asignatura es capacitar a los alumnos en el despliegue de sus proyectos en infraestructuras cloud y enseñarles a diseñar servicios ligeros desplegables en cloud como alternativa al desarrollo tradicional de servicios.\nEn el segundo tema, los estudiantes conocerán la arquitectura de una infraestructura cloud pública, sus servicios de infraestructura (computación, almacenamiento, redes) y sus principales servicios para aplicaciones, para finalmente aprender a desplegar aplicaciones sobre dicha infraestructura.\nEn el tercer tema, los estudiantes conocerán el uso de contenedores para el despliegue de servicios como alternativa ligera al uso de máquinas virtuales, para finalmente aprender a desplegar aplicaciones contenerizadas en la nube.\nEn los dos siguientes temas, los estudiantes aprenderán a diseñar microservicios y aplicaciones sin infraestructura (serverless) y a desplegarlos en una infraestructura en la nube."
+  } ],
+  "https://schema.org/director" : [ {
+    "@id" : "http://data.org/franciscojavier.gil%40upm.es"
+  } ],
+  "https://schema.org/inLanguage" : [ {
+    "@language" : "es",
+    "@value" : "Castellano"
+  } ],
+  "https://schema.org/instructor" : [ {
+    "@id" : "http://data.org/franciscojavier.gil%40upm.es"
+  }, {
+    "@id" : "http://data.org/juanmanuel.castelo%40upm.es"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/didactic_resource/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "AWS Certified Cloud Practitioner (CLF-C02) Cert Guide. Anthony Sequeira. Pearson IT Certification. 2024.\n(https://www.oreilly.com/library/view/aws-certified-cloud/9780138286002/)"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "AWS Certified Cloud Practitioner (CLF-C02) Cert Guide, 2nd Ed."
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/didactic_resource/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Building Microservices, 2nd Ed. O'Reilly Media. 2021.\n(https://learning.oreilly.com/library/view/buildi ng-microservices-2nd/9781492034018/)"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Building Microservices"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/didactic_resource/11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Comunicación, evaluación y calificación de la asignatura (https://moodle.upm.es/titulaciones /oficiales/)"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Moodle de la asignatura"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/didactic_resource/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Amazon Web Services (AWS), 3rd Ed. Richard Jones. Addison-Wesley Professional. 2022.\n(https://learning.oreilly.com/videos/amazon- web-services/9780134702186/)"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "AWS Live Sessions"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/didactic_resource/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "https://docs.aws.amazon.com/index.html?nc2 =h_ql_doc_do_v"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Documentación AWS"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/didactic_resource/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Docker: Up & Running, 2nd Ed. Sean P. Kane & Karl Matthias. O'Reilly Media. 2018\n(https://learning.oreilly.com/library/view/docke r-up/9781492036722/)"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Docker: Up & Running"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/didactic_resource/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Using Docker. Adrián Mouat. O'Reilly Media. 2015.\n(https://learning.oreilly.com/library/view/using- docker/9781491915752/)"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Using Docker"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/didactic_resource/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "https://docs.docker.com/"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Documentación Docker"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/didactic_resource/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Kubernetes: Up & Running, 3rd Ed. Brendan Burns et al. O'Reilly. 2022.\n(https://learning.oreilly.com/library/view/kuber netes-up-and/9781098110192/)"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Kubernetes: Up & Running"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/didactic_resource/8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Kubernetes: Best Practices. Brendan Burns et al. O'Reilly Media. 2019.\n(https://learning.oreilly.com/library/view/kuber netes-best-practices/9781492056461/)"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Kubernetes: Best Practices"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Bibliografía"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/didactic_resource/9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/DidacticResource"
+  } ],
+  "https://guia.org/bibliographyDescription" : [ {
+    "@language" : "es",
+    "@value" : "https://kubernetes.io/es/docs/concepts/overvi ew/what-is-kubernetes/"
+  } ],
+  "https://guia.org/bibliographyTitle" : [ {
+    "@language" : "es",
+    "@value" : "Documentación Kubernetes"
+  } ],
+  "https://guia.org/bibliographyType" : [ {
+    "@language" : "es",
+    "@value" : "Recursos web"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationSystem"
+  } ],
+  "https://guia.org/evaluationDescription" : [ {
+    "@language" : "es",
+    "@value" : "Sistema de evaluación progresiva\nLa asignatura está organizada en cinco temas. Durante el desarrollo de cada tema se realizarán en el aula informática diferentes despliegues en cloud para obtener los conocimientos que luego permitirán evaluar las competencias (generales/específicas) adquiridas por los estudiantes.\nLa asignatura seguirá un proceso de evaluación progresiva, de modo que al final de los temas 2, 3 y 5 se realizan prácticas en el laboratorio donde los alumnos tendrán que desplegar en cloud un servicio realizado por ellos en asignaturas previas:\nPráctica 1 \"Despliegue en cloud\": los estudiantes tendrán que desplegar su servicio en una máquina alojada en un cloud público y analizar las ventajas e inconvenientes de este despliegue respecto a una alternativa on premise. La práctica se realizará y evaluará en horario de clase.\nPráctica 2 \"Despliegue en contenedores\": los estudiantes tendrán que desplegar ahora su servicio en contenedores y analizar las ventajas e inconvenientes de este despliegue respecto a las alternativas de on premise y máquina virtual en cloud. La práctica se realizará y evaluará en horario de clase.\nPráctica 3 \"Despliegue de microservicios/serverless\": los estudiantes tendrán que rediseñar su servicio para transformarlo en un microservicio/serverless, desplegarlo utilizando servicios cloud y analizar las ventajas e inconvenientes de este despliegue respecto a las alternativas de on premise, máquina virtual en cloud y contenedores. La práctica se realizará y evaluará en horario de clase.\nLas prácticas no requieren nota mínima.\nDurante la semana oficial de exámenes programada por Jefatura de Estudios (semana 17), los estudiantes realizarán un examen final de la asignatura que cubrirá todos los temas de la asignatura y que requerirá nota mínima de 4.\nLa nota final de la asignatura será la media ponderada de las notas de la Práctica 1 (15%), Práctica 2 (15%), Práctica 3 (15%) y el Examen Global (55%), siempre que el examen global supere la nota mínima.\nEvaluación en periodo extraordinario\nLa convocatoria extraordinaria de julio consistirá en la recuperación del Examen Global de la asignatura y la entrega de las prácticas realizadas durante el curso.\nActuación ante fraude académico\nAnte la comprobación de fraude académico durante el desarrollo de pruebas de evaluación, se aplicará lo recogido en el artículo 13 de la Normativa de Evaluación UPM aprobada en Consejo de Gobierno de 26 de mayo de 2022."
+  } ],
+  "https://guia.org/hasEvaluationTrial" : [ {
+    "@id" : "http://data.org/615001025/2025-26/evaluation/trial1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/evaluation/trial10"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/evaluation/trial11"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/evaluation/trial12"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/evaluation/trial2"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/evaluation/trial3"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/evaluation/trial4"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/evaluation/trial5"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/evaluation/trial6"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/evaluation/trial7"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/evaluation/trial8"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/evaluation/trial9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation/trial1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "15%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/5"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE06"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "0 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue en cloud\" RA178"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation/trial10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "extraordinaria"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "15%"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE06"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "0 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue en cloud\" RA178"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation/trial11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "extraordinaria"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "15%"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE06"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "0 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue en contenedores\" RA178"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation/trial12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "extraordinaria"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "15%"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE06"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "0 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue de microservicios/serverless\" RA178"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation/trial2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "15%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/9"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "0 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue en contenedores\" RA178"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation/trial3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "15%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/15"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "0 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue de microservicios/serverless\" RA178"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "15"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation/trial4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "01:30"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "progresiva"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "55%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/17"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CE06"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "4 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen final RA178"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation/trial5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "global"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "15%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/5"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  }, {
+    "@id" : "http://data.org/CE06"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "0 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue en cloud\" RA178"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation/trial6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "global"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "15%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/9"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "0 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue en contenedores\" RA178"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation/trial7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "global"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "15%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/15"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CB04"
+  }, {
+    "@id" : "http://data.org/CB05"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "0 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue de microservicios/serverless\" RA178"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "15"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation/trial8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "01:30"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "global"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "55%"
+  } ],
+  "https://guia.org/hasScheduleEvent" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/17"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CE06"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "4 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen final RA178"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/trialWeek" : [ {
+    "@language" : "es",
+    "@value" : "17"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/evaluation/trial9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/EvaluationTrial"
+  } ],
+  "https://guia.org/evaluationDuration" : [ {
+    "@language" : "es",
+    "@value" : "01:30"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "extraordinaria"
+  } ],
+  "https://guia.org/gradePercentage" : [ {
+    "@language" : "es",
+    "@value" : "55%"
+  } ],
+  "https://guia.org/involvesCompetency" : [ {
+    "@id" : "http://data.org/CE06"
+  }, {
+    "@id" : "http://data.org/CG06"
+  } ],
+  "https://guia.org/minimumScore" : [ {
+    "@language" : "es",
+    "@value" : "4 / 10"
+  } ],
+  "https://guia.org/trialDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen final RA178"
+  } ],
+  "https://guia.org/trialType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Schedule"
+  } ],
+  "https://schema.org/eventSchedule" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/10"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/11"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/12"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/13"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/14"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/15"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/16"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/17"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/2"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/3"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/4"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/5"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/6"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/7"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/8"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 1"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/1/activity/TActivityType2/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/1/activity/TActivityType2/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/1/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 1: Introducción a Cloud"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/1/activity/TActivityType2/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 2: Infraestructura Cloud"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 10"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/10/activity/TActivityType2/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/10/activity/TActivityType2/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/10/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 4: Microservicios"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/10/activity/TActivityType2/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 4: Microservicios"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 11"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 12"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/12/activity/TActivityType2/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/12/activity/TActivityType2/2"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/12/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 5: Servicios sin infraestructura"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/12/activity/TActivityType2/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 5: Servicios sin infraestructura"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 13"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/13/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/13/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 5: Servicios sin infraestructura"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "04:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 14"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/14/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/14/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 5: Servicios sin infraestructura"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "04:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 15"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/15/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/15/activity/TActivityType2/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/15/activity/TEvaluationActivity/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/15/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue de microservicios/serverless\""
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras actividades formativas / Evaluación"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/15/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 5: Servicios sin infraestructura"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/15/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue de microservicios/serverless\" RA178"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva y Global"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "TI: Técnica del tipo Trabajo Individual"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "16"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 16"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 17"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/17/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/17/activity/TEvaluationActivity/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/17/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen final - Presencial - Evaluación Progresiva y Global"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:30"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras actividades formativas / Evaluación"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/17/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Examen final RA178"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "01:30"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva y Global"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "EX: Técnica del tipo Examen Escrito"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 2"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/2/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/2/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 2: Infraestructura Cloud"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "04:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 3"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/3/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/3/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 2: Infraestructura Cloud"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "04:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 4"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/4/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/4/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 2: Infraestructura Cloud"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "04:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 5"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/5/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/5/activity/TActivityType2/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/5/activity/TEvaluationActivity/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/5/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue en cloud\""
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras actividades formativas / Evaluación"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/5/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 2: Infraestructura Cloud"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/5/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue en cloud\" RA178"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva y Global"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "TI: Técnica del tipo Trabajo Individual"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 6"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/6/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/6/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 3: Contenedores"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "04:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 7"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/7/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/7/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 3: Contenedores"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "04:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "LM: Actividad del tipo Lección Magistral"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 8"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/8/activity/TActivityType2/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/8/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 3: Contenedores"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "04:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/ScheduleEvent"
+  } ],
+  "https://guia.org/eventIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "https://guia.org/eventWeek" : [ {
+    "@language" : "es",
+    "@value" : "Semana 9"
+  } ],
+  "https://guia.org/hasActivity" : [ {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/9/activity/TActivityType1/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/9/activity/TActivityType2/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/eventSchedule/9/activity/TEvaluationActivity/1"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/9/activity/TActivityType1/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType1"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue en contenedores\""
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "OT: Otras actividades formativas / Evaluación"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/9/activity/TActivityType2/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/ActivityType2"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Tema 3: Contenedores"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/activityFormat" : [ {
+    "@language" : "es",
+    "@value" : "PL: Actividad del tipo Prácticas de Laboratorio"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/eventSchedule/9/activity/TEvaluationActivity/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Activity"
+  }, {
+    "@id" : "https://guia.org/EvaluationActivity"
+  } ],
+  "https://guia.org/activityDescription" : [ {
+    "@language" : "es",
+    "@value" : "Práctica \"Despliegue en contenedores\" RA178"
+  } ],
+  "https://guia.org/activityDuration" : [ {
+    "@value" : "02:00"
+  } ],
+  "https://guia.org/activityDurationUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hour"
+  } ],
+  "https://guia.org/attendanceType" : [ {
+    "@language" : "es",
+    "@value" : "Presencial"
+  } ],
+  "https://guia.org/evaluationType" : [ {
+    "@language" : "es",
+    "@value" : "Evaluación Progresiva y Global"
+  } ],
+  "https://guia.org/tecnic" : [ {
+    "@language" : "es",
+    "@value" : "TI: Técnica del tipo Trabajo Individual"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/previous_courses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/RequiredKnowledge"
+  } ],
+  "https://guia.org/previousCourses" : [ {
+    "@language" : "es",
+    "@value" : "El plan de estudios Grado En Ciencia De Datos E Inteligencia Artificial no tiene definidos otros requisitos para esta asignatura."
+  } ],
+  "https://guia.org/previousKnowledge" : [ {
+    "@language" : "es",
+    "@value" : "El plan de estudios Grado en Ciencia de Datos e Inteligencia Artificial no tiene definidos otros conocimientos previos para esta asignatura"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Syllabus"
+  } ],
+  "https://guia.org/hasItem" : [ {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/0"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/1"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/10"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/11"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/12"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/13"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/14"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/15"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/16"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/17"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/18"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/19"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/2"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/20"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/21"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/22"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/23"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/24"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/3"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/4"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/5"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/6"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/7"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/8"
+  }, {
+    "@id" : "http://data.org/615001025/2025-26/syllabus/9"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "0"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1. Introducción a Cloud"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.1. Evolución de Internet Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.4. Servicios para aplicaciones: bases de datos, eventos, monitorización Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3. Contenedores"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.1. Contenedores de aplicaciones y servicios Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.2. Grupos de contenedores Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.3. Orquestación de servicios Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.4. Docker Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "16"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.5. Kubernetes Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "3.6. Servicios cloud de contenedores Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "18"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4. Microservicios"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "19"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.1. Características y diseño Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.2. Características Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "20"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.2. Implementación de microservicios en cloud Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "21"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "4.3. Servicios cloud de gestión de APIs Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5. Servicios sin infraestructura (serverless)"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "23"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.1. Funciones como servicio (FaaS) Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "24"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "5.2. Despliegue de aplicaciones sin infraestructura Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.3. Modelos de servicio: IaaS, SaaS, PaaS, FaaS Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.4. Modelos de despliegue: público, privado, híbrido Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "1.5. Proveedores cloud actuales Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2. Infraestructura Cloud"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.1. Arquitectura Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.2. Consola, CLI y APIs de desarrollo Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/615001025/2025-26/syllabus/9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/SyllabusItem"
+  } ],
+  "https://guia.org/itemIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "https://guia.org/syllabusDescription" : [ {
+    "@language" : "es",
+    "@value" : "2.3. Servicios de infraestructura: computación, almacenamiento y redes Sin subniveles"
+  } ]
+}, {
+  "@id" : "http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/BachelorDegree"
+  }, {
+    "@id" : "https://guia.org/Degree"
+  } ],
+  "https://guia.org/hasCourse" : [ {
+    "@id" : "http://data.org/615001025"
+  } ],
+  "https://schema.org/name" : [ {
+    "@language" : "es",
+    "@value" : "61CD - Grado en Ciencia de Datos e Inteligencia Artificial"
+  } ]
+}, {
+  "@id" : "http://data.org/CB04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CB04"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado"
+  } ]
+}, {
+  "@id" : "http://data.org/CB05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CB05"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores con un alto grado de autonomía"
+  } ]
+}, {
+  "@id" : "http://data.org/CE06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CE06"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Capacidad para describir los fundamentos de las infraestructuras de gestión e intercambio de datos: hardware, sistemas operativos, bases de datos, redes de computadores."
+  } ]
+}, {
+  "@id" : "http://data.org/CG06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Competency"
+  } ],
+  "https://guia.org/competencyCode" : [ {
+    "@value" : "CG06"
+  } ],
+  "https://guia.org/competencyDescription" : [ {
+    "@language" : "es",
+    "@value" : "Identificar y utilizar las tecnologías de la información y las comunicaciones más adecuadas en el ámbito de la ingeniería."
+  } ]
+}, {
+  "@id" : "http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/UniversityCenter"
+  } ],
+  "https://guia.org/offers" : [ {
+    "@id" : "http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "E.T.S De Ing. De Sistemas Informáticos"
+  } ]
+}, {
+  "@id" : "http://data.org/RA178",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/LearningResult"
+  } ],
+  "https://guia.org/learningResultCode" : [ {
+    "@value" : "RA178"
+  } ],
+  "https://guia.org/learningResultDescription" : [ {
+    "@language" : "es",
+    "@value" : "RA"
+  } ]
+}, {
+  "@id" : "http://data.org/courseYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://data.org/franciscojavier.gil%40upm.es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Lecturer"
+  } ],
+  "https://guia.org/office" : [ {
+    "@language" : "es",
+    "@value" : "D-1118"
+  } ],
+  "https://guia.org/tutorshipsSchedule" : [ {
+    "@language" : "es",
+    "@value" : "Las reservas para tutorías se realizarán a través de http://tutor.etsisi.upm.es/"
+  } ],
+  "https://schema.org/email" : [ {
+    "@value" : "franciscojavier.gil@upm.es"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Gil Rubio, Fco. Javier"
+  } ]
+}, {
+  "@id" : "http://data.org/juanmanuel.castelo%40upm.es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://guia.org/Lecturer"
+  } ],
+  "https://guia.org/office" : [ {
+    "@language" : "es",
+    "@value" : "D-4105"
+  } ],
+  "https://schema.org/email" : [ {
+    "@value" : "juanmanuel.castelo@upm.es"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Castelo Gomez, Juan Manuel"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "https://guia.org/Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/ActivityType1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/ActivityType2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/BachelorDegree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Competency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Course",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/CourseGuide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Degree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/DidacticResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/EvaluationActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/EvaluationSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/EvaluationTrial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/LearningResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Lecturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/RequiredKnowledge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Schedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/ScheduleEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/SyllabusItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/UniversityCenter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://guia.org/activityDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/activityDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/activityDurationUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/activityFormat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/attendanceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/bibliographyDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/bibliographyTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/bibliographyType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/competencyCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/competencyDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/courseType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/evaluationDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/evaluationDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/evaluationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/eventIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/eventWeek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/gradePercentage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasCompetency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasCourse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasDidacticResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasEvaluation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasEvaluationTrial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasLearningResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/hasScheduleEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/inpersonHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/involvesCompetency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/itemIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/learningResultCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/learningResultDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/minimumScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/numberOfCredits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/offers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/office",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/otherInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/periodEndingMonth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/periodStaringtMonth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/previousCourses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/previousKnowledge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/semester",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/syllabusDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/teachingPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/teachingPeriodMonths",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/tecnic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/totalHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/trialDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/trialType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/trialWeek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://guia.org/tutorshipsSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/activitiesWorkload",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/courseCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/courseSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/director",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/eventSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/hasCourseInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/inLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/instructor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/numberOfCredits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
