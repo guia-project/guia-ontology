@@ -1,0 +1,1207 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://data.org/courseYear
+<http://data.org/courseYear> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/activityDescription
+<https://guia.org/activityDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/activityDuration
+<https://guia.org/activityDuration> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/activityDurationUnit
+<https://guia.org/activityDurationUnit> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/activityFormat
+<https://guia.org/activityFormat> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/attendanceType
+<https://guia.org/attendanceType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/bibliographyDescription
+<https://guia.org/bibliographyDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/bibliographyTitle
+<https://guia.org/bibliographyTitle> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/bibliographyType
+<https://guia.org/bibliographyType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/competencyCode
+<https://guia.org/competencyCode> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/competencyDescription
+<https://guia.org/competencyDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/courseType
+<https://guia.org/courseType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/evaluationDescription
+<https://guia.org/evaluationDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/evaluationDuration
+<https://guia.org/evaluationDuration> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/evaluationType
+<https://guia.org/evaluationType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/eventIndex
+<https://guia.org/eventIndex> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/eventWeek
+<https://guia.org/eventWeek> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/gradePercentage
+<https://guia.org/gradePercentage> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasActivity
+<https://guia.org/hasActivity> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasCompetency
+<https://guia.org/hasCompetency> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasCourse
+<https://guia.org/hasCourse> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasDidacticResource
+<https://guia.org/hasDidacticResource> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasEvaluation
+<https://guia.org/hasEvaluation> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasEvaluationTrial
+<https://guia.org/hasEvaluationTrial> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasItem
+<https://guia.org/hasItem> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasLearningResult
+<https://guia.org/hasLearningResult> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/hasScheduleEvent
+<https://guia.org/hasScheduleEvent> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/inpersonHours
+<https://guia.org/inpersonHours> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/involvesCompetency
+<https://guia.org/involvesCompetency> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/itemIndex
+<https://guia.org/itemIndex> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/learningResultCode
+<https://guia.org/learningResultCode> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/learningResultDescription
+<https://guia.org/learningResultDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/minimumScore
+<https://guia.org/minimumScore> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/numberOfCredits
+<https://guia.org/numberOfCredits> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/offers
+<https://guia.org/offers> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/office
+<https://guia.org/office> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/otherInformation
+<https://guia.org/otherInformation> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/periodEndingMonth
+<https://guia.org/periodEndingMonth> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/periodStaringtMonth
+<https://guia.org/periodStaringtMonth> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/previousCourses
+<https://guia.org/previousCourses> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/previousKnowledge
+<https://guia.org/previousKnowledge> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/semester
+<https://guia.org/semester> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/syllabusDescription
+<https://guia.org/syllabusDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/teachingPeriod
+<https://guia.org/teachingPeriod> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/teachingPeriodMonths
+<https://guia.org/teachingPeriodMonths> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/tecnic
+<https://guia.org/tecnic> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/totalHours
+<https://guia.org/totalHours> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/trialDescription
+<https://guia.org/trialDescription> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/trialType
+<https://guia.org/trialType> rdf:type owl:AnnotationProperty .
+
+
+###  https://guia.org/trialWeek
+<https://guia.org/trialWeek> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/activitiesWorkload
+<https://schema.org/activitiesWorkload> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/courseCode
+<https://schema.org/courseCode> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/courseSchedule
+<https://schema.org/courseSchedule> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/description
+<https://schema.org/description> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/director
+<https://schema.org/director> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/email
+<https://schema.org/email> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/eventSchedule
+<https://schema.org/eventSchedule> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/hasCourseInstance
+<https://schema.org/hasCourseInstance> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/inLanguage
+<https://schema.org/inLanguage> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/instructor
+<https://schema.org/instructor> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/name
+<https://schema.org/name> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/numberOfCredits
+<https://schema.org/numberOfCredits> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#gYear
+xsd:gYear rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://guia.org/Activity
+<https://guia.org/Activity> rdf:type owl:Class .
+
+
+###  https://guia.org/ActivityType1
+<https://guia.org/ActivityType1> rdf:type owl:Class .
+
+
+###  https://guia.org/ActivityType2
+<https://guia.org/ActivityType2> rdf:type owl:Class .
+
+
+###  https://guia.org/BachelorDegree
+<https://guia.org/BachelorDegree> rdf:type owl:Class .
+
+
+###  https://guia.org/Competency
+<https://guia.org/Competency> rdf:type owl:Class .
+
+
+###  https://guia.org/Course
+<https://guia.org/Course> rdf:type owl:Class .
+
+
+###  https://guia.org/CourseGuide
+<https://guia.org/CourseGuide> rdf:type owl:Class .
+
+
+###  https://guia.org/Degree
+<https://guia.org/Degree> rdf:type owl:Class .
+
+
+###  https://guia.org/DidacticResource
+<https://guia.org/DidacticResource> rdf:type owl:Class .
+
+
+###  https://guia.org/EvaluationActivity
+<https://guia.org/EvaluationActivity> rdf:type owl:Class .
+
+
+###  https://guia.org/EvaluationSystem
+<https://guia.org/EvaluationSystem> rdf:type owl:Class .
+
+
+###  https://guia.org/EvaluationTrial
+<https://guia.org/EvaluationTrial> rdf:type owl:Class .
+
+
+###  https://guia.org/LearningResult
+<https://guia.org/LearningResult> rdf:type owl:Class .
+
+
+###  https://guia.org/Lecturer
+<https://guia.org/Lecturer> rdf:type owl:Class .
+
+
+###  https://guia.org/RequiredKnowledge
+<https://guia.org/RequiredKnowledge> rdf:type owl:Class .
+
+
+###  https://guia.org/Schedule
+<https://guia.org/Schedule> rdf:type owl:Class .
+
+
+###  https://guia.org/ScheduleEvent
+<https://guia.org/ScheduleEvent> rdf:type owl:Class .
+
+
+###  https://guia.org/Syllabus
+<https://guia.org/Syllabus> rdf:type owl:Class .
+
+
+###  https://guia.org/SyllabusItem
+<https://guia.org/SyllabusItem> rdf:type owl:Class .
+
+
+###  https://guia.org/UniversityCenter
+<https://guia.org/UniversityCenter> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://data.org/CB01
+<http://data.org/CB01> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CB01" ;
+                       <https://guia.org/competencyDescription> "Que los estudiantes hayan demostrado poseer y comprender conocimientos en un área de estudio que parte de la base de la educación secundaria general, y se suele encontrar a un nivel que, si bien se apoya en libros de texto avanzados, incluye también algunos aspectos que implican conocimientos procedentes de la vanguardia de su campo de estudio"@es .
+
+
+###  http://data.org/CB02
+<http://data.org/CB02> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CB02" ;
+                       <https://guia.org/competencyDescription> "Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio"@es .
+
+
+###  http://data.org/CB03
+<http://data.org/CB03> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CB03" ;
+                       <https://guia.org/competencyDescription> "Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética"@es .
+
+
+###  http://data.org/CB04
+<http://data.org/CB04> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CB04" ;
+                       <https://guia.org/competencyDescription> "Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado"@es .
+
+
+###  http://data.org/CB05
+<http://data.org/CB05> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CB05" ;
+                       <https://guia.org/competencyDescription> "Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores con un alto grado de autonomía"@es .
+
+
+###  http://data.org/CE13
+<http://data.org/CE13> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CE13" ;
+                       <https://guia.org/competencyDescription> "Capacidad para conocer y diseñar entidades y sistemas inteligentes que incorporen capacidades como la autonomía, la situación en su entorno, la reactividad y proactividad, el aprendizaje, y habilidades sociales y organizativas, entre otras."@es .
+
+
+###  http://data.org/CE20
+<http://data.org/CE20> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CE20" ;
+                       <https://guia.org/competencyDescription> "Poseer las destrezas para aplicar de manera socialmente responsable los aspectos éticos, legales y normativos relacionados con el tratamiento de los datos, el uso de las técnicas de la inteligencia artificial y la explotación del conocimiento obtenido."@es .
+
+
+###  http://data.org/CG01
+<http://data.org/CG01> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CG01" ;
+                       <https://guia.org/competencyDescription> "Capacidad de trabajo en equipo, en entornos interdisciplinares y complejos, negociando y resolviendo conflictos, diseñando soluciones eficientes, fiables, robustas y responsables."@es .
+
+
+###  http://data.org/CG07
+<http://data.org/CG07> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/Competency> ;
+                       <https://guia.org/competencyCode> "CG07" ;
+                       <https://guia.org/competencyDescription> "Capacidad para integrar aspectos sociales, ambientales, económicos y éticos inherentes a la ingeniería, analizando sus impactos, y comprometiéndose con la búsqueda de soluciones a retos del desarrollo sostenible."@es .
+
+
+###  http://data.org/RA74
+<http://data.org/RA74> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/LearningResult> ;
+                       <https://guia.org/learningResultCode> "RA74" ;
+                       <https://guia.org/learningResultDescription> "Demostrar una base formativa suficiente para comprender el impacto de las soluciones de ingeniería en un contexto global, económico, medioambiental y social."@es .
+
+
+###  http://data.org/RA88
+<http://data.org/RA88> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/LearningResult> ;
+                       <https://guia.org/learningResultCode> "RA88" ;
+                       <https://guia.org/learningResultDescription> "Seguridad de los Datos de carácter Personal"@es .
+
+
+###  http://data.org/RA91
+<http://data.org/RA91> rdf:type owl:NamedIndividual ,
+                                <https://guia.org/LearningResult> ;
+                       <https://guia.org/learningResultCode> "RA91" ;
+                       <https://guia.org/learningResultDescription> "Capacidad para producir informes sobre el impacto social, legal y ético de proyectos de ciencia de datos e inteligencia artificial"@es .
+
+
+###  http://data.org/615001022
+<http://data.org/615001022> rdf:type owl:NamedIndividual ,
+                                     <https://guia.org/Course> ;
+                            <http://data.org/courseYear> 2 ;
+                            <https://guia.org/courseType> "Obligatoria"@es ;
+                            <https://guia.org/semester> "Cuarto semestre"@es ;
+                            <https://schema.org/courseCode> 615001022 ;
+                            <https://schema.org/hasCourseInstance> <http://data.org/615001022/2025-26> ;
+                            <https://schema.org/name> "Aspectos Sociales, éticos y Legales de los Datos y la Inteligencia Artificial"@es ,
+                                                      "Social/legal/ethics Aspects Of Data And Artificial Intelligence"@en ;
+                            <https://schema.org/numberOfCredits> 3.0 .
+
+
+###  http://data.org/615001022/2025-26
+<http://data.org/615001022/2025-26> rdf:type owl:NamedIndividual ,
+                                             <https://guia.org/CourseGuide> ;
+                                    <https://guia.org/hasCompetency> <http://data.org/CB01> ,
+                                                                     <http://data.org/CB02> ,
+                                                                     <http://data.org/CB03> ,
+                                                                     <http://data.org/CB04> ,
+                                                                     <http://data.org/CB05> ,
+                                                                     <http://data.org/CE13> ,
+                                                                     <http://data.org/CE20> ,
+                                                                     <http://data.org/CG01> ,
+                                                                     <http://data.org/CG07> ;
+                                    <https://guia.org/hasDidacticResource> <http://data.org/615001022/2025-26/didactic_resource/1> ,
+                                                                           <http://data.org/615001022/2025-26/didactic_resource/2> ,
+                                                                           <http://data.org/615001022/2025-26/didactic_resource/3> ;
+                                    <https://guia.org/hasEvaluation> <http://data.org/615001022/2025-26/evaluation> ;
+                                    <https://guia.org/hasLearningResult> <http://data.org/RA74> ,
+                                                                         <http://data.org/RA88> ,
+                                                                         <http://data.org/RA91> ;
+                                    <https://guia.org/inpersonHours> "38 horas y 30 minutos (49.4%)"@es ;
+                                    <https://guia.org/numberOfCredits> 3.0 ;
+                                    <https://guia.org/otherInformation> """La asignatura se desarrollará de forma colaborativa: a partir de la elección de un caso de estudio, los alumnos/as abordarán las diferentes áreas de contenido (problemas éticos, protección de datos, propiedad intelectual, aspectos sociales de la IA).
+Los resultados de los Proyectos se expondrán públicamente, y esta exposición formará parte de la evaluación del alumno; y, eventualmente, se buscará su publicación o divulgación virtual.
+La orientación será eminentemente práctica, orientada a la resolución de problemas reales de la Inteligencia Artificial que tengan implicaciones sociales, éticas o jurídicas.
+Se prevé, como en anteriores ediciones, la invitación de profesionales del ámbito empresarial, investigador, o instituciones públicas (Agencia europea de IA con sede en Estrasburgo) que ayuden al alumnado a aterrizar los contenidos.
+
+OBJETIVOS DE DESARROLLO SOSTENIBLE
+Esta asignatura contribuye al ODS 8, que a su vez contiene varias metas e indicadores orientados a conseguir \"trabajo decente y crecimiento económico\". En la misma se abordan temas relacionados con la economía digital o el comercio electrónico o el uso de las TIC y de la Inteligencia Artificial tanto por las empresas como por Organismos Públicos, con las implicaciones sociales, éticas y legales del uso de estas tecnologías.
+Además, se trabajan temas relacionados con el ODS10, relacionado con la reducción de desigualdades (los aspectos de brecha digital y sesgos, por ejemplo, están íntimamente relacionados con este objetivo).
+Finalmente, los contenidos están alineados con el ODS 16 dirigido a conseguir \"paz, justicia e instituciones sólidas\". El uso de los datos (personales o no) es una de las preocupaciones más importantes a nivel mundial, especialmente vinculado al uso y desarrollo de la Inteligencia Artificial."""@es ;
+                                    <https://guia.org/periodEndingMonth> "Junio"@es ;
+                                    <https://guia.org/periodStaringtMonth> "Febrero"@es ;
+                                    <https://guia.org/teachingPeriod> "2025-26"^^xsd:gYear ;
+                                    <https://guia.org/teachingPeriodMonths> "Febrero-Junio"@es ;
+                                    <https://guia.org/totalHours> "38 horas y 30 minutos"@es ;
+                                    <https://schema.org/activitiesWorkload> "100%"@es ;
+                                    <https://schema.org/courseSchedule> <http://data.org/615001022/2025-26/eventSchedule> ;
+                                    <https://schema.org/description> "Esta asignatura proporciona las herramientas téoricas y prácticas para afrontar los retos éticos, legales y sociales que plantean los recientes avances de la ciencia de datos y la inteligencia artificial. Durante el curso se impartirán metodologías para realizar el análisis del impacto ético y social de proyectos de innovación, con aplicación en casos de uso reales. También se impartirán nociones básicas del marco jurídico europeo para el procesamiento de datos de carácter personal y para la protección de la propiedad intelectual y se estudiará la posición europea en el ámbito de sistemas autónomos y de inteligencia artificial."@es ;
+                                    <https://schema.org/director> <http://data.org/aureamaria.angueradesojo%40upm.es> ;
+                                    <https://schema.org/inLanguage> "Castellano"@es ;
+                                    <https://schema.org/instructor> <http://data.org/aureamaria.angueradesojo%40upm.es> ,
+                                                                    <http://data.org/mariacelia.fernandez%40upm.es> .
+
+
+###  http://data.org/615001022/2025-26/evaluation
+<http://data.org/615001022/2025-26/evaluation> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/EvaluationSystem> ;
+                                               <https://guia.org/evaluationDescription> """EVALUACIÓN PROGRESIVA: Todas las pruebas son OBLIGATORIAS y tienen calificación mínima necesaria para liberar el contenido de 5. En caso de no obtener la calificación mínima necesaria, podrá recuperarse en el Examen de Evaluación Global.
+PRUEBAS EVALUACIÓN PROGRESIVA (50% NOTA FINAL): Se realizan tres pruebas con los siguientes pesos:
+Examen Temas 1 y 2: 17%. Se realiza una actividad equivalente de carácter práctico y de forma grupal. Se evalúan los RA74 y RA91.
+Examen Tema 3: 17%. Examen escrito individual. Esta prueba de evaluación está vinculada al RA88.
+Examen Tema 4: 16%. Se realiza una actividad equivalente de carácter práctico y de forma grupal. En esta actividad se evalúa los RA74 y RA91.
+TRABAJO GRUPAL: Tiene un peso del 50% en la calificación final. Se realiza de forma grupal y consta de una presentación del trabajo y la entrega de una memoria. Se evalúan los tres RA de la asignatura.
+
+EVALUACIÓN GLOBAL: Examen teórico práctico sobre los contenidos del curso. 2 horas de duración. Peso del 100% en la calificación final. Se evalúan los RA74, RA 88 y RA91
+EVALUACIÓN EXTRAORDINARIA: Examen teórico práctico sobre los contenidos del curso. 2 horas de duración. Peso del 100% en la calificación final. Se evalúan los RA74, RA 88 y RA91"""@es ;
+                                               <https://guia.org/hasEvaluationTrial> <http://data.org/615001022/2025-26/evaluation/trial1> ,
+                                                                                     <http://data.org/615001022/2025-26/evaluation/trial2> ,
+                                                                                     <http://data.org/615001022/2025-26/evaluation/trial3> ,
+                                                                                     <http://data.org/615001022/2025-26/evaluation/trial4> ,
+                                                                                     <http://data.org/615001022/2025-26/evaluation/trial5> ,
+                                                                                     <http://data.org/615001022/2025-26/evaluation/trial6> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule
+<http://data.org/615001022/2025-26/eventSchedule> rdf:type owl:NamedIndividual ,
+                                                           <https://guia.org/Schedule> ;
+                                                  <https://schema.org/eventSchedule> <http://data.org/615001022/2025-26/eventSchedule/1> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/10> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/11> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/12> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/13> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/14> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/15> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/16> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/17> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/2> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/3> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/4> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/5> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/6> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/7> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/8> ,
+                                                                                     <http://data.org/615001022/2025-26/eventSchedule/9> .
+
+
+###  http://data.org/615001022/2025-26/previous_courses
+<http://data.org/615001022/2025-26/previous_courses> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/RequiredKnowledge> ;
+                                                     <https://guia.org/previousCourses> "El plan de estudios Grado En Ciencia De Datos E Inteligencia Artificial no tiene definidos otros requisitos para esta asignatura."@es ;
+                                                     <https://guia.org/previousKnowledge> "El coordinador de la asignatura no ha definido otros conocimientos previos recomendados."@es .
+
+
+###  http://data.org/615001022/2025-26/syllabus
+<http://data.org/615001022/2025-26/syllabus> rdf:type owl:NamedIndividual ,
+                                                      <https://guia.org/Syllabus> ;
+                                             <https://guia.org/hasItem> <http://data.org/615001022/2025-26/syllabus/0> ,
+                                                                        <http://data.org/615001022/2025-26/syllabus/1> ,
+                                                                        <http://data.org/615001022/2025-26/syllabus/2> ,
+                                                                        <http://data.org/615001022/2025-26/syllabus/3> .
+
+
+###  http://data.org/615001022/2025-26/didactic_resource/1
+<http://data.org/615001022/2025-26/didactic_resource/1> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> """Diversos artículos monográficos sobre cuestiones éticas,
+legales y sociales."""@es ;
+                                                        <https://guia.org/bibliographyTitle> "Artículos"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001022/2025-26/didactic_resource/2
+<http://data.org/615001022/2025-26/didactic_resource/2> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> """La Ingeniería Informática: Aspectos éticos, jurídicos y
+sociales. Anguera, A., Davara, E., Fernández, C., Miñano, R.
+Editorial Universitas, S.A. Madrid 2012."""@es ;
+                                                        <https://guia.org/bibliographyTitle> "La ingeniería informática"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001022/2025-26/didactic_resource/3
+<http://data.org/615001022/2025-26/didactic_resource/3> rdf:type owl:NamedIndividual ,
+                                                                 <https://guia.org/DidacticResource> ;
+                                                        <https://guia.org/bibliographyDescription> """Ethics and Technology, Controversies, Questions, and Strategies for Ethical Computing.
+Herman T. Tavani, Wiley, 4th Edition"""@es ;
+                                                        <https://guia.org/bibliographyTitle> "Ethics and Technology"@es ;
+                                                        <https://guia.org/bibliographyType> "Bibliografía"@es .
+
+
+###  http://data.org/615001022/2025-26/evaluation/trial1
+<http://data.org/615001022/2025-26/evaluation/trial1> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                      <https://guia.org/evaluationType> "progresiva"@es ;
+                                                      <https://guia.org/gradePercentage> "17%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001022/2025-26/eventSchedule/5> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CB01> ,
+                                                                                            <http://data.org/CB02> ,
+                                                                                            <http://data.org/CB03> ,
+                                                                                            <http://data.org/CB05> ,
+                                                                                            <http://data.org/CE20> ,
+                                                                                            <http://data.org/CG07> ;
+                                                      <https://guia.org/minimumScore> "5 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Examen temas 1 y 2/Actividad equivalente evaluable"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "5"@es .
+
+
+###  http://data.org/615001022/2025-26/evaluation/trial2
+<http://data.org/615001022/2025-26/evaluation/trial2> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                      <https://guia.org/evaluationType> "progresiva"@es ;
+                                                      <https://guia.org/gradePercentage> "17%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001022/2025-26/eventSchedule/11> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CB01> ,
+                                                                                            <http://data.org/CB02> ,
+                                                                                            <http://data.org/CB03> ,
+                                                                                            <http://data.org/CB04> ,
+                                                                                            <http://data.org/CB05> ,
+                                                                                            <http://data.org/CE13> ,
+                                                                                            <http://data.org/CG07> ;
+                                                      <https://guia.org/minimumScore> "5 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Examen tema 3"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "11"@es .
+
+
+###  http://data.org/615001022/2025-26/evaluation/trial3
+<http://data.org/615001022/2025-26/evaluation/trial3> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                      <https://guia.org/evaluationType> "progresiva"@es ;
+                                                      <https://guia.org/gradePercentage> "16%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001022/2025-26/eventSchedule/13> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CB01> ,
+                                                                                            <http://data.org/CB02> ,
+                                                                                            <http://data.org/CB03> ,
+                                                                                            <http://data.org/CB04> ,
+                                                                                            <http://data.org/CB05> ,
+                                                                                            <http://data.org/CE13> ,
+                                                                                            <http://data.org/CE20> ,
+                                                                                            <http://data.org/CG01> ,
+                                                                                            <http://data.org/CG07> ;
+                                                      <https://guia.org/minimumScore> "5 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Examen tema 4/Actividad equivalente evaluable"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "13"@es .
+
+
+###  http://data.org/615001022/2025-26/evaluation/trial4
+<http://data.org/615001022/2025-26/evaluation/trial4> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                      <https://guia.org/evaluationType> "progresiva"@es ;
+                                                      <https://guia.org/gradePercentage> "50%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001022/2025-26/eventSchedule/15> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CB01> ,
+                                                                                            <http://data.org/CB02> ,
+                                                                                            <http://data.org/CB03> ,
+                                                                                            <http://data.org/CB04> ,
+                                                                                            <http://data.org/CB05> ,
+                                                                                            <http://data.org/CE13> ,
+                                                                                            <http://data.org/CE20> ,
+                                                                                            <http://data.org/CG01> ,
+                                                                                            <http://data.org/CG07> ;
+                                                      <https://guia.org/minimumScore> "5 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Evaluación Trabajos"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "15"@es .
+
+
+###  http://data.org/615001022/2025-26/evaluation/trial5
+<http://data.org/615001022/2025-26/evaluation/trial5> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                      <https://guia.org/evaluationType> "global"@es ;
+                                                      <https://guia.org/gradePercentage> "100%"@es ;
+                                                      <https://guia.org/hasScheduleEvent> <http://data.org/615001022/2025-26/eventSchedule/17> ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CB01> ,
+                                                                                            <http://data.org/CB02> ,
+                                                                                            <http://data.org/CB03> ,
+                                                                                            <http://data.org/CB04> ,
+                                                                                            <http://data.org/CB05> ,
+                                                                                            <http://data.org/CE13> ,
+                                                                                            <http://data.org/CE20> ,
+                                                                                            <http://data.org/CG01> ,
+                                                                                            <http://data.org/CG07> ;
+                                                      <https://guia.org/minimumScore> "5 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "EXAMEN GLOBAL"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es ;
+                                                      <https://guia.org/trialWeek> "17"@es .
+
+
+###  http://data.org/615001022/2025-26/evaluation/trial6
+<http://data.org/615001022/2025-26/evaluation/trial6> rdf:type owl:NamedIndividual ,
+                                                               <https://guia.org/EvaluationTrial> ;
+                                                      <https://guia.org/evaluationDuration> "02:00"@es ;
+                                                      <https://guia.org/evaluationType> "extraordinaria"@es ;
+                                                      <https://guia.org/gradePercentage> "100%"@es ;
+                                                      <https://guia.org/involvesCompetency> <http://data.org/CB01> ,
+                                                                                            <http://data.org/CB02> ,
+                                                                                            <http://data.org/CB03> ,
+                                                                                            <http://data.org/CB04> ,
+                                                                                            <http://data.org/CB05> ,
+                                                                                            <http://data.org/CE13> ,
+                                                                                            <http://data.org/CE20> ,
+                                                                                            <http://data.org/CG01> ,
+                                                                                            <http://data.org/CG07> ;
+                                                      <https://guia.org/minimumScore> "5 / 10"@es ;
+                                                      <https://guia.org/trialDescription> "Examen extraordinario"@es ;
+                                                      <https://guia.org/trialType> "Presencial"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/1
+<http://data.org/615001022/2025-26/eventSchedule/1> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 1 ;
+                                                    <https://guia.org/eventWeek> "Semana 1"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/1/activity/TActivityType1/1> ,
+                                                                                   <http://data.org/615001022/2025-26/eventSchedule/1/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/1/activity/TActivityType1/1
+<http://data.org/615001022/2025-26/eventSchedule/1/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Presentación asignatura. Grupos de trabajo. Clase"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/1/activity/TActivityType2/1
+<http://data.org/615001022/2025-26/eventSchedule/1/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Actividad Práctica"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "AC: Actividad del tipo Acciones Cooperativas"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/10
+<http://data.org/615001022/2025-26/eventSchedule/10> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 10 ;
+                                                     <https://guia.org/eventWeek> "Semana 10"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/10/activity/TActivityType1/1> ,
+                                                                                    <http://data.org/615001022/2025-26/eventSchedule/10/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/10/activity/TActivityType1/1
+<http://data.org/615001022/2025-26/eventSchedule/10/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Clase (Evaluación progresiva)"@es ;
+                                                                               <https://guia.org/activityDuration> "01:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/10/activity/TActivityType2/1
+<http://data.org/615001022/2025-26/eventSchedule/10/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType2> ;
+                                                                               <https://guia.org/activityDescription> "Actividad Práctica"@es ;
+                                                                               <https://guia.org/activityDuration> "01:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "AC: Actividad del tipo Acciones Cooperativas"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/11
+<http://data.org/615001022/2025-26/eventSchedule/11> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 11 ;
+                                                     <https://guia.org/eventWeek> "Semana 11"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/11/activity/TActivityType1/1> ,
+                                                                                    <http://data.org/615001022/2025-26/eventSchedule/11/activity/TEvaluationActivity/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/11/activity/TActivityType1/1
+<http://data.org/615001022/2025-26/eventSchedule/11/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Examen Tema 3"@es ;
+                                                                               <https://guia.org/activityDuration> "02:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "OT: Otras actividades formativas / Evaluación"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/11/activity/TEvaluationActivity/1
+<http://data.org/615001022/2025-26/eventSchedule/11/activity/TEvaluationActivity/1> rdf:type owl:NamedIndividual ,
+                                                                                             <https://guia.org/Activity> ,
+                                                                                             <https://guia.org/EvaluationActivity> ;
+                                                                                    <https://guia.org/activityDescription> "Examen tema 3"@es ;
+                                                                                    <https://guia.org/activityDuration> "02:00" ;
+                                                                                    <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                                    <https://guia.org/attendanceType> "Presencial"@es ;
+                                                                                    <https://guia.org/evaluationType> "Evaluación Progresiva"@es ;
+                                                                                    <https://guia.org/tecnic> "EX: Técnica del tipo Examen Escrito"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/12
+<http://data.org/615001022/2025-26/eventSchedule/12> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 12 ;
+                                                     <https://guia.org/eventWeek> "Semana 12"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/12/activity/TActivityType1/1> ,
+                                                                                    <http://data.org/615001022/2025-26/eventSchedule/12/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/12/activity/TActivityType1/1
+<http://data.org/615001022/2025-26/eventSchedule/12/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Clase"@es ;
+                                                                               <https://guia.org/activityDuration> "01:30" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/12/activity/TActivityType2/1
+<http://data.org/615001022/2025-26/eventSchedule/12/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType2> ;
+                                                                               <https://guia.org/activityDescription> "Actividad Práctica"@es ;
+                                                                               <https://guia.org/activityDuration> "01:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "AC: Actividad del tipo Acciones Cooperativas"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/13
+<http://data.org/615001022/2025-26/eventSchedule/13> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 13 ;
+                                                     <https://guia.org/eventWeek> "Semana 13"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/13/activity/TActivityType2/1> ,
+                                                                                    <http://data.org/615001022/2025-26/eventSchedule/13/activity/TEvaluationActivity/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/13/activity/TActivityType2/1
+<http://data.org/615001022/2025-26/eventSchedule/13/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType2> ;
+                                                                               <https://guia.org/activityDescription> "Examen tema 4"@es ;
+                                                                               <https://guia.org/activityDuration> "02:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "OT: Otras actividades formativas / Evaluación"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/13/activity/TEvaluationActivity/1
+<http://data.org/615001022/2025-26/eventSchedule/13/activity/TEvaluationActivity/1> rdf:type owl:NamedIndividual ,
+                                                                                             <https://guia.org/Activity> ,
+                                                                                             <https://guia.org/EvaluationActivity> ;
+                                                                                    <https://guia.org/activityDescription> "Examen tema 4/Actividad equivalente evaluable"@es ;
+                                                                                    <https://guia.org/activityDuration> "02:00" ;
+                                                                                    <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                                    <https://guia.org/attendanceType> "Presencial"@es ;
+                                                                                    <https://guia.org/evaluationType> "Evaluación Progresiva"@es ;
+                                                                                    <https://guia.org/tecnic> "EP: Técnica del tipo Examen de Prácticas"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/14
+<http://data.org/615001022/2025-26/eventSchedule/14> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 14 ;
+                                                     <https://guia.org/eventWeek> "Semana 14"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/14/activity/TActivityType1/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/14/activity/TActivityType1/1
+<http://data.org/615001022/2025-26/eventSchedule/14/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Presentación trabajos"@es ;
+                                                                               <https://guia.org/activityDuration> "02:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "OT: Otras actividades formativas / Evaluación"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/15
+<http://data.org/615001022/2025-26/eventSchedule/15> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 15 ;
+                                                     <https://guia.org/eventWeek> "Semana 15"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/15/activity/TActivityType1/1> ,
+                                                                                    <http://data.org/615001022/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/15/activity/TActivityType1/1
+<http://data.org/615001022/2025-26/eventSchedule/15/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                        <https://guia.org/Activity> ,
+                                                                                        <https://guia.org/ActivityType1> ;
+                                                                               <https://guia.org/activityDescription> "Presentación trabajos"@es ;
+                                                                               <https://guia.org/activityDuration> "02:00" ;
+                                                                               <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                               <https://guia.org/activityFormat> "OT: Otras actividades formativas / Evaluación"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/15/activity/TEvaluationActivity/1
+<http://data.org/615001022/2025-26/eventSchedule/15/activity/TEvaluationActivity/1> rdf:type owl:NamedIndividual ,
+                                                                                             <https://guia.org/Activity> ,
+                                                                                             <https://guia.org/EvaluationActivity> ;
+                                                                                    <https://guia.org/activityDescription> "Evaluación Trabajos"@es ;
+                                                                                    <https://guia.org/activityDuration> "02:00" ;
+                                                                                    <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                                    <https://guia.org/attendanceType> "Presencial"@es ;
+                                                                                    <https://guia.org/evaluationType> "Evaluación Progresiva"@es ;
+                                                                                    <https://guia.org/tecnic> "TG: Técnica del tipo Trabajo en Grupo"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/16
+<http://data.org/615001022/2025-26/eventSchedule/16> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 16 ;
+                                                     <https://guia.org/eventWeek> "Semana 16"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/17
+<http://data.org/615001022/2025-26/eventSchedule/17> rdf:type owl:NamedIndividual ,
+                                                              <https://guia.org/ScheduleEvent> ;
+                                                     <https://guia.org/eventIndex> 17 ;
+                                                     <https://guia.org/eventWeek> "Semana 17"@es ;
+                                                     <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/17/activity/TEvaluationActivity/1
+<http://data.org/615001022/2025-26/eventSchedule/17/activity/TEvaluationActivity/1> rdf:type owl:NamedIndividual ,
+                                                                                             <https://guia.org/Activity> ,
+                                                                                             <https://guia.org/EvaluationActivity> ;
+                                                                                    <https://guia.org/activityDescription> "EXAMEN GLOBAL"@es ;
+                                                                                    <https://guia.org/activityDuration> "02:00" ;
+                                                                                    <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                                    <https://guia.org/attendanceType> "Presencial"@es ;
+                                                                                    <https://guia.org/evaluationType> "Evaluación Global"@es ;
+                                                                                    <https://guia.org/tecnic> "EX: Técnica del tipo Examen Escrito"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/2
+<http://data.org/615001022/2025-26/eventSchedule/2> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 2 ;
+                                                    <https://guia.org/eventWeek> "Semana 2"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/2/activity/TActivityType1/1> ,
+                                                                                   <http://data.org/615001022/2025-26/eventSchedule/2/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/2/activity/TActivityType1/1
+<http://data.org/615001022/2025-26/eventSchedule/2/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clase"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/2/activity/TActivityType2/1
+<http://data.org/615001022/2025-26/eventSchedule/2/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Actividad Práctica"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "AC: Actividad del tipo Acciones Cooperativas"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/3
+<http://data.org/615001022/2025-26/eventSchedule/3> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 3 ;
+                                                    <https://guia.org/eventWeek> "Semana 3"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/3/activity/TActivityType1/1> ,
+                                                                                   <http://data.org/615001022/2025-26/eventSchedule/3/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/3/activity/TActivityType1/1
+<http://data.org/615001022/2025-26/eventSchedule/3/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clase"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/3/activity/TActivityType2/1
+<http://data.org/615001022/2025-26/eventSchedule/3/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Actividad Práctica"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "AC: Actividad del tipo Acciones Cooperativas"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/4
+<http://data.org/615001022/2025-26/eventSchedule/4> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 4 ;
+                                                    <https://guia.org/eventWeek> "Semana 4"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/4/activity/TActivityType1/1> ,
+                                                                                   <http://data.org/615001022/2025-26/eventSchedule/4/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/4/activity/TActivityType1/1
+<http://data.org/615001022/2025-26/eventSchedule/4/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clase"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/4/activity/TActivityType2/1
+<http://data.org/615001022/2025-26/eventSchedule/4/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Actividad Práctica"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "AC: Actividad del tipo Acciones Cooperativas"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/5
+<http://data.org/615001022/2025-26/eventSchedule/5> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 5 ;
+                                                    <https://guia.org/eventWeek> "Semana 5"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/5/activity/TActivityType2/1> ,
+                                                                                   <http://data.org/615001022/2025-26/eventSchedule/5/activity/TEvaluationActivity/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/5/activity/TActivityType2/1
+<http://data.org/615001022/2025-26/eventSchedule/5/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Examen temas 1 y 2. Actividad equivalente evaluable"@es ;
+                                                                              <https://guia.org/activityDuration> "02:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "OT: Otras actividades formativas / Evaluación"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/5/activity/TEvaluationActivity/1
+<http://data.org/615001022/2025-26/eventSchedule/5/activity/TEvaluationActivity/1> rdf:type owl:NamedIndividual ,
+                                                                                            <https://guia.org/Activity> ,
+                                                                                            <https://guia.org/EvaluationActivity> ;
+                                                                                   <https://guia.org/activityDescription> "Examen temas 1 y 2/Actividad equivalente evaluable"@es ;
+                                                                                   <https://guia.org/activityDuration> "02:00" ;
+                                                                                   <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                                   <https://guia.org/attendanceType> "Presencial"@es ;
+                                                                                   <https://guia.org/evaluationType> "Evaluación Progresiva"@es ;
+                                                                                   <https://guia.org/tecnic> "EP: Técnica del tipo Examen de Prácticas"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/6
+<http://data.org/615001022/2025-26/eventSchedule/6> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 6 ;
+                                                    <https://guia.org/eventWeek> "Semana 6"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/6/activity/TActivityType1/1> ,
+                                                                                   <http://data.org/615001022/2025-26/eventSchedule/6/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/6/activity/TActivityType1/1
+<http://data.org/615001022/2025-26/eventSchedule/6/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clase"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/6/activity/TActivityType2/1
+<http://data.org/615001022/2025-26/eventSchedule/6/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Actividad Práctica"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "AC: Actividad del tipo Acciones Cooperativas"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/7
+<http://data.org/615001022/2025-26/eventSchedule/7> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 7 ;
+                                                    <https://guia.org/eventWeek> "Semana 7"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/8
+<http://data.org/615001022/2025-26/eventSchedule/8> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 8 ;
+                                                    <https://guia.org/eventWeek> "Semana 8"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/8/activity/TActivityType1/1> ,
+                                                                                   <http://data.org/615001022/2025-26/eventSchedule/8/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/8/activity/TActivityType1/1
+<http://data.org/615001022/2025-26/eventSchedule/8/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clase"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/8/activity/TActivityType2/1
+<http://data.org/615001022/2025-26/eventSchedule/8/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Actividad Práctica"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "AC: Actividad del tipo Acciones Cooperativas"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/9
+<http://data.org/615001022/2025-26/eventSchedule/9> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/ScheduleEvent> ;
+                                                    <https://guia.org/eventIndex> 9 ;
+                                                    <https://guia.org/eventWeek> "Semana 9"@es ;
+                                                    <https://guia.org/hasActivity> <http://data.org/615001022/2025-26/eventSchedule/9/activity/TActivityType1/1> ,
+                                                                                   <http://data.org/615001022/2025-26/eventSchedule/9/activity/TActivityType2/1> .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/9/activity/TActivityType1/1
+<http://data.org/615001022/2025-26/eventSchedule/9/activity/TActivityType1/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType1> ;
+                                                                              <https://guia.org/activityDescription> "Clase (Evaluación progresiva)"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "LM: Actividad del tipo Lección Magistral"@es .
+
+
+###  http://data.org/615001022/2025-26/eventSchedule/9/activity/TActivityType2/1
+<http://data.org/615001022/2025-26/eventSchedule/9/activity/TActivityType2/1> rdf:type owl:NamedIndividual ,
+                                                                                       <https://guia.org/Activity> ,
+                                                                                       <https://guia.org/ActivityType2> ;
+                                                                              <https://guia.org/activityDescription> "Actividad Práctica"@es ;
+                                                                              <https://guia.org/activityDuration> "01:00" ;
+                                                                              <https://guia.org/activityDurationUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/hour> ;
+                                                                              <https://guia.org/activityFormat> "AC: Actividad del tipo Acciones Cooperativas"@es .
+
+
+###  http://data.org/615001022/2025-26/syllabus/0
+<http://data.org/615001022/2025-26/syllabus/0> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 0 ;
+                                               <https://guia.org/syllabusDescription> "1. Introducción y casos de estudio Sin subniveles"@es .
+
+
+###  http://data.org/615001022/2025-26/syllabus/1
+<http://data.org/615001022/2025-26/syllabus/1> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 1 ;
+                                               <https://guia.org/syllabusDescription> "2. Aspectos éticos Sin subniveles"@es .
+
+
+###  http://data.org/615001022/2025-26/syllabus/2
+<http://data.org/615001022/2025-26/syllabus/2> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 2 ;
+                                               <https://guia.org/syllabusDescription> "3. Aspectos jurídicos Sin subniveles"@es .
+
+
+###  http://data.org/615001022/2025-26/syllabus/3
+<http://data.org/615001022/2025-26/syllabus/3> rdf:type owl:NamedIndividual ,
+                                                        <https://guia.org/SyllabusItem> ;
+                                               <https://guia.org/itemIndex> 3 ;
+                                               <https://guia.org/syllabusDescription> "4. Aspectos sociales Sin subniveles"@es .
+
+
+###  http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial
+<http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial> rdf:type owl:NamedIndividual ,
+                                                                                                        <https://guia.org/BachelorDegree> ,
+                                                                                                        <https://guia.org/Degree> ;
+                                                                                               <https://guia.org/hasCourse> <http://data.org/615001022> ;
+                                                                                               <https://schema.org/name> "61CD - Grado en Ciencia de Datos e Inteligencia Artificial"@es .
+
+
+###  http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos
+<http://data.org/E.T.S%20De%20Ing.%20De%20Sistemas%20Inform%C3%A1ticos> rdf:type owl:NamedIndividual ,
+                                                                                 <https://guia.org/UniversityCenter> ;
+                                                                        <https://guia.org/offers> <http://data.org/61CD%20-%20Grado%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial> ;
+                                                                        <https://schema.org/name> "E.T.S De Ing. De Sistemas Informáticos" .
+
+
+###  http://data.org/aureamaria.angueradesojo%40upm.es
+<http://data.org/aureamaria.angueradesojo%40upm.es> rdf:type owl:NamedIndividual ,
+                                                             <https://guia.org/Lecturer> ;
+                                                    <https://guia.org/office> "4106"@es ;
+                                                    <https://schema.org/email> "aureamaria.angueradesojo@upm.es" ;
+                                                    <https://schema.org/name> "Anguera De Sojo Hernandez, Aurea Maria" .
+
+
+###  http://data.org/mariacelia.fernandez%40upm.es
+<http://data.org/mariacelia.fernandez%40upm.es> rdf:type owl:NamedIndividual ,
+                                                         <https://guia.org/Lecturer> ;
+                                                <https://guia.org/office> "8302"@es ;
+                                                <https://schema.org/email> "mariacelia.fernandez@upm.es" ;
+                                                <https://schema.org/name> "Fernandez Aller, Maria Celia" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
