@@ -8,16 +8,7 @@
   "@id" : "http://purl.org/dc/terms/license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.w3.org/2000/01/rdf-schema#Resource",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.w3.org/2000/01/rdf-schema#description",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "https://guia.org/",
+  "@id" : "http://w3id.org/def/guia#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/title" : [ {
     "@language" : "en",
@@ -27,6 +18,12 @@
     "@value" : "Andrea Cimmino Arriaga"
   }, {
     "@value" : "Covadonga Arias"
+  }, {
+    "@value" : "Joaquín Gayoso Cabada"
+  }, {
+    "@value" : "Juan Cano de Benito"
+  }, {
+    "@value" : "Paola Espinoza Arias"
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "http://purl.org/NET/rdflicense/cc-by4.0"
@@ -44,7 +41,7 @@
     "@value" : "0.1.0"
   } ]
 }, {
-  "@id" : "https://guia.org/Activity",
+  "@id" : "http://w3id.org/def/guia#Activity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -55,7 +52,7 @@
     "@value" : "Activity"
   } ]
 }, {
-  "@id" : "https://guia.org/ActivityType1",
+  "@id" : "http://w3id.org/def/guia#ActivityType1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -66,7 +63,7 @@
     "@value" : "Activity Type 1"
   } ]
 }, {
-  "@id" : "https://guia.org/ActivityType2",
+  "@id" : "http://w3id.org/def/guia#ActivityType2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -77,7 +74,7 @@
     "@value" : "Activity Type 2"
   } ]
 }, {
-  "@id" : "https://guia.org/BachelorDegree",
+  "@id" : "http://w3id.org/def/guia#BachelorDegree",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -88,10 +85,10 @@
     "@value" : "Bachelor's Degree"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://guia.org/Degree"
+    "@id" : "http://w3id.org/def/guia#Degree"
   } ]
 }, {
-  "@id" : "https://guia.org/Competency",
+  "@id" : "http://w3id.org/def/guia#Competency",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -102,7 +99,7 @@
     "@value" : "Competency"
   } ]
 }, {
-  "@id" : "https://guia.org/Course",
+  "@id" : "http://w3id.org/def/guia#Course",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -116,7 +113,7 @@
     "@id" : "https://schema.org/Course"
   } ]
 }, {
-  "@id" : "https://guia.org/CourseGuide",
+  "@id" : "http://w3id.org/def/guia#CourseGuide",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -130,7 +127,7 @@
     "@id" : "https://schema.org/CourseInstance"
   } ]
 }, {
-  "@id" : "https://guia.org/Degree",
+  "@id" : "http://w3id.org/def/guia#Degree",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -141,7 +138,7 @@
     "@value" : "Degree"
   } ]
 }, {
-  "@id" : "https://guia.org/DidacticResource",
+  "@id" : "http://w3id.org/def/guia#DidacticResource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -152,7 +149,7 @@
     "@value" : "Didactic Resource"
   } ]
 }, {
-  "@id" : "https://guia.org/EvaluationActivity",
+  "@id" : "http://w3id.org/def/guia#EvaluationActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -163,7 +160,7 @@
     "@value" : "Evaluation Activity"
   } ]
 }, {
-  "@id" : "https://guia.org/EvaluationSystem",
+  "@id" : "http://w3id.org/def/guia#EvaluationSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -174,7 +171,7 @@
     "@value" : "Evaluation System"
   } ]
 }, {
-  "@id" : "https://guia.org/EvaluationTrial",
+  "@id" : "http://w3id.org/def/guia#EvaluationTrial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -185,7 +182,7 @@
     "@value" : "Evaluation Trial"
   } ]
 }, {
-  "@id" : "https://guia.org/LearningResult",
+  "@id" : "http://w3id.org/def/guia#LearningResult",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -196,7 +193,7 @@
     "@value" : "Learning Result"
   } ]
 }, {
-  "@id" : "https://guia.org/Lecturer",
+  "@id" : "http://w3id.org/def/guia#Lecturer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -210,7 +207,7 @@
     "@id" : "https://schema.org/Person"
   } ]
 }, {
-  "@id" : "https://guia.org/MasterDegree",
+  "@id" : "http://w3id.org/def/guia#MasterDegree",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -221,10 +218,10 @@
     "@value" : "Master's Degree"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://guia.org/Degree"
+    "@id" : "http://w3id.org/def/guia#Degree"
   } ]
 }, {
-  "@id" : "https://guia.org/RemoteActivity",
+  "@id" : "http://w3id.org/def/guia#RemoteActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -235,7 +232,7 @@
     "@value" : "Remote Activity"
   } ]
 }, {
-  "@id" : "https://guia.org/RequiredKnowledge",
+  "@id" : "http://w3id.org/def/guia#RequiredKnowledge",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -246,7 +243,7 @@
     "@value" : "Required Knowledge"
   } ]
 }, {
-  "@id" : "https://guia.org/Schedule",
+  "@id" : "http://w3id.org/def/guia#Schedule",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -260,7 +257,7 @@
     "@id" : "https://schema.org/Schedule"
   } ]
 }, {
-  "@id" : "https://guia.org/ScheduleEvent",
+  "@id" : "http://w3id.org/def/guia#ScheduleEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -274,7 +271,7 @@
     "@id" : "https://schema.org/Event"
   } ]
 }, {
-  "@id" : "https://guia.org/Syllabus",
+  "@id" : "http://w3id.org/def/guia#Syllabus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -288,7 +285,7 @@
     "@id" : "https://schema.org/Syllabus"
   } ]
 }, {
-  "@id" : "https://guia.org/SyllabusItem",
+  "@id" : "http://w3id.org/def/guia#SyllabusItem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -299,7 +296,7 @@
     "@value" : "Syllabus Item"
   } ]
 }, {
-  "@id" : "https://guia.org/UniversityCenter",
+  "@id" : "http://w3id.org/def/guia#UniversityCenter",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#description" : [ {
     "@language" : "en",
@@ -313,14 +310,14 @@
     "@id" : "https://schema.org/Organization"
   } ]
 }, {
-  "@id" : "https://guia.org/activityDescription",
+  "@id" : "http://w3id.org/def/guia#activityDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provides a textual description of an academic activity."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Activity"
+    "@id" : "http://w3id.org/def/guia#Activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -330,14 +327,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/activityDuration",
+  "@id" : "http://w3id.org/def/guia#activityDuration",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "States the duration value assigned to an academic activity."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Activity"
+    "@id" : "http://w3id.org/def/guia#Activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -347,14 +344,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
   } ]
 }, {
-  "@id" : "https://guia.org/activityDurationUnit",
+  "@id" : "http://w3id.org/def/guia#activityDurationUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Links an activity to the unit used to express its duration."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Activity"
+    "@id" : "http://w3id.org/def/guia#Activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -364,14 +361,14 @@
     "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
   } ]
 }, {
-  "@id" : "https://guia.org/activityFormat",
+  "@id" : "http://w3id.org/def/guia#activityFormat",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Indicates the delivery format or modality of an academic activity."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Activity"
+    "@id" : "http://w3id.org/def/guia#Activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -381,14 +378,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/attendanceType",
+  "@id" : "http://w3id.org/def/guia#attendanceType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Indicates whether an activity is face-to-face, remote, or follows another attendance modality."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Activity"
+    "@id" : "http://w3id.org/def/guia#Activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -398,14 +395,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/bibliographyDescription",
+  "@id" : "http://w3id.org/def/guia#bibliographyDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provides a textual description or reference for a bibliographic or didactic resource."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/DidacticResource"
+    "@id" : "http://w3id.org/def/guia#DidacticResource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -415,14 +412,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/bibliographyTitle",
+  "@id" : "http://w3id.org/def/guia#bibliographyTitle",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provides the title or name of a bibliographic or didactic resource."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/DidacticResource"
+    "@id" : "http://w3id.org/def/guia#DidacticResource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -432,14 +429,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/bibliographyType",
+  "@id" : "http://w3id.org/def/guia#bibliographyType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Specifies the category of a bibliographic or didactic resource."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/DidacticResource"
+    "@id" : "http://w3id.org/def/guia#DidacticResource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -449,14 +446,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/courseType",
+  "@id" : "http://w3id.org/def/guia#courseType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Specifies the academic nature of the course, such as basic, mandatory, elective, or similar categories."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Course"
+    "@id" : "http://w3id.org/def/guia#Course"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -466,14 +463,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/degreeCode",
+  "@id" : "http://w3id.org/def/guia#degreeCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Indicates the identification code of a degree."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Degree"
+    "@id" : "http://w3id.org/def/guia#Degree"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -483,14 +480,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://guia.org/evaluationDescription",
+  "@id" : "http://w3id.org/def/guia#evaluationDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Describes the criteria, rules, or overall structure of the evaluation system."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/EvaluationSystem"
+    "@id" : "http://w3id.org/def/guia#EvaluationSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -500,14 +497,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/evaluationDuration",
+  "@id" : "http://w3id.org/def/guia#evaluationDuration",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "States the duration of an evaluation activity or trial."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/EvaluationTrial"
+    "@id" : "http://w3id.org/def/guia#EvaluationTrial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -517,7 +514,7 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/evaluationType",
+  "@id" : "http://w3id.org/def/guia#evaluationType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -527,7 +524,7 @@
     "@value" : "Specifies the type of evaluation associated with an assessment activity or trial."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/EvaluationTrial"
+    "@id" : "http://w3id.org/def/guia#EvaluationTrial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -540,14 +537,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/gradePercentage",
+  "@id" : "http://w3id.org/def/guia#gradePercentage",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Specifies the percentage weight of an evaluation activity in the final grade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/EvaluationTrial"
+    "@id" : "http://w3id.org/def/guia#EvaluationTrial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -557,167 +554,167 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/hasActivity",
+  "@id" : "http://w3id.org/def/guia#hasActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Links a schedule event to an academic activity carried out during that event."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/ScheduleEvent"
+    "@id" : "http://w3id.org/def/guia#ScheduleEvent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/Activity"
+    "@id" : "http://w3id.org/def/guia#Activity"
   } ]
 }, {
-  "@id" : "https://guia.org/hasCompetency",
+  "@id" : "http://w3id.org/def/guia#hasCompetency",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Links a course guide to a competency developed or addressed in the course."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has competency"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/Competency"
+    "@id" : "http://w3id.org/def/guia#Competency"
   } ]
 }, {
-  "@id" : "https://guia.org/hasCourse",
+  "@id" : "http://w3id.org/def/guia#hasCourse",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Links a degree programme to a course included in its curriculum."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Degree"
+    "@id" : "http://w3id.org/def/guia#Degree"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has course"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/Course"
+    "@id" : "http://w3id.org/def/guia#Course"
   } ]
 }, {
-  "@id" : "https://guia.org/hasDidacticResource",
+  "@id" : "http://w3id.org/def/guia#hasDidacticResource",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Links a course guide to a didactic or bibliographic resource used in the course."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has didactic resource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/DidacticResource"
+    "@id" : "http://w3id.org/def/guia#DidacticResource"
   } ]
 }, {
-  "@id" : "https://guia.org/hasEvaluation",
+  "@id" : "http://w3id.org/def/guia#hasEvaluation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Links a course guide to its evaluation system."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has evaluation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/EvaluationSystem"
+    "@id" : "http://w3id.org/def/guia#EvaluationSystem"
   } ]
 }, {
-  "@id" : "https://guia.org/hasEvaluationTrial",
+  "@id" : "http://w3id.org/def/guia#hasEvaluationTrial",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Links an evaluation system to one of its evaluation trials."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/EvaluationSystem"
+    "@id" : "http://w3id.org/def/guia#EvaluationSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has evaluation trial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/EvaluationTrial"
+    "@id" : "http://w3id.org/def/guia#EvaluationTrial"
   } ]
 }, {
-  "@id" : "https://guia.org/hasItem",
+  "@id" : "http://w3id.org/def/guia#hasItem",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Links a syllabus to one of its constituent syllabus items."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Syllabus"
+    "@id" : "http://w3id.org/def/guia#Syllabus"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has item"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/SyllabusItem"
+    "@id" : "http://w3id.org/def/guia#SyllabusItem"
   } ]
 }, {
-  "@id" : "https://guia.org/hasLearningResult",
+  "@id" : "http://w3id.org/def/guia#hasLearningResult",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Links a course guide to a learning result expected from the course."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has learning result"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/LearningResult"
+    "@id" : "http://w3id.org/def/guia#LearningResult"
   } ]
 }, {
-  "@id" : "https://guia.org/hasScheduleEvent",
+  "@id" : "http://w3id.org/def/guia#hasScheduleEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Links an evaluation trial to the schedule event in which it takes place."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/EvaluationTrial"
+    "@id" : "http://w3id.org/def/guia#EvaluationTrial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has schedule event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/ScheduleEvent"
+    "@id" : "http://w3id.org/def/guia#ScheduleEvent"
   } ]
 }, {
-  "@id" : "https://guia.org/inpersonHours",
+  "@id" : "http://w3id.org/def/guia#inpersonHours",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Specifies the number or description of face-to-face hours within the course guide."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -727,31 +724,31 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/involvesCompetency",
+  "@id" : "http://w3id.org/def/guia#involvesCompetency",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Links an evaluation trial to a competency involved in that assessment."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/EvaluationTrial"
+    "@id" : "http://w3id.org/def/guia#EvaluationTrial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "involves competency"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/Competency"
+    "@id" : "http://w3id.org/def/guia#Competency"
   } ]
 }, {
-  "@id" : "https://guia.org/minimumScore",
+  "@id" : "http://w3id.org/def/guia#minimumScore",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Indicates the minimum score required for an evaluation activity or assessment component."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/EvaluationTrial"
+    "@id" : "http://w3id.org/def/guia#EvaluationTrial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -761,14 +758,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/numberOfCredits",
+  "@id" : "http://w3id.org/def/guia#numberOfCredits",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "States the number of academic credits assigned to a course guide or course offering."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -778,31 +775,31 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
   } ]
 }, {
-  "@id" : "https://guia.org/offers",
+  "@id" : "http://w3id.org/def/guia#offers",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Links a university center to a degree programme that it offers."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/UniversityCenter"
+    "@id" : "http://w3id.org/def/guia#UniversityCenter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "offers"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/Degree"
+    "@id" : "http://w3id.org/def/guia#Degree"
   } ]
 }, {
-  "@id" : "https://guia.org/office",
+  "@id" : "http://w3id.org/def/guia#office",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provides the office or location assigned to a lecturer for student attention."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Lecturer"
+    "@id" : "http://w3id.org/def/guia#Lecturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -812,14 +809,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/otherInformation",
+  "@id" : "http://w3id.org/def/guia#otherInformation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provides additional general information relevant to the course guide."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -829,14 +826,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/periodEndingMonth",
+  "@id" : "http://w3id.org/def/guia#periodEndingMonth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Indicates the month in which the teaching period ends."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -846,14 +843,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/periodStaringtMonth",
+  "@id" : "http://w3id.org/def/guia#periodStartingMonth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Indicates the month in which the teaching period starts."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -863,14 +860,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/previousCourses",
+  "@id" : "http://w3id.org/def/guia#previousCourses",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provides a textual statement about prior courses recommended or required before taking the course."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/RequiredKnowledge"
+    "@id" : "http://w3id.org/def/guia#RequiredKnowledge"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -880,14 +877,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/previousKnowledge",
+  "@id" : "http://w3id.org/def/guia#previousKnowledge",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Describes prior knowledge or skills expected from students before taking the course."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/RequiredKnowledge"
+    "@id" : "http://w3id.org/def/guia#RequiredKnowledge"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -897,14 +894,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/publishedAt",
+  "@id" : "http://w3id.org/def/guia#publishedAt",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provides the URL where the course guide is publicly available."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -914,14 +911,14 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Resource"
   } ]
 }, {
-  "@id" : "https://guia.org/remoteHours",
+  "@id" : "http://w3id.org/def/guia#remoteHours",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Specifies the number or description of remote hours within the course guide."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -931,14 +928,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/semester",
+  "@id" : "http://w3id.org/def/guia#semester",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Indicates the semester or semesters in which a course is taught."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Course"
+    "@id" : "http://w3id.org/def/guia#Course"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -948,14 +945,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/teachingPeriod",
+  "@id" : "http://w3id.org/def/guia#teachingPeriod",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Identifies the academic year to which the course guide applies."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -965,14 +962,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://guia.org/teachingPeriodMonths",
+  "@id" : "http://w3id.org/def/guia#teachingPeriodMonths",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Describes the months or span of months during which the course is taught."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -982,14 +979,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/totalHours",
+  "@id" : "http://w3id.org/def/guia#totalHours",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "States the total student workload of the course guide expressed in hours."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -999,14 +996,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/trialDescription",
+  "@id" : "http://w3id.org/def/guia#trialDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provides a textual description of an evaluation trial."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/EvaluationTrial"
+    "@id" : "http://w3id.org/def/guia#EvaluationTrial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1016,14 +1013,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/trialMode",
+  "@id" : "http://w3id.org/def/guia#trialMode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Indicates the mode in which an evaluation trial is carried out, such as on-site or remote."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/EvaluationTrial"
+    "@id" : "http://w3id.org/def/guia#EvaluationTrial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1033,14 +1030,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/trialType",
+  "@id" : "http://w3id.org/def/guia#trialType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Specifies the specific kind of evaluation trial, such as exam, assignment, or presentation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/EvaluationTrial"
+    "@id" : "http://w3id.org/def/guia#EvaluationTrial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1050,14 +1047,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/trialWeek",
+  "@id" : "http://w3id.org/def/guia#trialWeek",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Indicates the week in which an evaluation trial takes place."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/EvaluationTrial"
+    "@id" : "http://w3id.org/def/guia#EvaluationTrial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1067,14 +1064,14 @@
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
 }, {
-  "@id" : "https://guia.org/tutorshipsSchedule",
+  "@id" : "http://w3id.org/def/guia#tutorshipsSchedule",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Specifies the timetable or availability for tutoring sessions."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Lecturer"
+    "@id" : "http://w3id.org/def/guia#Lecturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1083,6 +1080,15 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
   } ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#Resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://schema.org/Course",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
@@ -1112,7 +1118,7 @@
     "@value" : "States the workload distribution associated with course activities."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1129,7 +1135,7 @@
     "@value" : "Provides the institutional code used to identify a course."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Course"
+    "@id" : "http://w3id.org/def/guia#Course"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1146,14 +1152,14 @@
     "@value" : "Links a course guide to the schedule that organizes its planned events."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "course schedule"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/Schedule"
+    "@id" : "http://w3id.org/def/guia#Schedule"
   } ]
 }, {
   "@id" : "https://schema.org/description",
@@ -1163,7 +1169,7 @@
     "@value" : "Provides a textual description of the course guide or academic entity."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1180,14 +1186,14 @@
     "@value" : "Links a course guide to the lecturer acting as course coordinator or academic lead."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "director"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/Lecturer"
+    "@id" : "http://w3id.org/def/guia#Lecturer"
   } ]
 }, {
   "@id" : "https://schema.org/email",
@@ -1197,7 +1203,7 @@
     "@value" : "Provides the email address of a person involved in teaching or coordination."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Lecturer"
+    "@id" : "http://w3id.org/def/guia#Lecturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1214,14 +1220,14 @@
     "@value" : "Links a schedule to one of its schedule events."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Schedule"
+    "@id" : "http://w3id.org/def/guia#Schedule"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "event schedule"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/ScheduleEvent"
+    "@id" : "http://w3id.org/def/guia#ScheduleEvent"
   } ]
 }, {
   "@id" : "https://schema.org/hasCourseInstance",
@@ -1231,14 +1237,14 @@
     "@value" : "Links a course to a concrete course guide or offering for a given academic period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Course"
+    "@id" : "http://w3id.org/def/guia#Course"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has course instance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ]
 }, {
   "@id" : "https://schema.org/inLanguage",
@@ -1248,7 +1254,7 @@
     "@value" : "Indicates the language in which the course guide or teaching is delivered."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1265,14 +1271,14 @@
     "@value" : "Links a course guide to a lecturer involved in teaching the course."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/CourseGuide"
+    "@id" : "http://w3id.org/def/guia#CourseGuide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "instructor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://guia.org/Lecturer"
+    "@id" : "http://w3id.org/def/guia#Lecturer"
   } ]
 }, {
   "@id" : "https://schema.org/name",
@@ -1296,7 +1302,7 @@
     "@value" : "States the number of academic credits assigned to a course."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://guia.org/Course"
+    "@id" : "http://w3id.org/def/guia#Course"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",

@@ -1,19 +1,22 @@
-@prefix : <https://guia.org/> .
+@prefix : <http://w3id.org/def/guia#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://guia.org/> .
+@base <http://w3id.org/def/guia#> .
 
-<https://guia.org/> rdf:type owl:Ontology ;
-                     <http://purl.org/dc/elements/1.1/title> "GUIA ontology"@en ;
-                     <http://purl.org/dc/terms/creator> "Andrea Cimmino Arriaga" ,
-                                                        "Covadonga Arias" ;
-                     <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> ;
-                     rdfs:comment "This ontology defines concepts to represent academic course guides in higher education. It models degrees, courses, teaching roles, learning design, resources, schedules, and evaluation systems, while reusing existing vocabularies such as Schema.org whenever possible."@en ;
-                     rdfs:label "GUIA Ontology"@en ;
-                     owl:versionInfo "0.1.0"@en .
+<http://w3id.org/def/guia#> rdf:type owl:Ontology ;
+                             <http://purl.org/dc/elements/1.1/title> "GUIA ontology"@en ;
+                             <http://purl.org/dc/terms/creator> "Andrea Cimmino Arriaga" ,
+                                                                "Covadonga Arias" ,
+                                                                "Joaquín Gayoso Cabada" ,
+                                                                "Juan Cano de Benito" ,
+                                                                "Paola Espinoza Arias" ;
+                             <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> ;
+                             rdfs:comment "This ontology defines concepts to represent academic course guides in higher education. It models degrees, courses, teaching roles, learning design, resources, schedules, and evaluation systems, while reusing existing vocabularies such as Schema.org whenever possible."@en ;
+                             rdfs:label "GUIA Ontology"@en ;
+                             owl:versionInfo "0.1.0"@en .
 
 #################################################################
 #    Annotation properties
@@ -39,7 +42,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
-###  https://guia.org/activityDurationUnit
+###  http://w3id.org/def/guia#activityDurationUnit
 :activityDurationUnit rdf:type owl:ObjectProperty ;
                       rdfs:domain :Activity ;
                       rdfs:range <http://www.ontology-of-units-of-measure.org/resource/om-2/Unit> ;
@@ -47,7 +50,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                       rdfs:label "activity duration unit"@en .
 
 
-###  https://guia.org/hasActivity
+###  http://w3id.org/def/guia#hasActivity
 :hasActivity rdf:type owl:ObjectProperty ;
              rdfs:domain :ScheduleEvent ;
              rdfs:range :Activity ;
@@ -55,7 +58,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
              rdfs:label "has activity"@en .
 
 
-###  https://guia.org/hasCompetency
+###  http://w3id.org/def/guia#hasCompetency
 :hasCompetency rdf:type owl:ObjectProperty ;
                rdfs:domain :CourseGuide ;
                rdfs:range :Competency ;
@@ -63,7 +66,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                rdfs:label "has competency"@en .
 
 
-###  https://guia.org/hasCourse
+###  http://w3id.org/def/guia#hasCourse
 :hasCourse rdf:type owl:ObjectProperty ;
            rdfs:domain :Degree ;
            rdfs:range :Course ;
@@ -71,7 +74,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
            rdfs:label "has course"@en .
 
 
-###  https://guia.org/hasDidacticResource
+###  http://w3id.org/def/guia#hasDidacticResource
 :hasDidacticResource rdf:type owl:ObjectProperty ;
                      rdfs:domain :CourseGuide ;
                      rdfs:range :DidacticResource ;
@@ -79,7 +82,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                      rdfs:label "has didactic resource"@en .
 
 
-###  https://guia.org/hasEvaluation
+###  http://w3id.org/def/guia#hasEvaluation
 :hasEvaluation rdf:type owl:ObjectProperty ;
                rdfs:domain :CourseGuide ;
                rdfs:range :EvaluationSystem ;
@@ -87,7 +90,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                rdfs:label "has evaluation"@en .
 
 
-###  https://guia.org/hasEvaluationTrial
+###  http://w3id.org/def/guia#hasEvaluationTrial
 :hasEvaluationTrial rdf:type owl:ObjectProperty ;
                     rdfs:domain :EvaluationSystem ;
                     rdfs:range :EvaluationTrial ;
@@ -95,7 +98,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                     rdfs:label "has evaluation trial"@en .
 
 
-###  https://guia.org/hasItem
+###  http://w3id.org/def/guia#hasItem
 :hasItem rdf:type owl:ObjectProperty ;
          rdfs:domain :Syllabus ;
          rdfs:range :SyllabusItem ;
@@ -103,7 +106,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
          rdfs:label "has item"@en .
 
 
-###  https://guia.org/hasLearningResult
+###  http://w3id.org/def/guia#hasLearningResult
 :hasLearningResult rdf:type owl:ObjectProperty ;
                    rdfs:domain :CourseGuide ;
                    rdfs:range :LearningResult ;
@@ -111,7 +114,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                    rdfs:label "has learning result"@en .
 
 
-###  https://guia.org/hasScheduleEvent
+###  http://w3id.org/def/guia#hasScheduleEvent
 :hasScheduleEvent rdf:type owl:ObjectProperty ;
                   rdfs:domain :EvaluationTrial ;
                   rdfs:range :ScheduleEvent ;
@@ -119,7 +122,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                   rdfs:label "has schedule event"@en .
 
 
-###  https://guia.org/involvesCompetency
+###  http://w3id.org/def/guia#involvesCompetency
 :involvesCompetency rdf:type owl:ObjectProperty ;
                     rdfs:domain :EvaluationTrial ;
                     rdfs:range :Competency ;
@@ -127,7 +130,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                     rdfs:label "involves competency"@en .
 
 
-###  https://guia.org/offers
+###  http://w3id.org/def/guia#offers
 :offers rdf:type owl:ObjectProperty ;
         rdfs:domain :UniversityCenter ;
         rdfs:range :Degree ;
@@ -135,7 +138,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
         rdfs:label "offers"@en .
 
 
-###  https://guia.org/publishedAt
+###  http://w3id.org/def/guia#publishedAt
 :publishedAt rdf:type owl:ObjectProperty ;
              rdfs:domain :CourseGuide ;
              rdfs:range rdfs:Resource ;
@@ -187,7 +190,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
 #    Data properties
 #################################################################
 
-###  https://guia.org/activityDescription
+###  http://w3id.org/def/guia#activityDescription
 :activityDescription rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Activity ;
                      rdfs:range rdf:langString ;
@@ -195,7 +198,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                      rdfs:label "activity description"@en .
 
 
-###  https://guia.org/activityDuration
+###  http://w3id.org/def/guia#activityDuration
 :activityDuration rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Activity ;
                   rdfs:range xsd:decimal ;
@@ -203,7 +206,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                   rdfs:label "activity duration"@en .
 
 
-###  https://guia.org/activityFormat
+###  http://w3id.org/def/guia#activityFormat
 :activityFormat rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Activity ;
                 rdfs:range rdf:langString ;
@@ -211,7 +214,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                 rdfs:label "activity format"@en .
 
 
-###  https://guia.org/attendanceType
+###  http://w3id.org/def/guia#attendanceType
 :attendanceType rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Activity ;
                 rdfs:range rdf:langString ;
@@ -219,7 +222,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                 rdfs:label "attendance mode"@en .
 
 
-###  https://guia.org/bibliographyDescription
+###  http://w3id.org/def/guia#bibliographyDescription
 :bibliographyDescription rdf:type owl:DatatypeProperty ;
                          rdfs:domain :DidacticResource ;
                          rdfs:range rdf:langString ;
@@ -227,7 +230,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                          rdfs:label "bibliography description"@en .
 
 
-###  https://guia.org/bibliographyTitle
+###  http://w3id.org/def/guia#bibliographyTitle
 :bibliographyTitle rdf:type owl:DatatypeProperty ;
                    rdfs:domain :DidacticResource ;
                    rdfs:range rdf:langString ;
@@ -235,7 +238,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                    rdfs:label "bibliography title"@en .
 
 
-###  https://guia.org/bibliographyType
+###  http://w3id.org/def/guia#bibliographyType
 :bibliographyType rdf:type owl:DatatypeProperty ;
                   rdfs:domain :DidacticResource ;
                   rdfs:range rdf:langString ;
@@ -243,7 +246,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                   rdfs:label "bibliography type"@en .
 
 
-###  https://guia.org/courseType
+###  http://w3id.org/def/guia#courseType
 :courseType rdf:type owl:DatatypeProperty ;
             rdfs:domain :Course ;
             rdfs:range rdf:langString ;
@@ -251,7 +254,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
             rdfs:label "course type"@en .
 
 
-###  https://guia.org/degreeCode
+###  http://w3id.org/def/guia#degreeCode
 :degreeCode rdf:type owl:DatatypeProperty ;
             rdfs:domain :Degree ;
             rdfs:range xsd:string ;
@@ -259,7 +262,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
             rdfs:label "degree code"@en .
 
 
-###  https://guia.org/evaluationDescription
+###  http://w3id.org/def/guia#evaluationDescription
 :evaluationDescription rdf:type owl:DatatypeProperty ;
                        rdfs:domain :EvaluationSystem ;
                        rdfs:range rdf:langString ;
@@ -267,7 +270,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                        rdfs:label "evaluation description"@en .
 
 
-###  https://guia.org/evaluationDuration
+###  http://w3id.org/def/guia#evaluationDuration
 :evaluationDuration rdf:type owl:DatatypeProperty ;
                     rdfs:domain :EvaluationTrial ;
                     rdfs:range rdf:langString ;
@@ -275,7 +278,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                     rdfs:label "evaluation duration"@en .
 
 
-###  https://guia.org/evaluationType
+###  http://w3id.org/def/guia#evaluationType
 :evaluationType rdf:type owl:DatatypeProperty ;
                 rdfs:domain :EvaluationTrial ;
                 rdfs:range rdf:langString ;
@@ -285,7 +288,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                            "type"@en .
 
 
-###  https://guia.org/gradePercentage
+###  http://w3id.org/def/guia#gradePercentage
 :gradePercentage rdf:type owl:DatatypeProperty ;
                  rdfs:domain :EvaluationTrial ;
                  rdfs:range rdf:langString ;
@@ -293,7 +296,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                  rdfs:label "grade percentage"@en .
 
 
-###  https://guia.org/inpersonHours
+###  http://w3id.org/def/guia#inpersonHours
 :inpersonHours rdf:type owl:DatatypeProperty ;
                rdfs:domain :CourseGuide ;
                rdfs:range rdf:langString ;
@@ -301,7 +304,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                rdfs:label "in-person hours"@en .
 
 
-###  https://guia.org/minimumScore
+###  http://w3id.org/def/guia#minimumScore
 :minimumScore rdf:type owl:DatatypeProperty ;
               rdfs:domain :EvaluationTrial ;
               rdfs:range rdf:langString ;
@@ -309,7 +312,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
               rdfs:label "minimum score"@en .
 
 
-###  https://guia.org/numberOfCredits
+###  http://w3id.org/def/guia#numberOfCredits
 :numberOfCredits rdf:type owl:DatatypeProperty ;
                  rdfs:domain :CourseGuide ;
                  rdfs:range xsd:decimal ;
@@ -317,7 +320,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                  rdfs:label "number of credits"@en .
 
 
-###  https://guia.org/office
+###  http://w3id.org/def/guia#office
 :office rdf:type owl:DatatypeProperty ;
         rdfs:domain :Lecturer ;
         rdfs:range rdf:langString ;
@@ -325,7 +328,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
         rdfs:label "office"@en .
 
 
-###  https://guia.org/otherInformation
+###  http://w3id.org/def/guia#otherInformation
 :otherInformation rdf:type owl:DatatypeProperty ;
                   rdfs:domain :CourseGuide ;
                   rdfs:range rdf:langString ;
@@ -333,7 +336,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                   rdfs:label "other information"@en .
 
 
-###  https://guia.org/periodEndingMonth
+###  http://w3id.org/def/guia#periodEndingMonth
 :periodEndingMonth rdf:type owl:DatatypeProperty ;
                    rdfs:domain :CourseGuide ;
                    rdfs:range rdf:langString ;
@@ -341,15 +344,15 @@ rdfs:description rdf:type owl:AnnotationProperty .
                    rdfs:label "period ending month"@en .
 
 
-###  https://guia.org/periodStaringtMonth
-:periodStaringtMonth rdf:type owl:DatatypeProperty ;
+###  http://w3id.org/def/guia#periodStartingMonth
+:periodStartingMonth rdf:type owl:DatatypeProperty ;
                      rdfs:domain :CourseGuide ;
                      rdfs:range rdf:langString ;
                      rdfs:comment "Indicates the month in which the teaching period starts."@en ;
                      rdfs:label "period starting month"@en .
 
 
-###  https://guia.org/previousCourses
+###  http://w3id.org/def/guia#previousCourses
 :previousCourses rdf:type owl:DatatypeProperty ;
                  rdfs:domain :RequiredKnowledge ;
                  rdfs:range rdf:langString ;
@@ -357,7 +360,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                  rdfs:label "previous courses"@en .
 
 
-###  https://guia.org/previousKnowledge
+###  http://w3id.org/def/guia#previousKnowledge
 :previousKnowledge rdf:type owl:DatatypeProperty ;
                    rdfs:domain :RequiredKnowledge ;
                    rdfs:range rdf:langString ;
@@ -365,7 +368,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                    rdfs:label "previous knowledge"@en .
 
 
-###  https://guia.org/remoteHours
+###  http://w3id.org/def/guia#remoteHours
 :remoteHours rdf:type owl:DatatypeProperty ;
              rdfs:domain :CourseGuide ;
              rdfs:range rdf:langString ;
@@ -373,7 +376,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
              rdfs:label "remote hours"@en .
 
 
-###  https://guia.org/semester
+###  http://w3id.org/def/guia#semester
 :semester rdf:type owl:DatatypeProperty ;
           rdfs:domain :Course ;
           rdfs:range rdf:langString ;
@@ -381,7 +384,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
           rdfs:label "semester"@en .
 
 
-###  https://guia.org/teachingPeriod
+###  http://w3id.org/def/guia#teachingPeriod
 :teachingPeriod rdf:type owl:DatatypeProperty ;
                 rdfs:domain :CourseGuide ;
                 rdfs:range xsd:string ;
@@ -389,7 +392,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                 rdfs:label "teaching period"@en .
 
 
-###  https://guia.org/teachingPeriodMonths
+###  http://w3id.org/def/guia#teachingPeriodMonths
 :teachingPeriodMonths rdf:type owl:DatatypeProperty ;
                       rdfs:domain :CourseGuide ;
                       rdfs:range rdf:langString ;
@@ -397,7 +400,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                       rdfs:label "teaching period months"@en .
 
 
-###  https://guia.org/totalHours
+###  http://w3id.org/def/guia#totalHours
 :totalHours rdf:type owl:DatatypeProperty ;
             rdfs:domain :CourseGuide ;
             rdfs:range rdf:langString ;
@@ -405,7 +408,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
             rdfs:label "total hours"@en .
 
 
-###  https://guia.org/trialDescription
+###  http://w3id.org/def/guia#trialDescription
 :trialDescription rdf:type owl:DatatypeProperty ;
                   rdfs:domain :EvaluationTrial ;
                   rdfs:range rdf:langString ;
@@ -413,7 +416,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
                   rdfs:label "trial description"@en .
 
 
-###  https://guia.org/trialMode
+###  http://w3id.org/def/guia#trialMode
 :trialMode rdf:type owl:DatatypeProperty ;
            rdfs:domain :EvaluationTrial ;
            rdfs:range rdf:langString ;
@@ -421,7 +424,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
            rdfs:label "trial mode"@en .
 
 
-###  https://guia.org/trialType
+###  http://w3id.org/def/guia#trialType
 :trialType rdf:type owl:DatatypeProperty ;
            rdfs:domain :EvaluationTrial ;
            rdfs:range rdf:langString ;
@@ -429,7 +432,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
            rdfs:label "trial type"@en .
 
 
-###  https://guia.org/trialWeek
+###  http://w3id.org/def/guia#trialWeek
 :trialWeek rdf:type owl:DatatypeProperty ;
            rdfs:domain :EvaluationTrial ;
            rdfs:range rdf:langString ;
@@ -437,7 +440,7 @@ rdfs:description rdf:type owl:AnnotationProperty .
            rdfs:label "trial week"@en .
 
 
-###  https://guia.org/tutorshipsSchedule
+###  http://w3id.org/def/guia#tutorshipsSchedule
 :tutorshipsSchedule rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Lecturer ;
                     rdfs:range rdf:langString ;
@@ -504,153 +507,153 @@ rdfs:description rdf:type owl:AnnotationProperty .
 #    Classes
 #################################################################
 
-###  http://www.ontology-of-units-of-measure.org/resource/om-2/Unit
-<http://www.ontology-of-units-of-measure.org/resource/om-2/Unit> rdf:type owl:Class .
-
-
-###  http://www.w3.org/2000/01/rdf-schema#Resource
-rdfs:Resource rdf:type owl:Class .
-
-
-###  https://guia.org/Activity
+###  http://w3id.org/def/guia#Activity
 :Activity rdf:type owl:Class ;
           rdfs:comment "A teaching or learning activity carried out as part of the course, such as lectures, labs, seminars, tutorials, or independent work."@en ;
           rdfs:label "Activity"@en .
 
 
-###  https://guia.org/ActivityType1
+###  http://w3id.org/def/guia#ActivityType1
 :ActivityType1 rdf:type owl:Class ;
                rdfs:comment "A first-level category used to classify academic activities according to the pedagogical structure adopted in the course guide."@en ;
                rdfs:label "Activity Type 1"@en .
 
 
-###  https://guia.org/ActivityType2
+###  http://w3id.org/def/guia#ActivityType2
 :ActivityType2 rdf:type owl:Class ;
                rdfs:comment "A second-level or more specific category used to refine the classification of academic activities in the course guide."@en ;
                rdfs:label "Activity Type 2"@en .
 
 
-###  https://guia.org/BachelorDegree
+###  http://w3id.org/def/guia#BachelorDegree
 :BachelorDegree rdf:type owl:Class ;
                 rdfs:subClassOf :Degree ;
                 rdfs:comment "An undergraduate degree programme that provides foundational higher education in a given field of study."@en ;
                 rdfs:label "Bachelor's Degree"@en .
 
 
-###  https://guia.org/Competency
+###  http://w3id.org/def/guia#Competency
 :Competency rdf:type owl:Class ;
             rdfs:comment "A capability, skill, or integrated learning outcome that students are expected to develop through the course."@en ;
             rdfs:label "Competency"@en .
 
 
-###  https://guia.org/Course
+###  http://w3id.org/def/guia#Course
 :Course rdf:type owl:Class ;
         rdfs:subClassOf <https://schema.org/Course> ;
         rdfs:comment "An academic course as defined in the GUIA model, typically described through its content, teaching organization, assessment, and related course guide."@en ;
         rdfs:label "Course"@en .
 
 
-###  https://guia.org/CourseGuide
+###  http://w3id.org/def/guia#CourseGuide
 :CourseGuide rdf:type owl:Class ;
              rdfs:subClassOf <https://schema.org/CourseInstance> ;
              rdfs:comment "A structured academic document that describes a course, including objectives, contents, methodology, resources, schedule, and evaluation."@en ;
              rdfs:label "Course Guide"@en .
 
 
-###  https://guia.org/Degree
+###  http://w3id.org/def/guia#Degree
 :Degree rdf:type owl:Class ;
         rdfs:comment "An academic degree programme that structures and groups courses within a formal higher education curriculum."@en ;
         rdfs:label "Degree"@en .
 
 
-###  https://guia.org/DidacticResource
+###  http://w3id.org/def/guia#DidacticResource
 :DidacticResource rdf:type owl:Class ;
                   rdfs:comment "A teaching or learning resource used in the course, such as readings, software, audiovisual material, or practical tools."@en ;
                   rdfs:label "Didactic Resource"@en .
 
 
-###  https://guia.org/EvaluationActivity
+###  http://w3id.org/def/guia#EvaluationActivity
 :EvaluationActivity rdf:type owl:Class ;
                     rdfs:comment "An activity specifically intended to assess student performance, achievement, or progress within the course."@en ;
                     rdfs:label "Evaluation Activity"@en .
 
 
-###  https://guia.org/EvaluationSystem
+###  http://w3id.org/def/guia#EvaluationSystem
 :EvaluationSystem rdf:type owl:Class ;
                   rdfs:comment "The overall framework that defines how student learning is assessed in a course, including criteria, components, and grading structure."@en ;
                   rdfs:label "Evaluation System"@en .
 
 
-###  https://guia.org/EvaluationTrial
+###  http://w3id.org/def/guia#EvaluationTrial
 :EvaluationTrial rdf:type owl:Class ;
                  rdfs:comment "A specific assessment instance or examination opportunity within the evaluation system, such as an ordinary or extraordinary attempt."@en ;
                  rdfs:label "Evaluation Trial"@en .
 
 
-###  https://guia.org/LearningResult
+###  http://w3id.org/def/guia#LearningResult
 :LearningResult rdf:type owl:Class ;
                 rdfs:comment "A specific and assessable statement of what a student is expected to know, understand, or be able to do after completing the course."@en ;
                 rdfs:label "Learning Result"@en .
 
 
-###  https://guia.org/Lecturer
+###  http://w3id.org/def/guia#Lecturer
 :Lecturer rdf:type owl:Class ;
           rdfs:subClassOf <https://schema.org/Person> ;
           rdfs:comment "A teaching person responsible for delivering, coordinating, or supporting a course within an academic programme."@en ;
           rdfs:label "Lecturer"@en .
 
 
-###  https://guia.org/MasterDegree
+###  http://w3id.org/def/guia#MasterDegree
 :MasterDegree rdf:type owl:Class ;
               rdfs:subClassOf :Degree ;
               rdfs:comment "A postgraduate degree programme corresponding to advanced academic or professional specialization."@en ;
               rdfs:label "Master's Degree"@en .
 
 
-###  https://guia.org/RemoteActivity
+###  http://w3id.org/def/guia#RemoteActivity
 :RemoteActivity rdf:type owl:Class ;
                 rdfs:comment "An activity designed to be carried out remotely, typically through online or distance-learning modalities."@en ;
                 rdfs:label "Remote Activity"@en .
 
 
-###  https://guia.org/RequiredKnowledge
+###  http://w3id.org/def/guia#RequiredKnowledge
 :RequiredKnowledge rdf:type owl:Class ;
                    rdfs:comment "Prior knowledge, skills, or academic background expected from students before taking a course."@en ;
                    rdfs:label "Required Knowledge"@en .
 
 
-###  https://guia.org/Schedule
+###  http://w3id.org/def/guia#Schedule
 :Schedule rdf:type owl:Class ;
           rdfs:subClassOf <https://schema.org/Schedule> ;
           rdfs:comment "A temporal organization of course-related events, activities, or milestones across the academic period."@en ;
           rdfs:label "Schedule"@en .
 
 
-###  https://guia.org/ScheduleEvent
+###  http://w3id.org/def/guia#ScheduleEvent
 :ScheduleEvent rdf:type owl:Class ;
                rdfs:subClassOf <https://schema.org/Event> ;
                rdfs:comment "A dated or timed element within a course schedule, such as a class session, deadline, exam, or planned activity."@en ;
                rdfs:label "Schedule Event"@en .
 
 
-###  https://guia.org/Syllabus
+###  http://w3id.org/def/guia#Syllabus
 :Syllabus rdf:type owl:Class ;
           rdfs:subClassOf <https://schema.org/Syllabus> ;
           rdfs:comment "The structured outline of the course content, usually organized into thematic units, topics, or instructional blocks."@en ;
           rdfs:label "Syllabus"@en .
 
 
-###  https://guia.org/SyllabusItem
+###  http://w3id.org/def/guia#SyllabusItem
 :SyllabusItem rdf:type owl:Class ;
               rdfs:comment "A single element of a syllabus, representing a topic, unit, lesson, or other content component within the course structure."@en ;
               rdfs:label "Syllabus Item"@en .
 
 
-###  https://guia.org/UniversityCenter
+###  http://w3id.org/def/guia#UniversityCenter
 :UniversityCenter rdf:type owl:Class ;
                   rdfs:subClassOf <https://schema.org/Organization> ;
                   rdfs:description "An organizational unit within a university where degree programmes are taught, such as a faculty, school, or institute responsible for academic delivery."@en ;
                   rdfs:label "University Center"@en .
+
+
+###  http://www.ontology-of-units-of-measure.org/resource/om-2/Unit
+<http://www.ontology-of-units-of-measure.org/resource/om-2/Unit> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#Resource
+rdfs:Resource rdf:type owl:Class .
 
 
 ###  https://schema.org/Course

@@ -1,11 +1,11 @@
 {
   "@context" : {
     "hasEvaluationTrial" : {
-      "@id" : "https://guia.org/hasEvaluationTrial",
+      "@id" : "http://w3id.org/def/guia#hasEvaluationTrial",
       "@type" : "@id"
     },
     "MasterDegree" : {
-      "@id" : "https://guia.org/MasterDegree"
+      "@id" : "http://w3id.org/def/guia#MasterDegree"
     },
     "Unit" : {
       "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
@@ -14,68 +14,65 @@
       "@id" : "https://schema.org/CourseInstance"
     },
     "previousCourses" : {
-      "@id" : "https://guia.org/previousCourses"
+      "@id" : "http://w3id.org/def/guia#previousCourses"
     },
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
     "teachingPeriod" : {
-      "@id" : "https://guia.org/teachingPeriod",
+      "@id" : "http://w3id.org/def/guia#teachingPeriod",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "hasEvaluation" : {
-      "@id" : "https://guia.org/hasEvaluation",
+      "@id" : "http://w3id.org/def/guia#hasEvaluation",
       "@type" : "@id"
     },
     "Lecturer" : {
-      "@id" : "https://guia.org/Lecturer"
+      "@id" : "http://w3id.org/def/guia#Lecturer"
     },
     "license" : {
       "@id" : "http://purl.org/dc/terms/license"
     },
     "hasDidacticResource" : {
-      "@id" : "https://guia.org/hasDidacticResource",
+      "@id" : "http://w3id.org/def/guia#hasDidacticResource",
       "@type" : "@id"
     },
     "evaluationDuration" : {
-      "@id" : "https://guia.org/evaluationDuration"
+      "@id" : "http://w3id.org/def/guia#evaluationDuration"
     },
     "UniversityCenter" : {
-      "@id" : "https://guia.org/UniversityCenter"
+      "@id" : "http://w3id.org/def/guia#UniversityCenter"
     },
     "hasCourse" : {
-      "@id" : "https://guia.org/hasCourse",
+      "@id" : "http://w3id.org/def/guia#hasCourse",
       "@type" : "@id"
     },
     "Organization" : {
       "@id" : "https://schema.org/Organization"
     },
     "minimumScore" : {
-      "@id" : "https://guia.org/minimumScore"
+      "@id" : "http://w3id.org/def/guia#minimumScore"
     },
     "teachingPeriodMonths" : {
-      "@id" : "https://guia.org/teachingPeriodMonths"
+      "@id" : "http://w3id.org/def/guia#teachingPeriodMonths"
     },
     "remoteHours" : {
-      "@id" : "https://guia.org/remoteHours"
+      "@id" : "http://w3id.org/def/guia#remoteHours"
     },
     "periodEndingMonth" : {
-      "@id" : "https://guia.org/periodEndingMonth"
-    },
-    "periodStaringtMonth" : {
-      "@id" : "https://guia.org/periodStaringtMonth"
+      "@id" : "http://w3id.org/def/guia#periodEndingMonth"
     },
     "Course" : {
       "@id" : "https://schema.org/Course"
     },
     "bibliographyDescription" : {
-      "@id" : "https://guia.org/bibliographyDescription"
+      "@id" : "http://w3id.org/def/guia#bibliographyDescription"
     },
     "inpersonHours" : {
-      "@id" : "https://guia.org/inpersonHours"
+      "@id" : "http://w3id.org/def/guia#inpersonHours"
     },
     "hasLearningResult" : {
-      "@id" : "https://guia.org/hasLearningResult",
+      "@id" : "http://w3id.org/def/guia#hasLearningResult",
       "@type" : "@id"
     },
     "director" : {
@@ -86,28 +83,28 @@
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasActivity" : {
-      "@id" : "https://guia.org/hasActivity",
+      "@id" : "http://w3id.org/def/guia#hasActivity",
       "@type" : "@id"
     },
     "bibliographyTitle" : {
-      "@id" : "https://guia.org/bibliographyTitle"
+      "@id" : "http://w3id.org/def/guia#bibliographyTitle"
     },
     "activityDurationUnit" : {
-      "@id" : "https://guia.org/activityDurationUnit",
+      "@id" : "http://w3id.org/def/guia#activityDurationUnit",
       "@type" : "@id"
     },
     "Activity" : {
-      "@id" : "https://guia.org/Activity"
+      "@id" : "http://w3id.org/def/guia#Activity"
     },
     "BachelorDegree" : {
-      "@id" : "https://guia.org/BachelorDegree"
+      "@id" : "http://w3id.org/def/guia#BachelorDegree"
     },
     "courseCode" : {
       "@id" : "https://schema.org/courseCode",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
     },
     "ActivityType2" : {
-      "@id" : "https://guia.org/ActivityType2"
+      "@id" : "http://w3id.org/def/guia#ActivityType2"
     },
     "email" : {
       "@id" : "https://schema.org/email",
@@ -117,20 +114,20 @@
       "@id" : "https://schema.org/Event"
     },
     "Syllabus" : {
-      "@id" : "https://guia.org/Syllabus"
+      "@id" : "http://w3id.org/def/guia#Syllabus"
     },
     "Person" : {
       "@id" : "https://schema.org/Person"
     },
     "hasScheduleEvent" : {
-      "@id" : "https://guia.org/hasScheduleEvent",
+      "@id" : "http://w3id.org/def/guia#hasScheduleEvent",
       "@type" : "@id"
     },
     "Competency" : {
-      "@id" : "https://guia.org/Competency"
+      "@id" : "http://w3id.org/def/guia#Competency"
     },
     "hasItem" : {
-      "@id" : "https://guia.org/hasItem",
+      "@id" : "http://w3id.org/def/guia#hasItem",
       "@type" : "@id"
     },
     "activitiesWorkload" : {
@@ -146,24 +143,27 @@
       "@id" : "https://schema.org/name"
     },
     "office" : {
-      "@id" : "https://guia.org/office"
+      "@id" : "http://w3id.org/def/guia#office"
     },
     "totalHours" : {
-      "@id" : "https://guia.org/totalHours"
+      "@id" : "http://w3id.org/def/guia#totalHours"
     },
     "hasCompetency" : {
-      "@id" : "https://guia.org/hasCompetency",
+      "@id" : "http://w3id.org/def/guia#hasCompetency",
       "@type" : "@id"
     },
     "EvaluationSystem" : {
-      "@id" : "https://guia.org/EvaluationSystem"
+      "@id" : "http://w3id.org/def/guia#EvaluationSystem"
+    },
+    "periodStartingMonth" : {
+      "@id" : "http://w3id.org/def/guia#periodStartingMonth"
     },
     "instructor" : {
       "@id" : "https://schema.org/instructor",
       "@type" : "@id"
     },
     "evaluationDescription" : {
-      "@id" : "https://guia.org/evaluationDescription"
+      "@id" : "http://w3id.org/def/guia#evaluationDescription"
     },
     "inLanguage" : {
       "@id" : "https://schema.org/inLanguage"
@@ -173,128 +173,128 @@
       "@type" : "@id"
     },
     "attendanceType" : {
-      "@id" : "https://guia.org/attendanceType"
+      "@id" : "http://w3id.org/def/guia#attendanceType"
     },
     "trialType" : {
-      "@id" : "https://guia.org/trialType"
+      "@id" : "http://w3id.org/def/guia#trialType"
     },
     "EvaluationActivity" : {
-      "@id" : "https://guia.org/EvaluationActivity"
+      "@id" : "http://w3id.org/def/guia#EvaluationActivity"
     },
     "activityFormat" : {
-      "@id" : "https://guia.org/activityFormat"
+      "@id" : "http://w3id.org/def/guia#activityFormat"
     },
     "RequiredKnowledge" : {
-      "@id" : "https://guia.org/RequiredKnowledge"
+      "@id" : "http://w3id.org/def/guia#RequiredKnowledge"
     },
     "title" : {
       "@id" : "http://purl.org/dc/elements/1.1/title"
     },
     "trialMode" : {
-      "@id" : "https://guia.org/trialMode"
+      "@id" : "http://w3id.org/def/guia#trialMode"
     },
     "tutorshipsSchedule" : {
-      "@id" : "https://guia.org/tutorshipsSchedule"
+      "@id" : "http://w3id.org/def/guia#tutorshipsSchedule"
     },
     "ScheduleEvent" : {
-      "@id" : "https://guia.org/ScheduleEvent"
+      "@id" : "http://w3id.org/def/guia#ScheduleEvent"
     },
     "SyllabusItem" : {
-      "@id" : "https://guia.org/SyllabusItem"
+      "@id" : "http://w3id.org/def/guia#SyllabusItem"
     },
     "degreeCode" : {
-      "@id" : "https://guia.org/degreeCode",
+      "@id" : "http://w3id.org/def/guia#degreeCode",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "courseType" : {
-      "@id" : "https://guia.org/courseType"
+      "@id" : "http://w3id.org/def/guia#courseType"
     },
     "activityDuration" : {
-      "@id" : "https://guia.org/activityDuration",
+      "@id" : "http://w3id.org/def/guia#activityDuration",
       "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
     },
     "gradePercentage" : {
-      "@id" : "https://guia.org/gradePercentage"
+      "@id" : "http://w3id.org/def/guia#gradePercentage"
     },
     "Degree" : {
-      "@id" : "https://guia.org/Degree"
+      "@id" : "http://w3id.org/def/guia#Degree"
     },
     "DidacticResource" : {
-      "@id" : "https://guia.org/DidacticResource"
+      "@id" : "http://w3id.org/def/guia#DidacticResource"
     },
     "RemoteActivity" : {
-      "@id" : "https://guia.org/RemoteActivity"
+      "@id" : "http://w3id.org/def/guia#RemoteActivity"
     },
     "otherInformation" : {
-      "@id" : "https://guia.org/otherInformation"
+      "@id" : "http://w3id.org/def/guia#otherInformation"
     },
     "Resource" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#Resource"
     },
     "semester" : {
-      "@id" : "https://guia.org/semester"
+      "@id" : "http://w3id.org/def/guia#semester"
     },
     "eventSchedule" : {
       "@id" : "https://schema.org/eventSchedule",
       "@type" : "@id"
     },
     "EvaluationTrial" : {
-      "@id" : "https://guia.org/EvaluationTrial"
+      "@id" : "http://w3id.org/def/guia#EvaluationTrial"
     },
     "involvesCompetency" : {
-      "@id" : "https://guia.org/involvesCompetency",
+      "@id" : "http://w3id.org/def/guia#involvesCompetency",
       "@type" : "@id"
     },
     "Schedule" : {
-      "@id" : "https://guia.org/Schedule"
+      "@id" : "http://w3id.org/def/guia#Schedule"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "activityDescription" : {
-      "@id" : "https://guia.org/activityDescription"
+      "@id" : "http://w3id.org/def/guia#activityDescription"
     },
     "courseSchedule" : {
       "@id" : "https://schema.org/courseSchedule",
       "@type" : "@id"
     },
     "CourseGuide" : {
-      "@id" : "https://guia.org/CourseGuide"
+      "@id" : "http://w3id.org/def/guia#CourseGuide"
     },
     "evaluationType" : {
-      "@id" : "https://guia.org/evaluationType"
+      "@id" : "http://w3id.org/def/guia#evaluationType"
     },
     "numberOfCredits" : {
-      "@id" : "https://guia.org/numberOfCredits",
+      "@id" : "http://w3id.org/def/guia#numberOfCredits",
       "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
     },
     "bibliographyType" : {
-      "@id" : "https://guia.org/bibliographyType"
+      "@id" : "http://w3id.org/def/guia#bibliographyType"
     },
     "ActivityType1" : {
-      "@id" : "https://guia.org/ActivityType1"
+      "@id" : "http://w3id.org/def/guia#ActivityType1"
     },
     "previousKnowledge" : {
-      "@id" : "https://guia.org/previousKnowledge"
+      "@id" : "http://w3id.org/def/guia#previousKnowledge"
     },
     "trialWeek" : {
-      "@id" : "https://guia.org/trialWeek"
+      "@id" : "http://w3id.org/def/guia#trialWeek"
     },
     "trialDescription" : {
-      "@id" : "https://guia.org/trialDescription"
+      "@id" : "http://w3id.org/def/guia#trialDescription"
     },
     "description" : {
       "@id" : "https://schema.org/description"
     },
     "LearningResult" : {
-      "@id" : "https://guia.org/LearningResult"
+      "@id" : "http://w3id.org/def/guia#LearningResult"
     },
     "offers" : {
-      "@id" : "https://guia.org/offers",
+      "@id" : "http://w3id.org/def/guia#offers",
       "@type" : "@id"
     },
     "publishedAt" : {
-      "@id" : "https://guia.org/publishedAt",
+      "@id" : "http://w3id.org/def/guia#publishedAt",
       "@type" : "@id"
     }
   }

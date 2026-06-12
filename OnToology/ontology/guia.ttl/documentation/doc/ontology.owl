@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://guia.org/"
-     xml:base="https://guia.org/"
+<rdf:RDF xmlns="http://w3id.org/def/guia#"
+     xml:base="http://w3id.org/def/guia"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,10 +8,13 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://guia.org/">
+    <owl:Ontology rdf:about="http://w3id.org/def/guia#">
         <dc:title xml:lang="en">GUIA ontology</dc:title>
         <terms:creator>Andrea Cimmino Arriaga</terms:creator>
         <terms:creator>Covadonga Arias</terms:creator>
+        <terms:creator>Joaquín Gayoso Cabada</terms:creator>
+        <terms:creator>Juan Cano de Benito</terms:creator>
+        <terms:creator>Paola Espinoza Arias</terms:creator>
         <terms:license rdf:resource="http://purl.org/NET/rdflicense/cc-by4.0"/>
         <rdfs:comment xml:lang="en">This ontology defines concepts to represent academic course guides in higher education. It models degrees, courses, teaching roles, learning design, resources, schedules, and evaluation systems, while reusing existing vocabularies such as Schema.org whenever possible.</rdfs:comment>
         <rdfs:label xml:lang="en">GUIA Ontology</rdfs:label>
@@ -72,11 +75,11 @@
     
 
 
-    <!-- https://guia.org/activityDurationUnit -->
+    <!-- http://w3id.org/def/guia#activityDurationUnit -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/activityDurationUnit">
-        <rdfs:domain rdf:resource="https://guia.org/Activity"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#activityDurationUnit">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Activity"/>
         <rdfs:range rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"/>
         <rdfs:comment xml:lang="en">Links an activity to the unit used to express its duration.</rdfs:comment>
         <rdfs:label xml:lang="en">activity duration unit</rdfs:label>
@@ -84,143 +87,143 @@
     
 
 
-    <!-- https://guia.org/hasActivity -->
+    <!-- http://w3id.org/def/guia#hasActivity -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/hasActivity">
-        <rdfs:domain rdf:resource="https://guia.org/ScheduleEvent"/>
-        <rdfs:range rdf:resource="https://guia.org/Activity"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#hasActivity">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#ScheduleEvent"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#Activity"/>
         <rdfs:comment xml:lang="en">Links a schedule event to an academic activity carried out during that event.</rdfs:comment>
         <rdfs:label xml:lang="en">has activity</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://guia.org/hasCompetency -->
+    <!-- http://w3id.org/def/guia#hasCompetency -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/hasCompetency">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
-        <rdfs:range rdf:resource="https://guia.org/Competency"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#hasCompetency">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#Competency"/>
         <rdfs:comment xml:lang="en">Links a course guide to a competency developed or addressed in the course.</rdfs:comment>
         <rdfs:label xml:lang="en">has competency</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://guia.org/hasCourse -->
+    <!-- http://w3id.org/def/guia#hasCourse -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/hasCourse">
-        <rdfs:domain rdf:resource="https://guia.org/Degree"/>
-        <rdfs:range rdf:resource="https://guia.org/Course"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#hasCourse">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Degree"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#Course"/>
         <rdfs:comment xml:lang="en">Links a degree programme to a course included in its curriculum.</rdfs:comment>
         <rdfs:label xml:lang="en">has course</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://guia.org/hasDidacticResource -->
+    <!-- http://w3id.org/def/guia#hasDidacticResource -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/hasDidacticResource">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
-        <rdfs:range rdf:resource="https://guia.org/DidacticResource"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#hasDidacticResource">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#DidacticResource"/>
         <rdfs:comment xml:lang="en">Links a course guide to a didactic or bibliographic resource used in the course.</rdfs:comment>
         <rdfs:label xml:lang="en">has didactic resource</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://guia.org/hasEvaluation -->
+    <!-- http://w3id.org/def/guia#hasEvaluation -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/hasEvaluation">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
-        <rdfs:range rdf:resource="https://guia.org/EvaluationSystem"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#hasEvaluation">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#EvaluationSystem"/>
         <rdfs:comment xml:lang="en">Links a course guide to its evaluation system.</rdfs:comment>
         <rdfs:label xml:lang="en">has evaluation</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://guia.org/hasEvaluationTrial -->
+    <!-- http://w3id.org/def/guia#hasEvaluationTrial -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/hasEvaluationTrial">
-        <rdfs:domain rdf:resource="https://guia.org/EvaluationSystem"/>
-        <rdfs:range rdf:resource="https://guia.org/EvaluationTrial"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#hasEvaluationTrial">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#EvaluationSystem"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#EvaluationTrial"/>
         <rdfs:comment xml:lang="en">Links an evaluation system to one of its evaluation trials.</rdfs:comment>
         <rdfs:label xml:lang="en">has evaluation trial</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://guia.org/hasItem -->
+    <!-- http://w3id.org/def/guia#hasItem -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/hasItem">
-        <rdfs:domain rdf:resource="https://guia.org/Syllabus"/>
-        <rdfs:range rdf:resource="https://guia.org/SyllabusItem"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#hasItem">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Syllabus"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#SyllabusItem"/>
         <rdfs:comment xml:lang="en">Links a syllabus to one of its constituent syllabus items.</rdfs:comment>
         <rdfs:label xml:lang="en">has item</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://guia.org/hasLearningResult -->
+    <!-- http://w3id.org/def/guia#hasLearningResult -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/hasLearningResult">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
-        <rdfs:range rdf:resource="https://guia.org/LearningResult"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#hasLearningResult">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#LearningResult"/>
         <rdfs:comment xml:lang="en">Links a course guide to a learning result expected from the course.</rdfs:comment>
         <rdfs:label xml:lang="en">has learning result</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://guia.org/hasScheduleEvent -->
+    <!-- http://w3id.org/def/guia#hasScheduleEvent -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/hasScheduleEvent">
-        <rdfs:domain rdf:resource="https://guia.org/EvaluationTrial"/>
-        <rdfs:range rdf:resource="https://guia.org/ScheduleEvent"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#hasScheduleEvent">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#EvaluationTrial"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#ScheduleEvent"/>
         <rdfs:comment xml:lang="en">Links an evaluation trial to the schedule event in which it takes place.</rdfs:comment>
         <rdfs:label xml:lang="en">has schedule event</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://guia.org/involvesCompetency -->
+    <!-- http://w3id.org/def/guia#involvesCompetency -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/involvesCompetency">
-        <rdfs:domain rdf:resource="https://guia.org/EvaluationTrial"/>
-        <rdfs:range rdf:resource="https://guia.org/Competency"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#involvesCompetency">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#EvaluationTrial"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#Competency"/>
         <rdfs:comment xml:lang="en">Links an evaluation trial to a competency involved in that assessment.</rdfs:comment>
         <rdfs:label xml:lang="en">involves competency</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://guia.org/offers -->
+    <!-- http://w3id.org/def/guia#offers -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/offers">
-        <rdfs:domain rdf:resource="https://guia.org/UniversityCenter"/>
-        <rdfs:range rdf:resource="https://guia.org/Degree"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#offers">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#UniversityCenter"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#Degree"/>
         <rdfs:comment xml:lang="en">Links a university center to a degree programme that it offers.</rdfs:comment>
         <rdfs:label xml:lang="en">offers</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://guia.org/publishedAt -->
+    <!-- http://w3id.org/def/guia#publishedAt -->
 
 
-    <owl:ObjectProperty rdf:about="https://guia.org/publishedAt">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/guia#publishedAt">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:comment xml:lang="en">Provides the URL where the course guide is publicly available.</rdfs:comment>
         <rdfs:label xml:lang="en">published at</rdfs:label>
@@ -232,8 +235,8 @@
 
 
     <owl:ObjectProperty rdf:about="https://schema.org/courseSchedule">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
-        <rdfs:range rdf:resource="https://guia.org/Schedule"/>
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#Schedule"/>
         <rdfs:comment xml:lang="en">Links a course guide to the schedule that organizes its planned events.</rdfs:comment>
         <rdfs:label xml:lang="en">course schedule</rdfs:label>
     </owl:ObjectProperty>
@@ -244,8 +247,8 @@
 
 
     <owl:ObjectProperty rdf:about="https://schema.org/director">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
-        <rdfs:range rdf:resource="https://guia.org/Lecturer"/>
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#Lecturer"/>
         <rdfs:comment xml:lang="en">Links a course guide to the lecturer acting as course coordinator or academic lead.</rdfs:comment>
         <rdfs:label xml:lang="en">director</rdfs:label>
     </owl:ObjectProperty>
@@ -256,8 +259,8 @@
 
 
     <owl:ObjectProperty rdf:about="https://schema.org/eventSchedule">
-        <rdfs:domain rdf:resource="https://guia.org/Schedule"/>
-        <rdfs:range rdf:resource="https://guia.org/ScheduleEvent"/>
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Schedule"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#ScheduleEvent"/>
         <rdfs:comment xml:lang="en">Links a schedule to one of its schedule events.</rdfs:comment>
         <rdfs:label xml:lang="en">event schedule</rdfs:label>
     </owl:ObjectProperty>
@@ -268,8 +271,8 @@
 
 
     <owl:ObjectProperty rdf:about="https://schema.org/hasCourseInstance">
-        <rdfs:domain rdf:resource="https://guia.org/Course"/>
-        <rdfs:range rdf:resource="https://guia.org/CourseGuide"/>
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Course"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:comment xml:lang="en">Links a course to a concrete course guide or offering for a given academic period.</rdfs:comment>
         <rdfs:label xml:lang="en">has course instance</rdfs:label>
     </owl:ObjectProperty>
@@ -280,8 +283,8 @@
 
 
     <owl:ObjectProperty rdf:about="https://schema.org/instructor">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
-        <rdfs:range rdf:resource="https://guia.org/Lecturer"/>
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/guia#Lecturer"/>
         <rdfs:comment xml:lang="en">Links a course guide to a lecturer involved in teaching the course.</rdfs:comment>
         <rdfs:label xml:lang="en">instructor</rdfs:label>
     </owl:ObjectProperty>
@@ -300,11 +303,11 @@
     
 
 
-    <!-- https://guia.org/activityDescription -->
+    <!-- http://w3id.org/def/guia#activityDescription -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/activityDescription">
-        <rdfs:domain rdf:resource="https://guia.org/Activity"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#activityDescription">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Activity"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Provides a textual description of an academic activity.</rdfs:comment>
         <rdfs:label xml:lang="en">activity description</rdfs:label>
@@ -312,11 +315,11 @@
     
 
 
-    <!-- https://guia.org/activityDuration -->
+    <!-- http://w3id.org/def/guia#activityDuration -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/activityDuration">
-        <rdfs:domain rdf:resource="https://guia.org/Activity"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#activityDuration">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Activity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment xml:lang="en">States the duration value assigned to an academic activity.</rdfs:comment>
         <rdfs:label xml:lang="en">activity duration</rdfs:label>
@@ -324,11 +327,11 @@
     
 
 
-    <!-- https://guia.org/activityFormat -->
+    <!-- http://w3id.org/def/guia#activityFormat -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/activityFormat">
-        <rdfs:domain rdf:resource="https://guia.org/Activity"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#activityFormat">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Activity"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Indicates the delivery format or modality of an academic activity.</rdfs:comment>
         <rdfs:label xml:lang="en">activity format</rdfs:label>
@@ -336,11 +339,11 @@
     
 
 
-    <!-- https://guia.org/attendanceType -->
+    <!-- http://w3id.org/def/guia#attendanceType -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/attendanceType">
-        <rdfs:domain rdf:resource="https://guia.org/Activity"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#attendanceType">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Activity"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Indicates whether an activity is face-to-face, remote, or follows another attendance modality.</rdfs:comment>
         <rdfs:label xml:lang="en">attendance mode</rdfs:label>
@@ -348,11 +351,11 @@
     
 
 
-    <!-- https://guia.org/bibliographyDescription -->
+    <!-- http://w3id.org/def/guia#bibliographyDescription -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/bibliographyDescription">
-        <rdfs:domain rdf:resource="https://guia.org/DidacticResource"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#bibliographyDescription">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#DidacticResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Provides a textual description or reference for a bibliographic or didactic resource.</rdfs:comment>
         <rdfs:label xml:lang="en">bibliography description</rdfs:label>
@@ -360,11 +363,11 @@
     
 
 
-    <!-- https://guia.org/bibliographyTitle -->
+    <!-- http://w3id.org/def/guia#bibliographyTitle -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/bibliographyTitle">
-        <rdfs:domain rdf:resource="https://guia.org/DidacticResource"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#bibliographyTitle">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#DidacticResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Provides the title or name of a bibliographic or didactic resource.</rdfs:comment>
         <rdfs:label xml:lang="en">bibliography title</rdfs:label>
@@ -372,11 +375,11 @@
     
 
 
-    <!-- https://guia.org/bibliographyType -->
+    <!-- http://w3id.org/def/guia#bibliographyType -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/bibliographyType">
-        <rdfs:domain rdf:resource="https://guia.org/DidacticResource"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#bibliographyType">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#DidacticResource"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Specifies the category of a bibliographic or didactic resource.</rdfs:comment>
         <rdfs:label xml:lang="en">bibliography type</rdfs:label>
@@ -384,11 +387,11 @@
     
 
 
-    <!-- https://guia.org/courseType -->
+    <!-- http://w3id.org/def/guia#courseType -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/courseType">
-        <rdfs:domain rdf:resource="https://guia.org/Course"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#courseType">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Course"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Specifies the academic nature of the course, such as basic, mandatory, elective, or similar categories.</rdfs:comment>
         <rdfs:label xml:lang="en">course type</rdfs:label>
@@ -396,11 +399,11 @@
     
 
 
-    <!-- https://guia.org/degreeCode -->
+    <!-- http://w3id.org/def/guia#degreeCode -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/degreeCode">
-        <rdfs:domain rdf:resource="https://guia.org/Degree"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#degreeCode">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Degree"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Indicates the identification code of a degree.</rdfs:comment>
         <rdfs:label xml:lang="en">degree code</rdfs:label>
@@ -408,11 +411,11 @@
     
 
 
-    <!-- https://guia.org/evaluationDescription -->
+    <!-- http://w3id.org/def/guia#evaluationDescription -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/evaluationDescription">
-        <rdfs:domain rdf:resource="https://guia.org/EvaluationSystem"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#evaluationDescription">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#EvaluationSystem"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Describes the criteria, rules, or overall structure of the evaluation system.</rdfs:comment>
         <rdfs:label xml:lang="en">evaluation description</rdfs:label>
@@ -420,11 +423,11 @@
     
 
 
-    <!-- https://guia.org/evaluationDuration -->
+    <!-- http://w3id.org/def/guia#evaluationDuration -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/evaluationDuration">
-        <rdfs:domain rdf:resource="https://guia.org/EvaluationTrial"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#evaluationDuration">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#EvaluationTrial"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">States the duration of an evaluation activity or trial.</rdfs:comment>
         <rdfs:label xml:lang="en">evaluation duration</rdfs:label>
@@ -432,11 +435,11 @@
     
 
 
-    <!-- https://guia.org/evaluationType -->
+    <!-- http://w3id.org/def/guia#evaluationType -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/evaluationType">
-        <rdfs:domain rdf:resource="https://guia.org/EvaluationTrial"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#evaluationType">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#EvaluationTrial"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Specifies a local type classification used for an activity or evaluation element. For instance, in spanish university the following categories exist: progressive, final, extraordinay.</rdfs:comment>
         <rdfs:comment xml:lang="en">Specifies the type of evaluation associated with an assessment activity or trial.</rdfs:comment>
@@ -446,11 +449,11 @@
     
 
 
-    <!-- https://guia.org/gradePercentage -->
+    <!-- http://w3id.org/def/guia#gradePercentage -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/gradePercentage">
-        <rdfs:domain rdf:resource="https://guia.org/EvaluationTrial"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#gradePercentage">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#EvaluationTrial"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Specifies the percentage weight of an evaluation activity in the final grade.</rdfs:comment>
         <rdfs:label xml:lang="en">grade percentage</rdfs:label>
@@ -458,11 +461,11 @@
     
 
 
-    <!-- https://guia.org/inpersonHours -->
+    <!-- http://w3id.org/def/guia#inpersonHours -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/inpersonHours">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#inpersonHours">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Specifies the number or description of face-to-face hours within the course guide.</rdfs:comment>
         <rdfs:label xml:lang="en">in-person hours</rdfs:label>
@@ -470,11 +473,11 @@
     
 
 
-    <!-- https://guia.org/minimumScore -->
+    <!-- http://w3id.org/def/guia#minimumScore -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/minimumScore">
-        <rdfs:domain rdf:resource="https://guia.org/EvaluationTrial"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#minimumScore">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#EvaluationTrial"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Indicates the minimum score required for an evaluation activity or assessment component.</rdfs:comment>
         <rdfs:label xml:lang="en">minimum score</rdfs:label>
@@ -482,11 +485,11 @@
     
 
 
-    <!-- https://guia.org/numberOfCredits -->
+    <!-- http://w3id.org/def/guia#numberOfCredits -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/numberOfCredits">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#numberOfCredits">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment xml:lang="en">States the number of academic credits assigned to a course guide or course offering.</rdfs:comment>
         <rdfs:label xml:lang="en">number of credits</rdfs:label>
@@ -494,11 +497,11 @@
     
 
 
-    <!-- https://guia.org/office -->
+    <!-- http://w3id.org/def/guia#office -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/office">
-        <rdfs:domain rdf:resource="https://guia.org/Lecturer"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#office">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Lecturer"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Provides the office or location assigned to a lecturer for student attention.</rdfs:comment>
         <rdfs:label xml:lang="en">office</rdfs:label>
@@ -506,11 +509,11 @@
     
 
 
-    <!-- https://guia.org/otherInformation -->
+    <!-- http://w3id.org/def/guia#otherInformation -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/otherInformation">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#otherInformation">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Provides additional general information relevant to the course guide.</rdfs:comment>
         <rdfs:label xml:lang="en">other information</rdfs:label>
@@ -518,11 +521,11 @@
     
 
 
-    <!-- https://guia.org/periodEndingMonth -->
+    <!-- http://w3id.org/def/guia#periodEndingMonth -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/periodEndingMonth">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#periodEndingMonth">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Indicates the month in which the teaching period ends.</rdfs:comment>
         <rdfs:label xml:lang="en">period ending month</rdfs:label>
@@ -530,11 +533,11 @@
     
 
 
-    <!-- https://guia.org/periodStaringtMonth -->
+    <!-- http://w3id.org/def/guia#periodStartingMonth -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/periodStaringtMonth">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#periodStartingMonth">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Indicates the month in which the teaching period starts.</rdfs:comment>
         <rdfs:label xml:lang="en">period starting month</rdfs:label>
@@ -542,11 +545,11 @@
     
 
 
-    <!-- https://guia.org/previousCourses -->
+    <!-- http://w3id.org/def/guia#previousCourses -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/previousCourses">
-        <rdfs:domain rdf:resource="https://guia.org/RequiredKnowledge"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#previousCourses">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#RequiredKnowledge"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Provides a textual statement about prior courses recommended or required before taking the course.</rdfs:comment>
         <rdfs:label xml:lang="en">previous courses</rdfs:label>
@@ -554,11 +557,11 @@
     
 
 
-    <!-- https://guia.org/previousKnowledge -->
+    <!-- http://w3id.org/def/guia#previousKnowledge -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/previousKnowledge">
-        <rdfs:domain rdf:resource="https://guia.org/RequiredKnowledge"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#previousKnowledge">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#RequiredKnowledge"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Describes prior knowledge or skills expected from students before taking the course.</rdfs:comment>
         <rdfs:label xml:lang="en">previous knowledge</rdfs:label>
@@ -566,11 +569,11 @@
     
 
 
-    <!-- https://guia.org/remoteHours -->
+    <!-- http://w3id.org/def/guia#remoteHours -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/remoteHours">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#remoteHours">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Specifies the number or description of remote hours within the course guide.</rdfs:comment>
         <rdfs:label xml:lang="en">remote hours</rdfs:label>
@@ -578,11 +581,11 @@
     
 
 
-    <!-- https://guia.org/semester -->
+    <!-- http://w3id.org/def/guia#semester -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/semester">
-        <rdfs:domain rdf:resource="https://guia.org/Course"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#semester">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Course"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Indicates the semester or semesters in which a course is taught.</rdfs:comment>
         <rdfs:label xml:lang="en">semester</rdfs:label>
@@ -590,11 +593,11 @@
     
 
 
-    <!-- https://guia.org/teachingPeriod -->
+    <!-- http://w3id.org/def/guia#teachingPeriod -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/teachingPeriod">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#teachingPeriod">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Identifies the academic year to which the course guide applies.</rdfs:comment>
         <rdfs:label xml:lang="en">teaching period</rdfs:label>
@@ -602,11 +605,11 @@
     
 
 
-    <!-- https://guia.org/teachingPeriodMonths -->
+    <!-- http://w3id.org/def/guia#teachingPeriodMonths -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/teachingPeriodMonths">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#teachingPeriodMonths">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Describes the months or span of months during which the course is taught.</rdfs:comment>
         <rdfs:label xml:lang="en">teaching period months</rdfs:label>
@@ -614,11 +617,11 @@
     
 
 
-    <!-- https://guia.org/totalHours -->
+    <!-- http://w3id.org/def/guia#totalHours -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/totalHours">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#totalHours">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">States the total student workload of the course guide expressed in hours.</rdfs:comment>
         <rdfs:label xml:lang="en">total hours</rdfs:label>
@@ -626,11 +629,11 @@
     
 
 
-    <!-- https://guia.org/trialDescription -->
+    <!-- http://w3id.org/def/guia#trialDescription -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/trialDescription">
-        <rdfs:domain rdf:resource="https://guia.org/EvaluationTrial"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#trialDescription">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#EvaluationTrial"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Provides a textual description of an evaluation trial.</rdfs:comment>
         <rdfs:label xml:lang="en">trial description</rdfs:label>
@@ -638,11 +641,11 @@
     
 
 
-    <!-- https://guia.org/trialMode -->
+    <!-- http://w3id.org/def/guia#trialMode -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/trialMode">
-        <rdfs:domain rdf:resource="https://guia.org/EvaluationTrial"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#trialMode">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#EvaluationTrial"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Indicates the mode in which an evaluation trial is carried out, such as on-site or remote.</rdfs:comment>
         <rdfs:label xml:lang="en">trial mode</rdfs:label>
@@ -650,11 +653,11 @@
     
 
 
-    <!-- https://guia.org/trialType -->
+    <!-- http://w3id.org/def/guia#trialType -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/trialType">
-        <rdfs:domain rdf:resource="https://guia.org/EvaluationTrial"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#trialType">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#EvaluationTrial"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Specifies the specific kind of evaluation trial, such as exam, assignment, or presentation.</rdfs:comment>
         <rdfs:label xml:lang="en">trial type</rdfs:label>
@@ -662,11 +665,11 @@
     
 
 
-    <!-- https://guia.org/trialWeek -->
+    <!-- http://w3id.org/def/guia#trialWeek -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/trialWeek">
-        <rdfs:domain rdf:resource="https://guia.org/EvaluationTrial"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#trialWeek">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#EvaluationTrial"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Indicates the week in which an evaluation trial takes place.</rdfs:comment>
         <rdfs:label xml:lang="en">trial week</rdfs:label>
@@ -674,11 +677,11 @@
     
 
 
-    <!-- https://guia.org/tutorshipsSchedule -->
+    <!-- http://w3id.org/def/guia#tutorshipsSchedule -->
 
 
-    <owl:DatatypeProperty rdf:about="https://guia.org/tutorshipsSchedule">
-        <rdfs:domain rdf:resource="https://guia.org/Lecturer"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/def/guia#tutorshipsSchedule">
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Lecturer"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Specifies the timetable or availability for tutoring sessions.</rdfs:comment>
         <rdfs:label xml:lang="en">tutorship schedule</rdfs:label>
@@ -690,7 +693,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://schema.org/activitiesWorkload">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">States the workload distribution associated with course activities.</rdfs:comment>
         <rdfs:label xml:lang="en">activities workload</rdfs:label>
@@ -702,7 +705,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://schema.org/courseCode">
-        <rdfs:domain rdf:resource="https://guia.org/Course"/>
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Course"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment xml:lang="en">Provides the institutional code used to identify a course.</rdfs:comment>
         <rdfs:label xml:lang="en">course code</rdfs:label>
@@ -714,7 +717,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://schema.org/description">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Provides a textual description of the course guide or academic entity.</rdfs:comment>
         <rdfs:label xml:lang="en">description</rdfs:label>
@@ -726,7 +729,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://schema.org/email">
-        <rdfs:domain rdf:resource="https://guia.org/Lecturer"/>
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Lecturer"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Provides the email address of a person involved in teaching or coordination.</rdfs:comment>
         <rdfs:label xml:lang="en">email</rdfs:label>
@@ -738,7 +741,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://schema.org/inLanguage">
-        <rdfs:domain rdf:resource="https://guia.org/CourseGuide"/>
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#CourseGuide"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="en">Indicates the language in which the course guide or teaching is delivered.</rdfs:comment>
         <rdfs:label xml:lang="en">in language</rdfs:label>
@@ -761,7 +764,7 @@
 
 
     <owl:DatatypeProperty rdf:about="https://schema.org/numberOfCredits">
-        <rdfs:domain rdf:resource="https://guia.org/Course"/>
+        <rdfs:domain rdf:resource="http://w3id.org/def/guia#Course"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment xml:lang="en">States the number of academic credits assigned to a course.</rdfs:comment>
         <rdfs:label xml:lang="en">number of credits</rdfs:label>
@@ -781,6 +784,235 @@
     
 
 
+    <!-- http://w3id.org/def/guia#Activity -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#Activity">
+        <rdfs:comment xml:lang="en">A teaching or learning activity carried out as part of the course, such as lectures, labs, seminars, tutorials, or independent work.</rdfs:comment>
+        <rdfs:label xml:lang="en">Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#ActivityType1 -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#ActivityType1">
+        <rdfs:comment xml:lang="en">A first-level category used to classify academic activities according to the pedagogical structure adopted in the course guide.</rdfs:comment>
+        <rdfs:label xml:lang="en">Activity Type 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#ActivityType2 -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#ActivityType2">
+        <rdfs:comment xml:lang="en">A second-level or more specific category used to refine the classification of academic activities in the course guide.</rdfs:comment>
+        <rdfs:label xml:lang="en">Activity Type 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#BachelorDegree -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#BachelorDegree">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/def/guia#Degree"/>
+        <rdfs:comment xml:lang="en">An undergraduate degree programme that provides foundational higher education in a given field of study.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bachelor&apos;s Degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#Competency -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#Competency">
+        <rdfs:comment xml:lang="en">A capability, skill, or integrated learning outcome that students are expected to develop through the course.</rdfs:comment>
+        <rdfs:label xml:lang="en">Competency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#Course -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#Course">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Course"/>
+        <rdfs:comment xml:lang="en">An academic course as defined in the GUIA model, typically described through its content, teaching organization, assessment, and related course guide.</rdfs:comment>
+        <rdfs:label xml:lang="en">Course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#CourseGuide -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#CourseGuide">
+        <rdfs:subClassOf rdf:resource="https://schema.org/CourseInstance"/>
+        <rdfs:comment xml:lang="en">A structured academic document that describes a course, including objectives, contents, methodology, resources, schedule, and evaluation.</rdfs:comment>
+        <rdfs:label xml:lang="en">Course Guide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#Degree -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#Degree">
+        <rdfs:comment xml:lang="en">An academic degree programme that structures and groups courses within a formal higher education curriculum.</rdfs:comment>
+        <rdfs:label xml:lang="en">Degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#DidacticResource -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#DidacticResource">
+        <rdfs:comment xml:lang="en">A teaching or learning resource used in the course, such as readings, software, audiovisual material, or practical tools.</rdfs:comment>
+        <rdfs:label xml:lang="en">Didactic Resource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#EvaluationActivity -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#EvaluationActivity">
+        <rdfs:comment xml:lang="en">An activity specifically intended to assess student performance, achievement, or progress within the course.</rdfs:comment>
+        <rdfs:label xml:lang="en">Evaluation Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#EvaluationSystem -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#EvaluationSystem">
+        <rdfs:comment xml:lang="en">The overall framework that defines how student learning is assessed in a course, including criteria, components, and grading structure.</rdfs:comment>
+        <rdfs:label xml:lang="en">Evaluation System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#EvaluationTrial -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#EvaluationTrial">
+        <rdfs:comment xml:lang="en">A specific assessment instance or examination opportunity within the evaluation system, such as an ordinary or extraordinary attempt.</rdfs:comment>
+        <rdfs:label xml:lang="en">Evaluation Trial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#LearningResult -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#LearningResult">
+        <rdfs:comment xml:lang="en">A specific and assessable statement of what a student is expected to know, understand, or be able to do after completing the course.</rdfs:comment>
+        <rdfs:label xml:lang="en">Learning Result</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#Lecturer -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#Lecturer">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Person"/>
+        <rdfs:comment xml:lang="en">A teaching person responsible for delivering, coordinating, or supporting a course within an academic programme.</rdfs:comment>
+        <rdfs:label xml:lang="en">Lecturer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#MasterDegree -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#MasterDegree">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/def/guia#Degree"/>
+        <rdfs:comment xml:lang="en">A postgraduate degree programme corresponding to advanced academic or professional specialization.</rdfs:comment>
+        <rdfs:label xml:lang="en">Master&apos;s Degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#RemoteActivity -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#RemoteActivity">
+        <rdfs:comment xml:lang="en">An activity designed to be carried out remotely, typically through online or distance-learning modalities.</rdfs:comment>
+        <rdfs:label xml:lang="en">Remote Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#RequiredKnowledge -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#RequiredKnowledge">
+        <rdfs:comment xml:lang="en">Prior knowledge, skills, or academic background expected from students before taking a course.</rdfs:comment>
+        <rdfs:label xml:lang="en">Required Knowledge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#Schedule -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#Schedule">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Schedule"/>
+        <rdfs:comment xml:lang="en">A temporal organization of course-related events, activities, or milestones across the academic period.</rdfs:comment>
+        <rdfs:label xml:lang="en">Schedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#ScheduleEvent -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#ScheduleEvent">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+        <rdfs:comment xml:lang="en">A dated or timed element within a course schedule, such as a class session, deadline, exam, or planned activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Schedule Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#Syllabus -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#Syllabus">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Syllabus"/>
+        <rdfs:comment xml:lang="en">The structured outline of the course content, usually organized into thematic units, topics, or instructional blocks.</rdfs:comment>
+        <rdfs:label xml:lang="en">Syllabus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#SyllabusItem -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#SyllabusItem">
+        <rdfs:comment xml:lang="en">A single element of a syllabus, representing a topic, unit, lesson, or other content component within the course structure.</rdfs:comment>
+        <rdfs:label xml:lang="en">Syllabus Item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/guia#UniversityCenter -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/guia#UniversityCenter">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+        <rdfs:description xml:lang="en">An organizational unit within a university where degree programmes are taught, such as a faculty, school, or institute responsible for academic delivery.</rdfs:description>
+        <rdfs:label xml:lang="en">University Center</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontology-of-units-of-measure.org/resource/om-2/Unit -->
 
 
@@ -792,235 +1024,6 @@
 
 
     <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    
-
-
-    <!-- https://guia.org/Activity -->
-
-
-    <owl:Class rdf:about="https://guia.org/Activity">
-        <rdfs:comment xml:lang="en">A teaching or learning activity carried out as part of the course, such as lectures, labs, seminars, tutorials, or independent work.</rdfs:comment>
-        <rdfs:label xml:lang="en">Activity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/ActivityType1 -->
-
-
-    <owl:Class rdf:about="https://guia.org/ActivityType1">
-        <rdfs:comment xml:lang="en">A first-level category used to classify academic activities according to the pedagogical structure adopted in the course guide.</rdfs:comment>
-        <rdfs:label xml:lang="en">Activity Type 1</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/ActivityType2 -->
-
-
-    <owl:Class rdf:about="https://guia.org/ActivityType2">
-        <rdfs:comment xml:lang="en">A second-level or more specific category used to refine the classification of academic activities in the course guide.</rdfs:comment>
-        <rdfs:label xml:lang="en">Activity Type 2</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/BachelorDegree -->
-
-
-    <owl:Class rdf:about="https://guia.org/BachelorDegree">
-        <rdfs:subClassOf rdf:resource="https://guia.org/Degree"/>
-        <rdfs:comment xml:lang="en">An undergraduate degree programme that provides foundational higher education in a given field of study.</rdfs:comment>
-        <rdfs:label xml:lang="en">Bachelor&apos;s Degree</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/Competency -->
-
-
-    <owl:Class rdf:about="https://guia.org/Competency">
-        <rdfs:comment xml:lang="en">A capability, skill, or integrated learning outcome that students are expected to develop through the course.</rdfs:comment>
-        <rdfs:label xml:lang="en">Competency</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/Course -->
-
-
-    <owl:Class rdf:about="https://guia.org/Course">
-        <rdfs:subClassOf rdf:resource="https://schema.org/Course"/>
-        <rdfs:comment xml:lang="en">An academic course as defined in the GUIA model, typically described through its content, teaching organization, assessment, and related course guide.</rdfs:comment>
-        <rdfs:label xml:lang="en">Course</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/CourseGuide -->
-
-
-    <owl:Class rdf:about="https://guia.org/CourseGuide">
-        <rdfs:subClassOf rdf:resource="https://schema.org/CourseInstance"/>
-        <rdfs:comment xml:lang="en">A structured academic document that describes a course, including objectives, contents, methodology, resources, schedule, and evaluation.</rdfs:comment>
-        <rdfs:label xml:lang="en">Course Guide</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/Degree -->
-
-
-    <owl:Class rdf:about="https://guia.org/Degree">
-        <rdfs:comment xml:lang="en">An academic degree programme that structures and groups courses within a formal higher education curriculum.</rdfs:comment>
-        <rdfs:label xml:lang="en">Degree</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/DidacticResource -->
-
-
-    <owl:Class rdf:about="https://guia.org/DidacticResource">
-        <rdfs:comment xml:lang="en">A teaching or learning resource used in the course, such as readings, software, audiovisual material, or practical tools.</rdfs:comment>
-        <rdfs:label xml:lang="en">Didactic Resource</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/EvaluationActivity -->
-
-
-    <owl:Class rdf:about="https://guia.org/EvaluationActivity">
-        <rdfs:comment xml:lang="en">An activity specifically intended to assess student performance, achievement, or progress within the course.</rdfs:comment>
-        <rdfs:label xml:lang="en">Evaluation Activity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/EvaluationSystem -->
-
-
-    <owl:Class rdf:about="https://guia.org/EvaluationSystem">
-        <rdfs:comment xml:lang="en">The overall framework that defines how student learning is assessed in a course, including criteria, components, and grading structure.</rdfs:comment>
-        <rdfs:label xml:lang="en">Evaluation System</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/EvaluationTrial -->
-
-
-    <owl:Class rdf:about="https://guia.org/EvaluationTrial">
-        <rdfs:comment xml:lang="en">A specific assessment instance or examination opportunity within the evaluation system, such as an ordinary or extraordinary attempt.</rdfs:comment>
-        <rdfs:label xml:lang="en">Evaluation Trial</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/LearningResult -->
-
-
-    <owl:Class rdf:about="https://guia.org/LearningResult">
-        <rdfs:comment xml:lang="en">A specific and assessable statement of what a student is expected to know, understand, or be able to do after completing the course.</rdfs:comment>
-        <rdfs:label xml:lang="en">Learning Result</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/Lecturer -->
-
-
-    <owl:Class rdf:about="https://guia.org/Lecturer">
-        <rdfs:subClassOf rdf:resource="https://schema.org/Person"/>
-        <rdfs:comment xml:lang="en">A teaching person responsible for delivering, coordinating, or supporting a course within an academic programme.</rdfs:comment>
-        <rdfs:label xml:lang="en">Lecturer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/MasterDegree -->
-
-
-    <owl:Class rdf:about="https://guia.org/MasterDegree">
-        <rdfs:subClassOf rdf:resource="https://guia.org/Degree"/>
-        <rdfs:comment xml:lang="en">A postgraduate degree programme corresponding to advanced academic or professional specialization.</rdfs:comment>
-        <rdfs:label xml:lang="en">Master&apos;s Degree</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/RemoteActivity -->
-
-
-    <owl:Class rdf:about="https://guia.org/RemoteActivity">
-        <rdfs:comment xml:lang="en">An activity designed to be carried out remotely, typically through online or distance-learning modalities.</rdfs:comment>
-        <rdfs:label xml:lang="en">Remote Activity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/RequiredKnowledge -->
-
-
-    <owl:Class rdf:about="https://guia.org/RequiredKnowledge">
-        <rdfs:comment xml:lang="en">Prior knowledge, skills, or academic background expected from students before taking a course.</rdfs:comment>
-        <rdfs:label xml:lang="en">Required Knowledge</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/Schedule -->
-
-
-    <owl:Class rdf:about="https://guia.org/Schedule">
-        <rdfs:subClassOf rdf:resource="https://schema.org/Schedule"/>
-        <rdfs:comment xml:lang="en">A temporal organization of course-related events, activities, or milestones across the academic period.</rdfs:comment>
-        <rdfs:label xml:lang="en">Schedule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/ScheduleEvent -->
-
-
-    <owl:Class rdf:about="https://guia.org/ScheduleEvent">
-        <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
-        <rdfs:comment xml:lang="en">A dated or timed element within a course schedule, such as a class session, deadline, exam, or planned activity.</rdfs:comment>
-        <rdfs:label xml:lang="en">Schedule Event</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/Syllabus -->
-
-
-    <owl:Class rdf:about="https://guia.org/Syllabus">
-        <rdfs:subClassOf rdf:resource="https://schema.org/Syllabus"/>
-        <rdfs:comment xml:lang="en">The structured outline of the course content, usually organized into thematic units, topics, or instructional blocks.</rdfs:comment>
-        <rdfs:label xml:lang="en">Syllabus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/SyllabusItem -->
-
-
-    <owl:Class rdf:about="https://guia.org/SyllabusItem">
-        <rdfs:comment xml:lang="en">A single element of a syllabus, representing a topic, unit, lesson, or other content component within the course structure.</rdfs:comment>
-        <rdfs:label xml:lang="en">Syllabus Item</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://guia.org/UniversityCenter -->
-
-
-    <owl:Class rdf:about="https://guia.org/UniversityCenter">
-        <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
-        <rdfs:description xml:lang="en">An organizational unit within a university where degree programmes are taught, such as a faculty, school, or institute responsible for academic delivery.</rdfs:description>
-        <rdfs:label xml:lang="en">University Center</rdfs:label>
-    </owl:Class>
     
 
 
