@@ -21,7 +21,7 @@
                              dct:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
                              rdfs:comment "This ontology defines concepts to represent academic course guides in higher education. It models degrees, courses, teaching roles, learning design, resources, schedules, and evaluation systems, while reusing existing vocabularies such as Schema.org whenever possible."@en ;
                              rdfs:label "GUIA Ontology"@en ;
-                             owl:versionInfo "0.1.0"@en .
+                             owl:versionInfo "0.1.1"@en .
 
 #################################################################
 #    Annotation properties
